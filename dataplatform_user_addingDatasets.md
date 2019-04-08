@@ -211,4 +211,4 @@ If you only have one, choose "End."
 
 > CKAN will now save the file and create a dataset. The resulting entry is immediately viewable - if the visibility is set to "Public," the dataset will become viewable on [Dataplatform.nl](https://www.dataplatform.nl). "Private" datasets are not visible on Dataplatform.
 
-## 🎉🎉 Congrats, your dataset is now live! 🎉🎉
+## Congrats, your dataset is now live! 🎉🎉
