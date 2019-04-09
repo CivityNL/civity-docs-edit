@@ -13,7 +13,7 @@ On this page, you will find the two steps required to publish datasets:
 
 Metadata is data that provides information about other data. Typically this means a description and context about existing data.
 
-By conforming to the DCAT-Standard, datasets may be automatically registered in the national open data register: [Data Overheid Nederland](https://www.data.overheid.nl).
+By conforming to the DCAT-Standard, datasets may be automatically registered in the National Open Data Register: [Data Overheid Nederland](https://www.data.overheid.nl).
 
 > **What is the DCAT-Standard?**
 > 
