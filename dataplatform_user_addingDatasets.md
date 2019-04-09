@@ -19,7 +19,7 @@ By conforming to the DCAT-Standard, datasets may be automatically registered in 
 > 
 > DCAT describes datasets in data catalogs. By utilizing the DCAT-Standard, publishers increase discoverability and enable applications to easily consume metadata from multiple catalogs. Furthermore, it enables decentralized publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can serve as a manifest file to facilitate digital preservation.
 
-
+:-)
 
 ### Title
 A title is a unique identifier – it must be short and specific. For example, “Sporting Events 2016 Utrecht” is much more specific than “Sporting Events.” For best results, specify the location of the dataset inside the title, as this will allow users to better find your dataset on [Dataplatform.](https://www.dataplatform.nl)
