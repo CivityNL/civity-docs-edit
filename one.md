@@ -1,8 +1,8 @@
 ---
 id: one
-title: one
-sidebar_label: one
+title:  a modified page
+sidebar_label: a modified page
 ---
-this is some text
+this is some text that we have changed in this meeting
 
-## some more text
+## This is a changed title
