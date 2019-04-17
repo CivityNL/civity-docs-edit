@@ -1,5 +1,5 @@
 ---
-id: Editing Datasets
+id: EditingDatasets
 title: Editing Datasets
 sidebar_label: Editing Datasets
 ---
@@ -27,7 +27,7 @@ Depending on your privileges, you may edit datasets that you have created yourse
 5. Drag-and-drop the order as you desire. 
 6. Select “Save Order” when finished.
 
-![SCREENCAST: Re-order datasources](assets/dataplatform_user_EditDataset_Reorder.gif)
+![SCREENCAST: Re-order datasources](assets/EditingDatasets/dataplatform_user_EditingDataset_Reorder.gif)
 
 ### Adding Groups
 
