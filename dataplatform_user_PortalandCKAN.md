@@ -1,20 +1,13 @@
 ---
-id: CKAN and Portal
-title: CKAN and Portal
-sidebar_label: CKAN and Portal
+id: PortalandCKAN
+title: Portal and CKAN
+sidebar_label: Portal and CKAN
 ---
 
 Dataplatform has two platform features:
-* CKAN
 * Portal
+* CKAN
 
-> All data is managed in CKAN, which is the management environment.
-> The Portal is the interface that presents data.
-
-## CKAN
-In ckan.dataplatform data may be managed; data may be added, changed, and deleted. In order to manage the data, a login is required.
-
-Data is distinguished by different organizations; each orgnization maintains ownership of the own datsets.
 
 ## Portal
 In website.datplatform, data is presented. In the portal, datasets are linked to the datasets in CKAN.
@@ -32,3 +25,8 @@ The portal contains:
 * Search
 * Themes
 * Filters
+
+## CKAN
+In ckan.dataplatform data may be managed; data may be added, changed, and deleted. In order to manage the data, a login is required. Data is distinguished by different organizations; each orgnization maintains ownership of the own datsets.
+
+> All data is managed in CKAN, which is the management environment.

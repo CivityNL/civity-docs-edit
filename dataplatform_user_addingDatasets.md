@@ -1,5 +1,5 @@
 ---
-id: Adding Datasets
+id: AddingDatasets
 title: Adding Datasets
 sidebar_label: Adding Datasets
 ---
@@ -34,7 +34,7 @@ An example using our naming guideline:
 Sport - Sporting Events - Utrecht 2019 - Version 1
 ```
 
-![SCREENCAST: adding a title](assets/dataplatform_user_addingDatasets_AddTitle.gif)
+![SCREENCAST: adding a title](assets/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif)
 
 > *Be mindful:*
 >
@@ -81,7 +81,7 @@ Tags influence search terms. Utilizing tags will make your datasets easier to fi
 If your intended tag does not match any existing entries, complete the entire word, then hit the *return* key. Once your new tag has been entered, it is now possible to use this as an existing tag.
 If you select the wrong tag, you may remove it by click on the cross “X” in front of the word.
 
-![SCREENCAST: adding tags](assets/dataplatform_user_addingDatasets_AddTags.gif)
+![SCREENCAST: adding tags](assets/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif)
 
 
 
@@ -118,7 +118,7 @@ Dataplatform has two types of visibility options: private and public. Datasets t
 
 The visibility status of your dataset is indicated by a label in the top-right corner.
 
-![IMAGE: prive indicator](assets/dataplatform_user_addingDatasets_priveIndicator.png)
+![IMAGE: prive indicator](assets/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
 
 
 
