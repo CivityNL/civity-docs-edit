@@ -8,39 +8,22 @@ On this page, you will find the two steps required to publish datasets:
 1. Adding metadata
 2. Adding your datasource
 
-## 1. Adding Metadata
-> Metadata is simply data about data
-
-Metadata is data that provides information about other data. Typically this means a description and context about existing data.
-
-By conforming to the DCAT-Standard, datasets may be automatically registered in the National Open Data Register: [Data Overheid Nederland](https://www.data.overheid.nl).
-
-> **What is the DCAT-Standard?**
-> 
-> DCAT describes datasets in data catalogs. By utilizing the DCAT-Standard, publishers increase discoverability and enable applications to easily consume metadata from multiple catalogs. Furthermore, it enables decentralized publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can serve as a manifest file to facilitate digital preservation.
-
-
-
+## Adding Datasets
 ### Title
+> The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hypens ( - ).
+
 A title is a unique identifier – it must be short and specific. For example, “Sporting Events 2016 Utrecht” is much more specific than “Sporting Events.” For best results, specify the location of the dataset inside the title, as this will allow users to better find your dataset on [Dataplatform.](https://www.dataplatform.nl)
 
 A good naming guideline to follow when creating a title:
 ```sh
-root_category - subject - location(year) - version(number)
+root_category - subject - location:year - version:number
 ```
-
 An example using our naming guideline:
 ```sh
 Sport - Sporting Events - Utrecht 2019 - Version 1
 ```
 
 ![SCREENCAST: adding a title](assets/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif)
-
-> *Be mindful:*
->
-> The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hypens ( - ).
-
-
 
 ### Description
 This field represents an overview of your dataset. Your description should answer the following questions: 

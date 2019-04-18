@@ -3,12 +3,9 @@ id: SearchDatasets
 title: Searching Datasets
 sidebar_label: Searching Datasets
 ---
-Searching allows you to quickly find relevant information for datasets, organizations, theme, and groups. You do not need to be logged in to saerch.
-
-## Searching for Datasets
 > Searching is case sensitive, and only indexes based on complete words.
 
-Searching for datasets can be conducted via the searchbar on the front page, in addition to the searchbar on the dataset page; popular tags are displayed underneath the search bar.
+Searching allows you to quickly find relevant information for datasets, organizations, theme, and groups. You do not need to be logged in to saerch. Searching for datasets can be conducted via the searchbar on the front page, in addition to the searchbar on the dataset page; popular tags are displayed underneath the search bar.
 
 ![IMAGE: front page search](assets/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png)
 

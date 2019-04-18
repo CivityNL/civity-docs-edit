@@ -3,12 +3,11 @@ id: FilterDatasets
 title: Filtering Datasets
 sidebar_label: Filtering Datasets
 ---
-Filtering datasets can be accomplished in various ways, using single or multiple filters.
+> The list of datasets is dynamically altered by the criterea dictated by the filters
 
-## Fitlering Datasets
-Filter options are shown ont he left-hand side of the of the dataset overview page in CKAN.
+Filtering datasets can be accomplished in various ways, using single or multiple filters. Filter options are shown ont he left-hand side of the of the dataset overview page in CKAN.
 
-![IMAGE: filter tree - PURPOSELY BROKEN FOR DEMO](assets/FilteringDatasets/dataplatform_user_FilteringDataset_filtering.png::::BREAKING::::)
+<!-- ![IMAGE: filter tree - PURPOSELY BROKEN FOR DEMO](assets/FilteringDatasets/dataplatform_user_FilteringDataset_filtering.png) -->
 
 It is possible to filter results based on:
 * Organizations
@@ -16,7 +15,6 @@ It is possible to filter results based on:
 * Tags
 * File format
 
-> The list of datasets is dynamically altered by the criterea dictated by the filters
 
 
 ## Filtering Datasets by Multiple Items
