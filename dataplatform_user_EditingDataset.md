@@ -3,9 +3,7 @@ id: EditingDatasets
 title: Editing Datasets
 sidebar_label: Editing Datasets
 ---
-
-## Editing Existing Datasets
-Depending on your privileges, you may edit datasets that you have created yourself and/or datasets owned by your organization. Members may not edit datasets.
+> Depending on your privileges, you may edit datasets that you have created yourself and/or datasets owned by your organization. Members may not edit datasets.
 
 
 ### How to Edit Your Metadata

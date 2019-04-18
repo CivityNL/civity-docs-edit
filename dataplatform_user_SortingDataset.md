@@ -3,14 +3,11 @@ id: SortingDatasets
 title: Sorting Datasets
 sidebar_label: Sorting Datasets
 ---
-Sorting allows you to reorder datasets in different ways.
+Sorting allows you to reorder datasets in different ways. 
 
-## Sorting Datasets
-> Public datasets are visible to users without valid login credentials.
+You may sort in the following ways:
 
-Datasets can be sorted in the following ways:
-
-![IMAGE: sorting dropdown](assets/SortingDatasets/dataplatform_user_FilteringDataset_sort.png)
+<!-- ![IMAGE: sorting dropdown](assets/SortingDatasets/dataplatform_user_FilteringDataset_sort.png) -->
 
 | Name | Explanation |
 | :---- | :----------- |
