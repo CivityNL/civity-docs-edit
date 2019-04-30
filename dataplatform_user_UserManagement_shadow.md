@@ -8,7 +8,7 @@ In order to add, edit or delete datasets, you need be logged in. Your login perm
 For more information about user permissions, see [User Roles](#user-roles).
 
 ## Login
-Login credentials are controlled on an invite only basis; access can be granted to CKAN by your organization's administrator. Once access has been granted, you will be required to confirm your email; confirming your email will generate a username and password.
+Login credentials are controlled on an invite only basis; access can be granted to CKAN by your organization's administrator. Once access has been granted, you will be required to confirm your email; confirming your email will generate a password.
 
 The login button is located at the top of the page on the right side. Here you will login with your username and password.
 
