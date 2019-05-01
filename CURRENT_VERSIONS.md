@@ -13,10 +13,10 @@ Latest release version of Dataplatform
         <tr>
             <th>2.8.2</th>
             <td>
-                <a href="https://docs.ckan.org/en/2.8/">Documentation</a>
+                <a href="https://docs.ckan.org/en/2.8/" target="_blank">Documentation</a>
             </td>
             <td>
-                <a href="https://docs.ckan.org/en/2.8/changelog.html">Release Notes</a>
+                <a href="https://docs.ckan.org/en/2.8/changelog.html" target="_blank">Release Notes</a>
             </td>
         </tr>
     </tbody>
@@ -40,10 +40,10 @@ Latest release version of Dataplatform
         <tr>
             <th>2.4.0</th>
             <td>
-                <a href="https://dev.dataplatform.nl/swagger/DataplatformAPI_2_4.html#!/default/get_media_media_id">Documentation</a>
+                <a href="https://dev.dataplatform.nl/swagger/DataplatformAPI_2_4.html#!/default/get_media_media_id" target="_blank">API Calls Library</a>
             </td>
             <td>
-                <a href="https://gitlab.onetrail.net/Civity/DataplatformAPI/DataplatformAPI2/tree/master">Release Notes - login required</a>
+                <a href="https://gitlab.onetrail.net/Civity/DataplatformAPI/DataplatformAPI2/tree/master" target="_blank">Release Notes</a> (login required)
             </td>
         </tr>
     </tbody>
@@ -58,12 +58,12 @@ Latest release version of Dataplatform
 <table class="versions">
     <tbody>
         <tr>
-            <th>?.?.?</th>
+            <th>4.0.0</th>
             <td>
-                <a href="template.html">Documentation</a>
+                <a href="#">Documentation</a>
             </td>
             <td>
-                <a href="https://gitlab.onetrail.net/Civity/SlimMelden/SlimMeldenApp/tree/master">Release Notes - login required</a>
+                <a href="https://gitlab.onetrail.net/Civity/SlimMelden/SlimMeldenApp/tree/master" target="_blank">Release Notes</a> (login required)
             </td>
         </tr>
     </tbody>
@@ -83,6 +83,25 @@ Latest release version of Dataplatform
         </tr>
     </tbody>
 </table> -->
+
+
+
+## Documentation 
+Latest release version of Dataplatform
+
+<table class="versions">
+    <tbody>
+        <tr>
+            <th>1.0.0</th>
+            <td>
+                <a href="template.html" target="_blank">Template & Styling</a>
+            </td>
+            <td>
+                Framework Release Notes: <a href="https://docusaurus.io/en/versions" target="_blank">Docusarus</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <!-- 
 ## Data Hamster
 Latest release version of Dataplatform

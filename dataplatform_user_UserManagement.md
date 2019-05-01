@@ -8,14 +8,15 @@ In order to add, edit or delete datasets, you need be logged in. Your login perm
 For more information about user permissions, see [User Roles](#user-roles).
 
 ## Login
-Login credentials are controlled on an invite only basis; access can be granted to CKAN by your organization's administrator. Once access has been granted, you will be required to confirm your email; confirming your email will generate a username and password.
+> Your username is found in your email. It follows the format:  `[user]-[number]`
+
+Login credentials are controlled on an invite only basis; access can be granted to CKAN by your organization's administrator. Once access has been granted, you will be required to confirm your email; confirming your email will generate a password.
 
 The login button is located at the top of the page on the right side. Here you will login with your username and password.
 
-> Your username is found in your email. It follows the format:  `[user]-[number]`
 <!-- ![SCREENCAST: login?](assets/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
 
-![SCREENCAST: ???](assets/UserManagement/dataplatform_user_UserManagement_loggedIn_screencast.gif)
+<!-- ![SCREENCAST: ???](assets/UserManagement/dataplatform_user_UserManagement_loggedIn_screencast.gif) -->
 
 
 ### Dashboard
@@ -40,9 +41,9 @@ Roles set the permission levels that an organization's users have; different rol
 ### Editing User Roles
 > Only organization administrators may change other user's roles 
 
-From the organization's dataset page, select the "Manage" button, followed by the "Members" tab.
+From the organization's dataset page, select the "🔧 Manage" button, followed by the "Members" tab.
 
-![SCREENCAST: NEW_click manage then members ::::BREAKING::::](assets/UserManagement/dataplatform_user_UserManagement_ManageUser.png::::BREAKING::::)
+![SCREENCAST: NEW_click manage then members](assets/UserManagement/dataplatform_user_UserManagement_ManageUser.png)
 
 In this tab, all of the organization's users are displayed. An administror may edit a user's role by clicking on the 🔧 icon next to their name. Administrators may also remove users by clicking the red cross button, located at the end of the name. A pop-up appears asking for confirmation. 
 
@@ -85,8 +86,8 @@ The personal information displayed, consists of the following:
 
 ### Edit User Settings
 To adjust your user settings and details, select the ⚙ (settings cog) at the top right corner of the screen. Note: your username cannot be changed.
-![SCREENCAST: settings cog](assets/UserManagement/dataplatform_user_UserManagement_user_settings_screencast.gif)
+![SCREENCAST: settings cog](assets/UserManagement/dataplatform_user_UserManagement_user_settings.png)
 
-Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it is compromised. You may also write a small bio in the "About" textfield - note: this textfield accepts [Markdown Formatting](https://www.markdownguide.org/basic-syntax)
+Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it is compromised. You may also write a small bio in the "About" textfield - note: this textfield accepts <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting.</a>
 
 ![IMAGE: change personal user details](assets/UserManagement/dataplatform_user_UserManagement_ManageUser_EditUser.png)

@@ -23,7 +23,7 @@ An example using our naming guideline:
 Sport - Sporting Events - Utrecht 2019 - Version 1
 ```
 
-![SCREENCAST: adding a title](assets/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif)
+<img class="gifShadow" src="assets/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
 
 ### Description
 This field represents an overview of your dataset. Your description should answer the following questions: 
@@ -33,7 +33,7 @@ This field represents an overview of your dataset. Your description should answe
 * What is the quality of the data?
 * Over what timeframe or period was the data recorded?
 
-You may use [Markdown Formatting](https://www.markdownguide.org/basic-syntax) in the description field. This allows you to utilize headers, lists, **bold**, and *italics.*
+You may use <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">markdown formatting</a> in the description field. This allows you to utilize headers, lists, **bold**, and *italics.*
 
 Example, the following raw markdown:
 
@@ -43,7 +43,7 @@ Example, the following raw markdown:
 * **Target:** Providing insights into events from the municipality
 * **Limitations:** This dataset is not to be used for legal purposes
 * **Possibilities:** This dataset may be used for insight into locations on a map
-* **Coordinate System:** WGS84
+* *Coordinate System:* *WGS84*
 ```
 
 Will be rendered as:
@@ -53,7 +53,7 @@ Will be rendered as:
 * **Target:** Providing insights into events from the municipality
 * **Limitations:** This dataset is not to be used for legal purposes
 * **Possibilities:** This dataset may be used for insight into locations on a map
-* **Coordinate System:** WGS84
+* *Coordinate System:* *WGS84*
 
 
 
@@ -64,40 +64,35 @@ Tags influence search terms. Utilizing tags will make your datasets easier to fi
 If your intended tag does not match any existing entries, complete the entire word, then hit the *return* key. Once your new tag has been entered, it is now possible to use this as an existing tag.
 If you select the wrong tag, you may remove it by click on the cross “X” in front of the word.
 
-![SCREENCAST: adding tags](assets/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif)
+<img class="gifShadow" src="assets/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif" alt="SCREENCAST: adding tags">
 
 
 
 ### Licenses
-> Licenses dictate how your dataset may be used. You can find information about open data licenses here: [Conformant Licenses](http://opendefinition.org/licenses/)
+> Licenses dictate how your dataset may be used. You can find information about open data licenses at <a href="http://opendefinition.org/licenses/" target="_blank" rel="noreferrer noopener">Conformant Licenses</a>
+
+> Open Data Register (Data Overheid) only publishes datasets with the following licenses: 
+>
+><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noreferrer noopener">CC-0</a> /
+><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noreferrer noopener">CC-BY 3.0</a> /
+><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer noopener">CC-BY 4.0</a> /
+><a href="https://opendatacommons.org/licenses/pddl/summary/" target="_blank" rel="noreferrer noopener">Public Domain</a>
+>
+>*If your require a different license, please contact Dataplatform’s administrator.*
 
 Licenses are selected by clicking on the dropdown box; you must select an option.
 
 The default license for open data is “Creative Commons CC Zero.” This means that the dataset may be used without limitations. The “Creative Commons Attribution” license allows users to freely use your data, but they must reference the source of the data.
-
-> Open Data Register (Data Overheid) only publishes datasets with the following licenses:
-
-| Licenses                                                             |  
-| :------------------------------------------------------------------- | 
-| [CC-0](https://creativecommons.org/publicdomain/zero/1.0/)           | 
-| [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/)            | 
-| [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)            | 
-| [Public Domain](https://opendatacommons.org/licenses/pddl/summary/)  |
-
-
-If your require a different license, please contact Dataplatform’s administrator.
-
 
 
 ### Organization
 If you are part of an organization, you may only add and manage datasets and files connected to that organization; this field is completed in automatically.
 
 
-
 ### Visibility
-> Visibility is set to private by default. Choose “public” to make the dataset available as open data on (dataplatform.nl)[https://www.dataplatform.nl]
+> Visibility is set to private by default. Choose “public” to make the dataset available as open data on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform.nl</a>
 
-Dataplatform has two types of visibility options: private and public. Datasets that are marked as “private” are only viewable in [CKAN](https://www.ckan.dataplatform.nl) for users with the correct organizational rights; the dataset is not viewable on [](https://www.dataplatform.nl).
+Dataplatform has two types of visibility options: private and public. Datasets that are marked as “private” are only viewable in <a href="https://ckan.dataplatform.nl/" target="_blank" rel="noreferrer noopener">CKAN</a> for users with the correct organizational rights; the dataset is not viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>.
 
 The visibility status of your dataset is indicated by a label in the top-right corner.
 
@@ -139,8 +134,7 @@ Categories are pre-defined. You must select the closest match from the list.
 ### Data Owner
 The owner of the dataset, typically this is an organization (province, ministry, municipality, etc).
 
-If you wish to be listed on the Open Data Registry (Data Overheid), the name in Data Owner must match the one given to the government agency on the Open Data Registry. The list of organizations can be found here: [Organizations](https://data.overheid.nl/data/organization).
-
+If you wish to be listed on the Open Data Registry (Data Overheid), the name in Data Owner must match the one given to the government agency on the Open Data Registry. The list of organizations can be found here: <a href="https://data.overheid.nl/data/organization" target="_blank" rel="noreferrer noopener">Organizations</a>.
 
 
 ### Provider Email
@@ -192,6 +186,6 @@ Additional information may be added here. The following information deals with t
 If you have additional sources to add, choose "Save & Add Another."
 If you only have one, choose "End."
 
-> CKAN will now save the file and create a dataset. The resulting entry is immediately viewable - if the visibility is set to "Public," the dataset will become viewable on [Dataplatform.nl](https://www.dataplatform.nl). "Private" datasets are not visible on Dataplatform.
+> CKAN will now save the file and create a dataset. The resulting entry is immediately viewable - if the visibility is set to "Public," the dataset will become viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>. "Private" datasets are not visible on Dataplatform.
 
 ## Congrats, your dataset is now live! 🎉🎉

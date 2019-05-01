@@ -13,7 +13,7 @@ On desktop, you should see it in the left sidebar. On mobile, you should see it 
 ## Something Missing?
 Have you spotted an error? Click "Edit" in the top right corner, fork the repo, make your edit, then create a pull request. Our admin will then evaluate any proposed changes.
 
-For more info about pull requests, check: [About Pull Requests](https://help.github.com/en/articles/about-pull-requests)
+For more info about pull requests, check: <a href="https://help.github.com/en/articles/about-pull-requests" target="_blank" rel="noreferrer noopener">About Pull Requests.</a>
 
 
 ## Feedback
