@@ -1,10 +1,10 @@
 ---
 id: dataplatformPortal
-title: Portal
-sidebar_label: Portal
+title: introduction
+sidebar_label: Introduction
 ---
-> The portal is a public-facing interface for datasets (contained in CKAN), themes and stories.
-
 Dataplatform is comprised of two solutions, the **Portal** and **CKAN**.
 
-The portal is where all of your data is presented, which is derived from datasets in our CKAN instance. Essentially, the portal represents a user friendly interface for presenting, searching and providing data that is stored in CKAN. 
+The portal is the website for data-consumers, where they can find datasets (contained in CKAN), themes, showcases and stories. The portal is a user friendly interface for presenting, searching and providing data that is stored in CKAN. 
+
+CKAN is the tool to manage the data. It allows you to change, add, and delete data. However, in order to manipulate data, you must possess valid login credentials (contact your system administrator for this). 
