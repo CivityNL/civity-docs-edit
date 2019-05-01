@@ -1,6 +1,6 @@
 ---
-id: dataplatformPortal
-title: introduction
+id: DataplatformIntroduction
+title: Introduction
 sidebar_label: Introduction
 ---
 Dataplatform is comprised of two solutions, the **Portal** and **CKAN**.

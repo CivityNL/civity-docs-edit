@@ -35,9 +35,17 @@ Additional formatting:
     1. shoes
     2. tennis elbow
     3. elephants
+
+
+### --Links and Images--
 * [this is a link to nowhere](#)
 * ![this is a broken image showing descriptive text](#)
-* ![this is a functional image](assets/README_changeBranch.gif)
+* <img class="gifShadow" src="assets/README_changeBranch.gif" alt="SCREENCAST: changing branches / this is a functional gif">
+
+GIfs must be inserted in the following (HTML) format with a class assignment of "gifShadow," to match image dropshadows
+```
+<img class="gifShadow" src="{{LOCATION}}/{{FILE_NAME}}.gif" alt="SCREENCAST: {{IMAGE DESCRIPTION}}">
+```
 
 ### ----Subcategory Heading 2
 This will be a subcategory heading of the “Main Category Heading.” These may breakdown features, sub-tasks, etc.

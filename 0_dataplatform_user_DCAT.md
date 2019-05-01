@@ -11,4 +11,4 @@ Every dataset contains metadata. For open data we follow the guidelines set in t
 
 DCAT stands for "Data Cataolg Vocabulary," which provides a standard that allows for interoperability between data-catalogs. 
 
-By conforming to the DCAT-Standard, datasets may be automatically registered in the National Open Data Register: [Data Overheid Nederland](https://www.data.overheid.nl).
+By conforming to the DCAT-Standard, datasets may be automatically registered in the National Open Data Register: <a href="https://data.overheid.nl/" target="_blank" rel="noreferrer noopener">Data Overheid Nederland.</a>
