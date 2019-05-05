@@ -5,7 +5,7 @@ sidebar_label: Welcome
 ---
 Here you will find a central repository of all user documents pretaining to the City Innovation Platform.
 
-## Naviagation
+## Navigation
 **You can find different topics in the table of contents.**
 
 On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an icon with arrows in the top left corner.
