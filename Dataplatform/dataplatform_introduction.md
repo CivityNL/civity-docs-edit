@@ -1,5 +1,5 @@
 ---
-id: DataplatformIntroduction
+id: dataplatform_Introduction
 title: Introduction
 sidebar_label: Introduction
 ---

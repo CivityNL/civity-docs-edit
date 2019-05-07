@@ -1,5 +1,5 @@
 ---
-id: DeletingDatasets
+id: datasets_DeletingDatasets
 title: Deleting Datasets
 sidebar_label: Deleting Datasets
 ---

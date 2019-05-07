@@ -1,5 +1,5 @@
 ---
-id: SearchDatasets
+id: datasets_SearchDatasets
 title: Searching Datasets
 sidebar_label: Searching Datasets
 ---
@@ -7,7 +7,7 @@ sidebar_label: Searching Datasets
 
 Searching allows you to quickly find relevant information for datasets, organizations, theme, and groups. You do not need to be logged in to saerch. Searching for datasets can be conducted via the searchbar on the front page, in addition to the searchbar on the dataset page; popular tags are displayed underneath the search bar.
 
-![IMAGE: front page search](assets/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png)
+![IMAGE: front page search](assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png)
 
 You are able to search for the following cases:
 * Dataset titles
@@ -23,7 +23,7 @@ For example, `"Utrecht+Events+2019"` is a more effective search than `"Utrecht E
 ## Searching for Organizations
 A separate searchbar for finding organizations is located on the organization page.
 
-![IMAGE: organization searchbar](assets/SearchDatasets/dataplatform_user_SearchDatasets_OrganizationSearch.png)
+![IMAGE: organization searchbar](assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_OrganizationSearch.png)
 
 Here you may search for the following cases:
 * Name of an organization
@@ -32,7 +32,7 @@ Here you may search for the following cases:
 ## Searching for Themes and Groups
 A separate searchbar for themes and groups is located on the group page.
 
-![IMAGE: theme and group searchbar](assets/SearchDatasets/dataplatform_user_SearchDatasets_groupsThemes.png)
+![IMAGE: theme and group searchbar](assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_groupsThemes.png)
 
 Here you may search for the following cases:
 * Name of a group or theme

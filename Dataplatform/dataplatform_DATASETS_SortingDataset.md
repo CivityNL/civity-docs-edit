@@ -1,5 +1,5 @@
 ---
-id: SortingDatasets
+id: datasets_SortingDatasets
 title: Sorting Datasets
 sidebar_label: Sorting Datasets
 ---

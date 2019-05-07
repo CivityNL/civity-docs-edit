@@ -1,5 +1,5 @@
 ---
-id: AddingDatasets
+id: datasets_AddingDatasets
 title: Adding Datasets
 sidebar_label: Adding Datasets
 ---
@@ -8,7 +8,7 @@ On this page, you will find the two steps required to publish datasets:
 1. Adding metadata
 2. Adding your datasource
 
-## Adding Datasets
+## Step One
 ### Title
 > The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hypens ( - ).
 
@@ -23,7 +23,7 @@ An example using our naming guideline:
 Sport - Sporting Events - Utrecht 2019 - Version 1
 ```
 
-<img class="gifShadow" src="assets/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
+<img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
 
 ### Description
 This field represents an overview of your dataset. Your description should answer the following questions: 
@@ -64,7 +64,7 @@ Tags influence search terms. Utilizing tags will make your datasets easier to fi
 If your intended tag does not match any existing entries, complete the entire word, then hit the *return* key. Once your new tag has been entered, it is now possible to use this as an existing tag.
 If you select the wrong tag, you may remove it by click on the cross “X” in front of the word.
 
-<img class="gifShadow" src="assets/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif" alt="SCREENCAST: adding tags">
+<img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif" alt="SCREENCAST: adding tags">
 
 
 
@@ -96,7 +96,7 @@ Dataplatform has two types of visibility options: private and public. Datasets t
 
 The visibility status of your dataset is indicated by a label in the top-right corner.
 
-![IMAGE: prive indicator](assets/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
+![IMAGE: prive indicator](assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
 
 
 
@@ -165,7 +165,7 @@ Each dataset is tied to a geographic location and geographic boundary.
 
 
 
-## 2. Adding Data Sources
+## Step Two
 
 Now that the metadata has been added, we can now add the dataset(s). Click on the “Next: Add Data” button at the bottom of the page.
 
@@ -188,4 +188,6 @@ If you only have one, choose "End."
 
 > CKAN will now save the file and create a dataset. The resulting entry is immediately viewable - if the visibility is set to "Public," the dataset will become viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>. "Private" datasets are not visible on Dataplatform.
 
-## Congrats, your dataset is now live! 🎉🎉
+## Completed! 🎉
+
+Your dataset is now live - check it out in the <a href="https://www.dataplatform.nl/data" target="_blank">portal</a>!
