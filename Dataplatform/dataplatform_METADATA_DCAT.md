@@ -1,5 +1,5 @@
 ---
-id: dataplatformDCAT
+id: metadata_DCAT
 title: DCAT
 sidebar_label: DCAT
 ---

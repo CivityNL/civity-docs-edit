@@ -1,5 +1,5 @@
 ---
-id: UserManagement
+id: user_UserManagement
 title: User Management
 sidebar_label: User Management
 ---
@@ -14,9 +14,9 @@ Login credentials are controlled on an invite only basis; access can be granted 
 
 The login button is located at the top of the page on the right side. Here you will login with your username and password.
 
-<!-- ![SCREENCAST: login?](assets/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
+<!-- ![SCREENCAST: login?](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
 
-<!-- ![SCREENCAST: ???](assets/UserManagement/dataplatform_user_UserManagement_loggedIn_screencast.gif) -->
+<!-- ![SCREENCAST: ???](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_loggedIn_screencast.gif) -->
 
 
 ### Dashboard
@@ -24,7 +24,7 @@ When you are logged in your name will appear at top of the page; you are directe
 
 Clicking on “My Organization” will allow you to see the datasets owned by your organization(s). If you possess the correct credentials, you can then add, edit, or delete datasets.
 
-![IMAGE: overig; 22 datasets](assets/UserManagement/dataplatform_user_UserManagement_MyOrganization.png)
+![IMAGE: overig; 22 datasets](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png)
 
 
 ### User Roles
@@ -43,7 +43,7 @@ Roles set the permission levels that an organization's users have; different rol
 
 From the organization's dataset page, select the "🔧 Manage" button, followed by the "Members" tab.
 
-![SCREENCAST: NEW_click manage then members](assets/UserManagement/dataplatform_user_UserManagement_ManageUser.png)
+![SCREENCAST: NEW_click manage then members](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser.png)
 
 In this tab, all of the organization's users are displayed. An administror may edit a user's role by clicking on the 🔧 icon next to their name. Administrators may also remove users by clicking the red cross button, located at the end of the name. A pop-up appears asking for confirmation. 
 
@@ -52,21 +52,21 @@ In this tab, all of the organization's users are displayed. An administror may e
 
 From the organization's dataset page, select the "Manage" button, followed by the "Members" tab. Select the “Add Member” button.
 
-![IMAGE: add member blue button](assets/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMember.png)
+![IMAGE: add member blue button](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMember.png)
 
 Existing users are users who are alreay members in another organization. New users are users who are not members of any existing organization. To initiate setup of a new user, simply fill in their email address.
 
 > Ensure you set the correct role for the user. For more information on roles, see [User Roles](#user-roles)
 
-![IMAGE: add member screen](assets/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMemberRole.png)
+![IMAGE: add member screen](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMemberRole.png)
 
 
 When you click “Add Member”, the new member will receive an automated email to the address entered. The username and user number will be generated from this e-mail adress.
 
 The new user's state will stay as "pending," until they confirm their email address.
 
-![IMAGE: member status "pending" screen](assets/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png)
-
+![IMAGE: member status "pending" screen](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png)
+<!-- 
 
 ## User Details 
 > Your API key is private, do not share this with anybody!
@@ -86,8 +86,8 @@ The personal information displayed, consists of the following:
 
 ### Edit User Settings
 To adjust your user settings and details, select the ⚙ (settings cog) at the top right corner of the screen. Note: your username cannot be changed.
-![SCREENCAST: settings cog](assets/UserManagement/dataplatform_user_UserManagement_user_settings.png)
+![SCREENCAST: settings cog](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_user_settings.png)
 
 Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it is compromised. You may also write a small bio in the "About" textfield - note: this textfield accepts <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting.</a>
 
-![IMAGE: change personal user details](assets/UserManagement/dataplatform_user_UserManagement_ManageUser_EditUser.png)
+![IMAGE: change personal user details](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_EditUser.png) -->
