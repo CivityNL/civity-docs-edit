@@ -23,7 +23,7 @@ The personal information displayed on this page, consists of the following:
 <!-- ![IMAGE: user+api key](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Private_Information.png) -->
 
 
-## Edit User Settings
+## Edit Personal Settings
 To adjust your user settings and details, select the ⚙ (settings cog) at the top right corner of the screen. Note: your username cannot be changed.
 ![SCREENCAST: settings cog](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_user_settings.png)
 

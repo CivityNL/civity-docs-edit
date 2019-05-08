@@ -15,4 +15,11 @@ some language overview content goes here
 
 some language overview content goes here
 
+Datasets comprise of two main aspects:
+* A collection of datasources
+* Metadata
 
+## Datasources
+>A dataset is comprised of a collection of datasources; these are the actual files or links that provide data.
+
+Datasources may be comprised of a single sources, or many sources. any file format, and must contain explicit metadata.

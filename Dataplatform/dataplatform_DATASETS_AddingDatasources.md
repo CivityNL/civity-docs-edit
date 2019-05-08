@@ -5,13 +5,13 @@ sidebar_label: Adding Datasources
 ---
 Now that the metadata has been added, we can now add the dataset(s). Click on the “Next: Add Data” button at the bottom of the page.
 
-### Source
+## Source
 
 You may add data via upload or via URL.
 
 > If a CSV or (geo)JSON are uploaded, these will be accessible by Dataplatform’s API. Other datatypes are saved and provided as a download link.
 
-### Additional Details
+## Additional Details
 
 Additional information may be added here. The following information deals with the additional fields:
 

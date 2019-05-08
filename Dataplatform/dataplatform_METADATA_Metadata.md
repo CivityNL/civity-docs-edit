@@ -16,16 +16,16 @@ Your metadata should describe the following:
 * Descriptive information about the content
 * Access rights
 
-### Metadata Example
+## Metadata Example
 
-Let's assume we have the following set of "things":
+Let's assume we have the following object called "things":
 
 ```javascript
-// this is only a visual representation of data
+// this is a visual representation of data
 things = "[14, 16.5, 21, 18, 21]"
 ```
 
-Now we have "things" as a collection of numbers, but it is meaningless without context - "things" simply exists as a collection of numbers. Let's change that with metadata, where we can add value to "things" by assigning context and definition!
+We see that "things" is a collection of numbers, but without context it is meaningless beyond being a collection of numbers; "things" exists as a collection of numbers. Let's change that with metadata, where we can add value by assigning context and definition!
 
 Let's assign two more values: 
 ```javascript
@@ -33,16 +33,16 @@ Let's assign two more values:
 "Degrees Centigrade"
 ```
 
-Great! Now we have metadata, which describes what "things" is about. By adding `degrees centigrade` and `Florida, USA`, "things" now has context (Florida), and a definition (temperature).
+Now we have metadata, which describes what "things" is about. By adding `degrees centigrade` and `Florida, USA`, "things" now has context (location) and a definition (temperature).
 
-Therefore, `degrees centigrade` and `Florida, USA` is the metadata for the numerical set "things." 
+Therefore, `degrees centigrade` and `Florida, USA` is the metadata for the object "things." 
 
 ```javascript
-// this is only a visual representation of data
+// this is a visual representation of data
 things = "[14, 16.5, 21, 18, 21]", "Degrees Centigrade", "Florida, USA"
 ```
 
-By adding metadata to "things", it allows us to easily understand the information inside and display it in an easy to read manner:
+By adding metadata to "things", it has allowed us to easily understand the information inside and display it in an easy to read manner:
 
 |Degrees Centigrade| - | 
 |:----------------:| :-------:|

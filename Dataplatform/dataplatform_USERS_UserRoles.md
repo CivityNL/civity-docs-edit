@@ -5,7 +5,7 @@ sidebar_label: User Roles
 ---
 In order to add, edit or delete datasets, you need be logged in. Your login permissions are based configured at the organization-level; you have the possibility to be a member in one or more organizations. This allows you to manage multiple datasets across different organizations. Each organization also contains different user permission levels; roles. 
 
-### Role Permissions
+## Role Permissions
 Roles set the permission levels that an organization's users have; different roles grant different privileges. Each organization is currently limited to three roles.
 
 | Role | Permissions  | 
@@ -16,7 +16,7 @@ Roles set the permission levels that an organization's users have; different rol
 
 
 
-### Editing User Roles
+## Editing User Roles
 > Only organization administrators may change other user's roles 
 
 From the organization's dataset page, select the "🔧 Manage" button, followed by the "Members" tab.
