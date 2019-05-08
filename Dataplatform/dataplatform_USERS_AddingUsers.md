@@ -5,7 +5,9 @@ sidebar_label: Adding Users
 ---
 Only organization administrators may create new users
 
-> Ensure you set the correct role for the user. For more information on roles, see [User Roles](#user-roles)
+> Ensure you set the correct role for the user. For more information on roles, see [User Roles](user_UserRoles)
+
+## Create a New User
 
 From the organization's dataset page, select the "Manage" button, followed by the "Members" tab. Select the “Add Member” button.
 

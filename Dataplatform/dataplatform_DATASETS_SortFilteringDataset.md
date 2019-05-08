@@ -4,9 +4,9 @@ title: Sorting and Filtering Datasets
 sidebar_label: Sorting and Filtering Datasets
 ---
 
-## Sorting Datasets
 Sorting allows you to reorder datasets in different ways. 
 
+> The list of datasets is dynamically altered by the criterea dictated by the filters
 
 You may sort in the following ways:
 
@@ -22,7 +22,6 @@ You may sort in the following ways:
 | Last modified | most recent modifications to metadata |
 | Popular | Highest rating and views on top |
 
-> The list of datasets is dynamically altered by the criterea dictated by the filters
 
 ## Filtering Datasets
 Filtering datasets can be accomplished in various ways, using single or multiple filters. Filter options are shown ont he left-hand side of the of the dataset overview page in CKAN.
