@@ -33,7 +33,7 @@ Here you can change your password, adjust your name (which is displayed when you
 
 ##  Datacatalogue 
 
-With the datacatalog you can register, manage and unlock all your data for your employees. Owners and managers of data sources and information products are supported to register the correct (meta)data. Employees can easily see which data is available and under which conditions.
+Datacatalogue allows you to register, manage and unlock all data for your users (employees); only datasource owners and managers are able to modifiy and register data/metadata. Users are able to inspect the data, and see when it is available under which conditions.
 
 ### Personal Profile
 
