@@ -11,16 +11,12 @@ Only organization administrators may create new users
 
 From the organization's dataset page, select the "Manage" button, followed by the "Members" tab. Select the “Add Member” button.
 
-![IMAGE: add member blue button](assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif)
-
 Existing users are users who are already members in another organization. New users are users who are not members of any existing organization. To initiate setup of a new user, simply fill in their email address.
 
-
-![IMAGE: add member screen](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMemberRole.png)
-
+<img class="gifShadow" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMemberRole.png" target="_blank" alt="IMAGE: add member screen"/>
 
 When you click “Add Member,” the new member will receive an automated email to the address entered. The username and user number will be generated from this email adress.
 
 The new user's state will stay as "pending," until they confirm their email address.
 
-![IMAGE: member status "pending" screen](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png)
+<img class="gifShadow" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png" target="_blank" alt="IMAGE: member status pending screen"/>
