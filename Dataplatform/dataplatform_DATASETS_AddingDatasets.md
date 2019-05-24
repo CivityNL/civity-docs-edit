@@ -7,9 +7,9 @@ sidebar_label: Adding Datasets
 Adding a dataset represents the first step in adding a new data entry. The second step is [adding a datasource](datasets_AddingDatasources)
 
 ## Title
-> The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hypens ( - ).
+> The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hyphens ( - ).
 
-A title is a unique identifier – it must be short and specific. For example, “Sporting Events 2016 Utrecht” is much more specific than “Sporting Events.” For best results, specify the location of the dataset inside the title, as this will allow users to better find your dataset on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">Dataplatform</a>.
+A title is a unique identifier – it must be short and specific. For example, “**Sport Events 2016 Utrecht**” is much more specific than “**Sporting Events**.” For best results, specify the location of the dataset inside the title, as this will allow users to better find your dataset on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">Dataplatform</a>.
 
 A good naming guideline to follow when creating a title:
 ```sh
@@ -17,7 +17,7 @@ root_category - subject - location:year - version:number
 ```
 An example using our naming guideline:
 ```sh
-Sport - Sporting Events - Utrecht 2019 - Version 1
+Sport - Sport Events - Utrecht 2019 - Version 1
 ```
 
 <img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
@@ -32,7 +32,7 @@ This field represents an overview of your dataset. Your description should answe
 
 You may use <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">markdown formatting</a> in the description field. This allows you to utilize headers, lists, **bold**, and *italics.*
 
-Example, the following raw markdown:
+For example, the following raw markdown:
 
 ```sh
 * **Description:** Sporting Events Utrecht
@@ -53,11 +53,46 @@ Will be rendered as:
 * *Coordinate System:* *WGS84*
 
 
+### Visibility / Zichtbaarheid
+> Visibility is set to private by default. Choose “public” to make the dataset available as open data on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform.nl</a>
+
+CKAN Dataplatform has two types of visibility options: private and public. Datasets that are marked as ***private*** are only viewable in <a href="https://ckan.dataplatform.nl/" target="_blank" rel="noreferrer noopener">CKAN</a> for users with the correct organizational rights; the dataset is not viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>.
+
+The visibility status of your dataset is indicated by a label in the top-right corner.
+
+![IMAGE: prive indicator](assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
+
+
+### Searchability / Zichtbaarheid Dataplatform 
+>Searchability is only available if the visibility is set to ***private***
+
+If a dataset is set to ***Private***, the metadata will be shown on CKAN without an available datasource. 
+
+>When searchability is set to onzichtbaar, only users with the correct origanizational rights can see the datasource 
+When searchability is set to zichtbaar, all users in CKAn can see the metadata, but cannot reach the datasource 
+
+
+
+| Visibility | Searchability  |appearance dataplatform.nl   |   appearance ckan.dataplatform.nl | 
+| ----------  | ------------------ | -----------------------------------     | ----------------------------   | 
+| Public     | Blocked          | Available                                     | Metadata and datasources available | 
+| Private    | Zichtbaar       | Not available                        | Metadata available, datasource not available| 
+| Private    | Onzichtbaar       | Not available                         | Metadata and datasource not available | 
+
+
+### Language / Taal 
+The default language is set to Nederlands, but additional options are available from the drop-down box.  
+
+
+### Metadata Language / Metadata Taal 
+The default language is set to Nederlands, but additional options are available from the drop-down box.  
+
 
 ## Tags
 > It is advisable to enter tags that do not appear in the description or title of your dataset. Dataplatform already indexes keywords in the Title and Description fields.
 
 Tags influence search terms. Utilizing tags will make your datasets easier to find. Entering the first few letters of your intended tag will make Dataplatform search for the closest existing match – if it matches, click on the tag in the dropdown list.
+
 If your intended tag does not match any existing entries, complete the entire word, then hit the *return* key. Once your new tag has been entered, it is now possible to use this as an existing tag.
 If you select the wrong tag, you may remove it by click on the cross “X” in front of the word.
 
@@ -86,47 +121,17 @@ The default license for open data is “Creative Commons CC Zero.” This means 
 If you are part of an organization, you may only add and manage datasets and files connected to that organization; this field is completed in automatically.
 
 
-## Visibility
-> Visibility is set to private by default. Choose “public” to make the dataset available as open data on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform.nl</a>
-
-Dataplatform has two types of visibility options: private and public. Datasets that are marked as “private” are only viewable in <a href="https://ckan.dataplatform.nl/" target="_blank" rel="noreferrer noopener">CKAN</a> for users with the correct organizational rights; the dataset is not viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>.
-
-The visibility status of your dataset is indicated by a label in the top-right corner.
-
-![IMAGE: prive indicator](assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
-
-
-
-## Provider
-> This field is available for datasets that may be purchased or assigned
-
-This field provides the source of your data. The source will refer to this location, when the data is made publicly available; initially the data source is *not available.*
-
-This field is not mandatory – if there is no information available, leave it blank.
-
-
-
 ## Version
-> Every dataset may be given a version number.
+> Every dataset may be given a version number
 
 Incrementing the version number on each subsequent edit will allow users to see whether there have been previous data sets, which are no longer viewable.
-
 
 
 ## Contact Email
 The contact email allows users to send questions or comments to the dataset owner.
 
-
-
-## Language
-The default language is set to Nederlands, but additional options are available from the drop-down box.
-
-
-
-## Category
+## Category / Theme
 Categories are pre-defined. You must select the closest match from the list.
-
-
 
 ## Data Owner
 The owner of the dataset, typically this is an organization (province, ministry, municipality, etc).
@@ -139,21 +144,14 @@ This is the organization’s email, which allows users to contact you should the
 
 This is usually a general email address, as the source holder’s email has been entered earlier
 
-
-
 ## Version Comments
 You may make revision comments, concerning each version of the dataset. Typical comments would include: what was done, and an overview of what was added/removed.
 
-
-
 ## Update Frequency
 This sets the update frequency of your dataset.
-
-
-
-## Update Frequency
-This sets the update frequency of your dataset.
-
 
 ## Location
 Each dataset is tied to a geographic location and geographic boundary.
+
+
+# Your dataset is now complete 🎉👍
