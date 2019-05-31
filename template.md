@@ -93,7 +93,7 @@ This will be a subcategory heading of the “Main Category Heading.” These may
 
 
 ### Links and Image Styline
-``` Links and Image Styling ```
+```### Links and Image Styling ```
 
 
 * list item
