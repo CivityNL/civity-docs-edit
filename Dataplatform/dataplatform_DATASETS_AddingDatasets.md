@@ -6,6 +6,9 @@ sidebar_label: Adding Datasets
 
 Adding a dataset represents the first step in adding a new data entry. The second step is [adding a datasource](datasets_AddingDatasources)
 
+<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_Overview.png" alt="image: Adding Datasets">
+
+
 ## Title
 > The title you choose will be rendered as part of the dataset’s URL. The URL is generated in the following template: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank).  When the title is generated into a URL, capital letters will be converted to small letters and spaces will be replaced by hyphens ( - ).
 
@@ -20,7 +23,7 @@ An example using our naming guideline:
 Sport - Sport Events - Utrecht 2019 - Version 1
 ```
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
+<img class="imageStyle shadowing" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif" alt="SCREENCAST: adding a title">
 
 ## Description
 This field represents an overview of your dataset. Your description should answer the following questions: 
@@ -60,7 +63,7 @@ CKAN Dataplatform has two types of visibility options: private and public. Datas
 
 The visibility status of your dataset is indicated by a label in the top-right corner.
 
-![imageStyle: prive indicator](assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png)
+<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_priveIndicator.png" alt="image: Dataset - Private Flag">
 
 
 ### Searchability / Zichtbaarheid Dataplatform 
@@ -96,7 +99,7 @@ Tags influence search terms. Utilizing tags will make your datasets easier to fi
 If your intended tag does not match any existing entries, complete the entire word, then hit the *return* key. Once your new tag has been entered, it is now possible to use this as an existing tag.
 If you select the wrong tag, you may remove it by click on the cross “X” in front of the word.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif" alt="SCREENCAST: adding tags">
+<img class="imageStyle shadowing" src="/docs/assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTags.gif" alt="SCREENCAST: adding tags">
 
 
 

@@ -9,7 +9,7 @@ sidebar_label: Geoserver Integration
 ## Publishing OGC Data
 If the filetype is supported, a new button appears inside the dataset page, named "**Publiceer OGC**". Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system. 
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_publiceerButton.png" alt="imageStyle: Geoserver PubliceerOGC button">
+<img class="imageStyle shadowing" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_publiceerButton.png" alt="imageStyle: Geoserver PubliceerOGC button">
 
 After pressing this button, a new page will popup including options about the geometry field that was recognized, the input projection system and the output projection system (SRID). These fields may be edited by the user. 
 
@@ -21,7 +21,7 @@ Geometry inside a csv file can be recognized in 3 forms:
 Additionally:
 * The projection system inside a csv can be recognized between ***RD New (EPSG: 28992)*** or ***WGS 84 (EPSG: 4326)***.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_OGCchecker.png" alt="imageStyle: OGC Checker pop-up">
+<img class="imageStyle shadowing" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_OGCchecker.png" alt="imageStyle: OGC Checker pop-up">
 
 The progress of publishing is shown in a toast notification, seen at the top of the page:
 

@@ -39,20 +39,20 @@ It is possible to filter results based on:
 ### Filtering Datasets by Multiple Items
 Filtering can be accomplished by the use of more than one filter.
 
-![imageStyle: filter by multiple items](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_multiple.png)
+<img class="imageStyle" src="/docs/assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_multiple.png" alt="image: Filtering Datasets">
 
 
-### Removing Filters
+### Remove Filters
 Filters may be removed from a search, one-by-one, by clicking on the cross behind the selected filter.
 
 You may remove filters either on the left-hand side of the page, in the filtering area, or at the top of the page.
 
-![imageStyle: removing filters](assets/Datapaltform/FilteringDatasets/dataplatform_user_FilteringDataset_remove.png)
+<img class="imageStyle" src="/docs/assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_remove.png" alt="image: Remove Filters">
 
 
 ### Fitlering Datasets on the Group / Theme Page
-Selecting a group has the same effect as filterin in the dataset list using the filter themes.
+Selecting a group has the same behaviour as filtering in the dataset list screen.
 
-![imageStyle: Filtering groups/themes page](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_groupsthemespage.png)
+<img class="imageStyle" src="/docs/assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_groupsthemespage.png" alt="image: Filtering by groups">
 
 

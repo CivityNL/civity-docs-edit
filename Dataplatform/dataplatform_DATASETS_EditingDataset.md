@@ -25,7 +25,7 @@ sidebar_label: Editing Datasets
 5. Drag-and-drop the order as you desire. 
 6. Select “Save Order” when finished.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/EditingDatasets/dataplatform_user_EditingDataset_Reorder.gif" alt="SCREENCAST: Re-order datasources">
+<img class="imageStyle shadowing" src="/docs/assets/Dataplatform/EditingDatasets/dataplatform_user_EditingDataset_Reorder.gif" alt="SCREENCAST: Re-order datasources">
 
 ## Adding Groups
 >A group is a thematic bundling of datasets. The full list of groups can be found <a href="https://data.overheid.nl/data/group" target="_blank" rel="noreferrer noopener">here</a>

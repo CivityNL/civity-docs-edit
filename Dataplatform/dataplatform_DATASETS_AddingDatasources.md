@@ -52,7 +52,7 @@ See <a href="#additional-details">Additional Details</a>
 
 Geo-Enabled datasources allow you to view your data as a set of coordinates on a map.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_geo-enable.png" alt="SCREENCAST: geo_enable">
+<!-- <img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_geo-enable.png" alt="SCREENCAST: geo_enable"> -->
 
 
 ## DataStore

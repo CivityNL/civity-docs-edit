@@ -1,14 +1,14 @@
 ---
 id: template
-title: AUTO-GENERATED PAGE TITLE
-sidebar_label: template
+title: Template & Formatting
+sidebar_label: Template & Formatting
 ---
 
 This is where you describe what it is that you’ll accomplish on this page. 
 
-For information about changing the page Title (*"AUTO-GENERATE PAGE TITLE"* on this page), see: <a href="https://docusaurus.io/docs/en/doc-markdown#documents" target="_blank">Markdown Headers - Documents</a> ``` ```
+For information about changing the page Title (*"Template & Formatting"* on this page), see: <a href="https://docusaurus.io/docs/en/doc-markdown#documents" target="_blank">Markdown Headers - Documents</a>
 
-# Prerequisite
+## Prerequisite
 ```Text formated like this``` and
   
    
@@ -21,8 +21,8 @@ represents the input as typed; type what you see, in-order to generate the desir
 
 This will be the anchor heading for the page, or perhaps the first step in a series of processes. Directly underneath, you may add further information explaining what this heading/task is.
 
-### Subcategory Heading 1
-```### Subcategory Heading 1```
+### Subcategory Headings
+```### Subcategory Headings```
 
 This will be a subcategory heading of the “Main Category Heading.” These may breakdown features, sub-tasks, etc.
 
@@ -125,7 +125,7 @@ This will be a subcategory heading of the “Main Category Heading.” These may
     * class imageStyle applies:
     ```javascript
     .imageStyle {
-        margin: 20px;
+        margin: 20px 0;
         padding: 10px;
     }
     ```
