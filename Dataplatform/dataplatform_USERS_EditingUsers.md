@@ -7,11 +7,11 @@ sidebar_label: Editing Users
 
 From the organization's dataset page, select the "🔧 Manage" button, followed by the **Members** tab. 
 
-![SCREENCAST: NEW_click manage then members](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser.png) 
+<img class="imageStyle" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_BrowserShell.png" target="_blank" alt="imageStyle: add member screen"/>
 
 In the **Members** tab, all of the organization's users are displayed. An administrator may edit a user's role by clicking on  "🔧" icon, next to their name.  
 
-<!-- <img class="gifShadow " src="/docs/assets/Dataplatform/DeletingUsers/dataplatform_user_DeletingUsers_deteleUser.png" target="_blank"/>  -->
+<img class="imageStyle " src="/docs/assets/Dataplatform/DeletingUsers/dataplatform_user_DeletingUsers_deteleUser.png" target="_blank"/> 
 
 ## Edit User settings 
 

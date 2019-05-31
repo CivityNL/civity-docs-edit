@@ -52,7 +52,7 @@ See <a href="#additional-details">Additional Details</a>
 
 Geo-Enabled datasources allow you to view your data as a set of coordinates on a map.
 
-<img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_geo-enable.png" alt="SCREENCAST: geo_enable">
+<!-- <img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_geo-enable.png" alt="SCREENCAST: geo_enable"> -->
 
 
 ## DataStore
@@ -67,7 +67,7 @@ CKAN Datastore is available for previewing and handling datasources; you can vie
 ### Managing DataStore
 To view or manage information held in Datastore, navigate to your desired datasource and select the **Datastore** tab.
 
-<img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png" target="_blank" alt="IMAGE: DataStore"/>
+<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png" target="_blank" alt="imageStyle: DataStore"/>
 
 To check whether a source may be added, click the “Upload to DataStore” button.
 
@@ -79,7 +79,7 @@ Tabular data is uploaded in chunks of 250 entires at a time. This means that lar
 
 When your upload completes, you will see ***Complete*** next to the **Stats* field.
 
-<img class="gifShadow" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png" target="_blank" alt="IMAGE: DataStore"/>
+<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png" target="_blank" alt="imageStyle: DataStore"/>
 
 ### DataStore Error Handling
 > DataStore will throw an error when either the preview or API creation is not correctly handled; the data itself may still be correct.
