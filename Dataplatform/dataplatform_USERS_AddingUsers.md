@@ -19,4 +19,5 @@ When you click “Add Member,” the new member will receive an automated email 
 
 The new user's state will stay as "pending," until they confirm their email address.
 
-<img class="gifShadow" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png" target="_blank" alt="IMAGE: member status pending screen"/>
+<!-- <img class="gifShadow" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending.png" target="_blank" alt="IMAGE: member status pending screen"/> -->
+<img class="gifShadow" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending_ALT.png" target="_blank" alt="IMAGE: member status pending screen"/>
