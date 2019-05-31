@@ -10,7 +10,7 @@ Sorting allows you to reorder datasets in different ways.
 
 You may sort in the following ways:
 
-<!-- ![IMAGE: sorting dropdown](assets/SortingDatasets/dataplatform_user_FilteringDataset_sort.png) -->
+<!-- ![imageStyle: sorting dropdown](assets/SortingDatasets/dataplatform_user_FilteringDataset_sort.png) -->
 
 | Name | Explanation |
 | :---- | :----------- |
@@ -26,7 +26,7 @@ You may sort in the following ways:
 ## Filtering Datasets
 Filtering datasets can be accomplished in various ways, using single or multiple filters. Filter options are shown ont he left-hand side of the of the dataset overview page in CKAN.
 
-<!-- ![IMAGE: filter tree - PURPOSELY BROKEN FOR DEMO](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_filtering.png) -->
+<!-- ![imageStyle: filter tree - PURPOSELY BROKEN FOR DEMO](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_filtering.png) -->
 
 It is possible to filter results based on:
 * Organizations
@@ -39,7 +39,7 @@ It is possible to filter results based on:
 ### Filtering Datasets by Multiple Items
 Filtering can be accomplished by the use of more than one filter.
 
-![IMAGE: filter by multiple items](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_multiple.png)
+![imageStyle: filter by multiple items](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_multiple.png)
 
 
 ### Removing Filters
@@ -47,12 +47,12 @@ Filters may be removed from a search, one-by-one, by clicking on the cross behin
 
 You may remove filters either on the left-hand side of the page, in the filtering area, or at the top of the page.
 
-![IMAGE: removing filters](assets/Datapaltform/FilteringDatasets/dataplatform_user_FilteringDataset_remove.png)
+![imageStyle: removing filters](assets/Datapaltform/FilteringDatasets/dataplatform_user_FilteringDataset_remove.png)
 
 
 ### Fitlering Datasets on the Group / Theme Page
 Selecting a group has the same effect as filterin in the dataset list using the filter themes.
 
-![IMAGE: Filtering groups/themes page](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_groupsthemespage.png)
+![imageStyle: Filtering groups/themes page](assets/Dataplatform/FilteringDatasets/dataplatform_user_FilteringDataset_groupsthemespage.png)
 
 

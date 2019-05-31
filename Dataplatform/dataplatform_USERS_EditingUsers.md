@@ -11,7 +11,7 @@ From the organization's dataset page, select the "🔧 Manage" button, followed 
 
 In the **Members** tab, all of the organization's users are displayed. An administrator may edit a user's role by clicking on  "🔧" icon, next to their name.  
 
-<!-- <img class="gifShadow " src="/docs/assets/Dataplatform/DeletingUsers/dataplatform_user_DeletingUsers_deteleUser.png" target="_blank"/>  -->
+<!-- <img class="imageStyle " src="/docs/assets/Dataplatform/DeletingUsers/dataplatform_user_DeletingUsers_deteleUser.png" target="_blank"/>  -->
 
 ## Edit User settings 
 

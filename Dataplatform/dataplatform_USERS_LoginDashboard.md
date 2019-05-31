@@ -25,4 +25,4 @@ When you are logged in your name will appear at top of the page; you are directe
 
 Clicking on “My Organization” will allow you to see the datasets owned by your organization(s). If you possess the correct credentials, you can then add, edit, or delete datasets.
 
-![IMAGE: overig; 22 datasets](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png)
+![imageStyle: overig; 22 datasets](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png)

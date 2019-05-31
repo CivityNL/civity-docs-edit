@@ -20,7 +20,7 @@ The personal details displayed on the Account Information page, consists of the 
 * **State** *- active or pending* 
 * **API Key** *- this is private*
 
-<!-- ![IMAGE: user+api key](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Private_Information.png) -->
+<!-- ![imageStyle: user+api key](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Private_Information.png) -->
 
 
 ## Edit Personal Settings
@@ -29,7 +29,7 @@ To adjust your user settings and details, select the ⚙ icon (settings cog) at 
 
 Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it has been compromised. You may also write a small bio in the *About* textfield. The *About* textfield accepts <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
 
-![IMAGE: change personal user details](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_EditUser.png)
+![imageStyle: change personal user details](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_EditUser.png)
 
 ##  Datacatalogue 
 
@@ -39,7 +39,7 @@ Datacatalogue allows you to register, manage and unlock all data for your users 
 
 Datacatalogue has a unique person profile page, where you may view your **Awaiting Action**, **News Feed**, and **Group Mailbox** pages, in addition to customizing your user preferences and notifications. Your user preferences may be customized with: Tags, Type, and Theme.
 
-<img class="gifShadow" src="/docs/assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profile.png" target="_blank"/> 
+<img class="imageStyle" src="/docs/assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profile.png" target="_blank"/> 
 
 ### Notifications
 
