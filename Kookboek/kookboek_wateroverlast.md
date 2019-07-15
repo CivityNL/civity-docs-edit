@@ -3,9 +3,17 @@ id: kookboek_wateroverlast
 title: Wateroverlast
 sidebar_label: Wateroverlast
 ---
-# Wateroverlast
+In het rapport "Leren van Wateroverlast" (mei 2019) van STOWA (Stichting Toegepast Onderzoek Waterbeheer) zijn de evaluaties die waterschappen de afgelopen 10 jaar hebben uitgevoerd naar aanleiding van calamiteiten, samengenomen en geanalyseerd. In dit rapport worden ook een aantal aanbevelingen gedaan die direct te maken hebben met de inzet van c.q. het gebruik van data. Door meer kennis te ontwikkelen over weersverwachtingen en de inzet van hydrologische modellen kan beter inzicht verkregen worden in het functioneren van het watersysteem. Onderwerpen die in het rapport genoemd worden zijn en betrekking hebben op data zijn:
+* dimensionering van het watersysteem
+* "normbuien"
+* weersverwachting
 
 ## Beleid
+STOWA: "uit de evaluaties blijkt dat de Nederlandse watersystemen op dit moment aan de norm voldoen. Hierdoor wordt de situatie alleen penibel bij een neerslag groter dan 80mm per 24 uur."
+"Het gaat er om dat signalen van wateroverlast direct gecommuniceerd worden". (de vraag is welke data kan helpen om die signalen in beeld te krijgen)
+"Regionale weersverwachtingen zijn te onzeker (..). De verschillen tussen de verwachte en feitelijk gemeten neerslag is soms groter dan 50mm per 24 uur. Ook overtreffen de metingen soms tot twee à driemaal de verwachte hoeveelheid." Meer gedetailleerde data kan helpen om de regionale weersverwachtingen te verbeteren (citizen science, gebruik maken van regenmeters en temperatuursensoren bij burgers; kalibreren tov KNMI, vergelijkbaar met luchtkwaliteit bij RIVM)
+"Weersverwachtingis het enige criterium voor het uitvoeren van preventieve acties"
+--> Hydrologic als voorbeeld opnemen
 
 ## Stakeholders
 
