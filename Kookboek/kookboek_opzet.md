@@ -3,6 +3,8 @@ id: kookboek_opzet
 title: Opzet
 sidebar_label: Opzet
 ---
+De provincie Zuid-Holland heeft een toekomstagenda  opgesteld, waarin 7 richtinggevende ambities zijn geformuleerd voor de fysieke leefomgeving. Door in te zetten op die 7 ambities draagt de provincie Zuid-Holland bij aan het slimmer, schoner en sterker maken van de provincie. Eén van de ambities is “Naar een klimaatbestendige delta”. In dit kookboek is deze ambitie gebruikt als voorbeeld voor de verdere van de datagedreven aanpak. Daarbij wordt eveneens aangesloten bij de Kennis- en onderzoeksagenda die is opgesteld door de provincie in samenwerking met Deltares. Deze agenda is opgebouwd rond de thema’s ruimtelijke adaptatie, zoetwatervoorziening, bodemdaling, bodem- en grondwatersysteem. Concrete vragen in de agenda zijn: welke adaptieve strategieën zijn mogelijk om Zuid-Holland klimaatbestendig te maken? En hoe kan de provincie omgaan met bodemdaling?
+
 Voor dit data kookboek is een aanpak gekozen die helpt om beleidsthema’s binnen de provincie Zuid-Holland meetbaar te maken. Vanuit één beleidsthema is een structuur uitgewerkt die het mogelijk maakt om op gestructureerde wijze data te gebruiken om de voortgang op het beleidsthema te monitoren.
 
 <img class="imageStyle" src="/docs/assets/Kookboek/Opzet_workflow.png" target="_blank" alt="imageStyle: Opzet informatie"/>
