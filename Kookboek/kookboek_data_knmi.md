@@ -1,8 +1,12 @@
-## Voorbeeld dataset: KNMI gegevens van het weer in Nederland
+---
+id: kookboek_data_knmi
+title:  Voorbeeld dataset - KNMI
+sidebar_label:  Voorbeeld dataset - KNMI
+---
 
 In dit voorbeeld zullen we data behandelen die verkrijgbaar is bij het KNMI. Als het gaat om het weer en het klimaat, is het KNMI een goede bron om te gebruiken. Op dit moment zullen we de voorspellingen links laten liggen en puur kijken naar de meetwaarde die het KNMI verzamelt met alle weerstations. Daarvoor gaan we naar [Klimatologie - Metingen en waarnemingen](https://www.knmi.nl/nederland-nu/klimatologie-metingen-en-waarnemingen). Hier zijn we een uitgebreid overzicht met opties zoals uurwaarden, dagwaarden, bodemwaarden, etc.
 
-### Uurwaarden van weerstations
+## Uurwaarden van weerstations
 
 > Van detail naar globaal is altijd mogelijk, maar andersom niet.
 
@@ -10,11 +14,11 @@ Laten we de uurwaarden bekijken die het KNMI aanbiedt. Waarom specifiek de uurwa
 
 Als we nu [Uurgegevens van het weer in Nederland](https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens) bekijken, zien we een uitgebreid overzicht van allerlei opties om gegevens van temperatuur, zon, bewolking en zicht, luchtdruk, wind en neerslag per station in te zien. Ook is er de mogelijkheid om een interactieve selectie te maken. Omdat deze wederom de meeste keuze geeft, zal dit ons uitgangspunt zijn. Met de interactieve selectie op [Uurgegevens van het weer in Nederland - Download](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) krijgen we meteen al een indruk van de data die we op kunnen vragen en dus ook meteen wat voor vragen we voor onszelf moeten beantwoorden:
 
-#### Welk periode?
+### Welk periode?
 
 Wat is de periode waar we geinteresseerd zijn? En dan gaat het niet alleen om het moment waarop een beleidsmaatregel wordt ingevoerd, maar misschien juist ook om de periode daarvoor. Deze laatste fungeert in dat geval als controle om te kunnen zien wat voor impact een maatregel wel of niet heeft. Daarbij moeten dus ook eerdere maatregelen misschien in beschouwing genomen worden om de juiste conclusies te trekken. Gelukkig is het aanbod van het KNMI ruim, met metingen vanaf 1951. 
 
-#### Welke meetwaardes?
+### Welke meetwaardes?
 
 Er zijn een hoop verschillende kenmerkingen van het klimaat die gemeten worden door het KNMI. In de onderstaande table staat een overzicht van al deze elementen. Maar of al deze elementen ook nuttig zijn is uiteaard een tweede vraag. Hoewel meer data altijd handig is, kan een teveel aan data weer het zicht op de kern belemmeren. Zorg ook dat 
 
@@ -44,7 +48,7 @@ Er zijn een hoop verschillende kenmerkingen van het klimaat die gemeten worden d
 |Y|IJsvorming|0=niet/1=wel|
 
 
-#### Welk meetstation?
+### Welk meetstation?
 
 > Waarschuwing: de data zijn niet gecorrigeerd voor inhomogeniteiten ontstaan door stationsverplaatsingen en veranderingen in de observatiemethodieken
 
