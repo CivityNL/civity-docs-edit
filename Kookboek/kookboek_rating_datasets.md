@@ -10,44 +10,36 @@ Wij hebben hieronder een lijst van veelvoorkomende datasets gemaakt en deze beoo
 
 Hieronder ziet u de lijst met dataset. Voor elke dataset hebben we de naam, locatie, en een aantal sterren aangegeven. Het aantal sterren loopt van &#9733; (praktisch onbruikbaar) tot &#9733;&#9733;&#9733;&#9733;&#9733; (uitstekende dataset).
 
-|Dataset|Bron|Rating|Korte toelichting|
-|---|:---:|:---:|:---|
-| [Basisregistratie Grootschalige Topografie (BGT)](#bgt)    | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9733; ||
-| Actueel Hoogtebestand Nederland (AHN)             | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733; ||
-| 3Di                                               | - | &#9733; | Bevat geen data |
-| Basisregistratie Ondergrond (BRO)                 | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733; ||
-| Basisregistratie Adressen en Gebouwen (BAG)       | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9733; ||
-| Risicokaart                                       | [Risicokaart](https://www.risicokaart.nl)  | &#9733; | Bevat geen data |
-| Nationaal Wegen Bestand                           | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733; ||
-| Basisregistratie Topografie (BRT) TOPNL           | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9733; ||
-| Signaleringskaarten Bodem en Ondergrond           | [Signaleringskaarten Bodem en Ondergrond](http://www.signaleringskaarten.nl)    | ? ||
-| KNMI-klimaatscenario                              | [KNMI](http://www.klimaatscenarios.nl) | &#9733;&#9733;&#9733; ||
-| Nationaal Watermodel                              | - | ? ||
-| Landelijke Database Overstromingsgegevens         | - | ? ||
-| Nationaal Basisbestand Primaire Waterkeringen     | - | [create an anchor]||
-| Riooldata                                         | - | &#9733; | Bevat geen data |
-| Aardasgasnet                                      | - | &#9733; | Bevat geen data |
-| Warmte                                            | - | &#9733; | Bevat geen data |
-| Buisleidingen                                     | - | &#9733; | Bevat geen data |
+|Dataset|Bron|Rating|
+|---|:---:|:---:|
+| Basisregistratie Grootschalige Topografie (BGT)       | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| Actueel Hoogtebestand Nederland (AHN)                 | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9734; |
+| 3Di                                                   | [3Di Water Management](https://3diwatermanagement.com) | &#9734;&#9734;&#9734;&#9734;&#9734; |
+| Basisregistratie Ondergrond (BRO)                     | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9734; |
+| Basisregistratie Adressen en Gebouwen (BAG)           | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9734; |
+| Risicokaart                                           | [Risicokaart](https://www.risicokaart.nl)  | &#9733;&#9733;&#9734;&#9734;&#9734; |
+| Nationaal Wegen Bestand (NWB)                         | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9734; |
+| Basisregistratie Topografie (BRT)                     | [PDOK](https://www.pdok.nl) | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| Signaleringskaarten Bodem en Ondergrond (SBO)         | [Signaleringskaarten Bodem en Ondergrond](http://www.signaleringskaarten.nl)    | &#9733;&#9733;&#9733;&#9734;&#9734; |
+| KNMI-klimaatscenario (KNMI)                           | [KNMI](http://www.klimaatscenarios.nl) | &#9733;&#9734;&#9734;&#9734;&#9734;  |
+| Nationaal Watermodel (NW)                             | [Helpdesk Water](https://www.helpdeskwater.nl/onderwerpen/applicaties-modellen/applicaties-per/watermanagement/watermanagement/nationaal-water/) | &#9733;&#9733;&#9733;&#9734;&#9734; |
+| Landelijke Database Overstromingsgegevens (LDW)       | [Landelijk Informatiesysteem Water en Overstromingen](https://basisinformatie-overstromingen.nl/liwo) | &#9733;&#9733;&#9733;&#9734;&#9734;  |
+| Nationaal Basisbestand Primaire Waterkeringen (NBPW)  | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9733;&#9734; |
+| Riooldata                                             | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
+| Aardasgasnet                                          | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
+| Warmte                                                | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
+| Buisleidingen                                         | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
 
-Hieronder vind u eventuele toelichtingen per dataset:
+Hieronder vind u de eventuele toelichtingen. Deze zijn gegroepeerd, aangezien vaak datasets met dezelfde problemen kampen. Datasets met 5 sterren zijn hier buitengelaten.
 
 |Dataset|Toelichting|
 |---|---|
-| <a name="bgt"></a> Basisregistratie Grootschalige Topografie (BGT) | Uitstekende databron: hoge updatefrequentie, goede beschikbaarheid, hoog detail, en makkelijk te gebruiken |
-| Actueel Hoogtebestand Nederland (AHN)             | Hoewel deze dataset heel Nederland beslaat op een klein detailniveau, is de frequentie nogal wisselend en zijn niet alle delen van Nederland beschikbaar in de nieuwste versie. Ook is deze dataset lastig te gebruiken |
-| 3Di                                               | Geen databron |
-| Basisregistratie Ondergrond (BRO)                 | |
-| Basisregistratie Adressen en Gebouwen (BAG)       | |
-| Risicokaart                                       | |
-| Nationaal Wegen Bestand                           | |
-| Basisregistratie Topografie (BRT) TOPNL           | |
-| Signaleringskaarten Bodem en Ondergrond           | |
-| KNMI-klimaatscenario                              | |
-| Nationaal Watermodel                              | |
-| Landelijke Database Overstromingsgegevens         | |
-| Nationaal Basisbestand Primaire Waterkeringen     | |
-| Riooldata                                         | |
-| Aardasgasnet                                      | |
-| Warmte                                            | |
-| Buisleidingen                                     | |
+| 3Di                                                       | Bevat geen data |
+| KNMI                                                      | Een relatief simpele dataset met een eenmalig karakter, maar niet downloadable |
+| Risicokaart                                               | Geen dataset, wel nuttig als referentiedocument |
+| SBO / Riooldata / Aardasgasnet / Warmte / Buisleidingen   | Geen updatefrequentie bekend of historie en wisselende dekking |
+| NW / LDO                                                  | Geen updatefrequentie bekend of historie en lastig toe te passen |
+| NBPW                                                      | Geen updatefrequentie bekend of historie |
+| AHN                                                       | Wisselende updatefrequentie, lastig om toe te passen |
+| BAG / NWB                                                 | Combinatie van meerdere 'datasets', dus vraagt iets meer moeite |
+| BRO                                                       | Wordt bijgewerkt als er nieuwe data beschikbaar is, waardoor de recentheid lastig is in te schatten |
