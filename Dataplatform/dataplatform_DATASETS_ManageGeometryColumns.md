@@ -30,6 +30,6 @@ Before filling/ updating these new geometry configuration options, no map visual
 <img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendAfter.png" alt="SCREENCAST: FrontendAfter"> -->
 
 <br><br><br>
-In this <a href="#link-to-source">video</a> you can watch a thorough demonstration of this new feature.
+In this <a href="https://youtu.be/GSPkD3FfWqM">video</a> you can watch a thorough demonstration of this new feature.
 
 
