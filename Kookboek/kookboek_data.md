@@ -11,7 +11,7 @@ Om de kwaliteit te borgen is een uitgebreid workflowproces opgenomen, waarbij da
 
 Ook kent de Datacatalogus de mogelijkheid om aan te geven welke definitie gebruikt is bij een bepaald product. Er zijn datasets (voorbeeld “woningen in Den Haag”) waarbij de gebruikte definitie (Woning) invloed heeft op de inhoud van een dataset (aantal m2).  
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/data_ckan.png" target="_blank" alt="imageStyle: CKAN"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/data_ckan2.png" target="_blank" alt="imageStyle: CKAN2"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/DATA_ckan.png" target="_blank" alt="imageStyle: CKAN"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/DATA_ckan2.png" target="_blank" alt="imageStyle: CKAN2"/>
 
 Een belangrijke randvoorwaarde voor goed datamanagement is dat de kwaliteit op orde is. Een belangrijke indicator voor de datakwaliteit is de metadata.
