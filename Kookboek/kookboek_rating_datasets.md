@@ -4,11 +4,11 @@ title: Rating datasets
 sidebar_label: Rating datasets
 ---
 
-Wij hebben hieronder een lijst van veelvoorkomende datasets gemaakt en deze beoordeeld op een aantal kenmerken zoals updatefrequentie, historie, beschikbaarheid en bruikbaarheid. Een aantal van deze kenmerken zijn zijn subjectief, dus beschouw deze rating als een eerste overzicht. Vandaar dat er onder de lijst nog toelichtingen hebben bijgevoegd ter verduidelijking.
+Wij hebben hieronder een lijst van veelvoorkomende datasets gemaakt en deze beoordeeld op een aantal kenmerken zoals updatefrequentie, historie, beschikbaarheid en bruikbaarheid. Een aantal van deze kenmerken zijn subjectief, dus beschouw deze rating als een eerste overzicht. Vandaar dat er onder de lijst nog toelichtingen hebben bijgevoegd ter verduidelijking.
 
->**Kritieke prestatie-indicatoren** [^1] (ook wel kritische in plaats van kritieke), afgekort **KPI**'s, zijn variabelen om prestaties te analyseren.
+> Sommige kenmerken zijn subjectief, dus beschouw deze rating als een eerste overzicht.
 
-Hieronder ziet u de lijst met dataset. Voor elke dataset hebben we de naam, locatie, en een aantal sterren aangegeven. Het aantal sterren loopt van &#9733; (praktisch onbruikbaar) tot &#9733;&#9733;&#9733;&#9733;&#9733; (uitstekende dataset).
+Hieronder ziet u de lijst met datasets. Voor elke dataset hebben we de naam, locatie, en een aantal sterren aangegeven. Het aantal sterren loopt van &#9733; (praktisch onbruikbaar) tot &#9733;&#9733;&#9733;&#9733;&#9733; (uitstekende dataset).
 
 |Dataset|Bron|Rating|
 |---|:---:|:---:|
