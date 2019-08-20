@@ -12,6 +12,8 @@ In de beschrijving van de KNMI-data is dieper ingegaan op de laatste twee onderw
 
 --> Hydrologic als voorbeeld opnemen
 
+Naast de weersverwachting wordt vooral de "watersysteemwerking" als oorzaak genoemd voor een hogere kans op wateroverlast. Er zijn veel partijen betrokken en het totale watersysteem is een complexe keten van verantwoordelijkheden en schakels. Het gebruik van data kan vooral helpen om inzicht te creëren in de werking van de verschillende schakels. Die kunnen vervolgens bijdragen aan organisatorische en procesmatige ingrepen.
+
 ## Stakeholders
 
 ## Data
