@@ -4,11 +4,11 @@ title: Rating datasets
 sidebar_label: Rating datasets
 ---
 
-Wij hebben hieronder een lijst van veelvoorkomende datasets gemaakt en deze beoordeeld op een aantal kenmerken zoals updatefrequentie, historie, beschikbaarheid en bruikbaarheid. Een aantal van deze kenmerken zijn subjectief, dus beschouw deze rating als een eerste overzicht. Vandaar dat er onder de lijst nog toelichtingen hebben bijgevoegd ter verduidelijking.
+Om de kwaliteit van datasets weer te geven, kunnen deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking.
 
-> Sommige kenmerken zijn subjectief, dus beschouw deze rating als een eerste overzicht.
+> Aangezien sommige kenmerken subjectief zijn, moet onderstaande rating als een eerste aanzet worden gezien.
 
-Hieronder ziet u de lijst met datasets. Voor elke dataset hebben we de naam, locatie, en een aantal sterren aangegeven. Het aantal sterren loopt van &#9733; (praktisch onbruikbaar) tot &#9733;&#9733;&#9733;&#9733;&#9733; (uitstekende dataset).
+Hieronder ziet u de lijst met datasets. Voor elke dataset hebben we de naam, locatie, en een aantal sterren aangegeven. Het aantal sterren loopt van &#9733; (slecht beschikbaar, weinig bruikbaar en niet bestendig) tot &#9733;&#9733;&#9733;&#9733;&#9733; (uitstekende dataset).
 
 |Dataset|Bron|Rating|
 |---|:---:|:---:|
