@@ -3,9 +3,11 @@ id: kookboek_opzet
 title: Opzet
 sidebar_label: Opzet
 ---
-De provincie Zuid-Holland heeft een toekomstagenda  opgesteld, waarin 7 richtinggevende ambities zijn geformuleerd voor de fysieke leefomgeving. Door in te zetten op die 7 ambities draagt de provincie Zuid-Holland bij aan het slimmer, schoner en sterker maken van de provincie. Eén van de ambities is “Naar een klimaatbestendige delta”. In dit kookboek is deze ambitie gebruikt als voorbeeld voor de verdere van de datagedreven aanpak. Daarbij wordt eveneens aangesloten bij de Kennis- en onderzoeksagenda die is opgesteld door de provincie in samenwerking met Deltares. Deze agenda is opgebouwd rond de thema’s ruimtelijke adaptatie, zoetwatervoorziening, bodemdaling, bodem- en grondwatersysteem. Concrete vragen in de agenda zijn: welke adaptieve strategieën zijn mogelijk om Zuid-Holland klimaatbestendig te maken? En hoe kan de provincie omgaan met bodemdaling?
+De provincie Zuid-Holland heeft een toekomstagenda  opgesteld, waarin 7 richtinggevende ambities zijn geformuleerd voor de fysieke leefomgeving. Door in te zetten op die 7 ambities draagt de provincie Zuid-Holland bij aan het slimmer, schoner en sterker maken van de provincie. 
 
-Voor dit data kookboek is een aanpak gekozen die helpt om beleidsthema’s binnen de provincie Zuid-Holland meetbaar te maken. Vanuit één beleidsthema is een structuur uitgewerkt die het mogelijk maakt om op gestructureerde wijze data te gebruiken om de voortgang op het beleidsthema te monitoren.
+Eén van de ambities is “Naar een klimaatbestendige delta”. In dit handboek is deze ambitie gebruikt voor de verdere uitwerking van de bouwstenen voor een datagedreven aanpak. Daarbij wordt aangesloten bij de Kennis- en Onderzoeksagenda die is opgesteld door de provincie in samenwerking met Deltares. Voor dit handboek is een aanpak gekozen die helpt om de beleidsthema’s binnen de provincie Zuid-Holland meetbaar, controleerbaar en analyseerbaar te maken. Vanuit één beleidsthema is een structuur uitgewerkt die het mogelijk maakt om op gestructureerde wijze data te gebruiken om de voortgang op het beleidsthema te monitoren.
+
+Die aanpak is hieronder weergegeven. Vanuit het thema "klimaatbestending" is een uitsplitsing gemaakt naar deelonderwerpen. Bij elk deelonderwerp kunnen relevante c.q. gewenste databronnen in kaart worden gebracht, inclusief de daarbij horende broneigenaar. Op deze manier kan de gehele keten worden beschreven. Met als uiteindelijk doel dat het proces transparant wordt (meetbaar, controleerbaar en analyseerbaar).
 
 <img class="imageStyle" src="/docs/assets/Kookboek/Opzet_workflow.png" target="_blank" alt="imageStyle: Opzet informatie"/>
 
