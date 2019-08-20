@@ -7,7 +7,8 @@ De voorgaande hoofdstukken gingen over het verzamelen en opslaan van data. Het u
 
 De meest gebruikte manier is het aanbieden van een downloadbaar bestand, bijvoorbeeld een CSV- of GeoJSON-file. Het nadeel is dat de gebruiker steeds opnieuw het bestand moet downloaden als er een nieuwe versie beschikbaar komt. Veel toepassingen halen eenmalig de data op, slaan die zelf op en gebruiken die om een dashboard of kaart te maken. Het is in die situatie lastig te beoordelen of de meest actuele versie van de data worden gebruikt. En voor de aanbieder/eigenaar van de data is er geen zicht op de toepassingen die gebruik maken van een dataset.
 
-Een andere manier is het bieden van een API (Application Programming Interface) of webservices [^1]. Dit is als het ware een online stopcontact om data op te vragen. Het grote voordeel is dat het gebruik van de data beter te monitoren is, dat de gebruiker altijd beschikt over de meest recente data en die niet zelf hoeft op te slaan. Voor beleidsmonitoring zijn API’s of webservices daarom meer geschikt.
+Een andere manier is het bieden van een API (Application Programming Interface) of webservices [^1]. Dit is als het ware een online stopcontact om data op te vragen. Het grote voordeel is dat het gebruik van de data beter te monitoren is, dat de gebruiker altijd beschikt over de meest recente data en die niet zelf hoeft op te slaan. Voor beleidsmonitoring zijn API’s of webservices daarom meer geschikt. In het Digitaal Stelsel Omgevingswet wordt sterk ingezet op de ontwikkeling van open API´s (conform de OpenAPI-specificatie) en een ontwikkelaarsportaal waar alle beschikbare API’s gevonden kunnen worden (inclusief documentatie).
+
 
 Een aantal voorbeelden van (standaard) services zijn:
 1.	Geo-services, zoals vastgesteld door het Open Geo Consortium (OGC) [^2]
