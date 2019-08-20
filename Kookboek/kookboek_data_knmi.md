@@ -4,15 +4,15 @@ title:  Voorbeeld dataset - KNMI
 sidebar_label:  Voorbeeld dataset - KNMI
 ---
 
-In dit voorbeeld zullen we data behandelen die verkrijgbaar is bij het KNMI. Als het gaat om het weer en het klimaat, is het KNMI een goede bron om te gebruiken. Op dit moment zullen we de voorspellingen links laten liggen en puur kijken naar de meetwaarde die het KNMI verzamelt met alle weerstations. Daarvoor gaan we naar [Klimatologie - Metingen en waarnemingen](https://www.knmi.nl/nederland-nu/klimatologie-metingen-en-waarnemingen). Hier zijn we een uitgebreid overzicht met opties zoals uurwaarden, dagwaarden, bodemwaarden, etc.
+In dit voorbeeld behandelen we data die verkrijgbaar is bij het KNMI. Als het gaat om het weer en het klimaat, biedt het KNMI waardevolle open data. We laten in dit voorbeeld de voorspellingen links liggen en kijken alleen naar de meetwaarden die het KNMI verzamelt met alle weerstations. Deze data, met uitgebreide opties zoals uur-, dag- en bodemwaarden, zijn te vinden op de site van het KNMI: [Klimatologie - Metingen en waarnemingen](https://www.knmi.nl/nederland-nu/klimatologie-metingen-en-waarnemingen).   
 
 ## Uurwaarden van weerstations
 
 > Van detail naar globaal is altijd mogelijk, maar andersom niet.
 
-Laten we de uurwaarden bekijken die het KNMI aanbiedt. Waarom specifiek de uurwaarden? Omdat deze het meest gedetailleerde beeld geven en met deze gegevens is het altijd mogelijk om alsnog de geaggregeerde gegevens per dag/maand/jaar of per gebied te maken. Van detail naar globaal is altijd mogelijk, maar andersom niet.
+De uurwaarden die het KNMI aanbiedt, geven het meest gedetailleerde beeld. Met deze gegevens is het altijd mogelijk om alsnog de geaggregeerde gegevens per dag/maand/jaar of per gebied te maken. Van detail naar globaal is altijd mogelijk, maar andersom niet.
 
-Als we nu [Uurgegevens van het weer in Nederland](https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens) bekijken, zien we een uitgebreid overzicht van allerlei opties om gegevens van temperatuur, zon, bewolking en zicht, luchtdruk, wind en neerslag per station in te zien. Ook is er de mogelijkheid om een interactieve selectie te maken. Omdat deze wederom de meeste keuze geeft, zal dit ons uitgangspunt zijn. Met de interactieve selectie op [Uurgegevens van het weer in Nederland - Download](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) krijgen we meteen al een indruk van de data die we op kunnen vragen en dus ook meteen wat voor vragen we voor onszelf moeten beantwoorden:
+De [Uurgegevens van het weer in Nederland](https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens) bieden een uitgebreid overzicht van allerlei opties om gegevens van temperatuur, zon, bewolking en zicht, luchtdruk, wind en neerslag per station in te zien. Ook is er de mogelijkheid om een interactieve selectie te maken. Deze optie biedt de meeste keuze. De interactieve selectie op [Uurgegevens van het weer in Nederland - Download](http://projects.knmi.nl/klimatologie/uurgegevens/selectie.cgi) geeft meteen al een indruk van de data die opvraagbaar is. Het leidt ook tot een aantal vragen:
 
 ### Welk periode?
 
