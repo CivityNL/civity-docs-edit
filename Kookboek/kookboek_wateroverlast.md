@@ -8,11 +8,8 @@ In het rapport "Leren van Wateroverlast" (mei 2019) van STOWA (Stichting Toegepa
 * "normbuien"
 * weersverwachting
 
-## Beleid
-STOWA: "uit de evaluaties blijkt dat de Nederlandse watersystemen op dit moment aan de norm voldoen. Hierdoor wordt de situatie alleen penibel bij een neerslag groter dan 80mm per 24 uur."
-"Het gaat er om dat signalen van wateroverlast direct gecommuniceerd worden". (de vraag is welke data kan helpen om die signalen in beeld te krijgen)
-"Regionale weersverwachtingen zijn te onzeker (..). De verschillen tussen de verwachte en feitelijk gemeten neerslag is soms groter dan 50mm per 24 uur. Ook overtreffen de metingen soms tot twee à driemaal de verwachte hoeveelheid." Meer gedetailleerde data kan helpen om de regionale weersverwachtingen te verbeteren (citizen science, gebruik maken van regenmeters en temperatuursensoren bij burgers; kalibreren tov KNMI, vergelijkbaar met luchtkwaliteit bij RIVM)
-"Weersverwachtingis het enige criterium voor het uitvoeren van preventieve acties"
+In de beschrijving van de KNMI-data is dieper ingegaan op de laatste twee onderwerpen. Het rapport van de STOWA geeft aan dat uit de evaluaties blijkt dat de Nederlandse watersystemen op dit moment aan de norm voldoen. Hierdoor wordt de situatie alleen penibel bij een neerslag groter dan 80mm per 24 uur. In die gevallen is het belangrijk dat signalen van wateroverlast direct gecommuniceerd worden. Als de wateroverlat optreedt, is het doorgaans al te laat voor ingrepen. De opgave is om in een eerder stadium al inzicht te krijgen. En de weersverwachting is het enige criterium voor het uitvoeren van preventieve acties. De huidige regionale weersverwachtingen zijn daarvoor te onzeker, omdat de verschillen tussen de verwachte en feitelijk gemeten neerslag soms groter is dan 50mm per 24 uur. Feitelijke metingen ovetreffen soms tot twee à driemaal de verwachte hoeveelheid. In deze context kunnen meer gedetailleerde data helpen om de regionale weersvoorspelling te verbeteren. Dat kan via citizen scienceprojecten met regenmeters en temperatuursensoren bij burgers, vergelijkbaar met de huidige projecten om de luchtkwaliteit in kaart te brengen.
+
 --> Hydrologic als voorbeeld opnemen
 
 ## Stakeholders
