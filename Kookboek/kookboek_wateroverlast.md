@@ -14,14 +14,8 @@ In de beschrijving van de KNMI-data is dieper ingegaan op de laatste twee onderw
 
 Naast de weersverwachting wordt vooral de "watersysteemwerking" als oorzaak genoemd voor een hogere kans op wateroverlast. Er zijn veel partijen betrokken en het totale watersysteem is een complexe keten van verantwoordelijkheden en schakels. Het gebruik van data kan vooral helpen om inzicht te creëren in de werking van de verschillende schakels. Die kunnen vervolgens bijdragen aan organisatorische en procesmatige ingrepen.
 
-## Stakeholders
-
-## Data
-
-#### Bronnen:
-* hoogtekaart
-* bgt
-* knmi
+## Databronnen
+Naast de voorbeelden die al genoemd zijn, is er een groot aantal open databronnen die kunnen helpen om (potentiële) wateroverlast inzichtelijk te maken. Het gaat om algemene bronnen zoals de AHN (Algemene Hoogtekaart Nederland) en de BGT (Basiskaart  Grootschalige Topografie), maar ook om data over het rioolstelsel, meldingen openbare ruimte en ...
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/Wateriverlast_image.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 
