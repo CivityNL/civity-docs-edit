@@ -15,14 +15,11 @@ In de beschrijving van de KNMI-data is dieper ingegaan op de laatste twee onderw
 Naast de weersverwachting wordt vooral de "watersysteemwerking" als oorzaak genoemd voor een hogere kans op wateroverlast. Er zijn veel partijen betrokken en het totale watersysteem is een complexe keten van verantwoordelijkheden en schakels. Het gebruik van data kan vooral helpen om inzicht te creëren in de werking van de verschillende schakels. Die kunnen vervolgens bijdragen aan organisatorische en procesmatige ingrepen.
 
 ## Databronnen
-Naast de voorbeelden die al genoemd zijn, is er een groot aantal open databronnen die kunnen helpen om (potentiële) wateroverlast inzichtelijk te maken. Het gaat om algemene bronnen zoals de AHN (Algemene Hoogtekaart Nederland) en de BGT (Basiskaart  Grootschalige Topografie), maar ook om data over het rioolstelsel, meldingen openbare ruimte en ...
+Naast de voorbeelden die al genoemd zijn, is er een groot aantal open databronnen die kunnen helpen om (potentiële) wateroverlast inzichtelijk te maken. Het gaat om algemene bronnen zoals de AHN (Algemene Hoogtekaart Nederland) en de BGT (Basiskaart  Grootschalige Topografie), maar ook om data over het rioolstelsel, meldingen openbare ruimte en schadegevallen.
+
+In de afbeelding hieronder is weergegeven welke aspecten een rol spelen bij Wateroverlast. Van links naar rechts is het thema "Wateroverlast" specifieker gemaakt en uitgewerkt. Allereerst met de deelonderwerpen, zoals overstromingen, schade of piekbuien. Vervolgens is bij elk van deze deelonderwerpen aangegeven welke data relevant kunnen zijn, wie de data bezitten, of er standaarden voor zijn en waar de data gevonden kan worden. Door bij elk beleidsthema een vergelijkbare gestructureerde aanpak te kiezen, is het mogelijk  stap voor stap de achterliggende bronnen in kaart te brengen. Dat hebben we hieronder geillustreerd met een aantal voorbeelden.
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/Wateriverlast_image.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-De aanpak is dat we vanuit een thema stap voor stap werken naar de achterliggende bronnen. Elk stap wordt gedocumenteerd, zodat duidelijk is waarop de monitoring is gebaseerd.
-Het bovenstaande voorbeeld gaat over wateroverlast.
-
-Om invulling te geven aan dit onderwerp, laten we stap voor stap zien  hoe je data kunt gebruiken. Bij elke bron wordt uitleg gegeven.
 
 ### Voorbeeld 1
 De gemeente Utrecht gebruikt een applicatie Slim Melden waarmee zij meldingen van inwoners verzamelen. Eén van de categorieën waarover een melding gedaan kan worden, is wateroverlast.
