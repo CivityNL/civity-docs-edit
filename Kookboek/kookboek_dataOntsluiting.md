@@ -19,11 +19,6 @@ Een aantal voorbeelden van (standaard) services zijn:
 * WFS/WMS
 * Geoserver
 
-### Data modellen
-De FIWARE foundation werkt samen met TM FORUM aan standaardisatie van data modellen.[^3] Wanneer een dergelijk model toegepast wordt, vergroot dat de herbruikbaarheid van data over verschillende toepassingen.
-
-Op dit moment zijn er 12 datamodellen gedefinieerd. Daarom heen is een proces van RFC’s en RFP’s gestart.
-
 [^1]: Difference between API and Webservice: https://medium.com/@programmerasi/difference-between-api-and-web-service-73c873573c9d
 [^2]: OGC-standaarden - http://www.opengeospatial.org/docs/is
-[^3]: [Fiware Data Models](https://www.fiware.org/developers/data-models/)
+
