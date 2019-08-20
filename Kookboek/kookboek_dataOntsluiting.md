@@ -1,7 +1,7 @@
 ---
 id: kookboek_DataOntsluiting
-title: Data Ontsluiting
-sidebar_label: Data Ontsluiting
+title: Data ontsluiting
+sidebar_label: Data ontsluiting
 ---
 De voorgaande hoofdstukken gingen over het verzamelen en opslaan van data. Het uiteindelijke doel is dat data gebruikt worden in toepassingen. Daarvoor moeten data ontsloten worden en beschikbaar worden gesteld. Dat kan op een groot aantal manieren.
 
@@ -9,17 +9,14 @@ De meest gebruikte manier is het aanbieden van een downloadbaar bestand, bijvoor
 
 Een andere manier is het bieden van een API (Application Programming Interface) of webservices [^1]. Dit is als het ware een online stopcontact om data op te vragen. Het grote voordeel is dat het gebruik van de data beter te monitoren is, dat de gebruiker altijd beschikt over de meest recente data en die niet zelf hoeft op te slaan. Voor beleidsmonitoring zijn API’s of webservices daarom meer geschikt. In het Digitaal Stelsel Omgevingswet wordt sterk ingezet op de ontwikkeling van open API´s (conform de OpenAPI-specificatie) en een ontwikkelaarsportaal waar alle beschikbare API’s gevonden kunnen worden (inclusief documentatie).
 
-
 Een aantal voorbeelden van (standaard) services zijn:
 1.	Geo-services, zoals vastgesteld door het Open Geo Consortium (OGC) [^2]
 2.	Voor real time data zijn er standaarden van FIWARE
 3.	Voor het omgevingsbeleid is er een API-strategie in ontwikkeling
 
-Voor geo-informatie (en direct van belang in het kader van de Omgevinsgwet), is de INSPIRE-plicht. INSPIRE is een Europese richtlijn voor het beschikbaar stellen van geo-informatie. Dat gebeurt nu op verschillende niveaus, onder meer via het Nationaal Geo Register. Een deel van de gegevens en informatieproducten die in de context van de Omgevisngwet beschikbaar moeten komen, vallen onder INSPIRE en zullen conform die standaarden beschikbaar moeten worden gesteld. Een reden te meer om goed na te denken over een catalogus om de (interne) informatie te registeren en beheren.
+Voor geo-informatie (en direct van belang in het kader van de Omgevinsgwet), is de INSPIRE-plicht. INSPIRE is een Europese richtlijn voor het beschikbaar stellen van geo-informatie. Dat gebeurt nu op verschillende niveaus, onder meer via het Nationaal Geo Register. Een deel van de gegevens en informatieproducten die in de context van de Omgevingswet beschikbaar moeten komen, vallen onder INSPIRE en zullen conform die standaarden beschikbaar moeten worden gesteld. Een reden te meer om goed na te denken over een catalogus om de (interne) informatie te registeren en beheren.
 
-
-* WFS/WMS
-* Geoserver
+Het doel van data ontsluiting is dat de gegevens gebruikt worden voor nieuwe toepassingen. Zoals een klimaatatlas, 3D-model of app. Door de ontsluiting van data te scheiden van de toepassingen, wordt ook aangesloten bij de visie die VNG Realisatie heeft geformuleerd onder de naam "Common Ground" (https://vng.nl/samen-organiseren/common-ground). 
 
 [^1]: Difference between API and Webservice: https://medium.com/@programmerasi/difference-between-api-and-web-service-73c873573c9d
 [^2]: OGC-standaarden - http://www.opengeospatial.org/docs/is
