@@ -3,6 +3,7 @@ id: kookboek_wateroverlast
 title: Wateroverlast
 sidebar_label: Wateroverlast
 ---
+
 In het rapport "Leren van Wateroverlast" (mei 2019) van STOWA (Stichting Toegepast Onderzoek Waterbeheer) zijn de evaluaties die waterschappen de afgelopen 10 jaar hebben uitgevoerd naar aanleiding van calamiteiten, samengenomen en geanalyseerd. In dit rapport worden ook een aantal aanbevelingen gedaan die direct te maken hebben met de inzet van c.q. het gebruik van data. Door meer kennis te ontwikkelen over weersverwachtingen en de inzet van hydrologische modellen kan beter inzicht verkregen worden in het functioneren van het watersysteem. Onderwerpen die in het rapport genoemd worden zijn en betrekking hebben op data zijn:
 * dimensionering van het watersysteem
 * "normbuien"
