@@ -4,7 +4,7 @@ title: Rating datasets
 sidebar_label: Rating datasets
 ---
 
-Om de kwaliteit van datasets weer te geven, kunnen deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking.
+Om de kwaliteit van datasets weer te geven, kunnen deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking. Ik verander dit
 
 > Aangezien sommige kenmerken subjectief zijn, moet onderstaande rating als een eerste aanzet worden gezien.
 
