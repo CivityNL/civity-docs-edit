@@ -10,7 +10,7 @@ In this page you will see what datasets you own, in addition to your Activity St
 
 ## Account Information
 
-> Your API key is private and unique, do not share this with anybody!
+> Your API key is private and unique, do not share this with anybody.
 
 You may find your user profile by clicking on your name at the top of the page.
 
