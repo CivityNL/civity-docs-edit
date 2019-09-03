@@ -20,10 +20,10 @@ Hieronder is een overzicht gegeven van hoe zo'n set meetwaardes er in het echt u
 | versionMajor | 1 || pm1_0 | 3 |
 | errorCode | 0 || versionMinor | 3 |
 | voltage | 122 || horizontalAccuracy | 67788 |
-| accMax | 0 || entityId | 352753092424447 |
+| accMax | 0 || entityId | 352...447 |
 | verticalAccuracy | 49795 || pm10 | 3 |
 | no2 | 84 || temp | 204 |
-| location | 52.105156,5.124354 || humidity | 54 |
+| location | 52.1052,5.1244 || humidity | 54 |
 | pm2_5 | 3 || time | 1566333186 |
 
 Met andere woorden: deze data bevat nog geen informatie. Zoals al eerder is aangegeven, is het niet alleen belangrijk dat de databron beschikbaar is, maar ook de nodige metadata bevat om daadwerkelijk gebruikt te worden.
@@ -48,6 +48,41 @@ Hieronder is de data omgeschreven naar informatie. Een aantal velden zijn daarbi
 
 Nu spreken we over informatie: de data is begrepen en ligt eenduidig vast, zodat vergelijkingen met andere datasets of bronnen gemaakt kunnen worden. Deze 3 miljoen setjes meetwaardes zijn nu een grote set met informatie, klaar voor gebruik.
 
+Als extra stap wordt deze informatie ook nog eens gevalideerd door het RIVM. Dat houd in dat alle metingen ook naar het RIVM worden gestuurd, die deze vergelijkt met metingen van hun eigen meetopstellingen. Ook hebben ze een aantal sensoren onder observatie om de precieze (langetermijn) werking te bestuderen. Op deze manier kunnen ze correcties uitvoeren op de meetwaardes, zodat deze accuraat blijven ook al vertonen de sensoren naar verloop van tijd enige verloop. 
+
 ## Van informatie naar presentatie
 
-Nu de informatie aanwezig is kan de stap gemaakt worden naar daadwerkelijke kennis. Met andere woorden, hoe presenteer je deze informatie. 
+Nu de informatie aanwezig is kan de stap gemaakt worden naar daadwerkelijke kennis. Met andere woorden, hoe presenteer je deze informatie. De informatie over de luchtkwaliteit bevat twee dimensies: een ruimtelijke dimensie (waar is wat gemeten) en een temporale dimensie (wanneer is wat gemeten). Vaak zal er in een presentatie een keuze gemaakt moeten worden voor een dimensie. Deze dimensionaliteit betekent ook dat er er niet alleen op veel plekken gemeten moet worden, maar ook vaak op dezelfde plek gemeten moet worden.
+
+Hieronder zijn een aantal voorbeelden gegeven, elk met hun voordelen en nadelen. 
+
+### Routes
+
+Een route is een reeks aaneengesloten punten van een bepaalde sensor. Onderstaande kaart geeft dus weer hoe fietsers zijn gereden en wat luchtkwaliteit er gemeten is onderweg. Kort gezegd: puntjes tekenen en lijntjes trekken.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_routes.png" target="_blank" alt="imageStyle: 
+Residential Breakdown"/>
+
+| Voordelen | Nadelen |
+| - | - |
+| Duidelijk inzicht in waar men gefietst heeft zonder bewerkingen. | Geen inzicht in de tijdsverdeling en de ruimtelijke onzekerheid. |
+
+### Grid
+
+In het geval van het grid, is het gebied in stukken geknipt (vierkanten, zeshoeken, etc) en is per gebied de gemiddelde luchtkwaliteit bepaald. Belangrijke parameter van een grid is de celgrootte: wat is de maat van de kleinste verdeling.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_grid.png" target="_blank" alt="imageStyle: Residential Breakdown"/>
+
+| Voordelen | Nadelen |
+| - | - |
+| Goed globaal beeld van de situatie zonder naar precieze punten te kijken, minimale bewerking | Geen inzicht in de tijdsverdeling en bepalen van celgrootte heeft invloed |
+
+### Wegvakken
+
+In plaats van de routes uit de metingen te halen, is er in dit geval voor gekozen om de punten te matchen aan wegvakken zoals die door het NDW zijn bepaald. Op deze manier kunnen metingen op wegvakkniveau bekeken worden. Tevens is er voor elk wegvak een uitsplitsing gemaakt naar uurvak.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_wegvak.png" target="_blank" alt="imageStyle: Residential Breakdown"/>
+
+| Voordelen | Nadelen |
+| - | - |
+| Het beeld bevat nu daadwerkelijk de bestaande infrastructuur, wat het mogelijk maakt de luchtkwaliteit te vergelijken met andere informatie over de weg | Elk punt hoort bij een wegvak, terwijl de onzekerheid andere wegvakken niet uit kan sluiten. Vraagt veel bewerking. |
