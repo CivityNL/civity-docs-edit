@@ -4,7 +4,9 @@ title: Rating datasets
 sidebar_label: Rating datasets
 ---
 
-Om de kwaliteit van datasets weer te geven, kunnen deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking. Ik verander dit
+Naast meta-data en datamodellen kunnen ook ratings bijdragen aan de bepaling van de kwaliteit van individuele datasets.
+
+Zo kunnen datasets deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking.
 
 > Aangezien sommige kenmerken subjectief zijn, moet onderstaande rating als een eerste aanzet worden gezien.
 
@@ -43,3 +45,5 @@ Hieronder vind u de eventuele toelichtingen. Deze zijn gegroepeerd, aangezien va
 | AHN                                                       | Wisselende updatefrequentie, lastig om toe te passen |
 | BAG / NWB                                                 | Combinatie van meerdere 'datasets', dus vraagt iets meer moeite |
 | BRO                                                       | Wordt bijgewerkt als er nieuwe data beschikbaar is, waardoor de recentheid lastig is in te schatten |
+
+Zoals hierboven beschreven kunnen meta-data, datamodellen en standaardisatie een goed beeld vormen van de  kwaliteit van een dataset. Kwalitatief hoogwaardige datasets kunnen dan ook een belangrijke rol spelen bij het monitoren en analyseren van beleid. Data blijft echter uiteindelijk slechts een modelweergave van de werkelijkheid.

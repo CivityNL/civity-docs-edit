@@ -4,7 +4,6 @@ title: Datamodellen
 sidebar_label: Datamodellen
 ---
 
-### Data modellen
 Een datamodel is een abstract model om de onderlinge relatie tussen data-elementen te ordenen en hun verhouding tot kenmerken van de echte wereld weer te geven.[^1] Datamodellen gaan over de structuur van de data. Het doel  van een datamodel is dat ze de ontwikkeling van informatiesystemen vereenvoudigen door een definitie van het dataformaat te geven.
 
 Waarom is dit belangrijk voor het omgevingsbeleid in de provincie Zuid-Holland? Neem bijvoorbeeld luchtkwaliteit, wegintensiteit of afvalinzameling. Als er geen gestandaardiseerd datamodel is, wordt de vergelijkbaarheid van gegevens een stuk lastiger en daarmee de mogelijkheid om data in te zetten voor beleidsmonitoring.

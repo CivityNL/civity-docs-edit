@@ -15,7 +15,7 @@ Met andere woorden: een KPI is simpele analyze van je beleid. Dit betekent niet 
 * Realistisch: een doel moet wel uitvoerbaar zijn. 
 * Tijdgebonden: een doel moet binnen een bepaalde tijd gehaald worden.
 
-Door hiermee te werken zijn doelen concreet gemaakt en dus de mogelijkheid gecreeerd om hierbij databronnen te vinden (of te maken) die hierbij aansluiten
+Door hiermee te werken zijn doelen concreet gemaakt en dus de mogelijkheid gecreeerd om hierbij databronnen te vinden (of te maken) die hierbij aansluiten.
 
 Diverse steden hebben al oplossingen bedacht om hun beleid te monitoren. Hieronder is een aantal voorbeelden beschreven. [^2]
 

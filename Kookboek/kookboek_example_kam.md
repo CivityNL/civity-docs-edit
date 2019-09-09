@@ -25,6 +25,8 @@ Voor water speelt de hoogte ook mee, daarvoor is het AHN toegevoegd aan de ander
 
 Om tot informatie te komen die betrekking hebben op de klimaatadaptatie zal nog wel een model gemaakt moeten worden die gebruik maakt van de data die vanuit de BGT en de AHN komt. De informatie kan enigzins intimiderend overkomen, maar dit is noodzakelijk om tot een representatie te komen van de werkelijkheid. Hiervoor gaan we een aantal definities gebruik: constantes en elementen uit de BGT.
 
+Constantes zijn waardes die uit documentatie komt, vaak gemiddelde waardes die nog wel eens verschillen afhankelijk van de bron. Deze waardes hoeven dus zeker niet als absoluut gezien te worden, maar worden hier gebruikt als startpunt.
+
 | Symbool | Definitie | Waarde | Eenheid |
 | --- | --- | --- | --- |
 | `R` | Gemiddelde regen per vierkante meter per jaar | 0.9475 | m<sup>3</sup> |
@@ -54,7 +56,9 @@ Hieronder zijn per subthema (lucht, water, hitte) de precieze modellen weergegev
 
 > Bij ontbreken van gegevens over industrieen, zijn huishoudens en verkeer de grootste boosdoeners. Bomen vangen daarentegen CO2 op.
 
-    (co2_hh*huishoudens + co2_weg*len_weg - co2_boom*bomen_totaal)/R_totaal
+            co2_hh*huishoudens + co2_weg*len_weg - co2_boom*bomen_totaal
+    Lucht = ------------------------------------------------------------
+                                        A_totaal
 
 | Oorzaak | Formule |
 | ------- | ------ |
@@ -66,15 +70,42 @@ Hieronder zijn per subthema (lucht, water, hitte) de precieze modellen weergegev
 
 > Het water dat op gebouwen valt, zal via de verharding weg moeten vloeien. Verder vangen bomen een deel van het water op.
 
-    R*(A_verhard + A_bebouwd)/A_verhard - R*A_boom*p_boom*bomen_verhard/A_verhard
+            R*(A_verhard + A_bebouwd) - R*A_boom*p_boom*bomen_verhard
+    Water = ---------------------------------------------------------
+                                    A_verhard
+
+| Oorzaak | Formule |
+| ------- | ------ |
+| Verharding | `R*A_verhard` |
+| Bebouwing | `R*A_bebouwd` |
+| Bomen | `R*A_boom*p_boom*bomen_verhard/A_verhard` |
 
 #### Hitte
 
 > Zonlicht warmt verharding op. Hoe meer verharding des te meer deze bijdrage. Bomen vangen een deel van het zonlicht op en zorgen voor actieve verkoeling door verdamping.
 
-    T*A_verhard/(A_verhard + A_onverhard) - T*A_boom*bomen_verhard/(A_verhard + A_onverhard)
+De verkoeling door bomen is met de huidige constantes zodanig minimaal dat die weggelaten zijn uit de formule. Ook is de impact van de hoogte van straten en stegen niet meegenomen omdat dit te uitgebreid wordt.
+
+            T*A_verhard - T*A_boom*bomen_verhard
+    Hitte = ------------------------------------
+                  A_verhard + A_onverhard
+
+| Oorzaak | Formule |
+| ------- | ------ |
+| Verharding | `T*A_verhard/(A_verhard + A_onverhard)` |
+| Bomen | `T*A_boom*bomen_verhard/(A_verhard + A_onverhard)` |
 
 ## Van informatie naar presentatie
+
+### Het model
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_buurt.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_lucht.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_water.png" target="_blank" alt="imageStyle: Wateroverlas"/>    
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_hitte.png" target="_blank" alt="imageStyle: Wateroverlas"/>    
+
+### Uitgebreid
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/heat.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/twi.png" target="_blank" alt="imageStyle: Wateroverlas"/>

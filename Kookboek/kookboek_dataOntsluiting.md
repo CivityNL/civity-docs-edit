@@ -3,7 +3,8 @@ id: kookboek_DataOntsluiting
 title: Data ontsluiting
 sidebar_label: Data ontsluiting
 ---
-De voorgaande hoofdstukken gingen over het verzamelen en opslaan van data. Het uiteindelijke doel is dat data gebruikt worden in toepassingen. Daarvoor moeten data ontsloten worden en beschikbaar worden gesteld. Dat kan op een groot aantal manieren.
+
+De vorige hoofdstukken gingen over het bepalen van de relevantie en kwaliteit van verschillende individuele datasets. Een ander belangrijk onderdeel is het combineren en gebruiken van deze datasets in toepassingen. Hierbij speelt de manier van ontsluiten en beschikbaar maken van deze data een belangrijke rol. Dat kan op een groot aantal manieren.
 
 De meest gebruikte manier is het aanbieden van een downloadbaar bestand, bijvoorbeeld een CSV- of GeoJSON-file. Het nadeel is dat de gebruiker steeds opnieuw het bestand moet downloaden als er een nieuwe versie beschikbaar komt. Veel toepassingen halen eenmalig de data op, slaan die zelf op en gebruiken die om een dashboard of kaart te maken. Het is in die situatie lastig te beoordelen of de meest actuele versie van de data worden gebruikt. En voor de aanbieder/eigenaar van de data is er geen zicht op de toepassingen die gebruik maken van een dataset.
 
@@ -17,6 +18,8 @@ Een aantal voorbeelden van (standaard) services zijn:
 Voor geo-informatie (en direct van belang in het kader van de Omgevinsgwet), is de INSPIRE-plicht. INSPIRE is een Europese richtlijn voor het beschikbaar stellen van geo-informatie. Dat gebeurt nu op verschillende niveaus, onder meer via het Nationaal Geo Register. Een deel van de gegevens en informatieproducten die in de context van de Omgevingswet beschikbaar moeten komen, vallen onder INSPIRE en zullen conform die standaarden beschikbaar moeten worden gesteld. Een reden te meer om goed na te denken over een catalogus om de (interne) informatie te registeren en beheren.
 
 Het doel van data ontsluiting is dat de gegevens gebruikt worden voor nieuwe toepassingen. Zoals een klimaatatlas, 3D-model of app. Door de ontsluiting van data te scheiden van de toepassingen, wordt ook aangesloten bij de visie die VNG Realisatie heeft geformuleerd onder de naam "Common Ground" (https://vng.nl/samen-organiseren/common-ground). 
+
+*Korte introductie voorbeeld en waar het betrekking op heeft*
 
 [^1]: Difference between API and Webservice: https://medium.com/@programmerasi/difference-between-api-and-web-service-73c873573c9d
 [^2]: OGC-standaarden - http://www.opengeospatial.org/docs/is
