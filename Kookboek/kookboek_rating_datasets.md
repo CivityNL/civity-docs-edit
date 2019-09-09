@@ -4,9 +4,9 @@ title: Rating datasets
 sidebar_label: Rating datasets
 ---
 
-Naast meta-data en datamodellen kunnen ook ratings bijdragen aan de bepaling van de kwaliteit van individuele datasets.
+Naast metadata en datamodellen kunnen ook ratings bijdragen aan de bepaling van de kwaliteit van individuele datasets.
 
-Zo kunnen datasets deze beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking.
+Zo kunnen datasets beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata. De onderstaande lijst geeft een eerste score van databronnen die relevant zijn voor het thema Wateroverlast. Onder de lijst zijn aanvullende toelichtingen opgenomen ter verduidelijking.
 
 > Aangezien sommige kenmerken subjectief zijn, moet onderstaande rating als een eerste aanzet worden gezien.
 
@@ -32,7 +32,7 @@ Hieronder ziet u de lijst met datasets. Voor elke dataset hebben we de naam, loc
 | Warmte                                                | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
 | Buisleidingen                                         | [Nationaal Georegister](http://www.nationaalgeoregister.nl) | &#9733;&#9733;&#9733;&#9734;&#9734; |
 
-Hieronder vind u de eventuele toelichtingen. Deze zijn gegroepeerd, aangezien vaak datasets met dezelfde problemen kampen. Datasets met 5 sterren zijn hier buitengelaten.
+Hieronder zijn de eventuele toelichtingen te vinden per dataset. Deze zijn gegroepeerd, aangezien vaak datasets met dezelfde problemen kampen. Datasets met 5 sterren zijn hier buitengelaten.
 
 |Dataset|Toelichting|
 |---|---|
@@ -45,5 +45,3 @@ Hieronder vind u de eventuele toelichtingen. Deze zijn gegroepeerd, aangezien va
 | AHN                                                       | Wisselende updatefrequentie, lastig om toe te passen |
 | BAG / NWB                                                 | Combinatie van meerdere 'datasets', dus vraagt iets meer moeite |
 | BRO                                                       | Wordt bijgewerkt als er nieuwe data beschikbaar is, waardoor de recentheid lastig is in te schatten |
-
-Zoals hierboven beschreven kunnen meta-data, datamodellen en standaardisatie een goed beeld vormen van de  kwaliteit van een dataset. Kwalitatief hoogwaardige datasets kunnen dan ook een belangrijke rol spelen bij het monitoren en analyseren van beleid. Data blijft echter uiteindelijk slechts een modelweergave van de werkelijkheid.

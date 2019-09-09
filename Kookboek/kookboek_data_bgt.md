@@ -1,8 +1,10 @@
 ---
 id: kookboek_data_bgt
-title:  Voorbeeld dataset - Basisregistratie Grootschalige Topografie (BGT)
-sidebar_label:  Voorbeeld dataset - BGT
+title:  [RECEPT] Meetbaar - Voorbeeld dataset - Basisregistratie Grootschalige Topografie (BGT)
+sidebar_label:  [RECEPT] Meetbaar - BGT
 ---
+
+> Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'
 
 Een voorbeeld voor geodata is de Basisregistratie Grootschalige Topografie (BGT), een digital kaart van Nederland waarop gebouwen, wegen, waterlopen, terreinen en spoorlijnen eenduidig zijn vastgelegd. De kaart is op 20 centimeter nauwkeurig en bevat veel details, waaronder historie. Dit betekent wel dat deze dataset veel informatie bevat en dus groot is (een extract voor het gebied van de gemeente Den Haag is al ruim 4 GB).
 

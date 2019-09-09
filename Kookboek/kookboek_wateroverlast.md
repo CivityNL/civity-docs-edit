@@ -1,60 +1,19 @@
 ---
 id: kookboek_wateroverlast
-title: [RECEPT] Wateroverlast
-sidebar_label: [RECEPT] Wateroverlast
+title: [RECEPT] Aanpak - Wateroverlast
+sidebar_label: [RECEPT] Aanpak
 ---
 
-In het rapport "Leren van Wateroverlast" (mei 2019) van STOWA (Stichting Toegepast Onderzoek Waterbeheer) zijn de evaluaties die waterschappen de afgelopen 10 jaar hebben uitgevoerd naar aanleiding van calamiteiten, samengenomen en geanalyseerd. In dit rapport worden ook een aantal aanbevelingen gedaan die direct te maken hebben met de inzet van c.q. het gebruik van data. Door meer kennis te ontwikkelen over weersverwachtingen en de inzet van hydrologische modellen kan beter inzicht verkregen worden in het functioneren van het watersysteem. Onderwerpen die in het rapport genoemd worden zijn en betrekking hebben op data zijn:
+> Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'
+
+In het rapport "Leren van Wateroverlast" (mei 2019) van STOWA (Stichting Toegepast Onderzoek Waterbeheer) zijn de evaluaties die waterschappen de afgelopen 10 jaar hebben uitgevoerd naar aanleiding van calamiteiten, samengenomen en geanalyseerd. In dit rapport wordt ook een aantal aanbevelingen gedaan die direct te maken hebben met de inzet van c.q. het gebruik van data. Door meer kennis te ontwikkelen over weersverwachtingen en de inzet van hydrologische modellen kan beter inzicht verkregen worden in het functioneren van het watersysteem. Onderwerpen die in het rapport genoemd worden zijn en betrekking hebben op data zijn:
+
 * dimensionering van het watersysteem
 * "normbuien"
 * weersverwachting
 
-In de beschrijving van de KNMI-data is dieper ingegaan op de laatste twee onderwerpen. Het rapport van de STOWA geeft aan dat uit de evaluaties blijkt dat de Nederlandse watersystemen op dit moment aan de norm voldoen. Maar er wordt ook geconstateerd dat er op dit moment geen duidelijk beeld is van de ernst en frequentie van wateroverlast. Alleen bij een neerslag groter dan 80mm per 24 uur wordt de situatie kritiek voor het watersysteem. In die gevallen is het belangrijk dat signalen van wateroverlast (die zeer divers kunnen zijn) direct gecommuniceerd worden. Als de wateroverlast optreedt, is het doorgaans al te laat voor ingrepen. De opgave is om in een eerder stadium al inzicht te krijgen. En de weersverwachting is het enige criterium voor het uitvoeren van preventieve acties. De huidige regionale weersverwachtingen zijn daarvoor te onzeker, omdat de verschillen tussen de verwachte en feitelijk gemeten neerslag soms groter is dan 50mm per 24 uur. Feitelijke metingen ovetreffen soms tot twee à driemaal de verwachte hoeveelheid. In deze context kunnen meer gedetailleerde data helpen om de regionale weersvoorspelling te verbeteren. Dat kan via citizen scienceprojecten met regenmeters en temperatuursensoren bij burgers, vergelijkbaar met de huidige projecten om de luchtkwaliteit in kaart te brengen. Deze data kunnen bijdragen aan de ontwikkeling van betere indicatoren voor wateroverlast.
-
---> Hydrologic als voorbeeld opnemen
+Met behulp van KNMI-data kan dieper worden ingegaan op de laatste twee onderwerpen. Het rapport van de STOWA geeft aan dat uit de evaluaties blijkt dat de Nederlandse watersystemen op dit moment aan de norm voldoen. Maar er wordt ook geconstateerd dat er op dit moment geen duidelijk beeld is van de ernst en frequentie van wateroverlast. Alleen bij een neerslag groter dan 80mm per 24 uur wordt de situatie kritiek voor het watersysteem. In die gevallen is het belangrijk dat signalen van wateroverlast (die zeer divers kunnen zijn) direct gecommuniceerd worden. Als de wateroverlast optreedt, is het doorgaans al te laat voor ingrepen. De opgave is om in een eerder stadium al inzicht te krijgen. En de weersverwachting is het enige criterium voor het uitvoeren van preventieve acties. De huidige regionale weersverwachtingen zijn daarvoor te onzeker, omdat de verschillen tussen de verwachte en feitelijk gemeten neerslag soms groter is dan 50mm per 24 uur. Feitelijke metingen ovetreffen soms tot twee à driemaal de verwachte hoeveelheid. In deze context kunnen meer gedetailleerde data helpen om de regionale weersvoorspelling te verbeteren. Dat kan via citizen scienceprojecten met regenmeters en temperatuursensoren bij burgers, vergelijkbaar met de huidige projecten om de luchtkwaliteit in kaart te brengen. Deze data kunnen bijdragen aan de ontwikkeling van betere indicatoren voor wateroverlast.
 
 Naast de weersverwachting wordt vooral de "watersysteemwerking" als oorzaak genoemd voor een hogere kans op wateroverlast. Er zijn veel partijen betrokken en het totale watersysteem is een complexe keten van verantwoordelijkheden en schakels. Het rapport van STOWA geeft aan dat "de reactie van het systeem en de effecten van ingrepen (zoals de inzet van stuwen en gemalen) vaak beperkt inzichtelijk of geheel onbekend zijn". Het gebruik van data kan helpen om inzicht te creëren in de werking van de verschillende schakels. Die kunnen vervolgens bijdragen aan organisatorische en procesmatige ingrepen.  
 
 Tot slot kan er sprake zijn van conflicterende belangen. de aanpak van wateroverlast kan invloed hebben op maatregelen gericht op verbetering van de waterkwaliteit (bv blauwalg). Er is een duidelijke relatie tussen watersysteemfuncties, zoals natuur en waterkwaliteit en het realiseren van een adequate waterafvoercapaciteit tijdens extreme neerslagperiodes. 
-
-## Databronnen
-Naast de voorbeelden die al genoemd zijn, is er een groot aantal open databronnen die kunnen helpen om (potentiële) wateroverlast inzichtelijk te maken. Het gaat om algemene bronnen zoals de AHN (Algemene Hoogtekaart Nederland) en de BGT (Basiskaart  Grootschalige Topografie), maar ook om data over het rioolstelsel, bodemverzadiging, bergingscapaciteit, meldingen openbare ruimte en schadegevallen. Al deze data kan bijdragen aan een grotere voorspelbaarheid van het systeem en kunnen gebruikt worden in simulatiemodellen.
-
-In de afbeelding hieronder is weergegeven welke aspecten een rol spelen bij Wateroverlast. Van links naar rechts is het thema "Wateroverlast" specifieker gemaakt en uitgewerkt. Allereerst met de deelonderwerpen, zoals overstromingen, schade of piekbuien. Vervolgens is bij elk van deze deelonderwerpen aangegeven welke data relevant kunnen zijn, wie de data bezitten, of er standaarden voor zijn en waar de data gevonden kan worden. Door bij elk beleidsthema een vergelijkbare gestructureerde aanpak te kiezen, is het mogelijk  stap voor stap de achterliggende bronnen in kaart te brengen. Dat hebben we hieronder geillustreerd met een aantal voorbeelden.
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Wateriverlast_image.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-### Voorbeeld 1
-De gemeente Utrecht gebruikt een applicatie Slim Melden waarmee zij meldingen van inwoners verzamelen. Eén van de categorieën waarover een melding gedaan kan worden, is wateroverlast.
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-In de afgelopen 2,5 jaar zijn in totaal meer dan 160.000 meldingen verzameld. Deze meldingen zijn beschikbaar als open data en kunnen dus door iedereen gebruikt worden (en worden gecombineerd met andere data. Hieronder staat een voorbeeld van een dashboard van de gemeente Utrecht, waarbij de categorie wateroverlast is geselecteerd. 
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-#### Aandachtspunten
-* dit is de data van één gemeente en categorieën verschillen per gemeente (hetgeen de vergelijkbaarheid bemoeilijkt)
-* het aantal meldingen hoeft niet te corresponderen met de werkelijke overlast (alleen gemotiveerde/gedupeerde inwoners hebben een melding gedaan)
-* VNG Realisatie is bezig met een standaard voor Meldingen Openbare Ruimte. Wanneer alle data van elke gemeente in hetzelfde formaat beschikbaar is, ontstaan er meer mogelijkheden om de data met elkaar te vergelijken.
-
-Ondanks alle beperkingen kan deze informatie een eerste beeld opleveren waar zich problemen met wateroverlast voordoen in stedelijk gebied.
-Een vervolgstap is om deze data te combineren met weersgegevens (KNMI), zodat een relatie gelegd kan worden met extreme neerslag, de Algemene Hoogtekaart Nederland (AHN) en de BGT (verharding).
-
-Techniek:
-* Hoe zorgen we ervoor dat de AHN, BGT en KNMI data permanent beschikbaar zijn (dus periodiek geupdate worden)
-
-In toenemende mate is er sprake van real time data.
-
-
-### Voorbeeld 2
-
-De provincie Utrecht voet een project uit om de luchtkwaliteit en fietsroutes in kaart te brengen. In 2019 krijgen 500 fietsers een meetkastje (mobiele sensor) waarmee elke 10 seconden de luchtkwaliteit en GPS-positie wordt gemeten. Elke 2 minuten wordt de data via een standaard protocol (NB-IoT of LTE) verstuurd naar een dataplatform. De data die wordt verzameld wordt ook naar het RIVM gezonden om de gegevens te valideren tov het officiële landelijke meetnet. De gecorrigeerde gegevens worden eveneens op een dataplatform opgeslagen en beschikbaar gesteld als open data.
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-In feite is het achterliggende proces voor elk sensorproject vergelijkbaar, zoals hieronder schematisch is weergegeven. Sensoren versturen de data via een gateway naar een dataplatform. Daar wordt de data in een herbruikbaar, open formaat omgezet, zodat het kan worden hergebruikt voor nieuwe toepassingen. 
-
-Publicatie als open data is een keuze die de eigenaar van de data maakt. Op een vergelijkbare manier heeft de gemeente Utrecht bijvoorbeeld 50 invalideparkeerplaatsen voorzien van een sensor. Elke statuswijziging (vrij-bezet) wordt als nieuw record opgeslagen, zodat er een set historische data wordt opgebouwd die gebruikt kan worden voor analyse en eventuele aanpassing van beleid.
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>

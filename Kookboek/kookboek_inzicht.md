@@ -4,6 +4,10 @@ title: Inzicht verkrijgen
 sidebar_label: Inzicht verkrijgen
 ---
 
+> Om tot een meetbaar omgevingsbeleid te komen is data nodig. Maar welke data is relevant? En wat is de kwaliteit? En is data aanwezig?
+
+Er is zeer veel data beschikbaar. Hoe je deze data waardeert, is een heel andere vraag. Op voorhand is de inhoud, kwaliteit, relevantie of bruikbaarheid niet altijd duidelijk. Een goed fundament voor datagedreven beleid begint daarom met het creëren van inzicht in deze aspecten. Het maakt data meetbaar, waardoor beleid controleerbaar en analyseerbaar kan worden en dus transparant.
+
 In de afbeelding hieronder is een aantal aspecten weergegeven die een rol spelen bij Wateroverlast. Van links naar rechts is het thema "Wateroverlast" specifieker gemaakt en uitgewerkt. Allereerst met de deelonderwerpen, zoals overstromingen, schade of piekbuien. Vervolgens is bij elk van deze deelonderwerpen aangegeven welke data relevant kunnen zijn, wie de data bezitten, of er standaarden voor zijn en waar de data gevonden kan worden. Door bij elk beleidsthema een vergelijkbare gestructureerde aanpak te kiezen, is het mogelijk stap voor stap de achterliggende bronnen in kaart te brengen.
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/Wateriverlast_image.png" target="_blank" alt="imageStyle: Wateroverlas"/>

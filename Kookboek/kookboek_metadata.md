@@ -6,7 +6,7 @@ sidebar_label: Metadata
 
 Een andere belangrijke hulp bij het bepalen van de kwaliteit en mogelijke relevantie van een dataset, is metadata. 
 
-Als je de gebruikers van de data niet vertelt wat het is, hoe actueel het is en hoe het kan worden gebruikt, hoe kun je dan verwachten dat ze het effectief gebruiken?
+> Als je de gebruikers van de data niet vertelt wat het is, hoe actueel het is en hoe het kan worden gebruikt, hoe kun je dan verwachten dat ze het effectief gebruiken?
 
 Metadata is de beschrijvende informatie over de gegevens zelf. De basiskenmerken van metagegevens vertellen wat de gegevens zijn, hoe de gegevens moeten worden geïnterpreteerd voor gebruik en hoe de gegevens werden opgesteld. Hoe metagegevens worden toegevoegd aan een databron, verschilt van formaat tot formaat verschillen. Soms is het een bijbehorend bestand (bijv. leesmij.txt of een PDF), of een extra tabel in de database of het tabblad in een Excel-spreadsheet met meerdere tekst- of notitievelden met beschrijvende en contactgegevens. 
 
@@ -27,4 +27,4 @@ Voor geografische data is er de ISO 19115-standaard. Op de site van Geonovum is 
 * Updatefrequentie: hoe 'oud' is de data en hoe vaak wordt deze bijgewerkt? Dit betekent niet dat elke databron elke maand bijgewerkt moet worden, want voor een hoop databronnen is dat ook niet haalbaar of nuttig. Maar het is wel belangrijk om te weten wat de frequentie is en of dit past bij het doel waarvoor de bron gebruikt gaat worden. Stel dat het doel binnen 8 jaar behaald gaat worden, maar de frequentie ligt op 10 jaar dan is deze bron niet geschikt. Of als het om een eenmalige databron gaat, dan kan het zijn dat deze, ondanks de goede kwaliteit, toch niet bruikbaar is.
 * Dekking: beslaat de data het gebied of de tijdsperiode waarover het gaat? Vaak is het namelijk wel mogelijk om een goede databron te vinden, maar die is niet dekkend voor het hele gebied. Of voor een hele period.
 
-Naast meta-data, zijn datamodellen een andere belangrijke manier om de kwaliteit van een databron te bepalen en te verbeteren.
+Naast metadata, zijn datamodellen een andere belangrijke manier om de kwaliteit van een databron te bepalen en te verbeteren.

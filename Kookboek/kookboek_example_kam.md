@@ -109,6 +109,3 @@ De verkoeling door bomen is met de huidige constantes zodanig minimaal dat die w
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/heat.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/twi.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-
-=== work in progress ===

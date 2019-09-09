@@ -15,11 +15,9 @@ Een aantal voorbeelden van (standaard) services zijn:
 2.	Voor real time data zijn er standaarden van FIWARE
 3.	Voor het omgevingsbeleid is er een API-strategie in ontwikkeling
 
-Voor geo-informatie (en direct van belang in het kader van de Omgevinsgwet), is de INSPIRE-plicht. INSPIRE is een Europese richtlijn voor het beschikbaar stellen van geo-informatie. Dat gebeurt nu op verschillende niveaus, onder meer via het Nationaal Geo Register. Een deel van de gegevens en informatieproducten die in de context van de Omgevingswet beschikbaar moeten komen, vallen onder INSPIRE en zullen conform die standaarden beschikbaar moeten worden gesteld. Een reden te meer om goed na te denken over een catalogus om de (interne) informatie te registeren en beheren.
+Voor geo-informatie (en direct van belang in het kader van de Omgevingswet), is de INSPIRE-plicht. INSPIRE is een Europese richtlijn voor het beschikbaar stellen van geo-informatie. Dat gebeurt nu op verschillende niveaus, onder meer via het Nationaal Geo Register. Een deel van de gegevens en informatieproducten die in de context van de Omgevingswet beschikbaar moeten komen, vallen onder INSPIRE en zullen conform die standaarden beschikbaar moeten worden gesteld. Een reden te meer om goed na te denken over een catalogus om de (interne) informatie te registeren en beheren.
 
 Het doel van data ontsluiting is dat de gegevens gebruikt worden voor nieuwe toepassingen. Zoals een klimaatatlas, 3D-model of app. Door de ontsluiting van data te scheiden van de toepassingen, wordt ook aangesloten bij de visie die VNG Realisatie heeft geformuleerd onder de naam "Common Ground" (https://vng.nl/samen-organiseren/common-ground). 
-
-*Korte introductie voorbeeld en waar het betrekking op heeft*
 
 [^1]: Difference between API and Webservice: https://medium.com/@programmerasi/difference-between-api-and-web-service-73c873573c9d
 [^2]: OGC-standaarden - http://www.opengeospatial.org/docs/is

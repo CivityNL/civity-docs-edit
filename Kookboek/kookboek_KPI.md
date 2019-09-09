@@ -7,7 +7,7 @@ sidebar_label: Kritieke prestatie-indicator (KPI)
 
 In het Engels worden deze aangeduid als key performance indicators. Kritieke prestatie-indicatoren zijn variabelen waaraan valt af te lezen of een organisatie op koers ligt ten opzichte van haar doelstellingen.
 
-Met andere woorden: een KPI is simpele analyze van je beleid. Dit betekent niet dat een beleid goed of slecht is, maar kan wel een indicatie geven dat er misschien factoren zijn die over het hoofd zijn gezien of juist dat het precies doet wat was verwacht. Om goed met dit soort indicatoren te werken moeten ze aan een aantal eisen voldoen:
+Met andere woorden: een KPI is simpele analyse van je beleid. Dit betekent niet dat een beleid goed of slecht is, maar kan wel een indicatie geven dat er misschien factoren zijn die over het hoofd zijn gezien of juist dat het precies doet wat was verwacht. Om goed met dit soort indicatoren te werken moeten ze aan een aantal eisen voldoen:
 
 * Specifiek: het moet duidelijk zijn wat het doel is en waar een indicator voor staat. Het aantal leerlingen is bijvoorbeeld te vaag, maar het aantal studenten aan een universiteit is weer een stuk specifieker. Of zeg dat het gaat om alle onderwijsinstellingen. 
 * Meetbaar: het moet kwantificeerbaar zijn en ook te vergelijken met een doelstelling. Dus het percentage oppervlakte verharding met als doel om dit te verlagen naar 50%. Of in het geval van een gevoel een cijfer gebaseerd op een specifieke vragenlijst.
@@ -15,7 +15,7 @@ Met andere woorden: een KPI is simpele analyze van je beleid. Dit betekent niet 
 * Realistisch: een doel moet wel uitvoerbaar zijn. 
 * Tijdgebonden: een doel moet binnen een bepaalde tijd gehaald worden.
 
-Door hiermee te werken zijn doelen concreet gemaakt en dus de mogelijkheid gecreeerd om hierbij databronnen te vinden (of te maken) die hierbij aansluiten.
+Door hiermee te werken zijn doelen concreet gemaakt en dus de mogelijkheid gecreëerd om hierbij databronnen te vinden (of te maken) die hierbij aansluiten.
 
 Diverse steden hebben al oplossingen bedacht om hun beleid te monitoren. Hieronder is een aantal voorbeelden beschreven. [^2]
 
@@ -43,9 +43,6 @@ De ontwikkeling van duidelijke KPI’s in relatie tot beleidsdoelstellingen is o
 * gemiddelde snelheid fietsverkeer
 
 **Voorbeeld Urban Strategy: cycleprint**
-
-
-
 
 [^1]: [Kritieke prestatie indicator](https://nl.wikipedia.org/wiki/Kritieke_prestatie-indicator)
 [^2]: [Edmonton Citizen Dashboard](https://dashboard.edmonton.ca/)
