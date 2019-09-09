@@ -8,6 +8,18 @@ Het snuffelfiets project is een initatief vanuit de provincie Utrecht om samen m
 
 In dit project is het idee dat burgers met deze simpele sensoren rond gaan fietsen, zodat met betrekkelijk weinig sensoren een grote dekking kan worden verkregen. Zodra deze dekking bekend is zouden dan eventueel meer exactere sensoren geplaatst kunnen worden op kritieke plekken, zodat er geen onnodige bestedingen worden gedaan.
 
+## Van beleid naar meting
+
+De provincie Utrecht voet een project uit om de luchtkwaliteit en fietsroutes in kaart te brengen. In 2019 krijgen 500 fietsers een meetkastje (mobiele sensor) waarmee elke 10 seconden de luchtkwaliteit en GPS-positie wordt gemeten. Elke 2 minuten wordt de data via een standaard protocol (NB-IoT of LTE) verstuurd naar een dataplatform. De data die wordt verzameld wordt ook naar het RIVM gezonden om de gegevens te valideren tov het officiële landelijke meetnet. De gecorrigeerde gegevens worden eveneens op een dataplatform opgeslagen en beschikbaar gesteld als open data.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+
+In feite is het achterliggende proces voor elk sensorproject vergelijkbaar, zoals hieronder schematisch is weergegeven. Sensoren versturen de data via een gateway naar een dataplatform. Daar wordt de data in een herbruikbaar, open formaat omgezet, zodat het kan worden hergebruikt voor nieuwe toepassingen. 
+
+Publicatie als open data is een keuze die de eigenaar van de data maakt. Op een vergelijkbare manier heeft de gemeente Utrecht bijvoorbeeld 50 invalideparkeerplaatsen voorzien van een sensor. Elke statuswijziging (vrij-bezet) wordt als nieuw record opgeslagen, zodat er een set historische data wordt opgebouwd die gebruikt kan worden voor analyse en eventuele aanpassing van beleid.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+
 ## Van meting naar data
 
 Wat houd zo'n meting nou precies in? Simpel gezegd stuurt zo'n sensor elke 10 seconde een setje van meetwaardes die in die tijdspanne zijn waargenomen. Al deze metingen worden in een grote dataset verzamelt, die als bron kan worden gebruikt.

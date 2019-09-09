@@ -4,7 +4,7 @@ title: Inzicht verkrijgen
 sidebar_label: Inzicht verkrijgen
 ---
 
-In de afbeelding hieronder is een aantal aspecten weergegeven die een rol spelen bij Wateroverlast. Van links naar rechts is het thema "Wateroverlast" specifieker gemaakt en uitgewerkt. Allereerst met de deelonderwerpen, zoals overstromingen, schade of piekbuien. Vervolgens is bij elk van deze deelonderwerpen aangegeven welke data relevant kunnen zijn, wie de data bezitten, of er standaarden voor zijn en waar de data gevonden kan worden. Door bij elk beleidsthema een vergelijkbare gestructureerde aanpak te kiezen, is het mogelijk stap voor stap de achterliggende bronnen in kaart te brengen. Link naar voorbeelden 1 en 2.
+In de afbeelding hieronder is een aantal aspecten weergegeven die een rol spelen bij Wateroverlast. Van links naar rechts is het thema "Wateroverlast" specifieker gemaakt en uitgewerkt. Allereerst met de deelonderwerpen, zoals overstromingen, schade of piekbuien. Vervolgens is bij elk van deze deelonderwerpen aangegeven welke data relevant kunnen zijn, wie de data bezitten, of er standaarden voor zijn en waar de data gevonden kan worden. Door bij elk beleidsthema een vergelijkbare gestructureerde aanpak te kiezen, is het mogelijk stap voor stap de achterliggende bronnen in kaart te brengen.
 
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/Wateriverlast_image.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 
