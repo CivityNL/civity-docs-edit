@@ -1,10 +1,35 @@
 ---
 id: kookboek_example_wateroverlast
-title: Voorbeeld toepassing - Wateroverlast
-sidebar_label: Wateroverlast
+title: [RECEPT] Evalueerbaar - voorbeeld toepassing - Wateroverlast
+sidebar_label: [RECEPT] Evalueerbaar
 ---
 
+> Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'
+
 De impact van wateroverlast op de samenleving zal de komende jaren alleen maar toenemen zoals uitgebreid is beschreven in [Wateroverlast](kookboek_wateroverlast.md). Hierin is ook de link gelegd naar de Meldingen Openbare Ruimte (MOR) als een bruikbare databron. In dit document zal hier verder op in worden gegaan en ook een combinatie gemaakt worden met de weersdata van het KNMI. Een uitgebreide kijk in de data van het KNMI is te vinden onder [Voorbeeld dataset - KNMI](kookboek_data_knmi.md)
+
+## Van beleid naar data
+
+De gemeente Utrecht gebruikt een applicatie Slim Melden waarmee zij meldingen van inwoners verzamelen. Eén van de categorieën waarover een melding gedaan kan worden, is wateroverlast.
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+
+In de afgelopen 2,5 jaar zijn in totaal meer dan 160.000 meldingen verzameld. Deze meldingen zijn beschikbaar als open data en kunnen dus door iedereen gebruikt worden (en worden gecombineerd met andere data. Hieronder staat een voorbeeld van een dashboard van de gemeente Utrecht, waarbij de categorie wateroverlast is geselecteerd. 
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+
+#### Aandachtspunten
+* dit is de data van één gemeente en categorieën verschillen per gemeente (hetgeen de vergelijkbaarheid bemoeilijkt)
+* het aantal meldingen hoeft niet te corresponderen met de werkelijke overlast (alleen gemotiveerde/gedupeerde inwoners hebben een melding gedaan)
+* VNG Realisatie is bezig met een standaard voor Meldingen Openbare Ruimte. Wanneer alle data van elke gemeente in hetzelfde formaat beschikbaar is, ontstaan er meer mogelijkheden om de data met elkaar te vergelijken.
+
+Ondanks alle beperkingen kan deze informatie een eerste beeld opleveren waar zich problemen met wateroverlast voordoen in stedelijk gebied.
+Een vervolgstap is om deze data te combineren met weersgegevens (KNMI), zodat een relatie gelegd kan worden met extreme neerslag, de Algemene Hoogtekaart Nederland (AHN) en de BGT (verharding).
+
+Techniek:
+* Hoe zorgen we ervoor dat de AHN, BGT en KNMI data permanent beschikbaar zijn (dus periodiek geupdate worden)
+
+In toenemende mate is er sprake van real time data.
 
 ## Van data naar informatie
 

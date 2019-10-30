@@ -1,8 +1,10 @@
 ---
 id: kookboek_data_knmi
-title:  Voorbeeld dataset - KNMI
-sidebar_label:  Voorbeeld dataset - KNMI
+title: [RECEPT] Meetbaar - Voorbeeld dataset - KNMI
+sidebar_label: [RECEPT] Meetbaar - KNMI
 ---
+
+> Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'
 
 In dit voorbeeld behandelen we data die verkrijgbaar is bij het KNMI. Als het gaat om het weer en het klimaat, biedt het KNMI waardevolle open data. We laten in dit voorbeeld de voorspellingen links liggen en kijken alleen naar de meetwaarden die het KNMI verzamelt met alle weerstations. Deze data, met uitgebreide opties zoals uur-, dag- en bodemwaarden, zijn te vinden op de site van het KNMI: [Klimatologie - Metingen en waarnemingen](https://www.knmi.nl/nederland-nu/klimatologie-metingen-en-waarnemingen).   
 
