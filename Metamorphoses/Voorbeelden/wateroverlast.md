@@ -39,7 +39,7 @@ Uit onze definitie is er maar 1 KPI te formuleren:
 Met als extra actiepunt het bijhouden van de neerslag in deze periode.
 
 ### Stap 3: Verzamelen
-> Hoe vindt je de gewenste data om deze indicatoren te berekenen [[meer informatie]](../metamorphoses_stap_3)
+> Hoe vind je de gewenste data om deze indicatoren te berekenen [[meer informatie]](../metamorphoses_stap_3)
 
 Vaak begint de zoektocht bij een van de algemene databibliotheken zoals data.overheid.nl of pdok.nl, maar soms is ook al bekend bij wat voor andere instanties de data te vinden is. Afhankelijk van het gebied kan dat een of meerdere gemeentes zijn.
 
@@ -62,7 +62,7 @@ Het KNMI heeft maar een beperkt aantal weerstations verdeelt over Nederland. Het
 
 #### Meldingen Openbare Ruimte
 
-Deze databron kan verschillen per gemeente of instantie, maar over het algemeen bevatten deze een locatie, een tijdstip van de melding en een categorie. De locatie kan een adres of GPS locatie zijn, het tijdstip kan varieren tussen de melding of de oorzaak van de melding en de categorieren kunnen verschillen per overheid. Ook is dit een subjectieve dataset, in de zin van dat een melding altijd gedaan wordt door een burger die daar een reden voor heeft. Met andere woorden, niet elke melding betekent dat er ook echt overlast is en geen meldingen betekent ook niet altijd dat er geen overlast is. Net als de dataset van het KNMI zal deze ook onderhevig aan interne of externe veranderingen (manieren van verwerken, makkerlijkere interface voor de burgers, etc.). Zie ook de verdieping hieronder
+Deze databron kan verschillen per gemeente of instantie, maar over het algemeen bevatten deze een locatie, een tijdstip van de melding en een categorie. De locatie kan een adres of GPS locatie zijn, het tijdstip kan varieren tussen de melding of de oorzaak van de melding en de categorieren kunnen verschillen per overheid. Ook is dit een subjectieve dataset, in de zin van dat een melding altijd gedaan wordt door een burger die daar een reden voor heeft. Met andere woorden, niet elke melding betekent dat er ook echt overlast is en geen meldingen betekent ook niet altijd dat er geen overlast is. Net als de dataset van het KNMI zal deze ook onderhevig aan interne of externe veranderingen (manieren van verwerken, makkerlijkere interface voor de burgers, etc.).
 
 #### Buurtverdelingen CSB
 
