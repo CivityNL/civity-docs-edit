@@ -58,12 +58,27 @@ Latest release version of Dataplatform
 <table class="versions">
     <tbody>
         <tr>
-            <th>4.0.0</th>
-            <td>
+            <th>4.1.0</th>
+            <!-- <td>
                 <a href="#">Documentation</a>
-            </td>
+            </td> -->
             <td>
-                <a href="https://gitlab.onetrail.net/Civity/SlimMelden/SlimMeldenApp/tree/master" target="_blank">Release Notes</a> (login required)
+                <a href="Release_Notes\releaseNotes-SM-Web.html">Release Notes</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### Mobile
+<table class="versions">
+    <tbody>
+        <tr>
+            <th>4.1.6</th>
+            <!-- <td>
+                <a href="#">Documentation</a>
+            </td> -->
+            <td>
+                <a href='Release_Notes\releaseNotes-SM-Mobile.html'>Release Notes</a>
             </td>
         </tr>
     </tbody>
