@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_voorbeeld_wateroverlast
-title: WIP - Wateroverlast
-sidebar_label: WIP - Wateroverlast
+title: Wateroverlast
+sidebar_label: Wateroverlast
 ---
 
 > Dit is een praktisch voorbeeld waarbij getracht is zoveel mogelijk stappen uitgebreid te behandelen. Daardoor zal dit niet altijd een goed beeld geven van de werkelijkheid en is dus puur illustratief bedoeld.
@@ -12,34 +12,36 @@ De impact van wateroverlast op de samenleving zal de komende jaren alleen maar t
 
 ## Aanleiding
 
+De gemeente Utrecht gebruikt een applicatie Slim Melden waarmee zij meldingen van inwoners verzamelen. Eén van de categorieën waarover een melding gedaan kan worden, is wateroverlast.
 
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+
+In de afgelopen 2,5 jaar zijn in totaal meer dan 160.000 meldingen verzameld. Deze meldingen zijn beschikbaar als open data en kunnen dus door iedereen gebruikt worden (en worden gecombineerd met andere data. Hieronder staat een voorbeeld van een dashboard van de gemeente Utrecht, waarbij de categorie wateroverlast is geselecteerd. 
+
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 
 ## Stappenplan
 
 Aan de hand van de vraagstelling hierboven zullen we nu het stappenplan doorlopen
 
 ### Stap 1: Concretizeren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_1)
+> Maak het vraagstuk concreet [[meer informatie]](../metamorphoses_stap_1)
 
 In dit scenario definieren we overlast als overlast waar een burger melding van maakt, waarbij we verwachten dat er een samenhang is tussen de hoeveelheid regen en het aantal meldingen om een verwachting te kunnen maken van waar overlast zal optreden.
 
 ### Stap 2: Formuleren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_2)
+> Vertaal de sleutelelementen in 1 of meerdere meetbare indicatoren [[meer informatie]](../metamorphoses_stap_2)
 
 Uit onze definitie is er maar 1 KPI te formuleren:
 
-- Het aantal meldingen in de openbare ruimte met betrekking tot wateroverlast per buurt verminderen met 20% over een periode van 4 jaar.
+- Het aantal meldingen in de openbare ruimte met betrekking tot wateroverlast per buurt per week verminderen met 20% over een periode van 4 jaar.
 
 Met als extra actiepunt het bijhouden van de neerslag in deze periode.
 
 ### Stap 3: Verzamelen
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_3)
+> Hoe vindt je de gewenste data om deze indicatoren te berekenen [[meer informatie]](../metamorphoses_stap_3)
+
+> TODO iets meer vertellen over hoe we bij deze bronnen zijn gekomen
 
 Vanwege ons uitgangspunt zijn de databronnen al bekend:
 
@@ -50,9 +52,7 @@ Vanwege ons uitgangspunt zijn de databronnen al bekend:
 Deze databronnen zullen als leidraad genomen worden in de vervolgstappen.
 
 ### Stap 4: Waarderen
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_4)
+> Vind je in de data de juiste gegevens voor het beantwoorden van je vraagstuk [[meer informatie]](../metamorphoses_stap_4)
 
 Alle databronnen hebben hun specifieke eigenschappen die in de gaten gehouden moeten worden bij het gebruik ervan:
 
@@ -69,9 +69,7 @@ Deze databron kan verschillen per gemeente of instantie, maar over het algemeen 
 Vanzelfsprekende dataset, waarbij hooguit gelet moet worden op variaties in buurten over tijd door veranderingen in samenstellingen. 
 
 ### Stap 5: Prepareren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_5)
+> Maak de data gereed voor gebruik [[meer informatie]](../metamorphoses_stap_5)
 
 In dit geval nemen we aan dat de buurtverdelingen gelijk zijn gebleven in onze periode. 
 
@@ -83,32 +81,57 @@ In het geval er meerdere meetstations moeten worden meegenomen voor het gebied v
 
 Deze dataset zal meer werk kosten. Zo zullen de categorieen niet altijd even eenvoudig in te delen zijn op wateroverlast (niet elke gemeente heeft zo'n categorie). Ook zullen in het geval van adressen deze 'vertaald' moeten worden naar een locatie om te kunnen combineren met de buurtverdelingen. 
 
-### Stap 6: Combineren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_6)
-### Stap 7: Verwerken
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_7)
-### Stap 8: Documenteren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_8)
-### Stap 9: Monitoren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_9)
-### Stap 10: Presenteren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_10)
-### Stap 11: Evalueren
-> remarks
->
-> [link naar stappenplan](../metamorphoses_stap_11)
+> TODO tijd van melding
 
-## Verdieping
+### Stap 6: Combineren
+> Combineer de data als dat nodig is [[meer informatie]](../metamorphoses_stap_6)
+
+> TODO simpel houden. Match (X,Y) met buurt
+
+### Stap 7: Verwerken
+> Bereken de KPI's [[meer informatie]](../metamorphoses_stap_7)
+
+> TODO aggregeren per week
+
+### Stap 8: Documenteren
+> Leg vast hoe het resultaat tot stand is gekomen [[meer informatie]](../metamorphoses_stap_8)
+
+> TODO Je kan dit document beschouwen als documentatie. In het geval van een datacatalogus zou je deze bronnen toevoegen. Uiteindelijk is het belangrijk dat men weet wat er is gebeurd en beredeneringen
+
+### Stap 9: Monitoren
+> Herhaal het proces [[meer informatie]](../metamorphoses_stap_9)
+
+> TODO Herhalen, script schrijven
+
+### Stap 10: Presenteren
+> Maak een rapport/dashboard/presentatie [[meer informatie]](../metamorphoses_stap_10)
+
+Nu bekend is wat de precieze informatie is (namelijk meldingen van problemen in de openbare ruimte door burgers die dit probleem ook waarnemen en vervelend vinden) kan deze informatie worden omgezet naar kennis. Of in ieder geval gepresenteert worden. Hieronder zijn een aantal voorbeelden uitgewerkt, waar ook de inzichten van de vorige stap aan bod komen. 
+
+#### Verdeling meldingen
+
+Een eerste stap om een idee te krijgen van de impact van wateroverlast is bekijken waar deze overlast nou voorkomt. Hieronder is een verdeling weergegeven van de meldingen in Utrecht in de categorie wateroverlast in de periode 9-8-2018 t/m 21-8-2019. Hoe minder transparant de blauwe kleur, des te minder meldingen er in dat gebied zijn gemaakt. Duidelijk is met name de Binnenstad en in mindere mate Vleuten, De Meern en Lunetten plekken zijn waar veel meldingen gemaakt worden. Hoe meer mensen ergens wonen, des te groter de kans dat er iemand is die alle 4 de stappen doorloopt om tot een melding te komen. Dus is deze verdeling zo wel representatief?
+
+![Verdeling van de meldingen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_wateroverlast_slimmelden_meldingen_cropped.png)
+
+#### Verdeling stemmen
+
+Hieronder staat een soortgelijke verdeling, maar nu in plaats van meldingen het aantal stemmen. Dit zijn dus meldingen waarvan andere burgers vinden dat ze dit ook een probleem vinden. Wat opvalt is dat dit tot een ander beeld leidt; nog steeds staat de Binnenstad bovenaan, maar Leidsche Rijn is nu ook opeens duidelijk aanwezig. 
+
+![Verdeling van de stemmen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_wateroverlast_slimmelden_stemmen_cropped.png)
+
+#### Meldingen en het weer
+
+Een andere aanpak is het vergelijken van de melden met weersgegevens, bijvoorbeeld de hoeveelheid regen op een dag versus het percentage meldingen over wateroverlast op die dag. In dit geval is het percentage een betere meetwaarde, om zo schommelingen per dag eruit te halen. Een dag met 100 meldingen in totaal waarvan 20 over wateroverlast telt dus in dat geval net zo zwaar als een dag met 25000 meldingen waarvan 5000 over wateroverlast. 
+
+Elk punt in de grafiek stelt hieronder stelt een dag voor met op de x-as het aantal mm regen dat die dag is gevallen en op de y-as het percentage meldingen over wateroverlast. In de periode 9-8-2018 t/m 21-8-2019 ligt het percentage dus tussen de 0% en de 18% en de etmaalsom tossen de 0 mm en de 42 mm.
+
+![Verdeling van de stemmen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_regenval_vs_meldingen.png)
+
+Wat opvalt is dat er geen duidelijke lijn te zien is tusen de meldingen en de neerslag. Het gros van de punten ligt linksonderin (geen regen, geen meldingen) en tussen de 10 en 15 mm regen lijkt het percentage meldingen toe te nemen, maar dit zet niet door. Sterker nog, voor alle dagen met meer dan 30 mm regen komt het percentage niet boven die met 0 mm regen. Maar wellicht is dit de verkeerde vergelijking: 30 mm op een dag kan betekenen dat het de hele dag zachtjes heeft geregend heeft (1 mm per uur) of dat er een korte maar heftige wolkbreuk is geweest (bv. 60 mm in een half uur). 
+
+### Stap 11: Evalueren
+> Evalueer de impact van het beleid op de data [[meer informatie]](../metamorphoses_stap_11)
 
 In de context van MOR zal de data bestaan uit een lijst van meldingen met minimaal een locatie, tijdstip en een beschrijving. In het geval van Slim Melden is dit nog eens uitgebreid met categorieen en eventuele foto's en stemmen. Stemmen betekent in dit geval burgers die dezelfde melding ook belangrijk vinden.
 
@@ -123,66 +146,13 @@ Er wordt expres een onderscheid gemaakt tussen **probleem in de Openbare Ruimte*
 
 Het is dus belangrijk om te zien hoe een dataset tot stand is gekomen. Het feit dat er geen meldingen zijn, betekent dus niet dat er geen probleem is. En de mate van burgerparticipatie heeft een belangrijke impact op hoe deze dataset eruit ziet.
 
-> Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'
-
-## Stap 1: Concretizeren
-
-## Van beleid naar data
-
-De gemeente Utrecht gebruikt een applicatie Slim Melden waarmee zij meldingen van inwoners verzamelen. Eén van de categorieën waarover een melding gedaan kan worden, is wateroverlast.
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-In de afgelopen 2,5 jaar zijn in totaal meer dan 160.000 meldingen verzameld. Deze meldingen zijn beschikbaar als open data en kunnen dus door iedereen gebruikt worden (en worden gecombineerd met andere data. Hieronder staat een voorbeeld van een dashboard van de gemeente Utrecht, waarbij de categorie wateroverlast is geselecteerd. 
-
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_1_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-
-#### Aandachtspunten
+#### Aandachtspunten Meldingen Openbare Ruimte
 * dit is de data van één gemeente en categorieën verschillen per gemeente (hetgeen de vergelijkbaarheid bemoeilijkt)
 * het aantal meldingen hoeft niet te corresponderen met de werkelijke overlast (alleen gemotiveerde/gedupeerde inwoners hebben een melding gedaan)
 * VNG Realisatie is bezig met een standaard voor Meldingen Openbare Ruimte. Wanneer alle data van elke gemeente in hetzelfde formaat beschikbaar is, ontstaan er meer mogelijkheden om de data met elkaar te vergelijken.
 
-Ondanks alle beperkingen kan deze informatie een eerste beeld opleveren waar zich problemen met wateroverlast voordoen in stedelijk gebied.
-Een vervolgstap is om deze data te combineren met weersgegevens (KNMI), zodat een relatie gelegd kan worden met extreme neerslag, de Algemene Hoogtekaart Nederland (AHN) en de BGT (verharding).
-
-Techniek:
-* Hoe zorgen we ervoor dat de AHN, BGT en KNMI data permanent beschikbaar zijn (dus periodiek geupdate worden)
-
-In toenemende mate is er sprake van real time data.
-
-## Van data naar informatie
-
-
-
-## Van informatie naar presentatie
-
-Nu bekend is wat de precieze informatie is (namelijk meldingen van problemen in de openbare ruimte door burgers die dit probleem ook waarnemen en vervelend vinden) kan deze informatie worden omgezet naar kennis. Of in ieder geval gepresenteert worden. Hieronder zijn een aantal voorbeelden uitgewerkt, waar ook de inzichten van de vorige stap aan bod komen. 
-
-### Verdeling meldingen
-
-Een eerste stap om een idee te krijgen van de impact van wateroverlast is bekijken waar deze overlast nou voorkomt. Hieronder is een verdeling weergegeven van de meldingen in Utrecht in de categorie wateroverlast in de periode 9-8-2018 t/m 21-8-2019. Hoe minder transparant de blauwe kleur, des te minder meldingen er in dat gebied zijn gemaakt. Duidelijk is met name de Binnenstad en in mindere mate Vleuten, De Meern en Lunetten plekken zijn waar veel meldingen gemaakt worden. Hoe meer mensen ergens wonen, des te groter de kans dat er iemand is die alle 4 de stappen doorloopt om tot een melding te komen. Dus is deze verdeling zo wel representatief?
-
-![Verdeling van de meldingen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_wateroverlast_slimmelden_meldingen_cropped.png)
-
-### Verdeling stemmen
-
-Hieronder staat een soortgelijke verdeling, maar nu in plaats van meldingen het aantal stemmen. Dit zijn dus meldingen waarvan andere burgers vinden dat ze dit ook een probleem vinden. Wat opvalt is dat dit tot een ander beeld leidt; nog steeds staat de Binnenstad bovenaan, maar Leidsche Rijn is nu ook opeens duidelijk aanwezig. 
-
-![Verdeling van de stemmen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_wateroverlast_slimmelden_stemmen_cropped.png)
-
-### Meldingen en het weer
-
-Een andere aanpak is het vergelijken van de melden met weersgegevens, bijvoorbeeld de hoeveelheid regen op een dag versus het percentage meldingen over wateroverlast op die dag. In dit geval is het percentage een betere meetwaarde, om zo schommelingen per dag eruit te halen. Een dag met 100 meldingen in totaal waarvan 20 over wateroverlast telt dus in dat geval net zo zwaar als een dag met 25000 meldingen waarvan 5000 over wateroverlast. 
-
-Elk punt in de grafiek stelt hieronder stelt een dag voor met op de x-as het aantal mm regen dat die dag is gevallen en op de y-as het percentage meldingen over wateroverlast. In de periode 9-8-2018 t/m 21-8-2019 ligt het percentage dus tussen de 0% en de 18% en de etmaalsom tossen de 0 mm en de 42 mm.
-
-![Verdeling van de stemmen in Utrecht over wateroverlast in de periode 9-8-2018 t/m 21-8-2019](assets/Kookboek/kookboek_example_wateroverlast_regenval_vs_meldingen.png)
-
-Wat opvalt is dat er geen duidelijke lijn te zien is tusen de meldingen en de neerslag. Het gros van de punten ligt linksonderin (geen regen, geen meldingen) en tussen de 10 en 15 mm regen lijkt het percentage meldingen toe te nemen, maar dit zet niet door. Sterker nog, voor alle dagen met meer dan 30 mm regen komt het percentage niet boven die met 0 mm regen. Maar wellicht is dit de verkeerde vergelijking: 30 mm op een dag kan betekenen dat het de hele dag zachtjes heeft geregend heeft (1 mm per uur) of dat er een korte maar heftige wolkbreuk is geweest (bv. 60 mm in een half uur). 
-
+#### Aandachtspunten Weergegevens
 - Juiste maatstaf: wat is een goede voorspeller voor wateroverlast? Is dat toch de etmaalsom, of is het toch beter om de maximale regenval per uur te gebruiken. En hoe vergelijk je die met meldingen? Als het de avond ervoor zwaar geregend heeft, moeten de meldingen van de dag erop dan meegenomen worden met de dag ervoor? Maar in welke mate dan?
 - Gebrek aan metingen: het aantal dagen met een hoge etmaalsom zijn schaarser, waardoor het lastig is om het gedrag van de burgers in te schatten vanuit de beschikbare gegevens.
 - Verwachting van de burger: hoe ervaart een burger een bui? Het zou kunnen zijn dat een burger bij een heftige bui wateroverlast als vanzelfsprekend beschouwt en het dan dus niet als een probleem ervaart, terwijl een relatief kleinere bui die wateroverlast veroorzaakt meer opvalt en dus eerder zal worden gemeld.
 - Geen waarnemingen: mensen blijven misschien binnen met slecht weer en nemen daardoor minder waar.
-
-Vanuit een statistisch oogpunt kan worden gezegd dat er een redelijke correlatie is tussen de regenval en het percentage, maar dat regenval alleen niet genoeg verklaard om een voorspelling te kunnen geven. Dat betekent dat er andere (belangrijkere) maatstaffen zullen gevonden moeten worden om daadwerkelijk iets te kunnen zeggen.
