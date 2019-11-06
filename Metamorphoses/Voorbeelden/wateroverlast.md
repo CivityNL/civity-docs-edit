@@ -41,7 +41,7 @@ Met als extra actiepunt het bijhouden van de neerslag in deze periode.
 ### Stap 3: Verzamelen
 > Hoe vindt je de gewenste data om deze indicatoren te berekenen [[meer informatie]](../metamorphoses_stap_3)
 
-> TODO iets meer vertellen over hoe we bij deze bronnen zijn gekomen
+Vaak begint de zoektocht bij een van de algemene databibliotheken zoals data.overheid.nl of pdok.nl, maar soms is ook al bekend bij wat voor andere instanties de data te vinden is. Afhankelijk van het gebied kan dat een of meerdere gemeentes zijn.
 
 Vanwege ons uitgangspunt zijn de databronnen al bekend:
 
@@ -79,29 +79,27 @@ In het geval er meerdere meetstations moeten worden meegenomen voor het gebied v
 
 #### Meldingen Openbare Ruimte
 
-Deze dataset zal meer werk kosten. Zo zullen de categorieen niet altijd even eenvoudig in te delen zijn op wateroverlast (niet elke gemeente heeft zo'n categorie). Ook zullen in het geval van adressen deze 'vertaald' moeten worden naar een locatie om te kunnen combineren met de buurtverdelingen. 
-
-> TODO tijd van melding
+Deze dataset zal meer werk kosten. Zo zullen de categorieen niet altijd even eenvoudig in te delen zijn op wateroverlast (niet elke gemeente heeft zo'n categorie). Ook zullen in het geval van adressen deze 'vertaald' moeten worden naar een locatie om te kunnen combineren met de buurtverdelingen. Ook hoeft de tijd van melding niet het tijdstip van oorzaak te zijn. Denk aan een kelder die volgestroomd is, waarvan de eigenaar 's ochtends melding doen terwijl de oorzaak de hevige regenbui in de avond van de dag ervoor was.
 
 ### Stap 6: Combineren
 > Combineer de data als dat nodig is [[meer informatie]](../metamorphoses_stap_6)
 
-> TODO simpel houden. Match (X,Y) met buurt
+Match elke melding aan de bijbehorende buurt gebaseerd op de locatie.
 
 ### Stap 7: Verwerken
 > Bereken de KPI's [[meer informatie]](../metamorphoses_stap_7)
 
-> TODO aggregeren per week
+Aggregeer deze meldingen per buurt over een bepaalde periode (bijvoorbeeld per week)
 
 ### Stap 8: Documenteren
 > Leg vast hoe het resultaat tot stand is gekomen [[meer informatie]](../metamorphoses_stap_8)
 
-> TODO Je kan dit document beschouwen als documentatie. In het geval van een datacatalogus zou je deze bronnen toevoegen. Uiteindelijk is het belangrijk dat men weet wat er is gebeurd en beredeneringen
+Dit document zou beschouwd kunnen worden als documentatie. In het geval van een datacatalogus zou je deze bronnen toevoegen. Uiteindelijk is het belangrijk dat men weet wat er is gebeurd en welke beredeneringen en aannames zijn gedaan om bij het resultaat te komen. Dit om transparantie en reproduceerbaarheid te verbeteren.
 
 ### Stap 9: Monitoren
 > Herhaal het proces [[meer informatie]](../metamorphoses_stap_9)
 
-> TODO Herhalen, script schrijven
+Herhaal de bovenstaande stappen om een tijdsbeeld te krijgen van het verloop om het beleid te monitoren. Denk hierbij ook aan het maken van een script dat dit proces geautomatiseerd doet. Hou in dat geval rekening met eventuele veranderingen van databronnen (bijvoorbeeld datasets per jaar die elk jaar een nieuwe naam krijgen) of aanpassingen in de berekeningen.
 
 ### Stap 10: Presenteren
 > Maak een rapport/dashboard/presentatie [[meer informatie]](../metamorphoses_stap_10)
