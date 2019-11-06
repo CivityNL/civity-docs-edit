@@ -58,7 +58,7 @@ Latest release version of Dataplatform
 <table class="versions">
     <tbody>
         <tr>
-            <th>4.0.0</th>
+            <th>4.1.0</th>
             <!-- <td>
                 <a href="#">Documentation</a>
             </td> -->
