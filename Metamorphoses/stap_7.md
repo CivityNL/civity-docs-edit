@@ -4,12 +4,11 @@ title: Stap 7: Verwerken van data
 sidebar_label: Stap 7: Verwerken
 ---
 
-Nu de data op orde is, kun je starten met berekenen de KPI.
-Analyse van de data, bv 83% verharding
-Aggregeren van data, bv. op wijkcode, levensstandaard
-FIT, model, simulatie, interpolatie, bereken xxx, 
+Na het [prepareren](stap_5.md) en eventueel [combineren](stap_6.md) van de gevonden databronnen, is de volgende stap het verwerken van de data, dit wil zeggen de feitelijke analyse van de data. 
 
-Data bieden slechts een modelweergave van de werkelijkheid. [[Meer over data in context]](https://www.docs.civity.nl/docs/Kookboek/kookboek_data_context)
++ Analyse van de data, bv 83% verharding
++ Aggregeren van data, bv. op wijkcode, levensstandaard
++ FIT, model, simulatie, interpolatie, bereken xxx, 
 
 Meer over ontsluiten en beschikbaar maken van data 
 https://www.docs.civity.nl/docs/Kookboek/kookboek_DataOntsluiting

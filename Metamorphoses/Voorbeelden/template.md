@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_voorbeeld_template
-title: WIP
-sidebar_label: WIP
+title: Voorbeeld template
+sidebar_label: Voorbeeld template
 ---
 
 > Dit is een praktisch voorbeeld waarbij getracht is zoveel mogelijk stappen uitgebreid te behandelen. Daardoor zal dit niet altijd een goed beeld geven van de werkelijkheid en is dus puur illustratief bedoeld.

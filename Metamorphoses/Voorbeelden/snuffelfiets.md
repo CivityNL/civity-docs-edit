@@ -1,6 +1,6 @@
 ---
 id: metamorphoses_voorbeeld_snuffelfiets
-title:  WIP
+title:  Snuffelfiets
 sidebar_label:  Snuffelfiets
 ---
 

@@ -8,7 +8,9 @@ Vertaal de sleutelelementen in 1 of meerdere meetbare indicatoren.
 Gebruik kritieke prestatie-indicatoren (KPI’s) om meetbare doelstellingen te kunnen formuleren, met een waarde per tijdsperiode. Beleid is dan te monitoren. [link Op die manier xxxx, objectief, meetbaar, sturen op beleid.]
 
 Voorbeelden van KPI’s:
-	Verharding afname van 30 % in 10 jaar tijd.
-	Aantal meldingen van overstroomde kelder afname 20% in dezelfde periode van 10 jaar.
-	Aantal schadegevallen verzekeraars afname van 10% in dezelfde periode van 10 jaar.
-Meer over KPI’s, voorbeelden op andere gebieden https://www.docs.civity.nl/docs/Kookboek/kookboek_KPI
+
++ Verharding afname van 30 % in 10 jaar tijd.
++ Aantal meldingen van overstroomde kelder afname 20% in dezelfde periode van 10 jaar.
++ Aantal schadegevallen verzekeraars afname van 10% in dezelfde periode van 10 jaar.
+
+[[Meer over KPI’s]](https://www.docs.civity.nl/docs/Kookboek/kookboek_KPI)

@@ -1,14 +1,18 @@
 ---
 id: metamorphoses_stap_6
-title: Stap 6: Combineren van data
+title: Stap 6: Combineren van databronnen
 sidebar_label: Stap 6: Combineren
 ---
 
-> *Turning raw data into meaningful stories.*
+Soms is één databron niet voldoende om een vraagstuk te beantwoorden en is het nodig om verschillende databronnen te combineren of samen te voegen om tot conclusies te kunnen komen.
 
-Soms is het nodig om data te combineren om tot een juiste berekening / meer inzicht te kunnen komen. Turning raw data into meaningful stories. Hierbij speelt de manier van [ontsluiten](https://www.docs.civity.nl/docs/Kookboek/kookboek_DataOntsluiting) en beschikbaar maken van deze data een belangrijke rol.
-Bij gestandaardiseerde datasets is het beter te combineren. [zie link naar xxx].
-	Bv bij bouwen is het handiger om een unieke bag-identificatie te gebruiken, dan weet je precies over welk gebouw het gaat.
-	Unieke BSN-nrs.
-	Notatie van adres, etage, postcode in aparte velden, met consistentie notatie
-	Lichtmasten identificatie op basis van uniek nummer.
+Er kan sprake zijn van:
+1. Het combineren van verschillende onderwerpen. Bijv. weerdata combineren met meldingen opebare ruimte
+	Hierbij is het van belang om vooraf inzicht te hebben in mogelijke relevante bronnen. [zie [stap 3](stap_3.md)]
+
+Zie het [Wateroverlast](Voorbeelden/wateroverlast.md) voorbeeld waarbij databronnen worden gecombineerd om een vraagstuk te beantwoorden
+
+2. Het samenvoegen van hetzelfde type onderwerp uit verschillende bronnen. Bijv. meerdere databronnen met meldingen openbare ruimte van verschillende steden samenvoegen.
+
+Hierbij kan het nodig zijn dat de informatie binnen de verschillende databronnen eerst gestandaardiseerd moet worden voor deze samengevoegd kunnen worden. [zie [stap 5](stap_5.md)]
+
