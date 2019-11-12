@@ -10,7 +10,7 @@ Om de kwaliteit van datasets te bepalen is het belangrijk om de juiste vragen te
 + Vind je in de data de juiste gegevens voor het beantwoorden van je vraagstuk?
 + Bevat de data het juiste detailniveau? Van detail naar globaal is altijd mogelijk, maar andersom niet.
 + Biedt de data inzicht in de juiste periode?
-+ Is de data up-to-date en in welke frequentie wordt de data bijgewerkt? 
++ Is de data up-to-date en met welke frequentie wordt de data bijgewerkt? 
 + Is de data makkelijk te verkrijgen (link naar formaat, csv, API, )? [^1]
 [^1]: https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/standaarden/api-uri-strategie/
 ## Metadata

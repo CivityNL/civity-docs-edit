@@ -5,8 +5,7 @@ sidebar_label: Stap 2: Formuleren
 ---
 
 Vertaal de sleutelelementen in 1 of meerdere meetbare indicatoren. 
-Gebruik kritieke prestatie-indicatoren (KPI’s) om meetbare doelstellingen te kunnen formuleren, met een waarde per tijdsperiode. Beleid is dan te monitoren. [link Op die manier xxxx, objectief, meetbaar, sturen op beleid.]
-
+Gebruik kritieke prestatie-indicatoren (KPI’s) om meetbare doelstellingen te kunnen formuleren, met een waarde per tijdsperiode. Beleid is dan te monitoren.
 Voorbeelden van KPI’s:
 
 + Verharding afname van 30 % in 10 jaar tijd.

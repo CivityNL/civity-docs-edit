@@ -6,9 +6,4 @@ sidebar_label: Stap 7: Verwerken
 
 Na het [prepareren](stap_5.md) en eventueel [combineren](stap_6.md) van de gevonden databronnen, is de volgende stap het verwerken van de data, dit wil zeggen de feitelijke analyse van de data. 
 
-+ Analyse van de data, bv 83% verharding
-+ Aggregeren van data, bv. op wijkcode, levensstandaard
-+ FIT, model, simulatie, interpolatie, bereken xxx, 
-
-Meer over ontsluiten en beschikbaar maken van data 
-https://www.docs.civity.nl/docs/Kookboek/kookboek_DataOntsluiting
+Bij sommige datasets zal de analyse bestaan uit het aflezen van al dan niet geaggregeerde data. In andere gevallen zal analyse plaatsvinden door berekeningen of statistische inferenties toe te passen. Voorbeelden hiervan zijn het 'fitten' van een model op basis van de data, datasimulatie, interpolatie of andere methoden. 

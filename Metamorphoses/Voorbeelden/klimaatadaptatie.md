@@ -1,6 +1,6 @@
 ---
 id: metamorphoses_voorbeeld_klimaatadaptatie
-title: WIP
+title: Klimaatadaptatie
 sidebar_label: Klimaatadaptatie
 ---
 
