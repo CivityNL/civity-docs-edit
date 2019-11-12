@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_1
 title: Stap 1: Maak het vraagstuk concreet
-sidebar_label: Stap 1: Concretizeren
+sidebar_label: Stap 1: Concretiseren
 ---
 
 Stap 1: Maak het vraagstuk concreet
@@ -24,7 +24,7 @@ Economie voorbeeld
 
 
 ## Voorbeelden
-> <a class="button" href="Voorbeelden/template.md#stap-1-concretizeren">Template</a>
-> <a class="button" href="Voorbeelden/wateroverlast.md#stap-1-concretizeren">Wateroverlast</a>
-> <a class="button" href="Voorbeelden/klimaatadaptatie.md#stap-1-concretizeren">Klimaatadaptatie</a>
-> <a class="button" href="Voorbeelden/luchtkwaliteit.md#stap-1-concretizeren">Luchtkwaliteit</a>
+> <a class="button" href="Voorbeelden/template.md#stap-1-concretiseren">Template</a>
+> <a class="button" href="Voorbeelden/metamorphoses_voorbeeld_wateroverlast#stappenplan">Wateroverlast</a>
+> <a class="button" href="Voorbeelden/klimaatadaptatie.md#stap-1-concretiseren">Klimaatadaptatie</a>
+> <a class="button" href="Voorbeelden/luchtkwaliteit.md#stap-1-concretiseren">Luchtkwaliteit</a>

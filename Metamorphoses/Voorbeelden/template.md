@@ -12,7 +12,7 @@ sidebar_label: WIP
 
 Aan de hand van de vraagstelling hierboven zullen we nu het stappenplan doorlopen
 
-### Stap 1: Concretizeren
+### Stap 1: Concretiseren
 > remarks
 >
 > [link naar stappenplan](../metamorphoses_stap_1)

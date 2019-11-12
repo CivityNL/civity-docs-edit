@@ -6,7 +6,7 @@ sidebar_label: Stap 3: Verzamelen
 
 @Arjen: wat is de betekenis van dataclassificatie, relevant om hier te vermelden?
 
-Hoe vindt je de gewenste data om deze indicatoren te berekenen? 
+Hoe vind je de gewenste data om deze indicatoren te berekenen? 
 Data binnen je eigen organisatie
 	Dataplatform, datacatalogus
 

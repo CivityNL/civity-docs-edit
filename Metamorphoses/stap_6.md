@@ -4,7 +4,9 @@ title: Stap 6: Combineren van data
 sidebar_label: Stap 6: Combineren
 ---
 
-Soms is het nodig om data te combineren om tot een juiste berekening / meer inzicht te kunnen komen. [zie voorbeeld in docs] . Turning raw data into meaningful stories.
+> *Turning raw data into meaningful stories.*
+
+Soms is het nodig om data te combineren om tot een juiste berekening / meer inzicht te kunnen komen. Turning raw data into meaningful stories. Hierbij speelt de manier van [ontsluiten](https://www.docs.civity.nl/docs/Kookboek/kookboek_DataOntsluiting) en beschikbaar maken van deze data een belangrijke rol.
 Bij gestandaardiseerde datasets is het beter te combineren. [zie link naar xxx].
 	Bv bij bouwen is het handiger om een unieke bag-identificatie te gebruiken, dan weet je precies over welk gebouw het gaat.
 	Unieke BSN-nrs.

@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_voorbeeld_snuffelfiets
 title:  WIP
-sidebar_label:  WIP
+sidebar_label:  Snuffelfiets
 ---
 
 Het snuffelfiets project is een initatief vanuit de provincie Utrecht om samen met burgers door middel van relatief goedkope sensoren een beeld te krijgen van de luchtkwaliteit in de provincie. Vaak is het onduidelijk hoe het nou staat met de luchtkwaliteit in een kwantitatieve manier en zijn de mogelijkheden om dit vast te stellen over het algemeen een flinke investering. Dit is een van veel voorkomende vicieuze cirkels, waarbij data nodig is om het probleem vast te stellen maar het probleem al duidelijk moet zijn om de juiste data te verzamelen.

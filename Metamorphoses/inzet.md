@@ -22,8 +22,9 @@ In dit project gaan we structureel inzetten op een goede dataverzameling en pres
 
 ## Hoe is dit document te gebruiken?
 Elk hoofdstuk is zodanig opgezet dat zij als naslag fungeren voor beleidsmedewerkers en developers. Het bevat voorbeelden van andere oplossingen die hergebruikt kunnen worden of als inspiratie kunnen dienen.
-Voor developers is een overzicht beschikbaar van alle beschikbare API's met documentatie, nieuws en evenementen op het Ontwikkelaarsportaal Omgevingswet.
-https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal
+Voor developers is een overzicht beschikbaar van alle beschikbare API's met documentatie, nieuws en evenementen op het Ontwikkelaarsportaal Omgevingswet.[^1]
+
+[^1]: https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal
 
 De stappen die een groene kleur hebben, zullen vooral gebruikt worden door beleidsmakers. De stappen met een blauwe kleur zullen vooral relevant zijn voor data-analysten. 
 
@@ -33,4 +34,5 @@ Dit document is bedoeld als handboek en als inspiratiebron. Het is niet bedoeld 
 De stappen in het document hoeven niet lineair gebruikt te worden. Soms zul je bepaalde stappen herhaald doorlopen voordat je naar een volgende fase kunt gaan.
 
 Bij een stap vind je vaak voorbeelden om de toepassing concreet te maken, bijvoorbeeld wateroverlast. Ook als jouw beleid een andere ambitie betreft, kun je dezelfde systematiek uit het stappenplan gebruiken.
-Naast het stappenplan vind je complete voorbeelden [link] op het gebied van terugdringen van  data verzamelen, xxxxxxx
+
+Daarnaast is er een aantal praktische voorbeelden te raadplegen waarin het gehele stappenplan wordt doorlopen. [[template](Voorbeelden/template.md), [wateroverlast](Voorbeelden/wateroverlast.md), [snuffelfiets](Voorbeelden/snuffelfiets.md), [klimaatadaptatie](Voorbeelden/klimaatadaptatie.md)]
