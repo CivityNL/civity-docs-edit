@@ -5,6 +5,6 @@ sidebar_label: Stap 11: Evalueren
 ---
 > Bekijk het rapport/dashboard/presentatie en bespreek de trend die uit de data blijkt. Op basis hiervan kun je weer verder bouwen, de aanpak aanscherpen, veranderen.
 
-De wereld staat niet stil. Voortdurend zullen nieuwe technologieën, datastromen en inzichten beschikbaar komen. Uitvoeringsmaatregelen zullen bijstelling behoeven om de ambities en doelstellingen te halen. Juist daarom is het belangrijk dat acties meetbaar en controleerbaar zijn. Daarnaast is het belangrijk om in ogenschouw te nemen dat data slechts een modelweergave van de werkelijkheid biedt. [[Meer over data in context]](https://www.docs.civity.nl/docs/Kookboek/kookboek_data_context)
+De wereld staat niet stil. Voortdurend zullen nieuwe technologieën, datastromen en inzichten beschikbaar komen. Uitvoeringsmaatregelen zullen bijstelling behoeven om de ambities en doelstellingen te halen. Juist daarom is het belangrijk dat acties meetbaar en controleerbaar zijn. Daarnaast is het belangrijk om in ogenschouw te nemen dat data slechts een modelweergave van de werkelijkheid biedt. [[Meer over data in context]](Verdieping/metamorphoses_data_context)
 
 

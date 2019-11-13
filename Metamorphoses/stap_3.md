@@ -16,8 +16,8 @@ sidebar_label: Stap 3: Verzamelen
 + Woningbouwverenigingen
 + Nationaal geo-register
 + CBS
-+ KNMI [[Voorbeeld gebruik meetwaarden KNMI]](https://www.docs.civity.nl/docs/Kookboek/kookboek_data_knmi)
-+ Basisregistratie Grootschalige Topografie. [[Voorbeeld gebruik BGT data]](https://www.docs.civity.nl/docs/Kookboek/kookboek_data_bgt)
++ KNMI [[Voorbeeld gebruik meetwaarden KNMI]](Verdieping/metamorphoses_data_knmi.md)
++ Basisregistratie Grootschalige Topografie. [[Voorbeeld gebruik BGT data]](Verdieping/metamorphoses_data_bgt.md)
 
 
 ## Nieuwe data creëeren
