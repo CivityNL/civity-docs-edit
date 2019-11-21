@@ -1,5 +1,5 @@
 ---
-id: kookboek_data
+id: metamorphoses_data
 title: Transparantie
 sidebar_label: Transparantie
 ---

@@ -1,5 +1,5 @@
 ---
-id: kookboek_DataOntsluiting
+id: metamorphoses_data_ontsluiting
 title: Data ontsluiting
 sidebar_label: Data ontsluiting
 ---
