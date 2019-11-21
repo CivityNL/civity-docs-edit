@@ -13,4 +13,3 @@ To-do:
 - Show screenshot of harvester arcgis (https://geoportaal-ddh.opendata.arcgis.com/data.json)
     - highlight different components
 - Show screenshot of configuration setup
-
