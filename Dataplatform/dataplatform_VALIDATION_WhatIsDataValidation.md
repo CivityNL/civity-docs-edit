@@ -17,16 +17,6 @@ The data will be checked against a ***Schema*** where all the constraints for th
  
 > Create custom data schemas to fit your data constraints.
 
-
-## Getting Started
-
-Choose the environment where you want to start validating your data:
-
-* **[Dataplatform CKAN](validation_GettingStarted#dataplatform-ckan)**: Validate your first dataset in CKAN.
-* **[Online Validation Tool](validation_GettingStarted#online-validation-tool)**: Try validating a file online, quick and easy!
-
->For more info **[see Getting Started](validation_GettingStarted)**
-
 ## How it Works
 
 The Validation is powered by the ***Goodtables*** (<a href="https://goodtables.io/" target="_blank">website</a>) framework, it is equipped to 
