@@ -22,7 +22,7 @@ If you are looking to learn how to ***create a custom data schema***, ***[see he
 The following Step by Step guide will allow you to add a Resource and a Schema to your CKAN instance and validate it accordingly.
 
 ### Adding a Resource
-- Start by navegating to the "create resouce" page in any of your datasets.
+- Start by navigating to the "create resouce" page in any of your datasets.
 
 ![Adding Data Empty](assets/Dataplatform/Validation/add_data_empty.PNG)
 
@@ -81,7 +81,7 @@ Depending on the mode of operation, you might not be able to add the resource un
 
 There are two possible modes in which the validation operates:
 
-- ***Asynchronous validation*** - **Run in the background** whenever a resource of a supported format is created or updated. Validation **won't affect the action performed**, so if there are validation errors found the reource will be created or updated anyway.
+- ***Asynchronous validation*** - Run in the background whenever a resource of a supported format is created or updated. Validation **won't affect the action performed**, so if there are validation errors found the reource will be created or updated anyway.
 
 - ***Synchronous validation*** - Performed at the same time a resource of the supported formats is being created or updated. Currently, **if data validation errors are found**, a ValidationError will be raised and **you won't be able to create or update the resource**.
 
@@ -94,12 +94,12 @@ For more information see [official documentation](https://github.com/frictionles
 - When using the *Synchronous validation* the validation error thrown will look like this:
 ![Validation Options Filled](assets/Dataplatform/Validation/validation_error.PNG)
 
-- If you press on the link in "*report*" you will be showed the validation report. It includes the list of all errors grouped by type, and all the details of each error.
+- Clicking on the "*report*" hyperlink inside the validation error message, will show you the validation overview. This includes a list of all errors grouped by type, and the details of each error.
 
 You can read the full specification of the validation report format **[here](https://github.com/frictionlessdata/goodtables-py#validation-report-format)**, in the UI the report will look like this:
 ![Validation Options Filled](assets/Dataplatform/Validation/validation_report.PNG)
 
-- After a validation is performed on a resource, a label will be added in the UI with the proper result. You can press these labels and get redirected to the Data Validation Report Page.
+- When a validation is performed on a resource, a label will be added in the UI with the proper result. You can click on these labels to be redirected to the Data Validation Report Page.
 ![Validation Labels](assets/Dataplatform/Validation/labels.PNG)
 
 
@@ -113,21 +113,19 @@ Goodtables provides a web service where you can try the validation online.
 
 ><a href="http://try.goodtables.io/" target="_blank">Goodtables Web Service</a>, see the <a href="https://frictionlessdata.io/docs/validating-data/#goodtables" target="_blank">official documentation here</a>.
 
-How to do your first validation:
+Completing your first validation:
 * Go to the ***<a href="http://try.goodtables.io/" target="_blank">Validation Tool</a>***.
-* Provide a tabular data file to validate by referring to an ***URL*** or ***uploading a file*** (***[example files](validation_GettingStarted#tabular-data)***).
+* Provide a tabular data file to validate by referring to a ***URL*** or ***uploading a file*** (***[example files](validation_GettingStarted#tabular-data)***).
 * (**optional**) Provide a data schema to validate the data with. ***[Create one](validation_GettingStarted#create-data-schema)*** or use the ***[example](validation_GettingStarted#data-schema)***.
 * Check/Uncheck options *"ignore blank rows"* and *"ignore duplicate rows"* according to your needs.
-* Press ***Validate*** button.
-* Analyze the resulting report.
+* Click the ***Validate*** button.
+* Analyze your completed validation report.
 
 You can also use your own files and apply the corrections to the files, try to upload again and check the results.
 
 ## Create Data Schema
 
 To get more information about creating your custom data schema, see ***<a href="https://github.com/frictionlessdata/ckanext-validation#data-schema" target="_blank">ckanext-validation documentation </a>***. 
-
-
 
 ## Example Files
 
@@ -137,7 +135,6 @@ In this section you can find files to help you getting started faster with some 
 
    - ***[Simple Schema](assets/Dataplatform/Validation/data_schema.json)*** - This schema contains restrictions for the different basic date types like **strings**, **dates**, **coordinates** and **lists**. 
  
-
 ### Tabular Data 
 
 The files available bellow are labeled "*valid*" or "*invalid*" according to the "***Simple Schema***" provided above.
@@ -147,8 +144,7 @@ The files available bellow are labeled "*valid*" or "*invalid*" according to the
    - ***[Invalid Data (content)](assets/Dataplatform/Validation/invalid_content_data.csv)*** - Data contains invalid content (<a href="https://github.com/frictionlessdata/goodtables-py#content-checks" target="_blank">see more</a>).
    
 ### Validation Options 
+
 > ***This only applies to the CKAN Validation scenario.***
 
 - ***[Validation Options](assets/Dataplatform/Validation/invalid_content_data.csv)*** -  Define which data checks to skip or make (<a href="https://github.com/frictionlessdata/ckanext-validation#validation-options" target="_blank">see more</a>).
-
-
