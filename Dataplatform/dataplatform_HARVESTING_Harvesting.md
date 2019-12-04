@@ -37,7 +37,7 @@ This harvester lets you import JSON objects based on DCAT mapping fields and map
 
 #### Generic DCAT RDF Harvester
 
-This Harvester is another custom harvester which is part of the DCAT-extension
+This Harvester is another custom harvester which is part of the DCAT-extension.
 
 ---
 
