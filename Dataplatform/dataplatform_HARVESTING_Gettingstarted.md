@@ -3,15 +3,9 @@ id: harvesting_GettingStarted
 title: Getting Started
 sidebar_label: Getting Started
 ---
-
-
-
-
-This step-by-step tutorial will show you how to set up one of the **[three types of harvester options in CKAN](harvesting_Harvesting#types-of-harvesters)**. 
-
 >***Note***: This tutorial assumes background knowledge of what type of sources are compliant with the three harvester options in CKAN
 
-### Example: JSON DCAT Harvester
+This step-by-step tutorial will show you how to set up one of three types of [harvester options available in CKAN](harvesting_Harvesting#types-of-harvesters). 
 
 We will demonstrate the set up of a harvester using the JSON DCAT Harvester. Setting up this harvester will allow you to harvest data from JSON objects based on DCAT metadata fields into your CKAN instance. 
 
@@ -21,106 +15,107 @@ Some examples of JSON DCAT sources:
 * https://geoportaal-ddh.opendata.arcgis.com/data.json
 * https://metadata.geodata-utrecht.nl/dcat
 
-### Where to start:
+## Example: Where to start
 
-To start setting up a harvester in CKAN you need to add **/harvest** to the URL of your CKAN instance (i.e., https://[insert-ckan-portal-name]**/harvest**).
+To begin setup of a harvester in CKAN, you need to add `/harvest` to the URL of your CKAN instance. 
 
-On the **/harvest** page, you will see an overview of harvester sources that are currently set up. From this page you are able to add new harvesters as well.
+##### For example: 
+```sh
+ https://YOUR-CKAN-PORTAL-NAME/harvest
+```
 
-### Adding a harvester
+On this `/harvest` page, you will see an overview of harvester sources that are currently set up. On this page you can add additional harvesters.
 
-- Go to Add Harvest Resource
+### 1. Adding a Harvester
+Click on the *Add Harvest Resource* button
+![Add Harvest Source button image](assets/Dataplatform/Harvesting/Adding_harvest_source2.PNG)
 
-![Title](assets/Dataplatform/Harvesting/Adding_harvest_source2.PNG)
+
+### 2. Configure a Harvesting Source
+
+After clicking the *Add Harvest Resource* button, you need to complete the following fields:
+
+* ##### URL (mandatory)
+
+    The URL contains the actual harvesting source. In our example we will use a JSON file which consists of DCAT metadata for two datasets. Each dataset in our example contains multiple different file types. The example JSON file that is used can be viewed here: [JSON DCAT file](assets/Dataplatform/Harvesting/Example_file.json).
+    
+    ![Harvester URL field](assets/Dataplatform/Harvesting/URL_field.PNG)
 
 
-### Create harvesting source
+* ##### Title (mandatory)
 
-After clicking 'Add Harvest Resource' you need to fill the separate fields:
+    The title that is provided will be used in the URL name of the harvester.
+    ![Harvester title field](assets/Dataplatform/Harvesting/Title.PNG)
 
-* Fill in URL (mandatory)
 
-![Title](assets/Dataplatform/Harvesting/URL_field.PNG)
+* ##### Description
 
-The URL contains the actual harvesting source. In our example we will use a JSON file which consists of DCAT metadata for two datasets. Each dataset in our example contains multiple different file types. The example JSON file that is used can be viewed below.
+    Provide an appropriate description for your harvester.
+    ![Harvester URL textbox](assets/Dataplatform/Harvesting/Description.PNG)
 
-**[Click here to view JSON DCAT file](assets/Dataplatform/Harvesting/Example_file.json)**
 
-* Add a title (mandatory)
+* ##### Select source type
 
-![Title](assets/Dataplatform/Harvesting/Title.PNG)
+    In our example the source type is the DCAT JSON Harvester. An explanation of each type of source can be found here: [types of harvester options in CKAN](harvesting_Harvesting#types-of-harvesters).
+    ![Select Harvester Source Type](assets/Dataplatform/Harvesting/Source_type.PNG)
 
-The title that is provided will be used in the URL name of the harvester.
 
-* Provide a description
+* ##### Update frequency
+    > When frequency is set to **always**, the harvester will reharvest as often as possible. In other words, this option lets the harvester run with the smallest time-interval possible.
 
-![Title](assets/Dataplatform/Harvesting/Description.PNG)
+    Update frequency options are: *always, weekly, biweekly,* or *monthly*.
+    ![Harvester source update frequency](assets/Dataplatform/Harvesting/Frequency.PNG)
 
-* Select the appropriate source type
 
-![Title](assets/Dataplatform/Harvesting/Source_type.PNG)
+* ##### Custom configuration
+    >Custom configuration only accepts JSON objects. You may find an example of additional harvester configuration [here](assets/Dataplatform/Harvesting/example2.json).
 
-In our example the source type is the DCAT JSON Harvester
+    Custom configuration allows you to provide additional requirements or fields for the harvester to harvest.
+    ![Harvester custom configuration](assets/Dataplatform/Harvesting/Config.PNG)
 
-* Provide the desired update frequency
 
-![Title](assets/Dataplatform/Harvesting/Frequency.PNG)
 
-In our example, the update frequency is set to manual. Other options are: always, weekly, biweekly, or monthly.
-When frequency is set to 'always', the harvester will reharvest as often as possible. In other words this option lets the harvester run with the smallest time-interval possible.
+* ##### Select the appropriate organisation from a dropdown list
 
-* Provide custom configuration
+    ![Harvester organization](assets/Dataplatform/Harvesting/Organisation.PNG)
 
-![Title](assets/Dataplatform/Harvesting/Config.PNG)
+* ##### Save your configuration 
 
-Under configuration you can provide additional requirements or fields using JSON objects.
+    Click the blue save button - your harvester setup is now complete.
+    ![Save button](assets/Dataplatform/Harvesting/Save.PNG)
 
-[Click here to view an example of additional JSON configuration](assets/Dataplatform/Harvesting/example2.json)
 
-* Select the appropriate organisation from a dropdown list
+### 3. Running Your Harvester
 
-![Title](assets/Dataplatform/Harvesting/Organisation.PNG)
+1. ##### Click the Admin button
 
-* Now click the save button  
+    ![Harvester admin button](assets/Dataplatform/Harvesting/Click_admin.PNG)
 
-![Title](assets/Dataplatform/Harvesting/Save.PNG)
+2. ##### Click the **Reharvest** button to initialize the harvester
 
-The harvester is now set up. The next step is to get the harvester to start running.
+    ![Reharvest button](assets/Dataplatform/Harvesting/Click_reharvest.PNG)
 
-### Run harvester
+3. ##### Click the **Confirm** button to begin the harvesting process
 
-- Click admin
+    ![Begin harvester process confirmation message and button](assets/Dataplatform/Harvesting/Click_confirm.PNG)
 
-![Title](assets/Dataplatform/Harvesting/Click_admin.PNG)
+### 4. The Havesting Process
+> Depending on the source, the harvester process will take one to several minutes to finish
 
-- Click 'Reharvest' to start the harvesting process
+On the harvester's Admin page, you will see a tab labeled *Dashboard*. On this tab, you will see information about harvester's current or last completed process.
 
-![Title](assets/Dataplatform/Harvesting/Click_reharvest.PNG)
+![Last harvest job dashboard - process running](assets/Dataplatform/Harvesting/Harvester_running.PNG)
 
-- Click confirm to start the actual harvesting
+In our example, you can see that there are no notifications underneath **Last Harvest Job**. If the process has compeleted, you can click on the *Dashboard* tab again to refresh the page. 
 
-![Title](assets/Dataplatform/Harvesting/Click_confirm.PNG)
+![Last harvest job dashboard - process finished](assets/Dataplatform/Harvesting/Harvester_done.PNG)
 
-### Process of harvesting
+Here we can see that the process is finished - In our example the page shows that two datasets were added. 
 
-- You will now see a page that shows that the harvester is running
+### 5. View harvested datasets
 
-![Title](assets/Dataplatform/Harvesting/Harvester_running.PNG)
+* Clicking the **View Harvesting Source** button will display datasets that we added during the harvesting process.
+    ![View Harvest Source button](assets/Dataplatform/Harvesting/Harvester_done.PNG)
 
-In our example, it shows 0 Datasets that are added. By clicking 'Dashboard' the page refreshes. 
-
-- Depending on the source, the harvester process will take one to several minutes to finish
-
-![Title](assets/Dataplatform/Harvesting/Harvester_done.PNG)
-
-In our example the page shows that two datasets were added. 
-
-### View harvested datasets
-
-* Click view harvesting source to see the added datasets
-
-![Title](assets/Dataplatform/Harvesting/View.PNG)
-
-* The two datasets are now visible 
-
-![Title](assets/Dataplatform/Harvesting/Datasets.PNG)
+* The harvested datasets are now displayed
+    ![harvested datasets](assets/Dataplatform/Harvesting/Datasets.PNG)
