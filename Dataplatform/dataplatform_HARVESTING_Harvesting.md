@@ -25,6 +25,7 @@ Dataplatform provides the following options to harvest data:
 2. JSON DCAT Harvester
 3. Generic DCAT RDF Harvester
 
+
 ### CKAN Harvester
 * The CKAN Harvester is an example of a custom harvester. This harvester lets you import data from a remote CKAN instance into your own CKAN instance.
 
@@ -37,5 +38,3 @@ Dataplatform provides the following options to harvest data:
 * This Harvester is another custom harvester which is part of the DCAT-extension.
 
 ---
-
-
