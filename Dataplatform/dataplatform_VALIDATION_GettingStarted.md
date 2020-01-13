@@ -133,7 +133,7 @@ In this section you can find files to help you getting started faster with some 
 
 ### Data Schema
 
-   - ***[Simple Schema](assets/Dataplatform/Validation/data_schema.json)*** - This schema contains restrictions for the different basic date types like **strings**, **dates**, **coordinates** and **lists**. 
+   - ***[Simple Schema](assets/Dataplatform/Validation/Data_Schema.json)*** - This schema contains restrictions for the different basic date types like **strings**, **dates**, **coordinates** and **lists**. 
  
 ### Tabular Data 
 
