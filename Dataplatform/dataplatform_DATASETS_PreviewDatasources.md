@@ -3,4 +3,13 @@ id: datasets_PreviewDatasources
 title: Preview Datasources
 sidebar_label: Preview Datasources
 ---
-This is where we talk about previewing datasources
+
+Preview in CKAN:
+
+What type of files (JSON, KML, CSV, JPEG, XLS, XLSX), when, options
+
+* map 
+* text
+* p
+
+Map option portal

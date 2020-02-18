@@ -43,7 +43,7 @@ Click on a dataset -> Click on the tab *Table* -> Click on *Data dictionary*
 
 #### 2. Go to the tab *Data dictionary*
 
-![Title](assets/Dataplatform/DataDictionary/Data_dictionary_edit.PNG)
+![Title](assets/Dataplatform/DataDictionary/Data_dictionary_edit.png)
 
 #### 2. Edit Type/Label/Description
 

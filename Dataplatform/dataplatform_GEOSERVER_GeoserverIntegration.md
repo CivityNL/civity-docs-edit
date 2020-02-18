@@ -7,7 +7,9 @@ sidebar_label: Geoserver Integration
 
 
 ## Publishing OGC Data
-If the filetype is supported, a new button appears inside the dataset page, named "**Publiceer OGC**". Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system. 
+If the filetype is supported, a new button appears inside the dataset page, named *Publish OGC*. Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system. 
+
+> ***Note***: For the *Publish OGC* button to be available, the meta data field Visibility must be set to *Public*
 
 <img class="imageStyle shadowing" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_publiceerButton.png" alt="imageStyle: Geoserver PubliceerOGC button">
 
@@ -43,7 +45,7 @@ WFS resource, apart from the service URL, there are multiple download options pr
 <img class="imageStyle" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_WFS.png" alt="imageStyle: WFS Page">
 
 ## Unpublish OGC Data
-To unpublish the data from Geoserver click the red button "**Verwijderen OGC**" from the dataset page. The WMS and WFS files will be removed; you may also disable the schema_descriptor.
+To unpublish the data from Geoserver click the red button *Unpublish OGC* (*Verwijderen OGC*) from the dataset page. The WMS and WFS files will be removed; you may also disable the schema_descriptor.
 
 <img class="imageStyle" src="/docs/assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_Unpublish.png" alt="imageStyle: Remove Geoserver Data">
 
