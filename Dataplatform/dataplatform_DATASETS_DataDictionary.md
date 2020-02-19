@@ -39,22 +39,21 @@ Click on a dataset -> Click on the tab *Table* -> Click on *Data dictionary*
 
 #### 1.  Within a dataset, click on the *Explore* button of the datasource you want to edit and then click on *Edit*
 
-![Title](assets/Dataplatform/DataDictionary/Data_dict_edit.PNG)
+![Data_dict](assets/Dataplatform/DataDictionary/Data_dict_edit.PNG)
 
 #### 2. Go to the tab *Data dictionary*
 
-![Title](assets/Dataplatform/DataDictionary/Data_dictionary_edit.png)
+![Data_dict_go_to](assets/Dataplatform/DataDictionary/Data_dictionary_edit.png)
 
-#### 2. Edit Type/Label/Description
+#### 3. Edit Type/Label/Description
 
-![Title](assets/Dataplatform/DataDictionary/Data_dict_edit_field.PNG)
+![Data_dict_edit](assets/Dataplatform/DataDictionary/Data_dict_edit_field.PNG)
 
 
-
-#### 3. Lastly, click the save button shown below
+#### 4. Lastly, click the save button shown below
     
-![Title](assets/Dataplatform/DataDictionary/Data_dict_save.PNG)
+![Data_dict_save](assets/Dataplatform/DataDictionary/Data_dict_save.PNG)
 
 #### Changes as shown in the Portal:
 
-![Title](assets/Dataplatform/DataDictionary/Data_dict_portal.PNG)
+![Data_dict_portal](assets/Dataplatform/DataDictionary/Data_dict_portal.PNG)

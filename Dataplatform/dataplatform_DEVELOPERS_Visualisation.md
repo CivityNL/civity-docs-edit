@@ -1,7 +1,7 @@
 ---
 id: developers_Visualisation
-title: Using Qgis
-sidebar_label: Using Qgis
+title: Using Visualisation Tools
+sidebar_label: Using Visualisation Tools
 ---
 
-This is where we talk about using Qgis
+This is where we talk about possibilities to create visualisations with data from Dataplatform
