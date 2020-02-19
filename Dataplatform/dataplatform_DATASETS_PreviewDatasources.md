@@ -6,7 +6,7 @@ sidebar_label: Preview Datasources
 
 > The CKAN resource page can contain one or more visualizations of the resource data or file contents (a table, a bar chart, a map, etc). These are commonly referred to as resource views.
 
-### Preview in CKAN:
+## Preview in CKAN
 
 Different plugins are included in Dataplatform CKAN to preview different resource file types:
 
@@ -46,7 +46,7 @@ More information on previewing datasources can be found in <a href="https://docs
 
 ---
 
-### Preview portal:
+## Preview Portal
 
 On the portal there is a ***Table view*** and ***Map view***:
 
