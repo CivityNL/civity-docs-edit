@@ -40,7 +40,7 @@ The following Step by Step guide will allow you to add a Resource and a Schema t
 
 ### Providing the Data Schema
 
-The Data Schema is going to be the document that set's the restrictions on the data you are validating.
+The Data Schema is going to be the document that sets the restrictions on the data you are validating.
 
 The schema defined must follow the specifications of ***Table Schema*** (<a href="https://frictionlessdata.io/specs/table-schema/" target="_blank">docs</a>).
 
@@ -66,8 +66,7 @@ Validation Options can be used to add or remove specific checks, control limits,
 
 ![Validation Options Filled](assets/Dataplatform/Validation/add_validation_options_filled.PNG)
 
-> The CKAN administrator can also define default Validation Options that will be applied to all the resources automatically.
-
+> As a default, the meta data field Validation options will have the following value: `{ "checks": [ "schema" ] }`. When a schema is provided, it will check against this schema. **If however no schema is provided, the default behavior is that the datasource will get a data valid label.** 
 
 ### Validation Report
 
@@ -101,7 +100,6 @@ You can read the full specification of the validation report format **[here](htt
 
 - When a validation is performed on a resource, a label will be added in the UI with the proper result. You can click on these labels to be redirected to the Data Validation Report Page.
 ![Validation Labels](assets/Dataplatform/Validation/labels.PNG)
-
 
 ### API Documentatition
 

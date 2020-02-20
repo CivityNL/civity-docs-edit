@@ -68,7 +68,7 @@ After clicking the *Add Harvest Resource* button, you need to complete the follo
 
 
 * ##### Custom configuration
-    >Custom configuration only accepts JSON objects. You may find an example of additional harvester configuration [here](assets/Dataplatform/Harvesting/example2.json).
+    >Custom configuration only accepts JSON objects. You may find an example of additional harvester configuration [here](assets/Dataplatform/Harvesting/Example2.json).
 
     Custom configuration allows you to provide additional requirements or fields for the harvester to harvest.
     ![Harvester custom configuration](assets/Dataplatform/Harvesting/Config.PNG)

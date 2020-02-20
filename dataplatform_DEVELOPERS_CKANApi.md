@@ -1,5 +1,5 @@
 ---
-id: api_CKANApi
+id: developers_CKANApi
 title: CKAN Api
 sidebar_label: CKAN API
 ---

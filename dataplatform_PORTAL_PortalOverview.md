@@ -37,7 +37,7 @@ The filter options, on the datasets page, offers several ways to search for part
 ### Datasets Details
 Display different aspects of the selected datasets.
 
-The following display options are availabel:
+The following display options are available:
 * Table View
 * Map View
 * Contact Form
