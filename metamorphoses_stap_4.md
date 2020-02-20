@@ -15,16 +15,16 @@ Om de kwaliteit van datasets te bepalen is het belangrijk om de juiste vragen te
 [^1]: https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/standaarden/api-uri-strategie/
 ## Metadata
 Een belangrijke hulp bij het bepalen van de kwaliteit en mogelijke relevantie van een dataset, is metadata. Vaak is deze metadata opgesteld volgens een bepaalde standaard, waardoor veel vragen m.b.t. kwaliteit direct zijn terug te vinden in de metadata.
-[[Meer over metadata]](Verdieping/metamorphoses_metadata.md)
+[[Meer over metadata]]( metamorphoses_metadata.md)
 ## Datamodellen
 Naast metadata, zijn datamodellen een andere belangrijke manier om de kwaliteit van een databron te bepalen en te verbeteren.
 Met gestandaardiseerde data / datamodellen is het makkelijker om:
 	De data eenduidig te definiëren
 	de data in de juiste vorm te zetten
 	de data te vergelijken met andere data
-[[Meer over datamodellen]](Verdieping/metamorphoses_datamodellen)
+[[Meer over datamodellen]]( metamorphoses_datamodellen)
 
 ## Rating datasets
 Ook ratings kunnen bijdragen aan de bepaling van de kwaliteit van datasets.
 Zo kunnen datasets beoordeeld worden op een aantal kenmerken, bijvoorbeeld conform de 3 B´s die in het Digitaal Stelsel Omgevingswet zijn geformuleerd: Beschikbaarheid, Bruikbaarheid en Bestendigheid. Waardering van datasets is één van de manieren om snel inzicht te geven in de kwaliteit en kan onderdeel uitmaken van de metadata.
-[[Meer over rating datasets]](Verdieping/metamorphoses_rating_datasets)
+[[Meer over rating datasets]]( metamorphoses_rating_datasets)

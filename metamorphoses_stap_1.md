@@ -15,4 +15,4 @@ Enkele voorbeelden van vragen:
 
 Concreet voorbeeld: Je wil het aantal overstromingen verminderen. Definieer wanneer iets als een overstroming wordt aangeduid. Wanneer leidt het tot overlast? In welk gebied wordt het vooral als overlast ervaren, stedelijk, agrarisch? Oorzaken van wateroverlast? Hoeveelheid regen, type bodem / verharding, aanleg riolering.
 
-[[Zie uitgebreid voorbeeld m.b.t. ambities Zuid-Holland]](Verdieping/metamorphoses_opzet.md)
+[[Zie uitgebreid voorbeeld m.b.t. ambities Zuid-Holland]]( metamorphoses_opzet.md)
