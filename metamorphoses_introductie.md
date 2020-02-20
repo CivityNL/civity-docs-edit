@@ -17,4 +17,4 @@ is het van groot belang om op gestructureerde en effectieve wijze kwalitatieve d
 
 [^1]: https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/standaarden/overzicht/
 ## API
-In het Digitaal Stelsel Omgevingswet wordt sterk ingezet op de ontwikkeling van open API´s (conform de OpenAPI-specificatie) en een ontwikkelaarsportaal waar alle beschikbare API’s gevonden kunnen worden (inclusief documentatie). [[Meer over API]](Verdieping/metamorphoses_data_ontsluiting.md#api)
+In het Digitaal Stelsel Omgevingswet wordt sterk ingezet op de ontwikkeling van open API´s (conform de OpenAPI-specificatie) en een ontwikkelaarsportaal waar alle beschikbare API’s gevonden kunnen worden (inclusief documentatie). [[Meer over API]](metamorphoses_data_ontsluiting.md#api)

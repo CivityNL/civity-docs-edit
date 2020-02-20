@@ -15,7 +15,7 @@ Het stappenplan is zodanig opgezet dat zij als naslag fungeren voor beleidsmedew
 De stappen in het document hoeven niet lineair gebruikt te worden. Soms zul je bepaalde stappen herhaald doorlopen voordat je naar een volgende fase kunt gaan.
 
 Direct naar uitgewerkte voorbeelden: 
-+ [template](Voorbeelden/template.md) 
-+ [wateroverlast](Voorbeelden/wateroverlast.md) 
-+ [snuffelfiets](Voorbeelden/snuffelfiets.md) 
-+ [klimaatadaptatie](Voorbeelden/klimaatadaptatie.md)
++ [template](metamorphoses_voorbeeld_template.md) 
++ [wateroverlast](metamorphoses_voorbeeld_wateroverlast.md) 
++ [snuffelfiets](metamorphoses_voorbeeld_snuffelfiets.md) 
++ [klimaatadaptatie](metamorphoses_voorbeeld_klimaatadaptatie.md)
