@@ -92,7 +92,7 @@ If the green **API** button is missing, or the number of entries does not match 
     <tbody>
         <tr>
             <th>Message</th>
-            <th>Definition</th>
+            <th>Explanation</th>
             <th>Troubleshooting</th>
         </tr>
         <tr>
@@ -112,6 +112,28 @@ If the green **API** button is missing, or the number of entries does not match 
                     <li>Add a title to each column, declaring what kind of data the column contains (ex. Date, Time, Currency, etc)</li>
                     <li>Find the incorrect field, and adjust it so it contains only a single type of data</li>
                     <li>Correct your numeric header in Data Dictionary to regular text</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Error: Cannot connect to datapusher</strong>
+            <td>
+                <p>
+                        Normally the datapusher automatically pushes data into the datastore on creating a datasource.
+                </p>
+                <p>
+                        This error results in a datasource not being uploaded correctly to the datastore, as the datapusher was not able to connect
+                </p>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        As this error mostly occurs on creating a datasource, the best option is to again try to upload to the datastore. This will almost always solve the issue. If not, contact your site administrator.
+                    </li>
+                    <li>
+                        As a result of not being able to connect to the datapusher, a view is often also not created. This can be done manually.
+                    </li>
                 </ul>
             </td>
         </tr>

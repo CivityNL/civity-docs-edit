@@ -7,6 +7,8 @@ When a file containing geometry is uploaded in CKAN there is a chance that the g
 
 For that reason, a new feature is introduced inside CKAN to give an administrator the option to include new keywords that represent any unique geometry field/column name. Including these new values along with the default ones, makes the visualization process a lot more automated.  
 
+> ***Note:*** Column names that have spaces in them, will not be recognised correctly. So for instance 'lon coordinate' is not a valid unique geometry field/column name, use 'lon-coordinate' or 'lon_coordinate' instead.
+
 
 There are new options introduced inside the **CKAN config options** tab ‘Config’. 
 

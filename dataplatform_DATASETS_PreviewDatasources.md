@@ -52,7 +52,7 @@ On the portal there is a ***Table view*** and ***Map view***:
 
 #### Table view
 
-On the portal a table preview is automatically added for CSV/Excel files. The table will show a maximum of 100 items a page.
+On the portal a table preview is automatically added for CSV files. The table will show a maximum of 100 items a page.
 
 ![Table example](assets/Dataplatform/PreviewDatasources/Table_portal.PNG)
 
@@ -60,9 +60,9 @@ On the portal a table preview is automatically added for CSV/Excel files. The ta
 
 Will be shown when ***Geo-Enabled*** is set to yes and coordinates are included. 
 
-#### CSV/Excel
+#### CSV
 
-For CSV/Excel datasources map will show the first 100 records/items. If you click *Show Table* below the map view. You are able to go to the next 100 items or go back to the previous ones.
+For CSV datasources map will show the first 100 records/items. If you click *Show Table* below the map view. You are able to go to the next 100 items or go back to the previous ones.
 
 ![Map example](assets/Dataplatform/PreviewDatasources/Map_portal.PNG)
 
@@ -81,7 +81,7 @@ GeoJSON datasources will show all records at once on the map. See the example be
 #### Q: I've set the Geo-Enabled field to yes, why is the map still not displayed correctly on the portal?
 
 **A:** Make sure to check the following things:
-*   Are you using one of the filetypes that support the map functionality (e.g., CSV, Excel, or GeoJSON)?
-*   Does the CSV or Excel file consist of geometry columns, and do the column names comply with the default field keywords? See documentation on [managing geometry columns](datasets_ManageGeometryColumns)
+*   Are you using one of the filetypes that support the map functionality (i.e., CSV or GeoJSON)?
+*   Does the CSV file consist of geometry columns, and do the column names comply with the default field keywords? See documentation on [managing geometry columns](datasets_ManageGeometryColumns)
 *   Is your datasource missing any values?
 
