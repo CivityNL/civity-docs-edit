@@ -28,7 +28,7 @@ The filter options, on the datasets page, offers several ways to search for part
     <tbody>
         <tr>
             <td>
-                <img src="../assets/Dataplatform/PortalOverview/dataplatform_PORTAL_FilterView1.png" alt="imageStyle: Dataplatform Portal Filters" />
+                <img src="assets/Dataplatform/PortalOverview/dataplatform_PORTAL_FilterView1.png" alt="imageStyle: Dataplatform Portal Filters" />
             </td>
         </tr>
     </tbody>
