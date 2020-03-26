@@ -4,4 +4,6 @@ title: Publiceer en documenteer
 sidebar_label: Stap 3: Deel
 ---
 
-Uitleg over open data als doel en verzoek om eindresultaat te delen/documenteren zodat we toepassingen kunnen laten zien
+- Data als open data beschikbaar, inclusief een API
+
+- App/toepassing delen/documenteren om participatie te stimuleren
