@@ -1,12 +1,10 @@
 ---
-id: weidewinkels_eigenproject
-title: Zelf een goed idee?
-sidebar_label: Zelf een goed idee?
+id: datacollection_eigenproject
+title: Create your own project
+sidebar_label: Create your own project
 ---
 
-Ons weidewinkels project is zeker niet volmaakt. Het is dan ook bedoeld als een eerste opzet om te laten zien op welke manier crowdsourcing kan worden ingezet om open data te verzamelen. 
+Of course our example is just a start. We created this show case purely to show in what way crowdsourcing can be used to create new and interesting open data.
 
-Ons idee is om andere ontwikkelaars te enthousiasmeren om zelf met ideeën te komen om interessante data middels crowdsourcing te gaan verzamelen.
-
-Mocht je enthousiast zijn geworden van ons project en heb je zelf een goed idee? Wij helpen je graag op weg! Wij leggen je hieronder uit hoe je in een paar simpele stappen je eigen project kan beginnen.
+We encourage you as a developer to come up with your own solution! In the next few sections we will explain what is needed to connect to our Dataplatform in order to start your own data collection.
 
