@@ -189,9 +189,9 @@ export class ConfigService {
 }
 ```
 
-## Deleten van records - datastore_delete
+## Deleting records - datastore_delete
 
-Zie CKAN Datastore API referentie: https://docs.ckan.org/en/latest/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_delete
+See the CKAN Datastore API reference: https://docs.ckan.org/en/latest/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_delete
 
 
 
