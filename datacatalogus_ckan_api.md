@@ -32,7 +32,7 @@ Om te kijken of de bron inderdaad naar de Datastore kan worden geupload, kun je 
 >
 > DataStore bepaalt automatisch de kolomnamen. Dit is altijd de eerste horizontale rij in een kolom. Het datatype (numeriek, tekst, tijd etc.) wordt bepaald door de eerste 250 records binnen een kolom. 
 
-Data is tabelvorm wordt geupload per 250 records. Een upload van 250 records wordt een chunk genoemd. Dat betekent dat het een tijd kan duren voor grote bestanden met veel records zichtbaar zijn als preview. Het is belangrijk om niet nogmaals op de "Upload naar Datastore" knop te klikken tijdens het uploadproces. In plaats daarvan kun je de pagina verversen (F5) of op het tabblad klikken. 
+Data wordt geupload per 250 records. Een upload van 250 records wordt een chunk genoemd. Dat betekent dat het een tijd kan duren voor grote bestanden met veel records zichtbaar zijn als preview. Het is belangrijk om niet nogmaals op de "Upload naar Datastore" knop te klikken tijdens het uploadproces. In plaats daarvan kun je de pagina verversen (F5) of op het tabblad klikken. 
 
 Als de upload volledig gebeurd is, zul je ***Compleet*** zien staan naast het **Status** veld.
 
@@ -51,6 +51,25 @@ Als de groene **API** knop ontbreekt, of als het aantal records binnen de previe
             <th>Foutmelding</th>
             <th>Uitleg</th>
             <th>Hoe op te lossen?</th>
+        </tr>
+        <tr>
+            <td>
+                <strong>
+                Fout
+                </strong>
+            </td>
+            <td>
+                <ul>
+                    <li>Datastore upload is niet succesvol.</li>
+                    <li>Geen verdere uitleg geeft aan dat in het begin de upload al fout is gegaan</li> 
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Bestandstypes die niet kunnen worden geupload geven deze standaardfout. Controleer het bestandstype dat je probeert te uploaden.</li>
+                    <li>Is het een correct bestandstype (CSV of (geo)JSON) en krijg je toch deze foutmelding. Neem dan contact op met support@civity.nl</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td>
