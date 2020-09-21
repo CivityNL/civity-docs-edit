@@ -14,14 +14,14 @@ Wanneer databronnen (bijv. een csv-bestand in een Vermelding) zijn toegevoegd aa
 
 ## DataStore
 
-Via de Datastore kan specifieke data als een preview worden getoond en kan data worden opgevraagd via API calls. Data die niet in de Datastore terecht komt, is nog steeds toegankelijk maar kan alleen via een download.
+Via de Datastore kan specifieke data als een preview worden getoond en kan data worden opgevraagd via API calls. Data die niet in de Datastore terecht komt, is nog steeds toegankelijk maar kan alleen via een download worden bekeken. Er is in dat geval geen preview mogelijkheid binnen de Datacatalogus.
 
 ### CKAN DataStore
 >Als je data is opgeslagen als een **CSV** of **(geo)JSON** bestandstype, zal CKAN de bestanden automatisch uploaden naar de Datastore.
 
-CKAN Datastore is beschikbaar via de preview bekeken worden. Hier wordt de data getoond in een tabel of op een kaart en kun je de data filteren.
+Wanneer een vermelding is opgeslagen in de CKAN Datastore, kan de data via een preview bekeken worden. Hier wordt de data getoond in een tabel of op een kaart en kun je de data filteren.
 
-### Managing DataStore
+### Uploaden naar de DataStore
 Om data naar de Datastore te uploaden, moet je op de databron klikken en vervolgens het **Datastore** tabblad aanklikken.
 
 <img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png" target="_blank" alt="imageStyle: DataStore"/>
@@ -97,7 +97,7 @@ Als de groene **API** knop ontbreekt, of als het aantal records binnen de previe
     </tbody>
 </table>
 
-[1] Zie documentatie voor meer informatie over de Datastore: https://www.docs.civity.nl/docs/datasets_AddingDatasources#datastore).
+[1] Zie documentatie voor meer informatie over de Datastore: https://docs.ckan.org/en/latest/maintaining/datastore.html.
 
 [2] Zie CKAN documentatie over de Datastore API: https://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api
 
