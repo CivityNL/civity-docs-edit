@@ -1,6 +1,6 @@
 ---
 id: verwijderen
-title: Een vermelding verwijderen 
+title: Vermeldingen 
 sidebar_label: Een vermelding verwijderen
 ---
 ## Een vermelding verwijderen

@@ -1,12 +1,13 @@
 ---
 id: linken
-title: Gelinkte vermeldingen 
+title: Vermeldingen
 sidebar_label: Gelinkte vermeldingen
 ---
 ## Gelinkte vermeldingen
 
 Onderdeel van de Datacatalogus is de mogelijkheid om vermeldingen aan elkaar te linken. Door binnen de vermelding op Beheer te klikken is het mogelijk om via het kopje Gelinkte Vermeldingen een nieuwe gelinkte vermelding toe te voegen.
 
+## Linken (Utrecht)
 Niet alle vermeldingstypes kunnen aan elkaar kunnen worden gelinkt. Hieronder volgt voor de verschillende vermeldingstypes een overzicht van de vermeldingen die er aan gelinkt kunnen worden.
 
 ### Dataset en Geo Dataset

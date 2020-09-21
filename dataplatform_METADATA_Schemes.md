@@ -15,7 +15,7 @@ All datasets require the following metadata fields:
 * Description 
 * Owner / maintainer / publisher 
 * Plus the following fields: 
-     * Language 
+     * Language
      * Theme 
      * License 
      * Format 

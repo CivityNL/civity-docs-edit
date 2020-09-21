@@ -1,6 +1,6 @@
 ---
 id: korte_intro
-title: Korte introductie 
+title: Introductie 
 sidebar_label: Korte introductie
 ---
 ## Datacatalogus – een korte introductie

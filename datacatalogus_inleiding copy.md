@@ -1,6 +1,6 @@
 ---
 id: doel
-title: Doel
+title: Introductie
 sidebar_label: Doel
 ---
 ## Doel van deze documentatie

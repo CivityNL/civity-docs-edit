@@ -1,6 +1,6 @@
 ---
 id: abonneren
-title: Abonneren op vermeldingen 
+title: Vermeldingen 
 sidebar_label: Abonneren op vermeldingen
 ---
 ## Abonneren op vermeldingen

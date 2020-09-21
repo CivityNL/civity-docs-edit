@@ -1,6 +1,6 @@
 ---
 id: toevoegen
-title: Vermelding toevoegen
+title: Vermeldingen
 sidebar_label: Vermelding toevoegen
 ---
 
@@ -10,7 +10,7 @@ Data binnen de Datacatalogus bestaat uit vermeldingen. Vermeldingen kunnen het o
 
 ## Vermelding toevoegen
 
-Afhankelijk van de configuratie is er sprake van verschillende vermeldingstypes. De standaardconfiguratie is:
+Afhankelijk van de configuratie is er sprake van verschillende vermeldingstypes. Deze vermeldingstypes kunnen via de metadata worden aangegeven. De standaardconfiguratie is:
 
 *	Databron - Een CKAN dataset is een verzameling van data bronnen (zoals bestanden), samen met een beschrijving en andere informatie, op een vaste URL.
 *	Dataset - Datasets is datgene dat gebruikers zien wanneer ze zoeken voor data.
@@ -26,6 +26,8 @@ Een nieuwe vermelding toevoegen kan door in het hoofdmenu op VERMELDINGEN te kli
 Vervolgens kom je terecht bij de eerste stap Creëer vermelding. Hier moet de metadata van de vermelding worden ingevuld.
  
 Stap 2 is het toevoegen van databronnen. De databronnen hoeven niet het dataproduct zelf te zijn maar kunnen ook documenten zijn die de metadata ondersteunen. Een databron kan een bestand zijn, maar dit hoeft niet. Zo kan ook een verwijzing naar een externe link worden gebruikt. Wanneer je een vermelding aanklikt zijn de databronnen te vinden onder het kopje Bijlagen.
+
+> Bestandsgrootte is gelimiteerd tot maximaal 10 mb per upload.
 
 
 
