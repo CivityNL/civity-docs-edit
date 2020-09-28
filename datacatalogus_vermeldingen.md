@@ -27,7 +27,7 @@ Vervolgens kom je terecht bij de eerste stap Creëer vermelding. Hier moet de me
  
 Stap 2 is het toevoegen van databronnen. De databronnen hoeven niet het dataproduct zelf te zijn maar kunnen ook documenten zijn die de metadata ondersteunen. Een databron kan een bestand zijn, maar dit hoeft niet. Zo kan ook een verwijzing naar een externe link worden gebruikt. Wanneer je een vermelding aanklikt zijn de databronnen te vinden onder het kopje Bijlagen.
 
-> Bestandsgrootte is gelimiteerd tot maximaal 10 mb per upload.
+> Bestandsgrootte is gelimiteerd tot maximaal 500 mb per upload.
 
 
 
