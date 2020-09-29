@@ -17,7 +17,7 @@ Shape-files should be added as ZIP-files. For a shapefile to be valid, the .zip 
 *   .shp 	
 *   .shx
 
-If the filetype is supported, a green button appears inside the dataset page, named *Publish OGC*. Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system. 
+If the filetype is supported, a green button appears inside the dataset page, named *Publish OGC*. Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system.
 
 > ***Note***: For the *Publish OGC* button to be available, the meta data field Visibility must be set to *Public*
 
