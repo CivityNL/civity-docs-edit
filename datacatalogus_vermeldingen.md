@@ -1,14 +1,14 @@
 ---
 id: toevoegen
-title: Vermeldingen
-sidebar_label: Vermelding toevoegen
+title: Wat zijn Vermeldingen?
+sidebar_label: Wat zijn vermeldingen?
 ---
 
 Zoals eerder vermeld, is Datacatalogus gebouwd in CKAN. Hiermee kan data worden georganiseerd, gepubliceerd en gezocht of gevonden.
 
 Data binnen de Datacatalogus bestaat uit vermeldingen. Vermeldingen kunnen het originele dataproduct bevatten, maar een vermelding kan ook slechts een verwijzing zijn naar het originele dataproduct. Een belangrijk onderdeel van een vermelding is de metadata. Hiermee wordt het dataproduct beschreven en kan deze makkelijker vindbaar worden gemaakt.
 
-## Vermelding toevoegen
+## Vermeldingstypes
 
 Afhankelijk van de configuratie is er sprake van verschillende vermeldingstypes. Deze vermeldingstypes kunnen via de metadata worden aangegeven. De standaardconfiguratie is:
 

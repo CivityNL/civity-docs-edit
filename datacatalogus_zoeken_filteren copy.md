@@ -20,7 +20,7 @@ Aan de linkerkant op de pagina vermeldingen zijn de volgende filteropties te vin
 
 De tags van de selectielijst worden getoond, met de meest voorkomende bovenaan of op alfabetische volgorde als er gelijke aantallen zijn.
 
-Zie voor meer informatie over filteren en zoeken de documentatie op https://www.docs.civity.nl/.
+Zie voor meer informatie over filteren en zoeken de volgende documentatie op https://www.docs.civity.nl/.
 
 Zoeken:
 https://www.docs.civity.nl/docs/datasets_SearchDatasets
