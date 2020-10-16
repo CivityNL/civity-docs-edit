@@ -31,7 +31,7 @@ Het configureren van een harvesten verloopt in een aantal stappen. Al deze stapp
 2.	De beheerder maakt een nieuwe vermelding (in CKAN een Package genoemd) aan. 
 3.	De beheerder voegt de gewenste databronnen (in CKAN een Resources genoemd) toe via de upload knop. 
 
-### Real time data? 
+### Real time data
 Datacatalogus biedt ook de mogelijkheid om real time data te publiceren. Neem hiervoor eerst contact op met Civity. 
  
 ## Links naar databron
@@ -48,6 +48,3 @@ De uiteindelijke URL ziet er behoorlijk complex uit. Deze link wordt echter auto
 
 ### GeoServer 
 Conventie: online resource URL, #, naam van de laag. Bijvoorbeeld “https://portal.prvlimburg.nl/geodata/POL/wms? # POL2014_NAT_LANDSCHAP_ZL_V_inspire”. Dit is de informatie die nodig is om deze laag te benaderen in andere applicaties zoals ArcGIS for Desktop, QGIS etcetera. Civity kan een viewer integreren die dezelfde conventie gebruikt. Daarnaast is er de mogelijkheid om een voorbeeld request te genereren. Kanttekening daarbij is dat dit niet altijd een zinnige afbeelding op zal leveren (bijvoorbeeld in het geval van een schaalafhankelijke renderer).  
-
-### Microsoft Power BI ABF Swing 
-Microsoft Power BI en ABF Swing werken op een manier vergelijkbaar met ArcGIS Online. Er wordt een link opgenomen die verwijst naar het juiste dashboard.  

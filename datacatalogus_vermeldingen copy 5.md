@@ -14,7 +14,7 @@ Het harvesten gebeurt in drie stappen: “gather” (verzamelen), “fetch” (o
 * In de “fetch” fase wordt de daadwerkelijke informatie opgehaald. Het gaat hierbij om de detail informatie van de resource. In het voorbeeld van een CSW wordt hiervoor het GetRecordByID request gebruikt; 
 * In de “import” fase wordt de in de “gather” en “fetch” fases opgehaalde informatie daadwerkelijk in de metadata repository bijgewerkt. Nieuwe records worden toegevoegd, bestaande records worden bijgewerkt en uit de bron verwijderde records worden opgeruimd. Daarvoor hoeft de originele bron niet meer benaderd te worden.  
 
-ArcGIS Online, GeoServer, Power BI en ABF Swing maken een dergelijke lijst beschikbaar en kunnen dus opgenomen worden in Datacatalogus. Het configureren van hoe de harvest processen van de verschillende bronnen ingeregeld wordt is afhankelijk van een aantal zaken: 
+Het configureren van hoe de harvest processen van de verschillende bronnen ingeregeld wordt is afhankelijk van een aantal zaken: 
 
 *	Van de metadata velden die opgenomen worden in het metadata schema. Wij adviseren om elk geval de CKAN en de DCAT metadatavelden op te nemen. Indien een koppeling naar NGR gewenst is, dan dienen ook deze velden opgenomen te worden. Daarnaast zouden nog klantspecifieke velden opgenomen kunnen worden; 
 *	Hoe de links naar de bronnen opgenomen moeten worden, is afhankelijk van welke software bij de klant gebruikt worden. In het geval van een ArcGIS Online Map/Feature/ImageServer is het bijvoorbeeld een link op te nemen om de resource te openen in een online viewer, maar kunnen ook links worden opgenomen om de resource te openen in ArcGIS Desktop. Ons advies is om in elk geval de links naar de online viewer op te nemen;  
@@ -30,13 +30,7 @@ ArcGIS Online services kunnen geharvest worden aan de hand van de API’s die de
 GeoServer kan op verschillende manieren geharvest worden: 
 *	Wat altijd kan in het geval van GeoServer is de WMS/WCS/WFS OGC services harvesten aan de hand van hun GetCapabilities document 
 *	Indien de CSW extensie geïnstalleerd is, kan GeoServer ook geharvest worden aan de hand de CSW GetRecords en GetRecordByID requests 
-*	Als de GeoServer REST API benaderbaar is en een username/password beschikbaar is kan ook de GeoServer REST API gebruikt worden om te harvesten. Deze laatste optie geniet wellicht niet de voorkeur vanuit beveligingsoogpunt. 
-
-### Microsoft Power BI 
-Microsoft Power BI is voorzien van een REST API die gebruikt kan worden door de harvester. De documentatie daarvan kan gevonden worden op https://docs.microsoft.com/en-us/rest/api/power-bi/datasets. In de “gather” fase wordt het Get Datasets (of en van de varianten daarop) request gebruikt om een lijst van beschikbare resources op te halen. In de “fetch” fase wordt het “Get Dataset” request gebruikt om de details van een resource op te halen.  
-
-### ABF Swing 
-Voor ABF Swing hebben we de benodigde documentatie niet kunnen vinden. Door echter in de demonstratie versie van ABF Swing “onder water” te kijken naar de requests die gestuurd worden door de betreffende pagina kunnen we afleiden dat ook ABF Swing een REST API heeft waar de benodigde informatie opgehaald kan worden.   
+*	Als de GeoServer REST API benaderbaar is en een username/password beschikbaar is kan ook de GeoServer REST API gebruikt worden om te harvesten. Deze laatste optie geniet wellicht niet de voorkeur vanuit beveligingsoogpunt.  
 
 ## Configureren van een harvester 
 Een Datacatalogus beheerder kan een harvester configureren in de Datacatalogus user interface. Deze informatie kan worden ingevoerd via de CKAN API. De volgende informatie moet worden opgegeven: 

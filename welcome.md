@@ -3,7 +3,7 @@ id: Welcome
 title: Welcome
 sidebar_label: Welcome
 ---
-Here you will find a central redsaflasdfljadsfasdfl;dflklfkldsdfpository of all user documents pretaining to the City Innovation Platform.
+Here you will find a central repository of all user documents pretaining to the City Innovation Platform.
 
 ## Navigation
 **You can find different topics in the table of contents.**
