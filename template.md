@@ -8,7 +8,7 @@ This is where you describe what it is that you’ll accomplish on this page.
 
 For information about changing the page Title (*"Template & Formatting"* on this page), see: <a href="https://docusaurus.io/docs/en/doc-markdown#documents" target="_blank">Markdown Headers - Documents</a>
 
-## Prerequisite
+## Prerequisites
 ```Text formated like this``` and
   
    
