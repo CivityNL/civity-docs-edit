@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_2
-title: Stap 2: Formuleer indicatoren, maak beleid meetbaar
-sidebar_label: Stap 2: Formuleren
+title: Stap 2 - Formuleer indicatoren, maak beleid meetbaar
+sidebar_label: Stap 2 - Formuleren
 ---
 
 Vertaal de sleutelelementen in 1 of meerdere meetbare indicatoren. 

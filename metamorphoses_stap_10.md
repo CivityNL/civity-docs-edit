@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_10
-title: Stap 10: Presenteer
-sidebar_label: Stap 10: Presenteren
+title: Stap 10 - Presenteer
+sidebar_label: Stap 10 - Presenteren
 ---
 
 Maak een rapport/dashboard/presentatie. Betrek collega’s, stakeholders en anderen uit je ecosysteem bij de inzichten die je hebt opgedaan.

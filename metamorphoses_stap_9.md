@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_9
-title: Stap 9: Monitor KPI’s
-sidebar_label: Stap 9: Monitoren
+title: Stap 9 - Monitor KPI’s
+sidebar_label: Stap 9 - Monitoren
 ---
 
 > Veel vraagstukken/problemen vereisen monitoring over een langere periode en zullen niet zijn beantwoord met een eenmalige analyse of conclusie. 

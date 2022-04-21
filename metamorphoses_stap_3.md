@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_3
-title: Stap 3: Verzamel of creëer data
-sidebar_label: Stap 3: Verzamelen
+title: Stap 3 - Verzamel of creëer data
+sidebar_label: Stap 3 - Verzamelen
 ---
 
 > Hoewel bij het verzamelen van de gewenste databronnen vaak eerst binnen de eigen organisatie wordt gekeken, kan het juist ook interessant zijn om gebruik te maken van externe (open) databronnen

@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_11
-title: Stap 11: Evalueer
-sidebar_label: Stap 11: Evalueren
+title: Stap 11 - Evalueer
+sidebar_label: Stap 11 - Evalueren
 ---
 > Bekijk het rapport/dashboard/presentatie en bespreek de trend die uit de data blijkt. Op basis hiervan kun je weer verder bouwen, de aanpak aanscherpen, veranderen.
 

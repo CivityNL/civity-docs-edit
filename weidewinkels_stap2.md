@@ -1,7 +1,7 @@
 ---
 id: datacollection_stap2
 title: Using the Datastore API
-sidebar_label: - CKAN Datastore API use
+sidebar_label: CKAN Datastore API use
 ---
 
 All actions related to inserting, updating, or even deleting records, are done through the <a href="https://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api" target="_blank">CKAN Datastore API</a>.

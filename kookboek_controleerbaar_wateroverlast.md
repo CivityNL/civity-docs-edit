@@ -1,7 +1,7 @@
 ---
-id: kookboek_wateroverlast
-title: [RECEPT] Aanpak - Wateroverlast
-sidebar_label: [RECEPT] Aanpak
+id: kookboek-wateroverlast
+title: Aanpak - Wateroverlast
+sidebar_label: Aanpak
 ---
 
 > Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'

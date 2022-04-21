@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_8
-title: Stap 8: Documenteer, maak controleerbaar
-sidebar_label: Stap 8: Documenteer
+title: Stap 8 - Documenteer, maak controleerbaar
+sidebar_label: Stap 8 - Documenteer
 ---
 
 > Leg vast hoe de uiteindelijk berekening tot stand is gekomen, welke data daarvoor gebruikt is, hoe je de data hebt verwerkt, welke filtering je hebt toegepast, wat de voor- en nadelen zijn van het gebruikte model.

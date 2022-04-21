@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_5
-title: Stap 5: Prepareren van data
-sidebar_label: Stap 5: Prepareren
+title: Stap 5 - Prepareren van data
+sidebar_label: Stap 5 - Prepareren
 ---
 
 > Naast het bepalen van de inhoudelijke kwaliteit van de data, is het belangrijk om ook naar de databron zelf te kijken. Zo kan het mogelijk zijn dat de databron zelf nog aanpassingen nodig heeft voordat de databron gebruikt kan worden voor analyse.

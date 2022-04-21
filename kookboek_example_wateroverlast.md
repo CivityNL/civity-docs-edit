@@ -1,7 +1,7 @@
 ---
 id: kookboek_example_wateroverlast
-title: [RECEPT] Evalueerbaar - voorbeeld toepassing - Wateroverlast
-sidebar_label: [RECEPT] Evalueerbaar
+title: Evalueerbaar - voorbeeld toepassing - Wateroverlast
+sidebar_label: Evalueerbaar
 ---
 
 > Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'

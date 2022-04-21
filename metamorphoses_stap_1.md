@@ -1,7 +1,8 @@
 ---
 id: metamorphoses_stap_1
-title: Stap 1: Maak het vraagstuk concreet
-sidebar_label: Stap 1: Concretiseren
+sidebar_label: "Stap 1 - Concretiseren"
+title: "Stap 1 - Maak het vraagstuk concreet"
+
 ---
 
 > Veel vraagstukken zijn dusdanig complex dat concretisering nodig is om tot een antwoord te kunnen komen. Om een vraagstuk te concretiseren is het belangrijk om de juiste vragen te stellen. 

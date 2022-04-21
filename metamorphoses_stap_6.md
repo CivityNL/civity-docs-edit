@@ -1,7 +1,7 @@
 ---
 id: metamorphoses_stap_6
-title: Stap 6: Combineren van databronnen
-sidebar_label: Stap 6: Combineren
+title: Stap 6 - Combineren van databronnen
+sidebar_label: Stap 6 - Combineren
 ---
 
 Soms is één databron niet voldoende om een vraagstuk te beantwoorden en is het nodig om verschillende databronnen te combineren of samen te voegen om tot conclusies te kunnen komen.

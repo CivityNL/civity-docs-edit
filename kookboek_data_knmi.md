@@ -1,7 +1,7 @@
 ---
 id: kookboek_data_knmi
-title: [RECEPT] Meetbaar - Voorbeeld dataset - KNMI
-sidebar_label: [RECEPT] Meetbaar - KNMI
+title: Meetbaar - Voorbeeld dataset - KNMI
+sidebar_label: Meetbaar - KNMI
 ---
 
 > Dit is een praktisch voorbeeld waarbij alle stappen van deze nieuwe manier van werken worden bezocht. Alle eerder genoemde onderwerpen zullen in meer of mindere mate aan bod komen met de nadruk op 'wateroverlast'

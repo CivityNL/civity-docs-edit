@@ -1,7 +1,7 @@
 ---
 id: datacollection_stap1
 title: Connect to our Dataplatform
-sidebar_label: - Connect to our Dataplatform
+sidebar_label: Connect to our Dataplatform
 ---
 
 In our Farmer Shops example, the names of the input fields of our form correspond to the column names in the dataset. After the user submits the form, a new record is added to a CSV file that is stored in the CKAN Datastore on our Dataplatform. In order to insert these new records we make use of the <a href="https://docs.ckan.org/en/latest/maintaining/datastore.html#the-datastore-api" target="_blank">CKAN Datastore API</a>.
