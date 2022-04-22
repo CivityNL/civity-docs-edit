@@ -4,7 +4,7 @@ title: Application Plans
 sidebar_label: Application Plans
 ---
 
-Every product consists of one or more application plans. An application is always associated with an application plan. 
+Every product consists of one or more application plans. An application is always associated with an application plan. ....
 
 In basic 3scale plans only a single application is allowed; but, in enterprise plans, multiple applications per account are allowed.
 
