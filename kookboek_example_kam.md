@@ -32,9 +32,9 @@ Constantes zijn waardes die uit documentatie komt, vaak gemiddelde waardes die n
 | `R` | Gemiddelde regen per vierkante meter per jaar | 0.9475 | m<sup>3</sup> |
 | `A_boom` | Gemiddelde oppervlakte van een boom | 65.61 | m<sup>2</sup> |
 | `p_boom` | Percentage 'waterconsumptie' per boom | 60 | % |
-| `co2_hh` | CO<sub>2 per huishouden per jaar | 1500 | kg |
-| `co2_weg` | CO<sub>2 per meter weg per jaar | 105 | kg |
-| `co2_boom` | CO<sub>2 'consumptie' per boom per jaar | 21.77 | kg |
+| `co2_hh` | CO<sub>2</sub> per huishouden per jaar | 1500 | kg |
+| `co2_weg` | CO<sub>2</sub> per meter weg per jaar | 105 | kg |
+| `co2_boom` | CO<sub>2 </sub> 'consumptie' per boom per jaar | 21.77 | kg |
 | `T` | Gemiddelde temperatuursverhoging door verharding | 6 | ℃ |
 
 Met behulp van de lagen ui de BGT kunnen de volgende elementen bepaald worden, die per wijk/buurt of wat dan ook berekend kunnen worden.
@@ -102,8 +102,8 @@ De verkoeling door bomen is met de huidige constantes zodanig minimaal dat die w
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_buurt.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 <img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_lucht.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_water.png" target="_blank" alt="imageStyle: Wateroverlas"/>    
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_hitte.png" target="_blank" alt="imageStyle: Wateroverlas"/>    
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_water.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_hitte.png" target="_blank" alt="imageStyle: Wateroverlas"/>
 
 ### Uitgebreid
 

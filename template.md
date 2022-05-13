@@ -112,7 +112,7 @@ This will be a subcategory heading of the “Main Category Heading.” These may
     <a href="" target="_blank">This is an ***external*** link to nowhere that opens in a new tab</a>
     ```
 * ![this is a broken image, which is showing descriptive/alternative text - note the use of "!"](#) ```![this is a broken imageStyle, which is showing descriptive/alternative text - note the use of "!"](#) ```
-    <img class="image shadowing" src="assets/README_changeBranch.gif" alt="SCREENCAST: changing branches / this is a functional gif">
+    <img class="image shadowing" src="assets/README_changeBranch.gif" alt="SCREENCAST: changing branches / this is a functional gif"/>
 
     * GIfs and images must be inserted in the following (HTML) format with a class assignment of "**imageStyle**" to use uniform styling constraints.
     

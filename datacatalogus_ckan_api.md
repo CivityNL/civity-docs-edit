@@ -94,7 +94,6 @@ Als de groene **API** knop ontbreekt, of als het aantal records binnen de previe
         <tr>
             <td>
                 <strong>Error: Cannot connect to datapusher</strong>
-            <td>
                 <p>
                         Normaal gesproken wordt data automatisch naar de DataStore geupload.
                 </p>

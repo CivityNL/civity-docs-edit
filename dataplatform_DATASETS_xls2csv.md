@@ -9,7 +9,7 @@ of the original XLS resource. These two resources will be bound together and wil
 simultaneously manipulated. They will be simultaneously updated and deleted. The new csv resource holds the same name 
 as the original with the prefix: ***CSV.** xls resource name*
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/xls2csv/dataplatform_DATASETS_xls2csv_ConvertSingle.png" alt="SCREENCAST: ConvertSingle">
+<img class="imageStyle" src="/docs/assets/Dataplatform/xls2csv/dataplatform_DATASETS_xls2csv_ConvertSingle.png" alt="SCREENCAST: ConvertSingle"/>
 
 The user has also the ability to generate a new csv resource in an existing xls resource, through selecting the add CSV option and updating the xls resource. She can even delete a previously generated csv resource by setting the CSV option to 'No action' and updating the resource.
 
@@ -24,9 +24,9 @@ If the xls resource contains more than one spreadsheets, then there are generate
 of the xls spreadsheets. The new csv resources names follow the same name structure as described and also the spreadsheet
 name as suffix: *CSV.xls resource name.**spreadsheet name***
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/xls2csv/dataplatform_DATASETS_xls2csv_ConvertMulti.png" alt="SCREENCAST: ConvertMulti">
+<img class="imageStyle" src="/docs/assets/Dataplatform/xls2csv/dataplatform_DATASETS_xls2csv_ConvertMulti.png" alt="SCREENCAST: ConvertMulti"/>
 
-<br><br><br>
+<br/><br/><br/>
 In this <a href="https://youtu.be/z6xj3kO8BJc">video</a> you can watch a thorough demonstration of this new feature.
 
 

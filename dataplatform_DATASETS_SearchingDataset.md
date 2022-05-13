@@ -14,7 +14,7 @@ A general search field is found on the homepage of Dataplatform.
 > Linking words with "+" in your search will yeild better results.
 > For example, `"Utrecht+Events+2019"` is a more effective search than `"Utrecht Events 2019"`.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png" alt="image: Dataplatform Front Page">
+<img class="imageStyle" src="/docs/assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png" alt="image: Dataplatform Front Page"/>
 
 You are able to search for the following cases:
 * Dataset titles
@@ -28,7 +28,7 @@ You are able to search for the following cases:
 ## Searching for Organizations
 A separate searchbar for finding organizations is located on the organization page.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_OrganizationSearch.png" alt="image: Organization Search">
+<img class="imageStyle" src="/docs/assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_OrganizationSearch.png" alt="image: Organization Search"/>
 
 Here you may search for the following cases:
 * Name of an organization

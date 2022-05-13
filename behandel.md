@@ -12,12 +12,12 @@ We are demonstrating on a mobile phone with Android and Gmail as the default ema
 
 1- When you open the Gmail app, please click on "Een e-mailadres toevogen" 
 
-<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_01.png" width=auto height="600" style="border: 1px solid #C9C9C9">
+<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_01.png" width="auto" height="600" style="border: 1px solid #C9C9C9"/>
 
 2- Then, on the next screen, you should choose which email provider you want.
 
-<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_02.png" width=auto height="600" style="border: 1px solid #C9C9C9">
+<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_02.png" width="auto"  height="600" style="border: 1px solid #C9C9C9"/>
 
 3-And then finally add the desired email.
 
-<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_03.png" width=auto height="600" style="border: 1px solid #C9C9C9">
+<img class="img-fluid" src="/docs/assets/Behandel/Screenshot_03.png" width="auto"  height="600" style="border: 1px solid #C9C9C9"/>

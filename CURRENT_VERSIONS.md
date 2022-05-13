@@ -59,9 +59,6 @@ Latest release version of Dataplatform
     <tbody>
         <tr>
             <th>4.1.0</th>
-            <!-- <td>
-                <a href="#">Documentation</a>
-            </td> -->
             <td>
                 <a href="Release_Notes\releaseNotes-SM-Web.html">Release Notes</a>
             </td>
@@ -74,9 +71,6 @@ Latest release version of Dataplatform
     <tbody>
         <tr>
             <th>4.1.6</th>
-            <!-- <td>
-                <a href="#">Documentation</a>
-            </td> -->
             <td>
                 <a href='Release_Notes\releaseNotes-SM-Mobile.html'>Release Notes</a>
             </td>
@@ -84,7 +78,7 @@ Latest release version of Dataplatform
     </tbody>
 </table>
 
-<!-- #### Behandel
+#### Beheer
 <table class="versions">
     <tbody>
         <tr>
@@ -97,7 +91,7 @@ Latest release version of Dataplatform
             </td>
         </tr>
     </tbody>
-</table> -->
+</table>
 
 
 
@@ -117,19 +111,3 @@ Latest release version of Dataplatform
         </tr>
     </tbody>
 </table>
-<!-- 
-## Data Hamster
-Latest release version of Dataplatform
-<table class="versions">
-    <tbody>
-        <tr>
-            <th>numerical version goes here</th>
-            <td>
-                <a href="#">Link goes here</a>
-            </td>
-            <td>
-                <a href="#">Release Notes</a>
-            </td>
-        </tr>
-    </tbody>
-</table> -->

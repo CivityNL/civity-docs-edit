@@ -118,7 +118,6 @@ If the green **API** button is missing, or the number of entries does not match 
         <tr>
             <td>
                 <strong>Error: Cannot connect to datapusher</strong>
-            <td>
                 <p>
                         Normally the datapusher automatically pushes data into the datastore on creating a datasource.
                 </p>

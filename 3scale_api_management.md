@@ -18,5 +18,5 @@ You can find more information in the official 3scale documentation <a href="http
 
 ## Structure 
 
-<img class="img-fluid" src="/docs/assets/3scale/Intro_Page_1.png">
-<img class="img-fluid" src="/docs/assets/3scale/Intro_Page_2.png">
+<img class="img-fluid" src="/docs/assets/3scale/Intro_Page_1.png" />
+<img class="img-fluid" src="/docs/assets/3scale/Intro_Page_2.png" />

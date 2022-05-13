@@ -12,26 +12,26 @@ For that reason, a new feature is introduced inside CKAN to give an administrato
 
 There are new options introduced inside the **CKAN config options** tab ‘Config’. 
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_CkanConfigOptions.png" alt="SCREENCAST: CkanConfigOptions">
+<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_CkanConfigOptions.png" alt="SCREENCAST: CkanConfigOptions"/>
 
 The admin user can insert new keywords, separated by comma, corresponding to non-default geometry column names that can be found inside a file, like north for latitude and east for longitude.
 Before filling/ updating these new geometry configuration options, no map visualization is available automatically, but after an admin is declaring new geometry keywords, data is correctly visualized both in the backend and the portal of **DATAPLATFORM**.
 
 ## BACKEND | Visualizing non-default geometry column names
 ####  Before
-<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_BackendBefore.png" alt="SCREENCAST: BackendBefore">
+<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_BackendBefore.png" alt="SCREENCAST: BackendBefore"/>
 
 #### Backend After
-<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_BackendAfter.png" alt="SCREENCAST: BackendAfter"> 
+<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_BackendAfter.png" alt="SCREENCAST: BackendAfter"/> 
 
 ## PORTAL | Visualizing non-default geometry column names
 #### Before
-<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendBefore.png" alt="SCREENCAST: FrontendBefore">
+<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendBefore.png" alt="SCREENCAST: FrontendBefore"/>
 
 #### After
-<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendAfter.png" alt="SCREENCAST: FrontendAfter">
+<img class="imageStyle" src="/docs/assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendAfter.png" alt="SCREENCAST: FrontendAfter"/>
 
-<br><br><br>
+<br/><br/><br/>
 In this <a href="https://youtu.be/GSPkD3FfWqM">video</a> you can watch a thorough demonstration of this new feature.
 
 
