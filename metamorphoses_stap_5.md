@@ -12,7 +12,7 @@ Hieronder staan enkele korte voorbeelden die samenhangen met het preparen van de
 + Coördinatenstelsel inrichten 
 + Eenheden instellen, bv inch naar meter, Dollar naar Euro
 
-Voor [stap 6](stap_6.md) kan standaardisatie een belangrijke stap zijn om een databron klaar te maken voor analyse:
+Voor [stap 6](metamorphoses_stap_6) kan standaardisatie een belangrijke stap zijn om een databron klaar te maken voor analyse:
 Enkele voorbeelden van standaardisatie:
 + Bijv. bij bouwen is het handiger om een unieke bag-identificatie te gebruiken, dan weet je precies over welk gebouw het gaat
 + Unieke BSN-nrs

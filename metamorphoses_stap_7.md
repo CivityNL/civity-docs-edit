@@ -4,7 +4,7 @@ title: Stap 7 - Verwerken van data
 sidebar_label: Stap 7 - Verwerken
 ---
 
-Na het [prepareren](stap_5.md) en eventueel [combineren](stap_6.md) van de gevonden databronnen, is de volgende stap het verwerken van de data. Dit wil zeggen de feitelijke analyse van de data om KPI's te kunnen bepalen.
+Na het [prepareren](metamorphoses_stap_5) en eventueel [combineren](metamorphoses_stap_6) van de gevonden databronnen, is de volgende stap het verwerken van de data. Dit wil zeggen de feitelijke analyse van de data om KPI's te kunnen bepalen.
 
 Bij sommige datasets zal de analyse bestaan uit het aflezen van al dan niet geaggregeerde data. In andere gevallen zal analyse plaatsvinden door berekeningen of statistische inferenties toe te passen. Voorbeelden hiervan zijn het 'fitten' van een model op basis van de data, datasimulatie, interpolatie of andere methoden. 
 
