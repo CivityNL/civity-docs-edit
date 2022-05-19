@@ -12,7 +12,7 @@ Want over veel van deze problemen is de oorzaak wel bekend en om te laten zien d
 
 ## Van data naar informatie
 
-De datasets waar mee gewerkt gaat worden zijn goed gedocumenteerd. Vooral de BGT is een uitstekende dataset (zie [Rating datasets](../../Kookboek/kookboek_rating_datasets.md)), maar ook het AHN is zeer goed bruikbaar. Met andere woorden: de data is goed, nu nog de informatie.
+De datasets waar mee gewerkt gaat worden zijn goed gedocumenteerd. Vooral de BGT is een uitstekende dataset (zie [Rating datasets](kookboek_rating_datasets.md)), maar ook het AHN is zeer goed bruikbaar. Met andere woorden: de data is goed, nu nog de informatie.
 
 
 ### Laag voor laag
