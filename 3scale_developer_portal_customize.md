@@ -23,7 +23,7 @@ On the left side, click on Developer Portal to reveal its elements:
 
 - The main area containing details of the sections above.
 
-<img class="img-fluid" src="/docs/assets/3scale/dev01.png"/>
+<img class="img-fluid" src={require('./assets/3scale/dev01.png' ).default} />
 
 ## Content
 
@@ -31,9 +31,9 @@ The content section shows the site structure and hierarchy and provides editing 
 
 You can save(1) you changes, preview(2) them or immediately publish(3) them. You also have the ability to revert changes, by either clicking the button _Revert(4)_ and un-doing your last change or by accessing the _Versions(5)_ tab and selecting the exact version you want to revert to.
 
-<img class="img-fluid" src="/docs/assets/3scale/dev02.png"/>
+<img class="img-fluid" src={require('./assets/3scale/dev02.png' ).default} />
 
-<img class="img-fluid" src="/docs/assets/3scale/dev03.png"/>
+<img class="img-fluid" src={require('./assets/3scale/dev03.png' ).default} />
 
 ## Layouts and partials
 
@@ -61,7 +61,7 @@ To save the changes you click on the bottom right corner the button _Update Serv
 
 The output of the report is similar to the _apicurio_ validation check we used before, and in our test case the result was highlighting exactly the same issues.
 
-<img class="img-fluid" src="/docs/assets/3scale/dev04.png"/>
+<img class="img-fluid" src={require('./assets/3scale/dev04.png' ).default} />
 
 ## Legal Terms
 

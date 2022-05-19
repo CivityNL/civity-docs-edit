@@ -12,7 +12,7 @@ Een voorbeeld voor geodata is de Basisregistratie Grootschalige Topografie (BGT)
 
 Gelukkig is de BGT in lagen verdeeld en hoeft dus niet de hele dataset ingeladen te worden voor een specifiek onderwerp. Hoewel afhankelijk van het doel wel meerdere lagen noodzakelijk zijn om tot het gewenste resultaat te komen. Hieronder is een schematische weergaven van de verschillende types objecten die zich in de BGT bevinden ([bron](https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf)). 
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/bgt.PNG" target="_blank" alt="imageStyle: BGT-objecten"/>
+<img class="imageStyle shadowing"  target="_blank" alt="imageStyle: BGT-objecten'" src={require('./assets/Kookboek/bgt.PNG').default} />
 
 Dit overzicht bevat alleen de objecten die als vlak weergegeven worden. Daarnaast bevat de BGT ook nog punten, zoals putten, masten en vegetatieobjecten. Om een iets beter idee te geven van de verschillende lagen, zijn de belangrijkste hieronder kort toegelicht aangevuld met de definities zoals die in de BGT gegevenscatalogus zijn beschreven ([bron](https://www.geonovum.nl/uploads/standards/downloads/BGTGegevenscatalogus111.pdf)). Met name de 'ondersteunende' lagen zijn soms moeilijk te interpreteren, vaak omdat die grensgebieden beslaan die niet altijd even duidelijk zijn te definieren.
 
@@ -60,7 +60,7 @@ Om een idee te geven van de BGT zal in dit deel gekeken worden naar de Vissersha
 
 Hieronder is een kaartje gemaakt met [QGIS](https://qgis.org/nl/site/) (een vrij en open source geografisch informatiesysteem) waarop alle lagen zoals die in het objectenoverzicht staan. Op de hoek linksboven na, is er verder geen wit te zien wat betekent dat de BGT de gehele ruimte heeft toegekend aan een object. De hoek linksboven is het gebied van de Noordzee dat buiten de landsgrens valt.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/bgt_denhaag_with_legend.png" target="_blank" alt="imageStyle: Vissershaven"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Vissershaven'" src={require('./assets/Kookboek/bgt_denhaag_with_legend.png').default} />
 
 ## Van vlakken naar informatie
 
@@ -69,13 +69,13 @@ Het kaartje van de Vissershaven is leuk en aardig, maar er valt nog geen informa
 - Om de berekeningen snel te laten verlopen is er een extract gemaakt van de BGT met de grenzen zoals die hierboven zijn weergegeven. Dit betekent dus dat waterobjecten die daar net buiten vallen niet zijn meegenomen in de bepaling. De waardes aan de randen zullen dus niet representatief zijn.
 - De definitie van een `Waterdeel` is best breed, wat dus betekent dat dit soort objecten flink kunnen varieren. Zo zijn er 28 objecten in deze laag met oppervlaktes van 22 m2 tot 2.2 km2.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/bgt_vissershaven_afstand_with_legend.png" target="_blank" alt="imageStyle: Vissershaven"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Vissershaven'" src={require('./assets/Kookboek/bgt_vissershaven_afstand_with_legend.png').default} />
 
 Op deze manier is er een beeld verkregen van de afstand van pand naar water. De gemiddelde afstand blijkt 350 meter te zijn.
 
 Hetzelfde kan ook gedaan worden met de laag `BegroeidTerreindeel`, waardoor er een overzicht ontstaat van de afstand tussen grijs en groen. Dit overzicht is in het kaartje hieronder weergegeven. Dezelfde opmerkingen gelden wederom (4400 objecten, kleinste object is 60 cm2 en het grootsts object ruim 70000 m2):
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/bgt_vissershaven_afstand_plant_with_legend.png" target="_blank" alt="imageStyle: Vissershaven"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Vissershaven'" src={require('./assets/Kookboek/bgt_vissershaven_afstand_plant_with_legend.png').default} />
 
 Dit beeld is een stuk gevarieerder door het grotere aantal objecten, waardoor de gemiddelde afstand ook een stuk korter is: 25 m.
 
@@ -92,6 +92,6 @@ In dit geval is besloten om panden te klassificeren gebaseerd op de afstand in v
 
 Het resultaat is hieronder te zien.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/bgt_vissershaven_class.png" target="_blank" alt="imageStyle: Vissershaven"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Vissershaven'" src={require('./assets/Kookboek/bgt_vissershaven_class.png').default} />
 
 Hoewel door de eerder genoemde beperkingen het lastig is om echt uitspraken te doen, blijkt wel dat de gebieden Oud Scheveningen en Statenkwartier aandacht kunnen gebruiken.

@@ -99,13 +99,13 @@ De verkoeling door bomen is met de huidige constantes zodanig minimaal dat die w
 
 ### Het model
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_buurt.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_lucht.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_water.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kam_hitte.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/kam.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/kam_buurt.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/kam_lucht.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/kam_water.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/kam_hitte.png').default} />
 
 ### Uitgebreid
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/heat.png" target="_blank" alt="imageStyle: Wateroverlas"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/twi.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/heat.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/twi.png').default} />

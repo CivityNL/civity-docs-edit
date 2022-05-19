@@ -14,7 +14,7 @@ In this page you will see what datasets you own, in addition to your Activity St
 
 You may find your user profile by clicking on your name at the top of the page.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profileButton.png" alt="image: My Profile" target="_blank"/> 
+<img class="imageStyle"  alt="image: My Profile" target="_blank " src={require('./assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profileButton.png').default} /> 
 
 
 The personal details displayed on the Account Information page, consists of the following: 
@@ -30,7 +30,7 @@ The personal details displayed on the Account Information page, consists of the 
 ## Edit Personal Settings
 To adjust your user settings and details, select the ⚙ icon (settings cog) at the top right corner of the screen. Note: your username cannot be changed.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/PersonalProfile/dataplatform_user_UserManagement_user_settings.png" alt="image: My Profile - Edit" target="_blank"/> 
+<img class="imageStyle" alt="image: My Profile - Edit" target="_blank" src={require('./assets/Dataplatform/PersonalProfile/dataplatform_user_UserManagement_user_settings.png').default} /> 
 
 Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it has been compromised. You may also write a small bio in the *About* textfield. The *About* textfield accepts <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
 
@@ -43,7 +43,7 @@ Datacatalogue allows you to register, manage and unlock all data for your users 
 
 Datacatalogue has a unique person profile page, where you may view your **Awaiting Action**, **News Feed**, and **Group Mailbox** pages, in addition to customizing your user preferences and notifications. Your user preferences may be customized with: Tags, Type, and Theme.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/PersonalProfile/datacatalogus_personal_page.png" target="_blank"/> 
+<img class="imageStyle"  target="_blank"  src={require('./assets/Dataplatform/PersonalProfile/datacatalogus_personal_page.png').default} /> 
 
 ### Notifications
 

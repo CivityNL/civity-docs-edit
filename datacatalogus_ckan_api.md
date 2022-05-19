@@ -24,7 +24,7 @@ Wanneer een vermelding is opgeslagen in de CKAN Datastore, kan de data via een p
 ### Uploaden naar de DataStore
 Om data naar de Datastore te uploaden, moet je op de databron klikken en vervolgens het **Datastore** tabblad aanklikken.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png" target="_blank" alt="imageStyle: DataStore"/>
+<img class="imageStyle" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png').default} target="_blank" alt="imageStyle: DataStore'" />
 
 Om te kijken of de bron inderdaad naar de Datastore kan worden geupload, kun je op de "Upload naar DataStore" knop klikken.
 
@@ -36,7 +36,7 @@ Data wordt geupload per 250 records. Een upload van 250 records wordt een chunk 
 
 Als de upload volledig gebeurd is, zul je ***Compleet*** zien staan naast het **Status** veld.
 
-<img class="imageStyle" src="/docs/assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png" target="_blank" alt="imageStyle: DataStore"/>
+<img class="imageStyle" target="_blank" alt="imageStyle: DataStore'" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png').default} />
 
 ### DataStore fouten
 > De DataStore zal een foutmelding geven als de preview of API niet kan worden gebruikt. Hier kunnen veel verschillende oorzaken voor zijn.

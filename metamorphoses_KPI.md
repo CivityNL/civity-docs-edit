@@ -19,13 +19,13 @@ Door hiermee te werken zijn doelen concreet gemaakt en dus de mogelijkheid gecre
 
 Diverse steden hebben al oplossingen bedacht om hun beleid te monitoren. Hieronder is een aantal voorbeelden beschreven. [^2]
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/KPI_ResidentialBreakdown.png" target="_blank" alt="imageStyle: Residential Breakdown"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/KPI_ResidentialWasteDiversion.png" target="_blank" alt="imageStyle: Residential Waste Diversion"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Residential Breakdown" src={require('./assets/Kookboek/KPI_ResidentialBreakdown.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Residential Waste Diversion" src={require('./assets/Kookboek/KPI_ResidentialWasteDiversion.png').default} />
 
 Een ander voorbeeld is ”waar staat je gemeente” van de VNG. Deze site maakt het mogelijk de prestaties van een individuele gemeente te bekijken en te vergelijken met andere gemeenten op een groot aantal thema’s.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/KPI_Waddinxveen.png" target="_blank" alt="imageStyle: Waddinxveen"/>
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/KPI_Waddinxveen2.png" target="_blank" alt="imageStyle: Waddinxveen2"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Waddinxveen" src={require('./assets/Kookboek/KPI_Waddinxveen.png').default} />
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Waddinxveen2" src={require('./assets/Kookboek/KPI_Waddinxveen2.png').default} />
 
 Wat is er uit deze voorbeelden te leren?
 

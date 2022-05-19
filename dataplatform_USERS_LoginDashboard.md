@@ -22,7 +22,7 @@ The login button is located at the top of the page on the right side. Here you w
 
 ## Dashboard
 When you are logged in your name will appear at top of the page; you are directed to your dashboard. The dashboard allows you to view the latest datasets that you have previously worked on.
-<img class="imageStyle" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyDashboard.png" target="_blank" alt="image: My Dashboard"/>
+<img class="imageStyle" target="_blank" alt="image: My Dashboard" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyDashboard.png').default} />
 
 Clicking on “My Organization” will allow you to see the datasets owned by your organization(s). If you possess the correct credentials, you can then add, edit, or delete datasets.
-<img class="imageStyle" src="/docs/assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png" target="_blank" alt="image: My Dashboard - My Organizations"/>
+<img class="imageStyle" target="_blank" alt="image: My Dashboard - My Organizations" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png').default} />

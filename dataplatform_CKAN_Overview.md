@@ -7,8 +7,6 @@ sidebar_label: Overview
 Here you will find an overview of what CKAN is, in addition to what you can accomplish with CKAN.
 
 ## CKAN 
-<!-- <img class="no-padding-left-align" src="/docs/assets/Dataplatform/CKANOverview/dataplatform_2a_CKAN_overview_logo.png" alt="imageStyle: CKAN logo" style="position: left"> -->
-
 
 CKAN stands for "Comprehensive Knowledge Archive Network," which is a <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> management system for the storage and distribution of <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>. 
 
@@ -21,9 +19,6 @@ You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target
 
 CKAN supports many European languages. Presently, CKAN Dataplatform is available in Dutch (Nederlands), English; Swedish Dataplatform products are available in Swedish (Svenska) and English. 
  
-<!-- <img class="imageStyle" src="/docs/assets/Dataplatform/CKANOverview/dataplatform_2a_CKAN_overview_languageselector.gif" alt="SCREENCAST: footer language selection" style="position: left"> -->
-
-
 ## Datasets  
 > datasets are managed at <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> and presented at <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
 

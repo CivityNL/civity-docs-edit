@@ -12,13 +12,13 @@ In dit project is het idee dat burgers met deze simpele sensoren rond gaan fiets
 
 De provincie Utrecht voert een project uit om de luchtkwaliteit en fietsroutes in kaart te brengen. In 2019 krijgen 500 fietsers een meetkastje (mobiele sensor) waarmee elke 10 seconden de luchtkwaliteit en GPS-positie wordt gemeten. Elke 2 minuten wordt de data via een standaard protocol (NB-IoT of LTE) verstuurd naar een dataplatform. De data die wordt verzameld wordt ook naar het RIVM gezonden om de gegevens te valideren tov het officiële landelijke meetnet. De gecorrigeerde gegevens worden eveneens op een dataplatform opgeslagen en beschikbaar gesteld als open data.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image1.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/Voorbeeld_2_image1.png').default} />
 
 In feite is het achterliggende proces voor elk sensorproject vergelijkbaar, zoals hieronder schematisch is weergegeven. Sensoren versturen de data via een gateway naar een dataplatform. Daar wordt de data in een herbruikbaar, open formaat omgezet, zodat het kan worden hergebruikt voor nieuwe toepassingen. 
 
 Publicatie als open data is een keuze die de eigenaar van de data maakt. Op een vergelijkbare manier heeft de gemeente Utrecht bijvoorbeeld 50 invalideparkeerplaatsen voorzien van een sensor. Elke statuswijziging (vrij-bezet) wordt als nieuw record opgeslagen, zodat er een set historische data wordt opgebouwd die gebruikt kan worden voor analyse en eventuele aanpassing van beleid.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/Voorbeeld_2_image2.png" target="_blank" alt="imageStyle: Wateroverlas"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Wateroverlas'" src={require('./assets/Kookboek/Voorbeeld_2_image2.png').default} />
 
 ## Van meting naar data
 
@@ -72,8 +72,8 @@ Hieronder zijn een aantal voorbeelden gegeven, elk met hun voordelen en nadelen.
 
 Een route is een reeks aaneengesloten punten van een bepaalde sensor. Onderstaande kaart geeft dus weer hoe fietsers zijn gereden en wat luchtkwaliteit er gemeten is onderweg. Kort gezegd: puntjes tekenen en lijntjes trekken.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_routes.png" target="_blank" alt="imageStyle: 
-Residential Breakdown"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: 
+Residential Breakdown'" src={require('./assets/Kookboek/kookboek_example_snuffelfiets_routes.png').default} />
 
 | Voordelen | Nadelen |
 | - | - |
@@ -83,7 +83,7 @@ Residential Breakdown"/>
 
 In het geval van het grid, is het gebied in stukken geknipt (vierkanten, zeshoeken, etc) en is per gebied de gemiddelde luchtkwaliteit bepaald. Belangrijke parameter van een grid is de celgrootte: wat is de maat van de kleinste verdeling.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_grid.png" target="_blank" alt="imageStyle: Residential Breakdown"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Residential Breakdown'" src={require('./assets/Kookboek/kookboek_example_snuffelfiets_grid.png').default} />
 
 | Voordelen | Nadelen |
 | - | - |
@@ -93,7 +93,7 @@ In het geval van het grid, is het gebied in stukken geknipt (vierkanten, zeshoek
 
 In plaats van de routes uit de metingen te halen, is er in dit geval voor gekozen om de punten te matchen aan wegvakken zoals die door het NDW zijn bepaald. Op deze manier kunnen metingen op wegvakkniveau bekeken worden. Tevens is er voor elk wegvak een uitsplitsing gemaakt naar uurvak.
 
-<img class="imageStyle shadowing" src="/docs/assets/Kookboek/kookboek_example_snuffelfiets_wegvak.png" target="_blank" alt="imageStyle: Residential Breakdown"/>
+<img class="imageStyle shadowing" target="_blank" alt="imageStyle: Residential Breakdown'" src={require('./assets/Kookboek/kookboek_example_snuffelfiets_wegvak.png').default} />
 
 | Voordelen | Nadelen |
 | - | - |
