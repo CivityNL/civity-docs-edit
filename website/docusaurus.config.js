@@ -1,7 +1,7 @@
 module.exports = {
   "title": "Civity Docs",
   "tagline": "",
-  "url": "https://CivityNL.github.io/",
+  "url": "https://CivityNL.github.io/civity-docs",
   "baseUrl": "/",
   "organizationName": "CivityNL",
   "projectName": "civity-docs",

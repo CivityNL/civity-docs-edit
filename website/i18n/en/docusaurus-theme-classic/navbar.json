@@ -3,16 +3,28 @@
     "message": "Civity Docs",
     "description": "The title in the navbar"
   },
-  "item.label.Docs": {
-    "message": "Docs",
-    "description": "Navbar item with label Docs"
+  "item.label.Welcome": {
+    "message": "Welcome",
+    "description": "Navbar item with label Welcome"
   },
   "item.label.Help": {
     "message": "Help",
     "description": "Navbar item with label Help"
   },
-  "item.label.Mobile": {
-    "message": "Mobile",
-    "description": "Navbar item with label Mobile"
+  "item.label.Dataplatform Portal": {
+    "message": "Dataplatform Portal",
+    "description": "Navbar item with label Dataplatform Portal"
+  },
+  "item.label.Data Catalogus": {
+    "message": "Data Catalogus",
+    "description": "Navbar item with label Data Catalogus"
+  },
+  "item.label.Slimmelden": {
+    "message": "Slimmelden",
+    "description": "Navbar item with label Slimmelden"
+  },
+  "item.label.Slimbeheer": {
+    "message": "Slimbeheer",
+    "description": "Navbar item with label Slimbeheer"
   }
 }
