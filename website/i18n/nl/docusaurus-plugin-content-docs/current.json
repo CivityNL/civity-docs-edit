@@ -1,0 +1,186 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.3scale_API Management": {
+    "message": "3scale_API Management",
+    "description": "The label for category 3scale_API Management in sidebar docs"
+  },
+  "sidebar.docs.category.3scale_Introduction": {
+    "message": "3scale_Introduction",
+    "description": "The label for category 3scale_Introduction in sidebar docs"
+  },
+  "sidebar.docs.category.API Management Portal": {
+    "message": "API Management Portal",
+    "description": "The label for category API Management Portal in sidebar docs"
+  },
+  "sidebar.docs.category.Developer Portal": {
+    "message": "Developer Portal",
+    "description": "The label for category Developer Portal in sidebar docs"
+  },
+  "sidebar.docs.category.Publish an API": {
+    "message": "Publish an API",
+    "description": "The label for category Publish an API in sidebar docs"
+  },
+  "sidebar.docs.category.Validation and Tutorial": {
+    "message": "Validation and Tutorial",
+    "description": "The label for category Validation and Tutorial in sidebar docs"
+  },
+  "sidebar.docs.category.Behandel": {
+    "message": "Behandel",
+    "description": "The label for category Behandel in sidebar docs"
+  },
+  "sidebar.docs.category.Dataplatform": {
+    "message": "Dataplatform",
+    "description": "The label for category Dataplatform in sidebar docs"
+  },
+  "sidebar.docs.category.CKAN": {
+    "message": "CKAN",
+    "description": "The label for category CKAN in sidebar docs"
+  },
+  "sidebar.docs.category.Users": {
+    "message": "Users",
+    "description": "The label for category Users in sidebar docs"
+  },
+  "sidebar.docs.category.Metadata": {
+    "message": "Metadata",
+    "description": "The label for category Metadata in sidebar docs"
+  },
+  "sidebar.docs.category.Datasets": {
+    "message": "Datasets",
+    "description": "The label for category Datasets in sidebar docs"
+  },
+  "sidebar.docs.category.Link to Data Overheid": {
+    "message": "Link to Data Overheid",
+    "description": "The label for category Link to Data Overheid in sidebar docs"
+  },
+  "sidebar.docs.category.Geoserver": {
+    "message": "Geoserver",
+    "description": "The label for category Geoserver in sidebar docs"
+  },
+  "sidebar.docs.category.Harvesting": {
+    "message": "Harvesting",
+    "description": "The label for category Harvesting in sidebar docs"
+  },
+  "sidebar.docs.category.Validation": {
+    "message": "Validation",
+    "description": "The label for category Validation in sidebar docs"
+  },
+  "sidebar.docs.category.Generate a CSV from an XLS file": {
+    "message": "Generate a CSV from an XLS file",
+    "description": "The label for category Generate a CSV from an XLS file in sidebar docs"
+  },
+  "sidebar.docs.category.For Developers": {
+    "message": "For Developers",
+    "description": "The label for category For Developers in sidebar docs"
+  },
+  "sidebar.docs.category.Dataplatform Portal": {
+    "message": "Dataplatform Portal",
+    "description": "The label for category Dataplatform Portal in sidebar docs"
+  },
+  "sidebar.docs.category.Datacatalogus": {
+    "message": "Datacatalogus",
+    "description": "The label for category Datacatalogus in sidebar docs"
+  },
+  "sidebar.docs.category.Introductie": {
+    "message": "Introductie",
+    "description": "The label for category Introductie in sidebar docs"
+  },
+  "sidebar.docs.category.Vermeldingen": {
+    "message": "Vermeldingen",
+    "description": "The label for category Vermeldingen in sidebar docs"
+  },
+  "sidebar.docs.category.Workflow": {
+    "message": "Workflow",
+    "description": "The label for category Workflow in sidebar docs"
+  },
+  "sidebar.docs.category.Notificaties": {
+    "message": "Notificaties",
+    "description": "The label for category Notificaties in sidebar docs"
+  },
+  "sidebar.docs.category.Thema's": {
+    "message": "Thema's",
+    "description": "The label for category Thema's in sidebar docs"
+  },
+  "sidebar.docs.category.Gebruikers": {
+    "message": "Gebruikers",
+    "description": "The label for category Gebruikers in sidebar docs"
+  },
+  "sidebar.docs.category.Persoonlijk profiel": {
+    "message": "Persoonlijk profiel",
+    "description": "The label for category Persoonlijk profiel in sidebar docs"
+  },
+  "sidebar.docs.category.CKAN API": {
+    "message": "CKAN API",
+    "description": "The label for category CKAN API in sidebar docs"
+  },
+  "sidebar.docs.category.Definities": {
+    "message": "Definities",
+    "description": "The label for category Definities in sidebar docs"
+  },
+  "sidebar.docs.category.Data Dictionary": {
+    "message": "Data Dictionary",
+    "description": "The label for category Data Dictionary in sidebar docs"
+  },
+  "sidebar.docs.category.Diensten": {
+    "message": "Diensten",
+    "description": "The label for category Diensten in sidebar docs"
+  },
+  "sidebar.docs.category.Zoeken en filteren": {
+    "message": "Zoeken en filteren",
+    "description": "The label for category Zoeken en filteren in sidebar docs"
+  },
+  "sidebar.docs.category.Statistieken": {
+    "message": "Statistieken",
+    "description": "The label for category Statistieken in sidebar docs"
+  },
+  "sidebar.docs.category.Data Collection Toolkit": {
+    "message": "Data Collection Toolkit",
+    "description": "The label for category Data Collection Toolkit in sidebar docs"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar docs"
+  },
+  "sidebar.docs.category.Getting started": {
+    "message": "Getting started",
+    "description": "The label for category Getting started in sidebar docs"
+  },
+  "sidebar.docs.category.Data Kookboek": {
+    "message": "Data Kookboek",
+    "description": "The label for category Data Kookboek in sidebar docs"
+  },
+  "sidebar.docs.category.Meetbaar": {
+    "message": "Meetbaar",
+    "description": "The label for category Meetbaar in sidebar docs"
+  },
+  "sidebar.docs.category.Controleerbaar": {
+    "message": "Controleerbaar",
+    "description": "The label for category Controleerbaar in sidebar docs"
+  },
+  "sidebar.docs.category.Evalueerbaar": {
+    "message": "Evalueerbaar",
+    "description": "The label for category Evalueerbaar in sidebar docs"
+  },
+  "sidebar.docs.category.Voorbeelden": {
+    "message": "Voorbeelden",
+    "description": "The label for category Voorbeelden in sidebar docs"
+  },
+  "sidebar.docs.category.Metamorphoses": {
+    "message": "Metamorphoses",
+    "description": "The label for category Metamorphoses in sidebar docs"
+  },
+  "sidebar.docs.category.Stappenplan": {
+    "message": "Stappenplan",
+    "description": "The label for category Stappenplan in sidebar docs"
+  },
+  "sidebar.docs.category.Verdieping": {
+    "message": "Verdieping",
+    "description": "The label for category Verdieping in sidebar docs"
+  }
+}

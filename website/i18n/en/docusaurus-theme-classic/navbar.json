@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Civity Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Help": {
+    "message": "Help",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Mobile": {
+    "message": "Mobile",
+    "description": "Navbar item with label Mobile"
+  }
+}

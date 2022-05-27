@@ -1,0 +1,104 @@
+
+
+ {
+          "dataplatform": [
+              "dataplatform_Introduction",
+              {
+                  "type": "category",
+                  "label": "CKAN",
+                  "items": [
+                      "ckan_Overview"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Users",
+                  "items": [
+                      "user_UserRoles",
+                      "user_AddingUsers",
+                      "user_EditingUsers",
+                      "user_DeletingUsers",
+                      "user_KeycloakIntegration",
+                      "user_LoginDashboard",
+                      "user_PersonalProfile"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Metadata",
+                  "items": [
+                      "metadata_Metadata",
+                      "metadata_DCAT",
+                      "metadata_Schemes"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Datasets",
+                  "items": [
+                      "datasets_AddingDatasets",
+                      "datasets_AddingDatasources",
+                      "datasets_PreviewDatasources",
+                      "datasets_DataDictionary",
+                      "datasets_EditingDatasets",
+                      "datasets_DeletingDatasets",
+                      "datasets_SearchDatasets",
+                      "datasets_SortFilterDatasets",
+                      "datasets_DownloadingDatasets",
+                      "datasets_ManageGeometryColumns"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Link to Data Overheid",
+                  "items": [
+                      "dataoverheid_LinkToDataOverheid"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Geoserver",
+                  "items": [
+                      "geoserver_GeoserverIntegration"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Harvesting",
+                  "items": [
+                      "harvesting_Harvesting",
+                      "harvesting_GettingStarted"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Validation",
+                  "items": [
+                      "validation_WhatIsDataValidation",
+                      "validation_GettingStarted"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Generate a CSV from an XLS file",
+                  "items": [
+                      "datasets_xls2csv"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "For Developers",
+                  "items": [
+                      "developers_CKANApi",
+                      "developers_Visualisation"
+                  ]
+              },
+              {
+                  "type": "category",
+                  "label": "Dataplatform Portal",
+                  "items": [
+                      "portal_Overview"
+                  ]
+              }
+          ]
+        }
