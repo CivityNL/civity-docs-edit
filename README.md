@@ -51,13 +51,10 @@ civity-docs-edit
 ### Requirements
 * A github account with access to the CivityNL organonization. You'll be working with `civity-docs-edit` and `civity-docs` repositories
 * GitHub account should have a Civity SSH Key and a personal token associated with it.
+     If your Github SSH key and personal token have expired (or you've never generated those) please folow the steps below:
 
-```
-* If your Github SSH key and personal token have expired (or you've never generated those) please folow the steps below:
-
-    1. If your SSH has expired, please follow these [steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+    1. If your SSH has expired, please follow these [steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-   github-account)
     2. During the deployment, you will also be asked to provide a personal access token. This can be generated on [this link](https://github.com/settings/tokens)
-```
 
 * NodeJS installed (https://nodejs.org/en/)
 * Docusaurus (https://docusaurus.io/) - Run the `npm i docusaurus` command.
@@ -77,7 +74,7 @@ civity-docs-edit
 
  ### Working with multi-instance set-up
 
- We've have decided to separate our documentation into docusaurus instance. Every product should be a separate instance. Please follow [this documentation] (https://docusaurus.io/docs/docs-multi-instance) on how to create a new instance. Note that we use '@docusaurus/preset-classic' for our root instance called 'docs'. You will add the other instances as '@docusaurus/plugin-content-docs'
+ We've have decided to separate our documentation into docusaurus instance. Every product should be a separate instance. Please follow [this documentation](https://docusaurus.io/docs/docs-multi-instance) on how to create a new instance. Note that we use '@docusaurus/preset-classic' for our root instance called 'docs'. You will add the other instances as '@docusaurus/plugin-content-docs'
 
 
  ### Updating documentation and creating a new version
@@ -91,7 +88,7 @@ You will need to create a new version for that instance, following the same vers
 
 ### Translations
 
-Docs Civity currently supports English, Dutch and Swedish. If a new language needs be added, please follow the [step-by-step] (https://docusaurus.io/docs/i18n/tutorial). After every change on the documentation and release notes, please remeber to add on the three languages mentioned.
+Docs Civity currently supports English, Dutch and Swedish. If a new language needs be added, please follow the [step-by-step](https://docusaurus.io/docs/i18n/tutorial). After every change on the documentation and release notes, please remeber to add on the three languages mentioned.
 
 The MDX files should be translated, and then copied to the respective locale folder - Ex: `/website/i18n/sv/docusaurus-plugin-content-docs/current`. 
 Please notice that every instance folder , should have a 'current' subfolder withe the desired translations.
