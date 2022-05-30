@@ -23,7 +23,7 @@ De tags van de selectielijst worden getoond, met de meest voorkomende bovenaan o
 Zie voor meer informatie over filteren en zoeken de volgende documentatie op https://www.docs.civity.nl/.
 
 Zoeken:
-https://www.docs.civity.nl/docs/datasets_SearchDatasets
+https://www.docs.civity.nl/dataplatform/datasets_SearchDatasets
 
 Filteren:
-https://www.docs.civity.nl/docs/datasets_SortFilterDatasets
+https://www.docs.civity.nl/dataplatform/datasets_SortFilterDatasets

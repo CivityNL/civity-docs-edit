@@ -82,18 +82,18 @@ class Index extends React.Component {
       </div>
     );
 
-    const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}>
-        <GridBlock
-          align="left"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
+    // const Block = props => (
+    //   <Container
+    //     padding={['bottom', 'top']}
+    //     id={props.id}
+    //     background={props.background}>
+    //     <GridBlock
+    //       align="left"
+    //       contents={props.children}
+    //       layout={props.layout}
+    //     />
+    //   </Container>
+    // );
     
     const FeatureCallout = () => (
       <div style={{ textAlign: 'center', padding: '0 4rem 6vh 4rem'}}>
@@ -101,81 +101,81 @@ class Index extends React.Component {
       </div>
     );
 
-    const CardGettingStarted = () => {
-      return (
-        <div style={{padding: "2ch"}}>
-          <div className="card" style={{width: "100%"}}>
-          <div className="card-header cardwhite">
-              Getting Started        
-          </div>
-          <div className="card-body">
-            <p className="card-text">
-              Dive into user guides for Dataplatform, Slimmelden, and all other Civity products.
-              <br/><br/>  
-            </p>
-            <a href="docs/Welcome" target="_blank" className="button">Go</a>
-          </div>
-        </div>
-      </div>
-      );
-    };
+    // const CardGettingStarted = () => {
+    //   return (
+    //     <div style={{padding: "2ch"}}>
+    //       <div className="card" style={{width: "100%"}}>
+    //       <div className="card-header cardwhite">
+    //           Getting Started        
+    //       </div>
+    //       <div className="card-body">
+    //         <p className="card-text">
+    //           Dive into user guides for Dataplatform, Slimmelden, and all other Civity products.
+    //           <br/><br/>  
+    //         </p>
+    //         <a href="docs/Welcome" target="_blank" className="button">Go</a>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   );
+    // };
 
-    const CardReportBug = () => {
-      return (
-        <div style={{padding: "2ch"}}>
-          <div className="card" style={{width: "100%"}}>
-          <div className="card-header cardwhite">
-              Report a Bug
-          </div>
-          <div className="card-body">
-            <p className="card-text">
-              Have you found a bug in one of our products? Report it here.
-              <br/><br/>
-            </p>
-            <a href="https://civity.atlassian.net/servicedesk/customer/portals" target="_blank" className="button">👾 Report</a><i style={{paddingLeft: "10px", fontSize: ".8rem", color: "#939196"}}>Civity Servicedesk login required</i>
-          </div>
-        </div>
-      </div>
-      );
-    };
+    // const CardReportBug = () => {
+    //   return (
+    //     <div style={{padding: "2ch"}}>
+    //       <div className="card" style={{width: "100%"}}>
+    //       <div className="card-header cardwhite">
+    //           Report a Bug
+    //       </div>
+    //       <div className="card-body">
+    //         <p className="card-text">
+    //           Have you found a bug in one of our products? Report it here.
+    //           <br/><br/>
+    //         </p>
+    //         <a href="https://civity.atlassian.net/servicedesk/customer/portals" target="_blank" className="button">👾 Report</a><i style={{paddingLeft: "10px", fontSize: ".8rem", color: "#939196"}}>Civity Servicedesk login required</i>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   );
+    // };
 
-    const CardStatus = () => {
-      return (
-        <div style={{padding: "2ch"}}>
-          <div className="card" style={{width: "100%"}}>
-          <div className="card-header cardwhite">
-              Server Status
-          </div>
-          <div className="card-body">
-            <p className="card-text">
-              Check the server status and uptime of all Civity products.
-              <br/><br/>
-            </p>
-            <a href="https://status.civity.nl/" target="_blank" className="button">Go</a>
-          </div>
-        </div>
-      </div>
-      );
-    };
+    // const CardStatus = () => {
+    //   return (
+    //     <div style={{padding: "2ch"}}>
+    //       <div className="card" style={{width: "100%"}}>
+    //       <div className="card-header cardwhite">
+    //           Server Status
+    //       </div>
+    //       <div className="card-body">
+    //         <p className="card-text">
+    //           Check the server status and uptime of all Civity products.
+    //           <br/><br/>
+    //         </p>
+    //         <a href="https://status.civity.nl/" target="_blank" className="button">Go</a>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   );
+    // };
 
-    const CardVersions = () => {
-      return (
-        <div style={{padding: "2ch"}}>
-          <div className="card" style={{width: "100%"}}>
-          <div className="card-header cardwhite">
-              Release Versions
-          </div>
-          <div className="card-body">
-            <p className="card-text">
-              View our current release versions and change logs for all Civity projects.
-              <br/><br/>
-            </p>
-            <a href="docs/current-versions" target="_blank" className="button">Go</a>
-          </div>
-        </div>
-      </div>
-      );
-    };
+    // const CardVersions = () => {
+    //   return (
+    //     <div style={{padding: "2ch"}}>
+    //       <div className="card" style={{width: "100%"}}>
+    //       <div className="card-header cardwhite">
+    //           Release Versions
+    //       </div>
+    //       <div className="card-body">
+    //         <p className="card-text">
+    //           View our current release versions and change logs for all Civity projects.
+    //           <br/><br/>
+    //         </p>
+    //         <a href="docs/current-versions" target="_blank" className="button">Go</a>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   );
+    // };
 
     return (
       <div>

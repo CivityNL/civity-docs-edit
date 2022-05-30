@@ -6,7 +6,7 @@ sidebar_label: Metadata
 
 > Metadata is simply data about data
 
->Metadata follows the guidelines set by the <a href="/docs/Dataplatform/metadata_DCAT" target="_blank">DCAT-Standard</a>.
+>Metadata follows the guidelines set by the <a href="dataplatform/metadata_DCAT" target="_blank">DCAT-Standard</a>.
 
 
 Every dataset contains metadata; metadata is information that informs the user about the collection of datasources in a dataset. Typically this means a description and context about existing data.

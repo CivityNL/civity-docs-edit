@@ -10,4 +10,4 @@ Wanneer je een vermelding aanklikt en vervolgens een CSV of Excel bestand aankli
 De Data Dictionary wijzigen
 Wanneer je op de pagina zit waar je het Data woordenboek kunt zien (je bekijkt dus op dat moment het CSV of Excelbestand) en klikt op Beheer dan kom je in de beheeromgeving van de databron terecht. Hier zie je het tabblad Data woordenboek. Wanneer je daar op klikt kun je de Data Dictionary voor deze databron aanpassen.
 Zie voor uitleg met screenshots ook onze Documentatie:
-https://www.docs.civity.nl/docs/datasets_DataDictionary
+https://www.docs.civity.nl/dataplatform/datasets_DataDictionary

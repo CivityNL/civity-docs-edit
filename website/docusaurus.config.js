@@ -142,7 +142,7 @@ module.exports = {
       "apiKey": "b26499f361705dc5a4b74fe6c1663f75",
       "indexName": "civitynl",
       "appId": "BH4D9OD16A",
-      "contextualSearch": true,
+      "contextualSearch": false,
     },
     "colorMode": {
       "defaultMode": 'light',

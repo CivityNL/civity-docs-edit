@@ -59,10 +59,6 @@ function Help(props) {
               </div>
             </div>
           </div>
-
-
-
-
         </div>
       </div>
     </div>
