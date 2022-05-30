@@ -57,7 +57,7 @@ If your Github SSH key and personal token have expired (or you've never generate
     1. If your SSH has expired, please follow these [steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
     2. During the deployment, you will also be asked to provide a personal access token. This token can be generated on [this link](https://github.com/settings/tokens)
 
-* NodeJS installed (https://nodejs.org/en/)
+* NodeJS version 16.14 or above installed (https://nodejs.org/en/)
 * Docusaurus (https://docusaurus.io/) - Run the `npm i docusaurus` command.
 
 
