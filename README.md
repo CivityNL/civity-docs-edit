@@ -55,7 +55,7 @@ civity-docs-edit
 ```
 * If your Github SSH key and personal token have expired (or you've never generated those) please folow the steps below:
 
-    1. If your SSH has expired, please follow these [steps] (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+    1. If your SSH has expired, please follow these [steps](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
     2. During the deployment, you will also be asked to provide a personal access token. This can be generated on [this link](https://github.com/settings/tokens)
 ```
 
