@@ -28,7 +28,7 @@ module.exports = {
       {
         "docs": {
           "path": "../intro",
-          // "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/",
+          "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
           "sidebarPath": require.resolve('./sidebars.js'),
           "routeBasePath": 'docs',
           "remarkPlugins": [],
@@ -52,6 +52,7 @@ module.exports = {
         "id": 'dataplatform',
         "path": '../dataplatform',
         "routeBasePath": 'dataplatform',
+        "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
         "sidebarPath": undefined,
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true,
@@ -63,6 +64,7 @@ module.exports = {
         "id": 'datacatalogus',
         "path": '../datacatalogus',
         "routeBasePath": 'datacatalogus',
+        "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
         "sidebarPath": undefined,
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true,
@@ -74,6 +76,7 @@ module.exports = {
         "id": 'slimmelden',
         "path": '../slimmelden',
         "routeBasePath": 'slimmelden',
+        "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
         "sidebarPath": undefined,
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true,
@@ -85,6 +88,7 @@ module.exports = {
         "id": 'slimbeheer',
         "path": '../slimbeheer',
         "routeBasePath": 'slimbeheer',
+        "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
         "sidebarPath": undefined,
         "showLastUpdateAuthor": true,
         "showLastUpdateTime": true,
@@ -107,22 +111,22 @@ module.exports = {
         },
         {
           "to": "/dataplatform/dataplatform_introduction",
-          "label": "Dataplatform Portal",
+          "label": "DataPlatform",
           "position": "left",
         },
         {
           "to": "/datacatalogus/korte_intro",
-          "label": "Data Catalogus",
+          "label": "DataCatalogus",
           "position": "left",
         },
         {
           "to": "/slimmelden/slimmelden",
-          "label": "Slimmelden",
+          "label": "Slim Melden",
           "position": "left",
         },
         {
           "to": "/slimbeheer/slimbeheer",
-          "label": "Slimbeheer",
+          "label": "Slim Beheer",
           "position": "left",
         },
         {
