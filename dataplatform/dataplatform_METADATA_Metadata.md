@@ -12,7 +12,7 @@ sidebar_label: Metadata
 Every dataset contains metadata; metadata is information that informs the user about the collection of datasources in a dataset. Typically this means a description and context about existing data.
 
 Your metadata should describe the following:
-* Who owns the dataset
+* Who owns the dataset!
 * Descriptive information about the content
 * Access rights
 
