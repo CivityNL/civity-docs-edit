@@ -101,12 +101,12 @@ module.exports = {
       "items": [
         {
           "to": "docs/Welcome",
-          "label": "Welcome",
+          "label": "Welkom",
           "position": "left"
         },
         {
           "to": "/help",
-          "label": "Help",
+          "label": "Hulp",
           "position": "right"
         },
         {

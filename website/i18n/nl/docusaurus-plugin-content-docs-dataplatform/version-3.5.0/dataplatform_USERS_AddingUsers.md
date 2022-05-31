@@ -1,25 +1,25 @@
 ---
 id: user_AddingUsers
-title: Adding Users
-sidebar_label: Adding Users
+title: Gebruikers toevoegen
+sidebar_label: Gebruikers toevoegen
 ---
-Only organization administrators may create new users
+Alleen organisatiebeheerders mogen nieuwe gebruikers maken
 
-> Ensure you set the correct role for the user. For more information on roles, see [User Roles](user_UserRoles)
+> Zorg ervoor dat u de juiste rol voor de gebruiker instelt. Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over rollen. 
 
-## Create a New User
+## Een nieuwe gebruiker aanmaken 
 
-From the organization's dataset page, select the "Manage" button, followed by the "Members" tab. Select the “Add Member” button.
+Selecteer op de gegevenssetpagina van de organisatie de knop "Beheer", gevolgd door het tabblad "Leden". Selecteer de knop "Voeg Lid toe".
 
 <img class="imageStyle" target="_blank" alt="image: Organization screen - Manage Button" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_BrowserShell.png').default} />
 <img class="imageStyle" target="_blank" alt="image: Organization screen - Manage Button" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMember.png').default} />
 
-Existing users are users who are already members in another organization. New users are users who are not members of any existing organization. To initiate setup of a new user, simply fill in their email address.
+Bestaande gebruikers zijn gebruikers die al lid zijn van een andere organisatie. Nieuwe gebruikers zijn gebruikers die geen lid zijn van een bestaande organisatie. Om de installatie van een nieuwe gebruiker te starten, vult u eenvoudig hun e-mailadres in.
 
 <img class="imageStyle" target="_blank" alt="image: Organization screen - Manage Button"  src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_AddMemberRole.png').default} />
 
-When you click “Add Member,” the new member will receive an automated email to the address entered. The username and user number will be generated from this email adress.
+Wanneer u op 'Voeg lid toe:’ klikt, ontvangt het nieuwe lid een geautomatiseerd e-mail naar het ingevoerde adres. De gebruikersnaam en het gebruikersnummer worden gegenereerd op basis van dit e-mailadres. 
 
-The new user's state will stay as "pending," until they confirm their email address.
+De status van de nieuwe gebruiker blijft 'in behandeling' totdat hij zijn e-mailadres bevestigt. 
 
 <img class="imageStyle" target="_blank" alt="image: member status pending screen" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Pending_ALT.png').default} />

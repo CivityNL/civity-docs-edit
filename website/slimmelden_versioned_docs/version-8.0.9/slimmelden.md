@@ -5,10 +5,8 @@ sidebar_label: Welcome
 
 ---
 
-Slimmelden intro - testing
-
 ## Slim Melden
-Latest release version of Dataplatform
+Latest released version of Slim Melden
 
 #### Web
 <table class="versions">

@@ -40,7 +40,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle-custom">
-        Find user guides, developer guides, and API references for the City Innovation Platform.
+        Documentatie voor gebruikers, klanten en developers voor het City Innovation Platform, Slim Melden en Slim Beheer.
       </h2>
     );
 

@@ -1,45 +1,48 @@
 ---
 id: ckan_Overview
-title: Overview
-sidebar_label: Overview
+title: Overzicht
+sidebar_label: Overzicht
 ---
 
+Hier vindt u een overzicht van wat CKAN is, naast wat u met CKAN kunt bereiken.
 
 ## CKAN 
 
-CKAN stands for "Comprehensive Knowledge Archive Network," which is a <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> management system for the storage and distribution of <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>. 
+Dataplatform maakt gebruik van de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data-omgevingen. 
 
-Civity's Dataplatform project uses a CKAN isntance as our web-based tool for dataset, datasource, and metadata maintenance.  
+CKAN staat voor "Comprehensive Knowledge Archive Network", een <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> managementsysteem voor de opslag en distributie van <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>.. 
 
-You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>.
+Het Dataplatform-project van Civity maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, gegevensbronnen en metagegevens. U kunt onze CKAN-instantie vinden op <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>. De CKAN omgeving binnen het Dataplatform is uitgebreid met extra uitbreidingen zoals DCAT, DataStore (API), Data Quality controle en GeoServer. 
 
-## Language selection 
->The language selector is found in the footer. 
+## Taalkeuze
+>De taalkeuze bevindt zich in de voettekst.
 
-CKAN supports many European languages. Presently, CKAN Dataplatform is available in Dutch (Nederlands), English; Swedish Dataplatform products are available in Swedish (Svenska) and English. 
+CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN Dataplatform beschikbaar in het Nederlands en Engels;  
+
+Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
  
 ## Datasets  
-> datasets are managed at <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> and presented at <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
+> datasets worden beheerd op <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> en gepresenteerd op <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
 
-Datasets comprise of two main aspects: 
-* A collection of datasources 
+Datasets bestaan uit twee hoofdaspecten: 
+* Een verzameling gegevensbronnen 
 * Metadata 
 
 
-## Dataset Metadata 
-The metadata contains information about the collection of datasources in the dataset. The metadata should give information about: 
-* Who owns the dataset 
-* Descriptive information about the content 
-* Access rights 
+## Metadata van de gegevenssets 
+De metadata bevat informatie over de verzamelen aan databronnen in de dataset. De metagegevens moeten informatie geven over:
+* Wie de eigenaar is van de dataset 
+* Beschrijvende informatie over de inhoud  
+* Toegangsrechten 
 
-## Datasources 
-A dataset is comprised of a collection of datasources; these are the actual files or links that provide data. Your datasource may be comprised of a single sources, or many sources, any file format, and must contain explicit metadata. 
+## Gegevensbronnen 
+Een dataset bestaat uit een verzameling gegevensbronnen; dit zijn de feitelijke bestanden of koppelingen die gegevens leveren. Uw gegevensbron kan bestaan uit één bron of uit meerdere bronnen, elke bestandsformaat en moet expliciete metagegevens bevatten. 
 
 ## Metadata 
-> Metadata is simply data about data 
+> Metadata is gewoon data over data
 
-Every dataset contains metadata. For open data we follow the guidelines set in the DCAT-Standard. 
+Elke dataset bevat metadata. Voor open data volgen we de richtlijnen uit de DCAT-Standaard. 
 
-Metadata is information that provides data about other data. Typically this means a description and context about existing data. 
+Metadata is informatie die data over andere data oplevert. Meestal betekent dit een beschrijving en context over bestaande gegevens. 
 
-For a comprehensive example, see [Metadata](metadata_Metadata#metadata-example)
+Zie [Metadata](metadata_Metadata#metadata-example) voor een uitgebreid voorbeeld.

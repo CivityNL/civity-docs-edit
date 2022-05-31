@@ -1,59 +1,59 @@
 ---
 id: datasets_DataDictionary
-title: Data Dictionary
-sidebar_label: Data Dictionary
+title: Data woordenboek
+sidebar_label: Data woordenboek
 ---
 
-> The Data Dictionary is a module that, for specific file types, automatically detects column names and data types used within these specific columns.
+> Het Data woordenboek is een module die voor specifieke bestandstypen automatisch kolomnamen en gegevenstypen detecteert die in deze specifieke kolommen worden gebruikt.  
 
-## What can I do with the Data Dictionary?
+## Wat kan ik doen met het Data woordenboek?
 
-The Data Dictionary can be used to describe the content of a dataset more explicitely using labels and descriptions.
+Het Data woordenboek kan worden gebruikt om de inhoud van een dataset explicieter te beschrijven aan de hand van labels en beschrijvingen. 
 
-The Data Dictionary form allows entering the following values for each column:
-*	Type Override: the type to be used the next time DataPusher is run to load data into this column
-*	Label: a human-friendly label for this column
-*   Description: a full description for this column in markdown format
+Met het formulier Data woordenboek kunt u de volgende waarden voor elke kolom invoeren: 
+*	Type Override: het type dat moet worden gebruikt de volgende keer dat DataPusher wordt uitgevoerd om gegevens in deze kolom te laden
+*	Label: een mensvriendelijk label voor deze column 
+*   Beschrijving: een volledige beschrijving voor deze kolom in markdown-formaat
 
-#### Data Dictionary table in CKAN:
+#### Tabel met Data woordenboek in CKAN:
 ![Title](assets/Dataplatform/DataDictionary/Data_dict_CKAN.PNG)
 
-## Does every datasource have a Data Dictionary?
+## Heeft elke gegevensbron een Data woordenboek?
 
-No, only certain file types support Data Dictionary functionality. Currently supported file formats for datasources in Dataplatform are: **CSV**, **XLS**, and **XLSX**. 
+Nee, alleen bepaalde bestandstypen ondersteunen de functionaliteit van het Data woordenboek. Momenteel ondersteunde bestandsindelingen voor gegevensbronnen in Dataplatform zijn: **CSV**, **XLS** en **XLSX**. 
 
-If the datasource is uploaded to the [DataStore](datasets_AddingDatasources#datastore) correctly, the Data Dictionary table will be added.
+Als de gegevensbron correct is geüpload naar de [DataStore](datasets_AddingDatasources#datastore), wordt de tabel Gegevenswoordenboek toegevoegd. 
 
-## Where can I find the Data Dictionary?
+## Waar kan ik het datawoordenboek vinden? 
 
-The Data Dictionary can be viewed in **CKAN** as well as on the **Portal**.
+Het data woordenboek kan zowel in **CKAN** als op de **portal** worden bekeken. 
 
 #### CKAN: 
-Click on a dataset -> click on a datasource
+Klik op een dataset -> klik op een databron
 #### Portal
-Click on a dataset -> Click on the tab *Table* -> Click on *Data dictionary*
+Klik op een dataset -> Klik op het tabblad *Tabel* -> Klik op *Data woordenboek*
 
-## How to edit the Data Dictionary of a datasource
+## Het Data woordenboek van een gegevensbron bewerken
 
-> The Data Dictionary can be edited within your CKAN instance
+> Het Data woordenboek kan worden bewerkt binnen uw CKAN-instantie
 
-#### 1.  Within a dataset, click on the *Explore* button of the datasource you want to edit and then click on *Edit*
+#### 1.  Klik in een dataset op de knop *‘Ontdek’* van de gegevensbron die u wilt bewerken en klik vervolgens op *‘Bijwerken’*.
 
 ![Data_dict](assets/Dataplatform/DataDictionary/Data_dict_edit.PNG)
 
-#### 2. Go to the tab *Data dictionary*
+#### 2. Ga naar het tabblad *Data woordenboek*
 
 ![Data_dict_go_to](assets/Dataplatform/DataDictionary/Data_dictionary_edit.png)
 
-#### 3. Edit Type/Label/Description
+#### 3. Bewerk type / label / beschrijving
 
 ![Data_dict_edit](assets/Dataplatform/DataDictionary/Data_dict_edit_field.PNG)
 
 
-#### 4. Lastly, click the save button shown below
+#### 4. Klik ten slotte op de knop ‘Bewaar’ hieronder
     
 ![Data_dict_save](assets/Dataplatform/DataDictionary/Data_dict_save.PNG)
 
-#### Changes as shown in the Portal:
+#### Wijzigingen zoals weergegeven in de Portal:
 
 ![Data_dict_portal](assets/Dataplatform/DataDictionary/Data_dict_portal.PNG)

@@ -1,41 +1,42 @@
 ---
 id: user_PersonalProfile
-title: Personal Profile
-sidebar_label: Personal Profile
+title: Persoonlijk profiel
+sidebar_label: Persoonlijk profiel
 ---
-Your user profile contains imformation about your personal and account details; you can only see your user profile while you're logged in
+Uw gebruikersprofiel bevat informatie over uw persoonlijke en accountgegevens; u kunt uw gebruikersprofiel alleen zien terwijl u bent ingelogd. 
 
+ 
 
-In this page you will see what datasets you own, in addition to your Activity Stream, and your personal information. Clicking on the title of a dataset will redirect you to that dataset. 
+Op deze pagina ziet u welke datasets u bezit, naast uw activiteitenstream en uw persoonlijke gegevens. Als u op de titel van een gegevensset klikt, wordt u doorgestuurd naar die gegevensset. 
 
-## Account Information
+## Account informatie 
 
-> Your API key is private and unique, do not share this with anybody.
+> Uw API-sleutel is privé en uniek, deel deze met niemand.
 
-You may find your user profile by clicking on your name at the top of the page.
+U kunt uw gebruikersprofiel vinden door op uw naam bovenaan de pagina te klikken.
 
 <img class="imageStyle"  alt="image: My Profile" target="_blank " src={require('./assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profileButton.png').default} /> 
 
 
-The personal details displayed on the Account Information page, consists of the following: 
-* **User information**
-* **E-mail** *- this is private - organization administrators cannot see your email* 
-* **Member since** 
-* **State** *- active or pending* 
-* **API Key** *- this is private*
+De persoonlijke gegevens die op de pagina Accountinformatie worden weergegeven, bestaan uit het volgende:
+* **Gebruikersinformatie**
+* **E-mail** *dit is privé - organisatiebeheerders kunnen uw e-mail niet zien* 
+* **Lid sinds** 
+* **Status** *- actief of in behandeling* 
+* **API key** *- dit is privé*
 
 <!-- ![imageStyle: user+api key](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_Private_Information.png) -->
 
 
-## Edit Personal Settings
-To adjust your user settings and details, select the ⚙ icon (settings cog) at the top right corner of the screen. Note: your username cannot be changed.
+## Persoonlijke instellingen bewerken
+Als u uw gebruikersinstellingen en -details wilt aanpassen, selecteert u het ⚙ pictogram (instellingenwiel) in de rechterbovenhoek van het scherm.  Opmerking: uw gebruikersnaam kan niet worden gewijzigd. 
 
 <img class="imageStyle" alt="image: My Profile - Edit" target="_blank" src={require('./assets/Dataplatform/PersonalProfile/dataplatform_user_UserManagement_user_settings.png').default} /> 
 
-Here you can change your password, adjust your name (which is displayed when you are logged in), change your email, and reset your API key when it has been compromised. You may also write a small bio in the *About* textfield. The *About* textfield accepts <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
+Hier kunt u uw wachtwoord wijzigen, uw naam aanpassen (die wordt weergegeven wanneer u bent ingelogd), uw e-mailadres wijzigen en uw API-sleutel opnieuw instellen wanneer deze is gecompromitteerd. Je kunt ook een kleine bio schrijven in het tekstveld *Over*. Het  tekstveld *Over* accepteert <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
 
 
-##  Datacatalogue 
+<!-- ##  Datacatalogue 
 
 Datacatalogue allows you to register, manage and unlock all data for your users (employees); only datasource owners and managers are able to modifiy and register data/metadata. Users are able to inspect the data, and see when it is available under which conditions.
 
@@ -50,4 +51,4 @@ Datacatalogue has a unique person profile page, where you may view your **Awaiti
 Notifications are automated messages, that are distributed by email. Events that trigger notifications include:
 * Workflow 
 * Outdated datasets 
-* Personal interests 
+* Personal interests  -->

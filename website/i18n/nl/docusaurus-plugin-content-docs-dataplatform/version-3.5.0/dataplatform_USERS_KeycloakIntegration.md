@@ -1,13 +1,10 @@
 ---
 id: user_KeycloakIntegration
-title: Keycloak Integration
-sidebar_label: Keycloak Integration
+title: Keycloak integratie
+sidebar_label: Keycloak integratie
 ---
->More information about Keycloak may be found <a href="https://www.keycloak.org/" target="_blank">here</a>
+>Meer informatie over Keycloak vindt u <a href="https://www.keycloak.org/" target="_blank">hier</a>
 
-Keycloak is an opensource, usermanagement and authentication service which is used throughout the City Innovation Platform. This includes Dataplatform and Datacatalogue.
+Keycloak is een opensource-, gebruikersbeheer- en authenticatiedienst die wordt gebruikt in het hele City Innovation Platform. Dit omvat Dataplatform en Datacatalogus. 
 
 
-## Keycloack integration in datacatalogus 
-
---more information to come here

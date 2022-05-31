@@ -1,23 +1,23 @@
 ---
 id: user_EditingUsers
-title: Editing Users
-sidebar_label: Editing Users
+title: Gebruikers bewerken
+sidebar_label: Gebruikers bewerken
 ---
-> Only administrators may change user's roles
+> Alleen beheerders mogen gebruikersrollen wijzigen
 
-From the organization's dataset page, select the "🔧 Manage" button, followed by the **Members** tab. 
+Selecteer op de gegevenssetpagina van de organisatie de knop '🔧 Beheer', gevolgd door het  tabblad **Leden**. 
 
 <img class="imageStyle" target="_blank" alt="imageStyle: add member screen" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_BrowserShell.png').default} />
 
-In the **Members** tab, all of the organization's users are displayed. An administrator may edit a user's role by clicking on  "🔧" icon, next to their name.  
+Op het tabblad **Leden** worden alle gebruikers van de organisatie weergegeven. Een beheerder kan de rol van een gebruiker bewerken door op het pictogram "🔧" naast zijn naam te klikken.   
 
 <img class="imageStyle" target="_blank" src={require('./assets/Dataplatform/DeletingUsers/dataplatform_user_DeletingUsers_deteleUser.png').default} /> 
 
-## Edit User settings 
+## Gebruikersinstellingen bewerken 
 
-Clicking on the "⚙" (settings), located at the top left corner, will bring you to your user details screen.
+Als u op de "⚙" (instellingen) klikt, in de linkerbovenhoek, gaat u naar het scherm met gebruikersgegevens. 
 
-In this screen you may edit your own users details; your full name will appear on the top of your screen, when you are logged in. Username cannot be changed. 
+In dit scherm kunt u uw eigen gebruikersgegevens bewerken; uw volledige naam verschijnt bovenaan uw scherm wanneer u bent ingelogd. Gebruikersnaam kan niet worden gewijzigd.
 
 
  

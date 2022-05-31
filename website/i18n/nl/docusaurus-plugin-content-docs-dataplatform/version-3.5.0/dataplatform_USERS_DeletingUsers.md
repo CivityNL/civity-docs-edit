@@ -1,12 +1,13 @@
 ---
 id: user_DeletingUsers
-title: Deleting Users
-sidebar_label: Deleting Users
+title: Gebruikers verwijderen
+sidebar_label: Gebruikers verwijderen
 ---
->Administrators may delete users who are members of their organization  
+>Beheerders kunnen gebruikers verwijderen die lid zijn van hun organisatie  
 
 
-From the organization's dataset page, select the "🔧 Manage" button, followed by the **Members** tab. In the **Members** tab, all of the organization's users are displayed.  
+Selecteer op de gegevenssetpagina van de organisatie de knop '🔧 Beheren', gevolgd door het  tabblad **Leden**. Op het  tabblad **Leden** worden alle gebruikers van de organisatie weergegeven. 
 
-Administrators may remove users by clicking the red cross button, located at the end of each username.
+Beheerders kunnen gebruikers verwijderen door op het rode kruis te klikken aan het einde van elke gebruikersnaam.   
+
 <img class="imageStyle" target="_blank" alt="image: Organization screen - Manage Button" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_ManageUser_BrowserShell.png').default} />

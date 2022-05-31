@@ -1,13 +1,14 @@
 ---
 id: dataplatform_Introduction
-title: Introduction
-sidebar_label: Introduction
+title: Dataplatform Introductie
+sidebar_label: Dataplatform Introductie
 ---
-Dataplatform is comprised of two solutions, the **Portal** and **CKAN**.
+Dataplatform is de basisvoorziening voor het beheren van data. Dataplatform gaat vooral over het op een gestructureerde manier publiceren van open data, met de juiste metadata, gericht op de externe gebruikers. 
 
-The portal is the website for data-consumers, where they can find datasets (contained in CKAN), themes, showcases and stories. The portal is a user friendly interface for presenting, searching and providing data that is stored in CKAN. 
+Dataplatform bestaat uit twee oplossingen, het **Portaal** en **CKAN**. 
+Het portaal is de website voor dataconsumenten, waar ze datasets (opgenomen in CKAN), thema's, showcases en verhalen kunnen vinden. Het portaal is een gebruiksvriendelijke interface voor het presenteren, zoeken en verstrekken van gegevens die zijn opgeslagen in CKAN. 
 
-CKAN is the tool to manage the data. It allows you to change, add, and delete data. However, in order to manipulate data, you must possess valid login credentials (contact your system administrator for this). 
+CKAN is de tool om de gegevens te beheren. Hiermee kunt u gegevens wijzigen, toevoegen en verwijderen. Om gegevens te manipuleren, moet u echter over geldige inloggegevens beschikken (neem hiervoor contact op met uw systeembeheerder). 
 
 #### CKAN
 <table class="versions">

@@ -72,21 +72,6 @@
               },
               {
                   "type": "category",
-                  "label": "Validation",
-                  "items": [
-                      "validation_WhatIsDataValidation",
-                      "validation_GettingStarted"
-                  ]
-              },
-              {
-                  "type": "category",
-                  "label": "Generate a CSV from an XLS file",
-                  "items": [
-                      "datasets_xls2csv"
-                  ]
-              },
-              {
-                  "type": "category",
                   "label": "For Developers",
                   "items": [
                       "developers_CKANApi",

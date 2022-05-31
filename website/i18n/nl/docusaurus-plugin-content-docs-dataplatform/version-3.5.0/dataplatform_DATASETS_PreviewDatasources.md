@@ -1,87 +1,87 @@
 ---
 id: datasets_PreviewDatasources
-title: Preview Datasources
-sidebar_label: Preview Datasources
+title: Databron preview bekijken
+sidebar_label: Databron preview bekijken
 ---
 
-> The CKAN resource page can contain one or more visualizations of the resource data or file contents (a table, a bar chart, a map, etc). These are commonly referred to as resource views.
+> De CKAN-bronpagina kan een of meer visualisaties van de brongegevens of bestandsinhoud bevatten (een tabel, een staafdiagram, een kaart, enz.). Deze worden gewoonlijk resourceweergaven genoemd. 
 
 ## Preview in CKAN
 
-Different plugins are included in Dataplatform CKAN to preview different resource file types:
+Verschillende plug-ins zijn opgenomen in Dataplatform CKAN om een voorbeeld van verschillende bronbestandstypen te bekijken: 
 
-* Data Explorer 
+* Gegevensverkenner 
 
-    The Data Explorer consists of a ***Grid***, ***Graph***, and ***Map view***
+    De gegevensverkenner bestaat uit een ***raster-***,***grafiek-*** en ***kaartweergave***
     
-    * Grid view: will display a table for tabular data (CSV/XLS/XLSX)
-    * Graph: different options to display a graph for CSV/Excel files
-    * Map view: will show a map for CSV, Excel, or GeoJSON files which contain geographical coordinates. 
+    * Rasterweergave: geeft een tabel weer voor tabelgegevens (CSV/XLS/XLSX)
+    * Grafiek: verschillende opties om een grafiek weer te geven voor CSV/Excel-bestanden
+    * Kaartweergave: toont een kaart voor CSV-, Excel- of GeoJSON-bestanden die geografische coördinaten bevatten. 
 
-    ***Note:*** This plugin requires data to be in the [DataStore](datasets_AddingDatasources#datastore)
+    ***Opmerking:*** Deze plug-in vereist gegevens in de [DataStore](datasets_AddingDatasources#datastore)
 
 ![Data Explorer example](assets/Dataplatform/PreviewDatasources/Data_explorer.PNG)
 
 
-* Text view 
-    * Is able to display plain text files, JSON, or XML files (can depend on configuration of the plugin)
+* Tekstweergave 
+    * Kan platte tekstbestanden, JSON- of XML-bestanden weergeven (kan afhankelijk zijn van de configuratie van de plug-in)
 
 ![JSON example](assets/Dataplatform/PreviewDatasources/JSON_example.PNG)
 
-* Image view
-    * Is configured to show PNG, JPEG or GIF files
+* Afbeeldingsweergave
+    * Is geconfigureerd om PNG-, JPEG- of GIF-bestanden weer te geven
 
 ![PNG example](assets/Dataplatform/PreviewDatasources/PNG_example.PNG)
 
-More information on previewing datasources can be found in <a href="https://docs.ckan.org/en/2.8/maintaining/data-viewer.html" target="_blank">CKAN documentation</a>
+Meer informatie over het bekijken van gegevensbronnen is te vinden in <a href="https://docs.ckan.org/en/2.8/maintaining/data-viewer.html" target="_blank">CKAN documentatie</a>
 
 ### FAQ
 
-#### Q: Why is there no view even though a view should be displayed according to the documentation?
+#### V: Waarom is er geen weergave, hoewel een weergave volgens de documentatie moet worden weergegeven?
 
-**A:** For tabular data (i.e., csv/xls files) the table view is automatically added as these files get uploaded to the Data Store, which is a prerequisite for loading a data explorer view. This should always work if a csv/excel file is uploaded through the normal CKAN user interface. If, however, this is done via an API call, it could be that some parameters are missing (e.g., the file type was not specified), which could end up in the table view not being created. If this is the case, just follow the steps provided below to create a View.
+**A:** Voor tabelgegevens (d.w.z. csv-/xls-bestanden) wordt de tabelweergave automatisch toegevoegd wanneer deze bestanden worden geüpload naar het gegevensarchief, wat een vereiste is voor het laden van een gegevensverkennerweergave. Dit zou altijd moeten werken als een csv / Excel-bestand wordt geüpload via de normale CKAN-gebruikersinterface. Als dit echter via een API-aanroep gebeurt, kan het zijn dat sommige parameters ontbreken (het bestandstype is bijvoorbeeld niet opgegeven), waardoor de tabelweergave niet kan worden gemaakt. Als dit het geval is, volgt u de onderstaande stappen om een weergave te maken.
 
-#### Q: How can I add a view?
-**A:** You can add a View by going to: ***Manage***->***Views***->***New View***-> ***Data Explorer***. 
+#### Q: Hoe kan ik een weergave toevoegen?
+**A:** U kunt een weergave toevoegen door naar: ***Manage***->***Views***->***New View***-> ***Data Explorer*** te gaan.
 
 ---
 
 ## Preview Portal
 
-On the portal there is a ***Table view*** and ***Map view***:
+Op het portaal is er een ***tabelweergave*** en een ***kaartweergave***: 
 
-#### Table view
+#### Tabelweergave
 
-On the portal a table preview is automatically added for CSV files. The table will show a maximum of 100 items a page.
+Op de portal wordt automatisch een tabelvoorbeeld toegevoegd voor CSV-bestanden. De tabel toont maximaal 100 items per pagina.
 
 ![Table example](assets/Dataplatform/PreviewDatasources/Table_portal.PNG)
 
-#### Map view
+#### Kaartweergave
 
-Will be shown when ***Geo-Enabled*** is set to yes and coordinates are included. 
+Wordt weergegeven wanneer ***Geo-Enabled*** is ingesteld op ja en coördinaten zijn inbegrepen. 
 
-#### CSV
+#### CSV-bestand
 
-For CSV datasources map will show the first 100 records/items. If you click *Show Table* below the map view. You are able to go to the next 100 items or go back to the previous ones.
+Voor CSV-gegevensbronnen worden de eerste 100 records/items weergegeven. Als u  onder de kaartweergave op Tabel weergeven klikt. U kunt naar de volgende 100 items gaan of teruggaan naar de vorige. 
 
 ![Map example](assets/Dataplatform/PreviewDatasources/Map_portal.PNG)
 
 #### GeoJSON
 
-GeoJSON datasources will show all records at once on the map. See the example below.
+GeoJSON-gegevensbronnen tonen alle records tegelijk op de kaart. Zie het voorbeeld hieronder. 
 
 ![Map example](assets/Dataplatform/PreviewDatasources/GeoJSON.PNG)
 
 
 
-> **Note:** The ***Geo-Enabled*** meta data field can be set to ***Yes*** for every type of resource. Therefore by default this option is set to ***No*** and should only be set to ***Yes*** for datasources that can be displayed on a map
+> **Opmerking**: Het  veld ***Geo-enabled*** metagegevens kan worden ingesteld op ***Ja*** voor elk type bron. Daarom is deze optie standaard ingesteld op ***Nee*** en moet deze alleen op ***Ja*** worden ingesteld  voor gegevensbronnen die op een kaart kunnen worden weergegeven.
 
 ### FAQ
 
-#### Q: I've set the Geo-Enabled field to yes, why is the map still not displayed correctly on the portal?
+#### V: Ik heb het veld Geo-Enabled ingesteld op Ja, waarom wordt de kaart nog steeds niet correct weergegeven in de portal?
 
-**A:** Make sure to check the following things:
-*   Are you using one of the filetypes that support the map functionality (i.e., CSV or GeoJSON)?
-*   Does the CSV file consist of geometry columns, and do the column names comply with the default field keywords? See documentation on [managing geometry columns](datasets_ManageGeometryColumns)
-*   Is your datasource missing any values?
+**A:** Zorg ervoor dat u de volgende dingen controleert: 
+*   Gebruikt u een van de bestandstypen die de kaartfunctionaliteit ondersteunen (d.w.z. CSV of GeoJSON)?
+*   Bestaat het CSV-bestand uit geometriekolommen en voldoen de kolomnamen aan de standaardveldzoekwoorden? Zie documentatie over [beheren van geometriekolommen](datasets_ManageGeometryColumns)
+*   Mist uw gegevensbron waarden?
 

@@ -1,134 +1,121 @@
 ---
 id: datasets_AddingDatasources
-title: Adding Datasources
-sidebar_label: Adding Datasources
+title: Databronnen toevoegen
+sidebar_label: Databronnen toevoegen
 ---
->All sources are stored within a dataset.
+>Alle bronnen worden opgeslagen in een dataset.
 
-Sources may be added to datasets, only after the dataset has been added and configured.
+Bronnen kunnen alleen aan datasets worden toegevoegd nadat de dataset is toegevoegd en geconfigureerd. 
 
-## Manual Upload
-> **CSV** and **(geo)JSON** filetypes are accessible by Dataplatform’s API. Other datatypes are saved and provided as a download link.
+## Handmatig uploaden
+> **CSV**- en **(geo)JSON**-bestandstypen zijn toegankelijk via de DataStore API. Andere gegevenstypen worden opgeslagen en verstrekt als downloadlink.
 
-A source can be an kind of file that is machine-readable; this includes, but is not limited to: **CSV**, **JSON**, **PDF**, and **JPG** file types. Additionally, sources may also be a link. 
+Een bron kan een soort bestand zijn dat machinaal leesbaar is; dit omvat, maar is niet beperkt tot: **CSV**-, **JSON**-, **PDF**- en  **JPG**-bestandstypen. Daarnaast kunnen bronnen ook een link zijn. 
 
-For more information regarding datasources, see <a href="#link-to-source">Link To Source</a>
+Zie <a href="#link-to-source">Link naar bron</a> voor meer informatie over databronnen 
 
-### Additional Details
-This field allows you to add any kind of additional information.
+### Aanvullende details
+Met dit veld kunt u elke vorm van aanvullende informatie toevoegen.
 
-Typical additional information includes:
-* Name: *This will be the filename, ensure it is descriptive*
-* Description: *Provide an explanation of the contents of the file*
-* Format: *The format in which the source is provided (CSV, XLS, JSON, PDF, etc).*
+Typische aanvullende informatie omvat: 
+* Naam: *Dit zal de bestandsnaam zijn, zorg ervoor dat deze beschrijvend is*
+* Beschrijving: *Geef uitleg over de inhoud van het bestand*
+* Formaat: *Het formaat waarin de bron wordt geleverd (CSV, XLS, JSON, PDF, enz.).*
 
-If you have additional sources to add, choose "Save & Add Another." If you only have one, choose "End."
+Als u extra bronnen wilt toevoegen, kiest u 'Opslaan en nog een toevoegen'. Als je er maar één hebt, kies je 'Einde'. 
 
-> CKAN will now save the file and create a dataset. The resulting entry is viewable within 30 minutes. If the visibility is set to ***Public***, the dataset will become viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>. ***Private*** datasets are not visible on Dataplatform.
+> CKAN slaat nu het bestand op en maakt een dataset. Het resulterende item is binnen 30 minuten zichtbaar. Als de zichtbaarheid is ingesteld op ***Openbaar***, wordt de dataset zichtbaar op <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">DataPlatform</a>. ***Private*** datasets zijn niet zichtbaar op DataPlatform. 
 
-## Link To Source
-All sources are stored in datasets. Only when a dataset is setup, may a source be added.
+## Link naar bron 
+Alle bronnen worden opgeslagen in datasets. Alleen wanneer een gegevensset is ingesteld, mag een bron worden toegevoegd.
 
-### Source as a Link
-> Linked data is not available as a callable API
+### Bron als link
+> Linked data is niet beschikbaar als aanroepbare API
 
-When data is stored in a different location, you may added as a linked source. Any kind of link may be utilized: *URL*, *URI*, or an *API*.
+Wanneer gegevens op een andere locatie worden opgeslagen, kunt u deze toevoegen als gekoppelde bron. Elke soort link kan worden gebruikt: *URL*, *URI*, of een *API*.
 
-#### Additional Details
-See <a href="#additional-details">Additional Details</a>
+## Real-time data
+> Real-time data kunnen als bron worden toegevoegd, maar de installatie en configuratie moeten door Civity worden afgehandeld.  
 
-## Real-time Data
-> Real-time data may be added as a source, however setup and configuration must be handled by Civity. 
-
-A connection must be configured between the API and Dataplatform. Fiware components are used to configure fields provided by the API, which are then translated into useful open data.
-
-#### Additional Details
-See <a href="#additional-details">Additional Details</a>
-
-## Geo-Enabled
-> In order to use the Geo-Enabled feature, your datasource must contain a set of coordinates.
-
-> **CSV** filetypes must be presented according to the <a href="https://en.wikipedia.org/wiki/World_Geodetic_System" target="_blank">World Geodetic System (WGS84)</a> coordinate system
-
-Geo-Enabled datasources allow you to view your data as a set of coordinates on a map.
+Er moet een verbinding worden geconfigureerd tussen de API en Dataplatform. Fiware-componenten worden gebruikt om velden van de API te configureren, die vervolgens worden vertaald in nuttige open data.
 
 ## DataStore
 
-The datastore allows specific data to be previewable, and accessable via API calls, where possible. Data that is not placed in the datastore will still be accessable, but only by download.
+De datastore maakt het mogelijk om specifieke gegevens te bekijken en toegankelijk via API-aanroepen, waar mogelijk. Gegevens die niet in de datastore zijn geplaatst, zijn nog steeds toegankelijk, maar alleen door download.
 
 ### CKAN DataStore
->If your data is stored as either a **CSV** or **(geo)JSON** filetypes, CKAN will automatically make them available in the Datastore
+>Als uw gegevens worden opgeslagen als **CSV**- of **(geo)JSON-bestandstype**, stelt CKAN ze automatisch beschikbaar in de Datastore 
 
-CKAN Datastore is available for previewing and handling datasources; you can view this information in either a table or map view.
+CKAN Datastore is beschikbaar voor het bekijken en verwerken van gegevensbronnen; U kunt deze informatie weergeven in een tabel- of kaartweergave. 
 
-### Managing DataStore
-To view or manage information held in Datastore, navigate to your desired datasource and select the **Datastore** tab.
+### DataStore beheren
+Als u informatie in Datastore wilt bekijken of beheren, navigeert u naar de gewenste gegevensbron en selecteert u het tabblad **Datastore**. 
 
 <img class="imageStyle"  target="_blank" alt="imageStyle: DataStore" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png').default} />
 
-To check whether a source may be added, click the “Upload to DataStore” button.
+Om te controleren of een bron kan worden toegevoegd, klikt u op de knop "Uploaden naar DataStore".
 
 > ***Headers***
 >
-> DataStore automatically determines whether headers may be constructed; a header(s) is the first horizontal entry in a column. The data type (numeric, text, timestamp, etc) is determined by the first 250 entries.
+> DataStore bepaalt automatisch of headers mogen worden geconstrueerd; een koptekst(en) is de eerste horizontale vermelding in een kolom. Het gegevenstype (numeriek, tekst, tijdstempel, enz.) wordt bepaald door de eerste 250 vermeldingen.
 
-Tabular data is uploaded in chunks of 250 entires at a time. This means that large files, with many entries, can take some time before they are rendered as a preview. If you are waiting for the data to render as a preview, do not click "Upload to DataStore" again. Instead refresh the page, or tab.
+Tabelgegevens worden geüpload in brokken van 250 gehelen tegelijk. Dit betekent dat grote bestanden, met veel vermeldingen, enige tijd kunnen duren voordat ze als voorbeeld worden weergegeven. Als u wacht tot de gegevens als voorbeeld worden weergegeven, klikt u niet opnieuw op "Uploaden naar DataStore". Vernieuw in plaats daarvan de pagina of het tabblad. 
 
-When your upload completes, you will see ***Complete*** next to the **Stats* field.
+Wanneer uw upload is voltooid, ziet u ***Voltooid*** naast het veld ***Statistieken***. 
 
 <img class="imageStyle" target="_blank" alt="imageStyle: DataStore" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png').default} />
 
-### DataStore Error Handling
-> DataStore will throw an error when either the preview or API creation is not correctly handled; the data itself may still be correct.
+### DataStore Foutafhandeling
+> DataStore zal een fout veroorzaken wanneer de preview of API-creatie niet correct wordt afgehandeld; de gegevens zelf kunnen nog steeds correct zijn.
 
-If the green **API** button is missing, or the number of entries does not match the original datasource, there was likely an error duing DataStore processing. To check the error condition, navigate to the DataStore tab from datasource.
+Als de groene **API-knop** ontbreekt of als het aantal vermeldingen niet overeenkomt met de oorspronkelijke gegevensbron, is er waarschijnlijk een fout opgetreden bij het dupliceren van de gegevensverwerking. Als u de foutconditie wilt controleren, navigeert u vanuit de gegevensbron naar het tabblad DataStore. 
 
-#### Common Errors
+#### Veelvoorkomende fouten
 
 <table class="versions">
     <tbody>
         <tr>
-            <th>Message</th>
-            <th>Explanation</th>
-            <th>Troubleshooting</th>
+            <th>Bericht</th>
+            <th>Uitleg</th>
+            <th>Probleemoplossing</th>
         </tr>
         <tr>
             <td>
                 <strong>
-                Error __context__: 'The data was invalid (for example: a numeric value is out of range or was inserted into a text field).
+                Fout __context__: 'De gegevens waren ongeldig (bijvoorbeeld: een numerieke waarde is buiten bereik of is ingevoegd in een tekstveld). 
                 </strong>
             </td>
             <td>
                 <ul>
-                    <li>Only numbers have appeared in the first 250 entries.</li>
-                    <li>A field contains two different kinds of data (ex. <i>2412<strong>K</strong></i>). This will cause DataStore to stop indexing at the offending row.</li>
+                    <li>Alleen nummers zijn verschenen in de eerste 250 rijen. </li>
+                    <li> Een veld bevat twee verschillende soorten gegevens (bijv. <i>2412<strong>K</strong></i>). Dit zorgt ervoor dat DataStore stopt met indexeren bij de desbetreffende rij.</li>
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li>Add a title to each column, declaring what kind of data the column contains (ex. Date, Time, Currency, etc)</li>
-                    <li>Find the incorrect field, and adjust it so it contains only a single type of data</li>
-                    <li>Correct your numeric header in Data Dictionary to regular text</li>
+                    <li>Voeg een titel toe aan elke kolom en geef aan wat voor soort gegevens de kolom bevat (bijv. Datum, tijd, valuta, enz.)</li>
+                    <li>Zoek het verkeerde veld en pas het aan zodat het slechts één type gegevens bevat</li>
+                    <li>Uw numerieke koptekst in Data Dictionary corrigeren naar gewone tekst</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <strong>Error: Cannot connect to datapusher</strong>
+                <strong>Fout: Kan geen verbinding maken met datapusher</strong>
                 <p>
-                        Normally the datapusher automatically pushes data into the datastore on creating a datasource.
+                        Normaal gesproken pusht de datapusher automatisch gegevens naar de datastore bij het maken van een gegevensbron. 
                 </p>
                 <p>
-                        This error results in a datasource not being uploaded correctly to the datastore, as the datapusher was not able to connect
+                        Deze fout heeft tot gevolg dat een gegevensbron niet correct wordt geüpload naar de datastore, omdat de datapusher geen verbinding kon maken
                 </p>
             </td>
             <td>
                 <ul>
                     <li>
-                        As this error mostly occurs on creating a datasource, the best option is to again try to upload to the datastore. This will almost always solve the issue. If not, contact your site administrator.
+                        Omdat deze fout meestal optreedt bij het maken van een gegevensbron, is de beste optie om opnieuw te proberen te uploaden naar de datastore. Dit zal het probleem bijna altijd oplossen. Als dit niet het geval is, neemt u contact op met Civity. 
                     </li>
                     <li>
-                        As a result of not being able to connect to the datapusher, a view is often also not created. This can be done manually.
+                        Doordat er geen verbinding kan worden gemaakt met de datapusher, wordt er vaak ook geen weergave gemaakt. Dit kan handmatig worden gedaan. 
                     </li>
                 </ul>
             </td>

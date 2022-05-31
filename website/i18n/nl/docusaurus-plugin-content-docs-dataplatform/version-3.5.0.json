@@ -8,7 +8,7 @@
     "description": "The label for category CKAN in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.Users": {
-    "message": "Users",
+    "message": "Gebruikers",
     "description": "The label for category Users in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.Metadata": {

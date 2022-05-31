@@ -1,6 +1,6 @@
 ---
 id: portal_Overview
-title: Overview
+title: Overzicht 
 sidebar_label: Overview
 ---
 The Portal offers a homepage where you can highlight your goals, showcases and stories. There is a separate page with all the datasets, presented as cards. Through the filter and search options userscan easily navigate to a dataset. The data can also be arranged according to the theme's or organisations/departments.

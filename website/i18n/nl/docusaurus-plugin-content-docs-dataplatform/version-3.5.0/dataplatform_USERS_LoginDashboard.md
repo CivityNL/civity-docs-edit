@@ -1,19 +1,19 @@
 ---
 id: user_LoginDashboard
-title: Login and Dashboard
-sidebar_label: Login and Dashboard
+title: Inloggen en Dashboard
+sidebar_label: Inloggen en Dashboard
 ---
 
-In order to add, edit or delete datasets, you need be logged in. Your login permissions are based configured at the organization-level; you have the possibility to be a member in one or more organizations. This allows you to manage multiple datasets across different organizations. Each organization also contains different user permission levels; roles. 
+Om datasets toe te voegen, te bewerken of te verwijderen, moet u ingelogd zijn. Uw aanmeldingsmachtigingen zijn geconfigureerd op organisatieniveau; U heeft de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kunt u meerdere gegevenssets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersmachtigingsniveaus; Rollen. 
 
-For more information about user permissions, see [User Roles](user_UserRoles).
+Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over gebruikersmachtigingen.
 
-## Login
-> Your username is found in your email. It follows the format:  `[user]-[number]`
+## Inloggen
+> Uw gebruikersnaam vindt u in uw e-mail. Het volgt het formaat: `[gebruiker]-[number]`
 
-Login credentials are controlled on an invite only basis; access can be granted to CKAN by your organization's administrator. Once access has been granted, you will be required to confirm your email; confirming your email will generate a password.
+Inloggegevens worden beheerd op basis van alleen uitnodiging; toegang tot CKAN kan worden verleend door de beheerder van uw organisatie. Zodra toegang is verleend, moet u uw e-mail bevestigen; als u uw e-mailadres bevestigt, wordt een wachtwoord gegenereerd. 
 
-The login button is located at the top of the page on the right side. Here you will login with your username and password.
+De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt u in met uw gebruikersnaam en wachtwoord. 
 
 <!-- ![SCREENCAST: login?](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
 
@@ -21,8 +21,8 @@ The login button is located at the top of the page on the right side. Here you w
 
 
 ## Dashboard
-When you are logged in your name will appear at top of the page; you are directed to your dashboard. The dashboard allows you to view the latest datasets that you have previously worked on.
+Wanneer u bent ingelogd verschijnt uw naam bovenaan de pagina; u wordt naar uw dashboard geleid. Met het dashboard kunt u de nieuwste gegevenssets bekijken waaraan u eerder hebt gewerkt.
 <img class="imageStyle" target="_blank" alt="image: My Dashboard" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyDashboard.png').default} />
 
-Clicking on “My Organization” will allow you to see the datasets owned by your organization(s). If you possess the correct credentials, you can then add, edit, or delete datasets.
+Als u op "Mijn organisatie" klikt, kunt u de gegevenssets bekijken die eigendom zijn van uw organisatie(s). Als u over de juiste referenties beschikt, kunt u vervolgens gegevenssets toevoegen, bewerken of verwijderen.
 <img class="imageStyle" target="_blank" alt="image: My Dashboard - My Organizations" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png').default} />
