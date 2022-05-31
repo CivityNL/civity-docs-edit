@@ -97,7 +97,7 @@ class Index extends React.Component {
     
     const FeatureCallout = () => (
       <div style={{ textAlign: 'center', padding: '0 4rem 6vh 4rem'}}>
-          <a className="button-front-Page" href="docs/Welcome">Get Started</a>
+          <a className="button-front-Page" href="docs/Welcome">Ga naar documentatie</a>
       </div>
     );
 
