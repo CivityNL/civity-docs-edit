@@ -46,7 +46,8 @@ De volgende weergaveopties zijn beschikbaar:
 2. Tabelweergave 
 3. Kaartweergave 
 
-Er zijn extra tabbladen mogelijk voor: 
+Er zijn extra tabbladen mogelijk voor:
+
 4. Downloaden 
 5. Contactformulier 
 

@@ -115,6 +115,11 @@ module.exports = {
           "position": "left",
         },
         {
+          "to": "/dataplatform/portal_Overview",
+          "label": "Open Data Portaal",
+          "position": "left",
+        },
+        {
           "to": "/datacatalogus/korte_intro",
           "label": "DataCatalogus",
           "position": "left",
