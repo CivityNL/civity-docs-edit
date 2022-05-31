@@ -156,8 +156,8 @@ module.exports = {
    
   },
   "i18n": {
-    "defaultLocale": 'en',
-    "locales": ['en', 'nl', 'sv'],
+    "defaultLocale": 'nl',
+    "locales": ['nl', 'en', 'sv'],
     "localeConfigs": {
       "en": {
         "htmlLang": 'en-GB',
