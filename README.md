@@ -90,10 +90,15 @@ You will need to create a new version for that instance, following the exact ver
 
 Docs Civity currently supports English, Dutch and Swedish. If a new language needs to be added, please follow the [step-by-step](https://docusaurus.io/docs/i18n/tutorial). After every change on the documentation and release notes, please remember to add those to the three languages mentioned.
 
-The MDX files should be translated, and then copied to the respective locale instance folder - Ex:
 
-`mkdir -p /website/i18n/nl/docusaurus-plugin-content-docs-dataplatform/version-3.5.0`. 
+You should first create a folder *with the same name* of the current version inside the instance subfolder: Ex:
+
+`mkdir -p /website/i18n/nl/docusaurus-plugin-content-docs-dataplatform/version-3.5.0`
+
+After that, the translated MDX files should be copied to the recently created folder:
+
 `cp -r docs/** /website/i18n/nl/docusaurus-plugin-content-docs-dataplatform/version-3.5.0`. 
+
 
 Remember to also copy the assets folder, and make necessary adjustments to the files.
 
