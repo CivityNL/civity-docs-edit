@@ -148,9 +148,11 @@ module.exports = {
       }
     },
     "algolia": {
-      "apiKey": "b26499f361705dc5a4b74fe6c1663f75",
+      // "apiKey": "b26499f361705dc5a4b74fe6c1663f75",
+      "apiKey": "07a508cfaf3949205e11747547f066ef",
       "indexName": "civitynl",
-      "appId": "BH4D9OD16A",
+      // "appId": "BH4D9OD16A",
+      "appId": "HSXU31YQHK",
       "contextualSearch": false,
     },
     "colorMode": {
