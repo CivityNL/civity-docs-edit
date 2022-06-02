@@ -162,9 +162,6 @@ Algolia is a 3rd party provider who handles our search functionality.
 #### Config:
 
 ```{
-  appId: "HSXU31YQHK",
-  apiKey: "07a508cfaf3949205e11747547f066ef",
-  rateLimit: 8,
   startUrls: [
     "https://www.docs.civity.nl/",
     "https://www.docs.civity.nl/Welcome",
