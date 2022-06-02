@@ -12,7 +12,7 @@ Dataplatform maakt gebruik van de open source software CKAN. Dit is wereldwijd d
 
 CKAN staat voor "Comprehensive Knowledge Archive Network", een <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> managementsysteem voor de opslag en distributie van <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>.. 
 
-Het Dataplatform-project van Civity maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, gegevensbronnen en metagegevens. U kunt onze CKAN-instantie vinden op <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>. De CKAN omgeving binnen het Dataplatform is uitgebreid met extra uitbreidingen zoals DCAT, DataStore (API), Data Quality controle en GeoServer. 
+Het Dataplatform-project van Civity maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, gegevensbronnen en metagegevens. U kunt onze CKAN-instantie vinden op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">ckan-dataplatform-nl.dataplatform.nl</a>. De CKAN omgeving binnen het Dataplatform is uitgebreid met extra uitbreidingen zoals DCAT, DataStore (API), Data Quality controle en GeoServer. 
 
 ## Taalkeuze
 >De taalkeuze bevindt zich in de voettekst.
