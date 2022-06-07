@@ -93,7 +93,7 @@ Hier kunt u de dataset en de API's downloaden.  Het vertelt u welk formaat het b
 
 ### 5. Contactformulier 
 
-Bij sommige partalen is er een contactformulier aanwezig bij een dataset. Hier vindt u een formulier waar u vragen  over de dataset kunt achterlaten. 
+Bij sommige portalen is er een contactformulier aanwezig bij een dataset. Hier vindt u een formulier waar u vragen  over de dataset kunt achterlaten. 
 
 ### Thema's
 Thema's zijn gebaseerd op benodigde items uit de DCAT-standaard. Het klikken op een thema fungeert als een filter, om de relevante datasets te tonen. Het aantal dat bij elk thema wordt weergegeven, verwijst naar het aantal datasets.
