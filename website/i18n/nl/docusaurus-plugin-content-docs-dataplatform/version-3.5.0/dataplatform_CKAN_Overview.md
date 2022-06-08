@@ -24,6 +24,8 @@ Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
 ## Datasets  
 > datasets worden beheerd op <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> en gepresenteerd op <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
 
+Voor het gebruik van CKAN worden gegevens gepubliceerd in 'datasets'. Een dataset is een pakket met data, bijvoorbeeld 'de criminaliteitscijfers in de stad' of 'de vochtigheidsmetingen van een weerstation'. Wanneer de gebruiker naar gegevens zoekt, zijn de resultaten zichtbaar in de afzonderlijke gegevenssets.
+
 Datasets bestaan uit twee hoofdaspecten: 
 * Een verzameling gegevensbronnen 
 * Metadata 
