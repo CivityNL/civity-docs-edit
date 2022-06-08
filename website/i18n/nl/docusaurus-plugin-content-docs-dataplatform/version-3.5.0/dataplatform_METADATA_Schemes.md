@@ -1,7 +1,7 @@
 ---
-id: metadata_Schemes
-title: Schemes
-sidebar_label: Schemes
+id: metadata_Schema's
+title: Schema's
+sidebar_label: Schema's
 ---
 >Metadata kunnen op veel verschillende manieren worden geschreven en elk land heeft zijn eigen metadatadefinitie, volgens de DCAT-standaard. Datacatalogus heeft unieke metadata voor elk dataproduct. 
 
