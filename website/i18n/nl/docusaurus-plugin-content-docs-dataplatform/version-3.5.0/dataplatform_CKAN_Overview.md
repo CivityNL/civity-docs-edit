@@ -20,8 +20,8 @@ Het Dataplatform-project van Civity maakt gebruik van een CKAN-instantie als onz
 CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN Dataplatform beschikbaar in het Nederlands en Engels;  
 
 Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
- 
-<img class="image shadowing" alt="Nederlands selecteren: changing branches / this is a functional gif" src={require('civity-docs/dataplatform/ckan_Overview/Nederlands.jpg').default} />
+
+<img class="image shadowing" alt="taal selecteren: changing languages / this is a functional jpg" src={require('./assets/README_Nederlands.jpg').default} />
 
 
 ## Datasets  
