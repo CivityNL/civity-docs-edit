@@ -23,6 +23,10 @@ Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
 
 <!-- <img class="image shadowing" alt="change language: changing languages / this is a functional jpg" src={require('./assets/README_Nederlands.jpg').default} />
  -->
+ 
+ 
+ <img class="imageStyle shadowing" alt="change language"   src={require('./assets/README_Nederlands.jpg').default} />
+ 
 ![Change_language](./assets/README_Nederlands.jpg)
 
 
