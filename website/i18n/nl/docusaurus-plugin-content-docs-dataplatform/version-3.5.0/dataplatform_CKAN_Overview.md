@@ -21,6 +21,9 @@ CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN Dataplat
 
 Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
  
+<img class="image shadowing" alt="Nederlands selecteren: changing branches / this is a functional gif" src={require('./assets/Nederlands.jpg').default} />
+
+
 ## Datasets  
 > datasets worden beheerd op <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> en gepresenteerd op <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
 
