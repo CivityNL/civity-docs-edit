@@ -4,17 +4,6 @@ title: Welcome
 sidebar_label: Welcome
 ---
 Here you will find a central repository of all user documents pretaining to the City Innovation Platform.
-## Release notes
-<table class="versions">
-    <tbody>
-        <tr>
-            <th>3.5.0</th>
-            <td>
-                <a href='dataplatform/Release_Notes'>Release Notes</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
 
 ## Navigation
 **You can find different topics in the table of contents.**

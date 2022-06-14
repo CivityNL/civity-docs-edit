@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "4.1.0",
+    "description": "The label for version 3.5.0"
+  },
+  "sidebar.dataplatform.category.CKAN": {
+    "message": "CKAN",
+    "description": "The label for category CKAN in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Users": {
+    "message": "Gebruikers",
+    "description": "The label for category Users in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Metadata": {
+    "message": "Metadata",
+    "description": "The label for category Metadata in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Datasets": {
+    "message": "Datasets",
+    "description": "The label for category Datasets in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Link to Data Overheid": {
+    "message": "Link to Data Overheid",
+    "description": "The label for category Link to Data Overheid in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Geoserver": {
+    "message": "Geoserver",
+    "description": "The label for category Geoserver in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Harvesting": {
+    "message": "Harvesten",
+    "description": "The label for category Harvesting in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Validation": {
+    "message": "Validatie",
+    "description": "The label for category Validation in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Generate a CSV from an XLS file": {
+    "message": "Generate a CSV from an XLS file",
+    "description": "The label for category Generate a CSV from an XLS file in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.For Developers": {
+    "message": "For Developers",
+    "description": "The label for category For Developers in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Dataplatform Portal": {
+    "message": "Dataplatform Portal",
+    "description": "The label for category Dataplatform Portal in sidebar dataplatform"
+  }
+}
