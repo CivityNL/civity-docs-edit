@@ -1,5 +1,5 @@
 ---
-id: metadata_Schemes
+id: metadata_Schema's
 title: Schemes
 sidebar_label: Schemes
 ---
