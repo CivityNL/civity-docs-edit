@@ -9,7 +9,22 @@ The portal is the website for data-consumers, where they can find datasets (cont
 
 CKAN is the tool to manage the data. It allows you to change, add, and delete data. However, in order to manipulate data, you must possess valid login credentials (contact your system administrator for this). 
 
-#### CKAN
+## Release notes
+
+### Dataplatform portal
+#### Current version
+<table class="versions">
+    <tbody>
+        <tr>
+            <th>3.5.0</th>
+            <td>
+                <a href='Release_Notes_3.5.0'>Release Notes</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### CKAN
 <table class="versions">
     <tbody>
         <tr>
@@ -24,7 +39,7 @@ CKAN is the tool to manage the data. It allows you to change, add, and delete da
     </tbody>
 </table>
 
-#### CKAN-Civity
+### CKAN-Civity
 <table class="versions">
     <tbody>
         <tr>
@@ -36,7 +51,7 @@ CKAN is the tool to manage the data. It allows you to change, add, and delete da
     </tbody>
 </table>
 
-#### Dataplatform API
+### Dataplatform API
 <table class="versions">
     <tbody>
         <tr>

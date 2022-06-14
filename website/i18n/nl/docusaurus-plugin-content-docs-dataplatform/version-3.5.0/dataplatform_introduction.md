@@ -10,6 +10,21 @@ Het portaal is de website voor dataconsumenten, waar ze datasets (opgenomen in C
 
 CKAN is de tool om de gegevens te beheren. Hiermee kunt u gegevens wijzigen, toevoegen en verwijderen. Om gegevens te manipuleren, moet u echter over geldige inloggegevens beschikken (neem hiervoor contact op met uw systeembeheerder). 
 
+## Release notes
+
+### Dataplatform
+#### Huidige versie
+<table class="versions">
+    <tbody>
+        <tr>
+            <th>3.5.0</th>
+            <td>
+                <a href='Release_Notes_3.5.0'>Release Notes</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 #### CKAN
 <table class="versions">
     <tbody>
