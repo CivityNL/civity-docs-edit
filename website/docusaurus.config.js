@@ -149,7 +149,7 @@ module.exports = {
       "indexName": "civitynl",
       // "appId": "BH4D9OD16A",
       "appId": "HSXU31YQHK",
-      "contextualSearch": false,
+      "contextualSearch": true,
       "searchPagePath": false,
     },
     "colorMode": {
