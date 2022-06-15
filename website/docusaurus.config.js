@@ -67,7 +67,7 @@ module.exports = {
         "routeBasePath": 'datacatalogus',
         "editUrl": "https://github.com/CivityNL/civity-docs-edit/edit/drafts/website",
         "sidebarPath": undefined,
-        "showLastUpdateAuthor": true,
+        "showLastUpdateAuthor": false,
         "showLastUpdateTime": true,
       },
     ],
@@ -150,6 +150,7 @@ module.exports = {
       // "appId": "BH4D9OD16A",
       "appId": "HSXU31YQHK",
       "contextualSearch": false,
+      "searchPagePath": false,
     },
     "colorMode": {
       "defaultMode": 'light',
