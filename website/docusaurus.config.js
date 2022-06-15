@@ -10,6 +10,7 @@ module.exports = {
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
     "https://github.com/CivityNL/civity-docs/blob/gh-pages/js/code-block-buttons.js"
   ],
+  "trailingSlash": false,
   "favicon": "img/civityHexLogo.png",
   "customFields": {
     "users": [
