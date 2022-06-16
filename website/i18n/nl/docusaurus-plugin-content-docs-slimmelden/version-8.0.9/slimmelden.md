@@ -7,7 +7,7 @@ sidebar_label: Release Notes
 
 Laatste release van Slim Melden
 
-## Huidige version
+## Huidige versie
 <table class="versions">
     <tbody>
         <tr>
