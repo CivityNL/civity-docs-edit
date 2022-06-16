@@ -28,7 +28,7 @@
     "description": "Navbar item with label Slimbeheer"
   },
   "item.label.Welkom": {
-    "message": "Welkom",
+    "message": "Welcome",
     "description": "Navbar item with label Welkom"
   },
   "item.label.Hulp": {
