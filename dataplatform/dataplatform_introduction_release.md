@@ -3,8 +3,9 @@ id: dataplatform_Introduction_Release
 title: Release notes
 sidebar_label: Release notes
 ---
-### Portaal
-#### Huidige versie
+
+### Portal
+#### Current version
 <table class="versions">
     <tbody>
         <tr>
@@ -16,7 +17,7 @@ sidebar_label: Release notes
     </tbody>
 </table>
 
-#### Vorige versies
+#### Past versions
 
 <table class="versions">
     <tbody>
@@ -62,7 +63,7 @@ sidebar_label: Release notes
     </tbody>
 </table>
 
-#### Dataplatform API
+### Dataplatform API
 <table class="versions">
     <tbody>
         <tr>
@@ -71,8 +72,10 @@ sidebar_label: Release notes
                 <a href="https://dev.dataplatform.nl/swagger/DataplatformAPI_2_4.html#!/default/get_media_media_id" target="_blank">API Calls Library</a>
             </td>
             <td>
-                <a href="https://gitlab.onetrail.net/Civity/DataplatformAPI/DataplatformAPI2/tree/master" target="_blank">Release Notes</a> (login nodig)
+                <a href="https://gitlab.onetrail.net/Civity/DataplatformAPI/DataplatformAPI2/tree/master" target="_blank">Release Notes</a> (login required)
             </td>
         </tr>
     </tbody>
 </table>
+
+

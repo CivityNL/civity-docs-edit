@@ -1,10 +1,10 @@
 ---
 id: Slimbeheer
-title: Slimbeheer
-sidebar_label: Welcome
+title: Slim Beheer
+sidebar_label: Welkom
 ---
 
-Slimbeheer Intro
+Slim Beheer documentatie volgt nog
 
 
 #### SlimBeheer

@@ -5,9 +5,9 @@ sidebar_label: Release Notes
 
 ---
 
-Latest released version of Slim Melden
+Laatste release van Slim Melden
 
-## Current version
+## Huidige version
 <table class="versions">
     <tbody>
         <tr>
@@ -19,7 +19,7 @@ Latest released version of Slim Melden
     </tbody>
 </table>
 
-## Past versions
+## Vorige versies
 <table class="versions">
     <tbody>
         <tr>

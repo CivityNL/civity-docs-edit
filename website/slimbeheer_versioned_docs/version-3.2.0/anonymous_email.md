@@ -1,7 +1,7 @@
 ---
 id: anonymous_email
-title: anonymous_email 
-sidebar_label: Anonymous email
+title: Anonieme e-mail
+sidebar_label: Anonieme e-mail
 ---
 
 ## How to set an anonymous email:

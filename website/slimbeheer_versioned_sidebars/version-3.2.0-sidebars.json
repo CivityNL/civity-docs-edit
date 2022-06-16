@@ -3,7 +3,7 @@
     "Slimbeheer",
     {
       "type": "category",
-      "label": "Cofiguration",
+      "label": "Configuratie",
       "items": [
         "anonymous_email"
       ]
