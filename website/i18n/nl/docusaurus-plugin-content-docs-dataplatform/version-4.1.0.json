@@ -3,6 +3,10 @@
     "message": "4.1.0",
     "description": "The label for version 3.5.0"
   },
+  "sidebar.dataplatform.category.Introduction": {
+    "message": "Introductie",
+    "description": "The label for category Introduction in sidebar dataplatform"
+  },
   "sidebar.dataplatform.category.CKAN": {
     "message": "CKAN",
     "description": "The label for category CKAN in sidebar dataplatform"
@@ -20,7 +24,7 @@
     "description": "The label for category Datasets in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.Link to Data Overheid": {
-    "message": "Link to Data Overheid",
+    "message": "Publiceren naar Data Overheid",
     "description": "The label for category Link to Data Overheid in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.Geoserver": {
@@ -35,16 +39,12 @@
     "message": "Validatie",
     "description": "The label for category Validation in sidebar dataplatform"
   },
-  "sidebar.dataplatform.category.Generate a CSV from an XLS file": {
-    "message": "Generate a CSV from an XLS file",
-    "description": "The label for category Generate a CSV from an XLS file in sidebar dataplatform"
-  },
   "sidebar.dataplatform.category.For Developers": {
-    "message": "For Developers",
+    "message": "Voor Developers",
     "description": "The label for category For Developers in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.Dataplatform Portal": {
-    "message": "Dataplatform Portal",
+    "message": "Open Data Portaal",
     "description": "The label for category Dataplatform Portal in sidebar dataplatform"
   }
 }
