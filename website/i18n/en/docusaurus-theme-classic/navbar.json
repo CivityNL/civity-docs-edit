@@ -32,7 +32,7 @@
     "description": "Navbar item with label Welkom"
   },
   "item.label.Hulp": {
-    "message": "Hulp",
+    "message": "Help",
     "description": "Navbar item with label Hulp"
   },
   "item.label.DataPlatform": {

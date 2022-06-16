@@ -36,6 +36,7 @@ module.exports = {
           "rehypePlugins": [],
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
+          "editLocalizedFiles": true,
         },
         "blog": {
           "path": "blog"
@@ -57,6 +58,7 @@ module.exports = {
         "sidebarPath": undefined,
         "showLastUpdateAuthor": false,
         "showLastUpdateTime": true,
+        "editLocalizedFiles": true,
       },
     ],
     [
@@ -69,6 +71,7 @@ module.exports = {
         "sidebarPath": undefined,
         "showLastUpdateAuthor": false,
         "showLastUpdateTime": true,
+        "editLocalizedFiles": true,
       },
     ],
     [
@@ -81,6 +84,7 @@ module.exports = {
         "sidebarPath": undefined,
         "showLastUpdateAuthor": false,
         "showLastUpdateTime": true,
+        "editLocalizedFiles": true,
       },
     ],
     [
@@ -93,6 +97,7 @@ module.exports = {
         "sidebarPath": undefined,
         "showLastUpdateAuthor": false,
         "showLastUpdateTime": true,
+        "editLocalizedFiles": true,
       },
     ],
   ],
