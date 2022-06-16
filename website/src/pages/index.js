@@ -8,6 +8,7 @@ const CompLibrary = {
 };
 
 import Layout from "@theme/Layout";
+import Translate from '@docusaurus/Translate';
 
 const MarkdownBlock = CompLibrary.MarkdownBlock;/* Used to read markdown */
 const Container = CompLibrary.Container;
@@ -40,7 +41,9 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle-custom">
-        Documentatie voor gebruikers, klanten en developers voor het City Innovation Platform, Slim Melden en Slim Beheer.
+      <Translate description="The homepage main heading">
+      Documentatie voor gebruikers, klanten en developers voor het City Innovation Platform, Slim Melden en Slim Beheer.
+        </Translate>
       </h2>
     );
 
@@ -97,7 +100,7 @@ class Index extends React.Component {
     
     const FeatureCallout = () => (
       <div style={{ textAlign: 'center', padding: '0 4rem 6vh 4rem'}}>
-          <a className="button-front-Page" href="docs/Welcome">Ga naar documentatie</a>
+          <a className="button-front-Page" href="docs/Welcome"><Translate>Ga naar documentatie</Translate></a>
       </div>
     );
 

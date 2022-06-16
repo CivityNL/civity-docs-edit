@@ -268,5 +268,12 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Fetching new results...",
     "description": "The paragraph for fetching new search results"
+  },
+  "Documentatie voor gebruikers, klanten en developers voor het City Innovation Platform, Slim Melden en Slim Beheer.": {
+    "message": "Documentation for users, customer and developer of the City Innovation Platform, Slim Melden and Slim Beheer",
+    "description": "The homepage main heading"
+  },
+  "Ga naar documentatie": {
+    "message": "Go to documentation"
   }
 }
