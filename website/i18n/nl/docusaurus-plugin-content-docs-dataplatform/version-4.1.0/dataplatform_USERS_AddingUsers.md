@@ -3,7 +3,13 @@ id: user_AddingUsers
 title: Gebruikers toevoegen
 sidebar_label: Gebruikers toevoegen
 ---
-Alleen organisatiebeheerders mogen nieuwe gebruikers maken
+:::caution Let op!
+
+Momenteel is de functionaliteit om als organisatiebeheerder nieuwe gebruikers via e-mail uit te nodigen uitgeschakeld. Nieuwe gebruikers kunnen via support@civity.nl worden aangevraagd.
+
+:::
+
+Organisatiebeheerders kunnen nieuwe gebruikers toevoegen aan hun organisatie en een rol toekennen.
 
 > Zorg ervoor dat u de juiste rol voor de gebruiker instelt. Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over rollen. 
 
