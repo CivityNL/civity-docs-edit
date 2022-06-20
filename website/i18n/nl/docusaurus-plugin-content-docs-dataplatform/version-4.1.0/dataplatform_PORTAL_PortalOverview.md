@@ -10,7 +10,7 @@ De datasets worden altijd getoond met de metadata, een downloadoptie en een cont
 
 
 ## Welkomstpagina
-De welkomstpagina van het open data portaal bevat inleidende beschrijving van wat op het portaal te vinden is. Daarnaart bevat deze pagina vaak meer uitleg over welke organisaties er op het portaal data publiceren en kunnen er algemene voorwaarden beschreven zijn. Daarnaast zijn er contactgegevens te vinden van de beherende organisatie.
+De welkomstpagina van het open data portaal bevat inleidende beschrijving van wat op het portaal te vinden is. Daarnaast bevat deze pagina vaak meer uitleg over welke organisaties er op het portaal data publiceren en kunnen er algemene voorwaarden beschreven zijn. Daarnaast zijn er contactgegevens te vinden van de beherende organisatie.
 
 ![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/home.PNG)
 
