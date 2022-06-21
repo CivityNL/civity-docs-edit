@@ -52,8 +52,7 @@
               "datasets_DeletingDatasets",
               "datasets_SearchDatasets",
               "datasets_SortFilterDatasets",
-              "datasets_DownloadingDatasets",
-              "datasets_ManageGeometryColumns"
+              "datasets_DownloadingDatasets"
           ]
       },
       {
@@ -82,8 +81,7 @@
           "type": "category",
           "label": "For Developers",
           "items": [
-              "developers_CKANApi",
-              "developers_Visualisation"
+              "developers_CKANApi"
           ]
       },
       {

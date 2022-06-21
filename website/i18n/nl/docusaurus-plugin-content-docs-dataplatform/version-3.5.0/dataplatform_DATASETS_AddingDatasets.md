@@ -4,7 +4,7 @@ title: Datasets toevoegen
 sidebar_label: Datasets toevoegen
 ---
 
-Het toevoegen van een dataset is de eerste stap in het toevoegen van een nieuwe gegevensinvoer. De tweede stap is [het toevoegen van een gegevensbron](datasets_AddingDatasources).
+Het aanmaken van een dataset is de eerste stap in het toevoegen van nieuwe data. De tweede stap is [het toevoegen van een databron](datasets_AddingDatasources).
 
 Ga naar Datasets. Bovende zoekbalk zie je een knop 'Dataset toevoegen'. Door op die knop te klikken begin je met het toevoegen van een dataset.  Componenten met een ster zijn verplicht. 
 
@@ -12,7 +12,7 @@ Ga naar Datasets. Bovende zoekbalk zie je een knop 'Dataset toevoegen'. Door op 
 <img class="imageStyle" alt="image: Adding Datasets" src={require('./assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_Overview.png').default} />
 
 
-## Title
+## Titel
 > De titel die u kiest, wordt weergegeven als onderdeel van de URL van de gegevensset. De URL wordt gegenereerd in de volgende sjabloon: [https://www.dataplatform.nl/data/YOUR_TITLE](#blank). Wanneer de titel wordt gegenereerd in een URL, worden hoofdletters omgezet in kleine letters en worden spaties vervangen door koppeltekens ( - ). 
 
 Een titel is een unieke identificatie - deze moet kort en specifiek zijn. Zo is  “**Sportevenementen 2016 Utrecht**” veel specifieker dan “**Sportevenementens**.” Voor de beste resultaten geeft u de locatie van de gegevensset in de titel op, omdat gebruikers hierdoor uw gegevensset beter kunnen vinden op <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">Dataplatform</a>.
