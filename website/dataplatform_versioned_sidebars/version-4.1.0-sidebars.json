@@ -90,7 +90,9 @@
           "type": "category",
           "label": "Dataplatform Portal",
           "items": [
-              "portal_Overview"
+              "portal_Overview",
+              "portal_ArcGIS",
+              "portal_QGIS"
           ]
       }
   ]
