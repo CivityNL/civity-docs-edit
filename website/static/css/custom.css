@@ -80,6 +80,11 @@
   color: black
 }
 
+.navbar__link:hover {
+  background: var(--primaryColor);
+  color: lightgrey;
+}
+
 /* Buttons */
 .button {
   border: 1px solid var(--primaryColor);
