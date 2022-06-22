@@ -24,6 +24,7 @@ Dataplatform provides the following options to harvest data:
 1. CKAN Harvester
 2. JSON DCAT Harvester
 3. Generic DCAT RDF Harvester
+4. Civity CSW Server 
 
 
 ### CKAN Harvester
