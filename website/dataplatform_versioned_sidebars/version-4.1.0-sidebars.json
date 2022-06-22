@@ -57,9 +57,10 @@
       },
       {
           "type": "category",
-          "label": "Link to Data Overheid",
+          "label": "Koppeling Dataregisters",
           "items": [
-              "dataoverheid_LinkToDataOverheid"
+              "dataoverheid_LinkToDataOverheid",
+              "dataregisters_LinkToNGR"
           ]
       },
       {

@@ -3,9 +3,7 @@ id: ckan_Overview
 title: Overzicht
 sidebar_label: Overzicht
 ---
-
 Hier vindt u een overzicht van wat CKAN is, naast wat u met CKAN kunt bereiken.
-
 ## CKAN 
 
 Dataplatform maakt gebruik van de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data-omgevingen. 
@@ -19,7 +17,7 @@ Het Dataplatform-project van Civity maakt gebruik van een CKAN-instantie als onz
 
 CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN Dataplatform beschikbaar in het Nederlands en Engels;  
 
-Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
+<!-- Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels. -->
  
 <!-- <img class="imageStyle shadowing" alt="change language" src={require('./assets/Dataplatform/CKANOverview/Nederlands.jpg').default} /> -->
  
@@ -27,15 +25,13 @@ Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels.
 
 
 ## Datasets  
-> datasets worden beheerd op <a href="https://ckan.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> en gepresenteerd op <a href="https://dataplatform.nl" target="_blank">https://dataplatform.nl</a>
+> datasets worden beheerd op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">https://ckan.dataplatform.nl</a> en gepresenteerd op https://{organisatie}.dataplatform.nl
 
-Voor het gebruik van CKAN worden gegevens gepubliceerd in 'datasets'. Een dataset is een pakket met data, bijvoorbeeld 'de criminaliteitscijfers in de stad' of 'de vochtigheidsmetingen van een weerstation'. Wanneer de gebruiker naar gegevens zoekt, zijn de resultaten zichtbaar in de afzonderlijke gegevenssets.
+Voor het gebruik van CKAN worden data gepubliceerd in 'datasets'. Een dataset is een pakket met data, bijvoorbeeld 'de criminaliteitscijfers in de stad' of 'de vochtigheidsmetingen van een weerstation'. Wanneer de gebruiker naar data zoekt, zijn de resultaten zichtbaar in de afzonderlijke datasets.
 
 Datasets bestaan uit twee hoofdaspecten: 
-* Een verzameling gegevensbronnen 
 * Metadata 
-
-
+* Éen of meerdere databronnen 
 ## Metadata van de gegevenssets 
 De metadata bevat informatie over de verzamelen aan databronnen in de dataset. De metagegevens moeten informatie geven over:
 * Wie de eigenaar is van de dataset 

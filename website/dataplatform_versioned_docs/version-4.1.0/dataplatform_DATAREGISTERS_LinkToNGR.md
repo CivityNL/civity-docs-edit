@@ -1,5 +1,5 @@
 ---
-id: dataoverheid_LinkToDataOverheid
+id: dataregisters_LinkToNGR
 title: Link To Data Overheid
 sidebar_label: Link To Data Overheid
 ---

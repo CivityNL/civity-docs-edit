@@ -24,14 +24,4 @@ Before filling/ updating these new geometry configuration options, no map visual
 #### Backend After
 <img class="imageStyle" alt="SCREENCAST: BackendAfter"   src={require('./assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_BackendAfter.png').default} /> 
 
-## PORTAL | Visualizing non-default geometry column names
-#### Before
-<img class="imageStyle" alt="SCREENCAST: FrontendBefore"   src={require('./assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendBefore.png').default} />
-
-#### After
-<img class="imageStyle" alt="SCREENCAST: FrontendAfter"src={require('./assets/Dataplatform/ManageGeometryColumns/dataplatform_DATASETS_ManageGeometryColumns_FrontendAfter.png').default} />
-
-<br/><br/><br/>
-In this <a href="https://youtu.be/GSPkD3FfWqM">video</a> you can watch a thorough demonstration of this new feature.
-
 
