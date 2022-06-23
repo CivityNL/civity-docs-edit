@@ -1,7 +1,7 @@
 ---
 id: geoserver_GeoserverIntegration
-title: Geoserver Integration
-sidebar_label: Geoserver Integration
+title: Geoserver Integratie
+sidebar_label: Geoserver Integratie
 ---
 >This version of ckanext-geoserver plugin currently supports publishing of a single resource/file inside a dataset. **The option of selecting a specific resource to publish is not yet implemented**. At the moment, the script automatically recognizes the only resource available and provides all the information needed to be published. If there is more than one resource inside the dataset, and the user tries to publish them, even though the pop up window may load with the correct options, the publishing process will fail.
 

@@ -1,121 +1,127 @@
 ---
 id: harvesting_GettingStarted
-title: Getting Started
-sidebar_label: Getting Started
+title: Starten met harvesten
+sidebar_label: Starten met harvesten
 ---
->***Note***: This tutorial assumes background knowledge of what type of sources are compliant with the three harvester options in CKAN
 
-This step-by-step tutorial will show you how to set up one of three types of [harvester options available in CKAN](harvesting_Harvesting#types-of-harvesters). 
+:::note Opmerking
 
-We will demonstrate the set up of a harvester using the JSON DCAT Harvester. Setting up this harvester will allow you to harvest data from JSON objects based on DCAT metadata fields into your CKAN instance. 
+Deze handleiding gaat uit van een gebruiker met adminrechten en een achtergrondkennis van welk type bronnen compatibel zijn met de drie harvester-opties in CKAN.
 
-Some examples of JSON DCAT sources:
+:::
+
+Deze stapsgewijze handleiding laat je zien hoe je de drie typen harvesters configureert [harvester opties beschikbaar in CKAN](harvesting_Harvesting#types-of-harvesters). 
+
+We demonsteren de configuratie van een JSON DCAT harvester. Na configuratie van deze harvester kun je data naar je eigen CKAN-instantie harvesten op basis van JSON objecten bestaande uit DCAT metadatavelden. 
+
+Een aantal voorbeelden van JSON DCAT bronnen:
 
 * https://raw.githubusercontent.com/ckan/ckanext-dcat/master/examples/dataset.json
 * https://geoportaal-ddh.opendata.arcgis.com/data.json
 * https://metadata.geodata-utrecht.nl/dcat
 
-## Example: Where to start
+## Voorbeeld: Waar beginnen we mee?
 
-To begin setup of a harvester in CKAN, you need to add `/harvest` to the URL of your CKAN instance. 
+Om te beginnen met het instellen van een harvester in CKAN, moet je `/harvest` toevoegen aan de URL van je CKAN-instantie. 
 
-##### For example: 
+##### Voorbeeld: 
 ```sh
- https://YOUR-CKAN-PORTAL-NAME/harvest
+ https://JOUW-CKAN-INSTANTIE/harvest
 ```
 
 On this `/harvest` page, you will see an overview of harvester sources that are currently set up. On this page you can add additional harvesters.
 
-### 1. Adding a Harvester
-Click on the *Add Harvest Resource* button
+### 1. Een harvester toevoegen
+Op deze `/harvest`-pagina ziet u een overzicht van de harvesterbronnen die momenteel zijn ingesteld. Op deze pagina kunt u extra harversters toevoegen..
+
 ![Add Harvest Source button image](assets/Dataplatform/Harvesting/Adding_harvest_source2.PNG)
 
 
-### 2. Configure a Harvesting Source
+### 2. Configureer een harvesterbron
 
-After clicking the *Add Harvest Resource* button, you need to complete the following fields:
+Na het klikken op de *Add Harvest Source* knop, moet je de volgende velden invullen:
 
-* ##### URL (mandatory)
+* ##### URL (verplicht)
 
-    The URL contains the actual harvesting source. In our example we will use a JSON file which consists of DCAT metadata for two datasets. Each dataset in our example contains multiple different file types. The example JSON file that is used can be viewed here: [JSON DCAT file](assets/Dataplatform/Harvesting/Example_file.json).
-    
+    De URL bevat de daadwerkelijke harvesterbron. In ons voorbeeld gebruiken we een JSON-bestand wat bestaat uit DCAT metadata van twee datasets. Elke dataset inons voorbeeld bestaat uit meerdere verschillende bestandstypen. Een voorbeeld van een JSON-bestand dat kan worden gebruikt kan je [hier](assets/Dataplatform/Harvesting/Example_file.json) zien.
+
     ![Harvester URL field](assets/Dataplatform/Harvesting/URL_field.PNG)
 
 
-* ##### Title (mandatory)
+* ##### Titel (verplicht)
 
-    The title that is provided will be used in the URL name of the harvester.
+    De titel die wordt ingevuld wordt gebruikt in de URL van de naam van de harvester.
     ![Harvester title field](assets/Dataplatform/Harvesting/Title.PNG)
 
 
-* ##### Description
+* ##### Beschrijving
 
-    Provide an appropriate description for your harvester.
+    Voer een geschikte beschrijving in van je harvester
     ![Harvester URL textbox](assets/Dataplatform/Harvesting/Description.PNG)
 
 
-* ##### Select source type
+* ##### Selecteer het brontype
 
-    In our example the source type is the DCAT JSON Harvester. An explanation of each type of source can be found here: [types of harvester options in CKAN](harvesting_Harvesting#types-of-harvesters).
+    In ons voorbeeld is het brontype de DCAT JSON Harvester. Een uitleg van de verschillende brontypes kan hier gevonden worden: [verschillende harvestertypes in CKAN](harvesting_Harvesting#types-of-harvesters).
     ![Select Harvester Source Type](assets/Dataplatform/Harvesting/Source_type.PNG)
 
 
-* ##### Update frequency
-    > When frequency is set to **always**, the harvester will reharvest as often as possible. In other words, this option lets the harvester run with the smallest time-interval possible.
+* ##### Updatefrequentie
+    > Als de frequentie is ingesteld op **altijd**, zal de harvester zo vaak mogelijk opnieuw harvesten. Met andere woorden, deze optie laat de harvester draaien met een zo klein mogelijk tijdsinterval.
 
-    Update frequency options are: *always, weekly, biweekly,* or *monthly*.
+    Opties voor updatefrequentie zijn: *altijd, wekelijks, tweewekelijks,* or *maandelijks*.
     ![Harvester source update frequency](assets/Dataplatform/Harvesting/Frequency.PNG)
 
 
-* ##### Custom configuration
-    >Custom configuration only accepts JSON objects. You may find an example of additional harvester configuration [here](assets/Dataplatform/Harvesting/Example2.json).
+* ##### Custom configuratie
+    >Custom configuratie kan alleen met JSON-objecten. Een voorbeeld van customer configuratie van de harvester vind je [hier](assets/Dataplatform/Harvesting/Example2.json).
 
-    Custom configuration allows you to provide additional requirements or fields for the harvester to harvest.
+    Met een custom configuratie kunt u aanvullende vereisten of velden opgeven voor de harvester
     ![Harvester custom configuration](assets/Dataplatform/Harvesting/Config.PNG)
 
 
 
-* ##### Select the appropriate organisation from a dropdown list
+* ##### Selecteer de juiste organisatie in het dropdownmenu
 
     ![Harvester organization](assets/Dataplatform/Harvesting/Organisation.PNG)
 
-* ##### Save your configuration 
+* ##### Sla je configuratie op 
 
-    Click the blue save button - your harvester setup is now complete.
+    Klik op de blauwe `opslaan` knop - je harvester setup is nu afgerond.
     ![Save button](assets/Dataplatform/Harvesting/Save.PNG)
 
 
-### 3. Running Your Harvester
+### 3. De harvester starten
 
-1. ##### Click the Admin button
+1. ##### Klik op de `Admin` knop 
 
     ![Harvester admin button](assets/Dataplatform/Harvesting/Click_admin.PNG)
 
-2. ##### Click the **Reharvest** button to initialize the harvester
+2. ##### Klik op de `Reharvest` knop om de harvester te initialiseren
 
     ![Reharvest button](assets/Dataplatform/Harvesting/Click_reharvest.PNG)
 
-3. ##### Click the **Confirm** button to begin the harvesting process
+3. ##### Klik op de `Confirm` knop om het harvestproces te starten
 
     ![Begin harvester process confirmation message and button](assets/Dataplatform/Harvesting/Click_confirm.PNG)
 
-### 4. The Havesting Process
-> Depending on the source, the harvester process will take one to several minutes to finish
+### 4. Het harvesten
+> Afhankelijk van de bron kan het harvesten één tot meerdere minuten duren om af te ronden.
 
-On the harvester's Admin page, you will see a tab labeled *Dashboard*. On this tab, you will see information about harvester's current or last completed process.
+Op de adminpagina van de harvester ziet u een tabblad met het label *Dashboard*. Op dit tabblad ziet u informatie over het huidige of laatst voltooide iteratie van de harvester.
 
 ![Last harvest job dashboard - process running](assets/Dataplatform/Harvesting/Harvester_running.PNG)
 
-In our example, you can see that there are no notifications underneath **Last Harvest Job**. If the process has compeleted, you can click on the *Dashboard* tab again to refresh the page. 
+In ons voorbeeld ziet u dat er geen meldingen zijn onder **Last Harvest Job**. Als het proces is voltooid, kunt u nogmaals op het tabblad *Dashboard* klikken om de pagina te vernieuwen.
 
 ![Last harvest job dashboard - process finished](assets/Dataplatform/Harvesting/Harvester_done.PNG)
 
-Here we can see that the process is finished - In our example the page shows that two datasets were added. 
+Hier kunnen we zien dat het proces is voltooid - In ons voorbeeld laat de pagina zien dat er twee datasets zijn toegevoegd.
 
-### 5. View harvested datasets
+### 5. Bekijk datasets die zijn geharvest
 
-* Clicking the **View Harvesting Source** button will display datasets that we added during the harvesting process.
+* Klik op de **View Harvesting Source** knop om datasets te tonen die zijn toegevoegd gedurende het harvesten.
     ![View Harvest Source button](assets/Dataplatform/Harvesting/Harvester_done.PNG)
 
-* The harvested datasets are now displayed
+* De geharveste datasets worden nu getoond.
     ![harvested datasets](assets/Dataplatform/Harvesting/Datasets.PNG)

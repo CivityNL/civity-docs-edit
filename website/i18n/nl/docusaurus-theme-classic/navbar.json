@@ -26,5 +26,29 @@
   "item.label.Slimbeheer": {
     "message": "Slimbeheer",
     "description": "Navbar item with label Slimbeheer"
+  },
+  "item.label.Welkom": {
+    "message": "Welkom",
+    "description": "Navbar item with label Welkom"
+  },
+  "item.label.Hulp": {
+    "message": "Hulp",
+    "description": "Navbar item with label Hulp"
+  },
+  "item.label.DataPlatform": {
+    "message": "DataPlatform",
+    "description": "Navbar item with label DataPlatform"
+  },
+  "item.label.DataCatalogus": {
+    "message": "DataCatalogus",
+    "description": "Navbar item with label DataCatalogus"
+  },
+  "item.label.Slim Melden": {
+    "message": "Slim Melden",
+    "description": "Navbar item with label Slim Melden"
+  },
+  "item.label.Slim Beheer": {
+    "message": "Slim Beheer",
+    "description": "Navbar item with label Slim Beheer"
   }
 }

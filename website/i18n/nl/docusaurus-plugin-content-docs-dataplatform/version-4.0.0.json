@@ -1,7 +1,7 @@
 {
   "version.label": {
     "message": "4.0.0",
-    "description": "The label for version 3.5.0"
+    "description": "The label for version 4.0.0"
   },
   "sidebar.dataplatform.category.CKAN": {
     "message": "CKAN",

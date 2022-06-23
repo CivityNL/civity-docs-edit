@@ -15,7 +15,8 @@
           "type": "category",
           "label": "CKAN",
           "items": [
-              "ckan_Overview"
+              "ckan_Overview",
+              "developers_CKANApi"
           ]
       },
       {
@@ -57,17 +58,10 @@
       },
       {
           "type": "category",
-          "label": "Koppeling Dataregisters",
+          "label": "Link to Data Registers",
           "items": [
               "dataoverheid_LinkToDataOverheid",
               "dataregisters_LinkToNGR"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Geoserver",
-          "items": [
-              "geoserver_GeoserverIntegration"
           ]
       },
       {
@@ -76,13 +70,6 @@
           "items": [
               "harvesting_Harvesting",
               "harvesting_GettingStarted"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "For Developers",
-          "items": [
-              "developers_CKANApi"
           ]
       },
       {

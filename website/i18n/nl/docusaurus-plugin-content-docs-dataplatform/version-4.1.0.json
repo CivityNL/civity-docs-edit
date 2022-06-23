@@ -1,7 +1,7 @@
 {
   "version.label": {
     "message": "4.1.0",
-    "description": "The label for version 3.5.0"
+    "description": "The label for version 4.1.0"
   },
   "sidebar.dataplatform.category.Introduction": {
     "message": "Introductie",
@@ -46,5 +46,9 @@
   "sidebar.dataplatform.category.Dataplatform Portal": {
     "message": "Open Data Portaal",
     "description": "The label for category Dataplatform Portal in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Link to Data Registers": {
+    "message": "Koppeling Dataregisters",
+    "description": "The label for category Link to Data Registers in sidebar dataplatform"
   }
 }
