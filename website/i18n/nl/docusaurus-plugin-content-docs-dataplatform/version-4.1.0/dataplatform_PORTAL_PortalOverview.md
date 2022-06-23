@@ -4,7 +4,7 @@ title: Overzicht
 sidebar_label: Overzicht 
 ---
 
-Het Open Data Portaal biedt een omgeving waar u uw doelen, showcases en verhalen kunt benadrukken. Er is een aparte pagina waarop alle datasets worden weergegeven. Via de filter- en zoekopties kunnen gebruikers eenvoudig naar een dataset navigeren. De datasets kunnen ook worden gerangschikt volgens de thema's of organisaties / afdelingen. 
+Het Open Data Portaal biedt een omgeving waar je je doelen, showcases en verhalen kunt benadrukken. Er is een aparte pagina waarop alle datasets worden weergegeven. Via de filter- en zoekopties kunnen gebruikers eenvoudig naar een dataset navigeren. De datasets kunnen ook worden gerangschikt volgens de thema's of organisaties / afdelingen. 
 
 De datasets worden altijd getoond met de metadata, een downloadoptie en een contactformulier. Indien van toepassing wordt ook een tabel, kaart of API verstrekt. 
 
@@ -20,7 +20,7 @@ De zoekbalk biedt automatische aanvulling. Begin met typen om suggesties te krij
 ![imageStyle: Dataplatform Portal Searchbar](assets/Dataplatform/PortalOverview/dataplatform_PORTAL_Search.png)
 
 ## Overzicht datasets 
-Wanneer u op 'Data' klikt krijgt u een overzicht van alle beschikbare datasets. Elke dataset bevat een overzicht van de beschikbare weergaveopties. Op de overzichtspagina kunt u de zoekresultaten verder verfijnen door het 'Filters' menu te gebruiken.
+Wanneer je op 'Data' klikt krijg je een overzicht van alle beschikbare datasets. Elke dataset bevat een overzicht van de beschikbare weergaveopties. Op de overzichtspagina kunt je de zoekresultaten verder verfijnen door het 'Filters' menu te gebruiken.
 
 ![imageStyle: Dataplatform Portal Searchbar](assets/Dataplatform/PortalOverview/dataplatform_PORTAL_Overview.PNG)
 
@@ -66,13 +66,13 @@ Als je op informatie klikt, zijn de volgende categorieën informatie beschikbaar
 * Metadata 
 * Statistieken
 
-**Beschrijving**: Hier vindt u een omschrijving van de dataset in het algemeen en mogelijk ook over de databronnen die onderdeel zijn van de dataset. Hoe uitgebreid deze beschrijving is, zal per dataset verschillen.
+**Beschrijving**: Hier vind je een omschrijving van de dataset in het algemeen en mogelijk ook over de databronnen die onderdeel zijn van de dataset. Hoe uitgebreid deze beschrijving is, zal per dataset verschillen.
 
 **Tags**: Tags, ook wel labels of trefwoorden genoemd, zijn een manier om een dataset te classificeren. Via tags kunnen gemeenschappelijke datasets worden gevonden. Wanneer je op een tag klikt kom je op een overzichtspagina van datasets waar deze tag ook is gebruikt.
 
 **Metadata**: Als je op metadata klikt, zie je een overzicht van alle metadatavelden die bij de dataset horen. Het merendeel van de metadatavelden is afkomstig uit de DCAT standaard. Hierdoor kunnen open datasets, automatisch worden weergegeven in de nationale gegevensregisters (NL: data.overheid.nl) en het EU-portaal. Daarnaast is er voor geografische datasets een aantal specifieke metadatavelden aanwezig om de data door te kunnen zetten naar NGR (Nationaal Georegister). 
 
-**Statistieken**: Hier vindt u de laatst bijgewerkt datum, het aantal paginabezoeken en de waardering van de dataset.
+**Statistieken**: Hier vind je de laatst bijgewerkt datum, het aantal paginabezoeken en de waardering van de dataset.
 
 :::caution Let op!
 
@@ -121,7 +121,21 @@ Via het tabblad 'Kaart' kun je een preview vinden van geografische data. Via ond
 
 ### 4. Downloaden 
 
-Hier kunt u de originele databronnen downloaden in de beschikbare formaten. Daarnaast is er onder het kopje API een uitleg te vinden hoe je via de DataStore API de data kunt doorzoeken.  
+Hier kun je de originele databronnen downloaden in de beschikbare formaten. Daarnaast is er onder het kopje API een uitleg te vinden hoe je via de DataStore API de data kunt doorzoeken.
+
+#### Downloaden van data
+
+Er zijn verschillende manieren om een dataset te downloaden. 
+
+ 1) Als je op het tabblad 'Data' klikt, zie je alle beschikbare datasets. Ze worden elk weergegeven in een zogenaamde *card*. Aan de rechterkant van de card zie je een 'download'-knop. Door erop te klikken kom je op de pagina met alle downloadbare bestanden en een overzicht met endpoints. Door op de cloud achter het bestand te klikken, kun je het bestand downloaden. 
+
+![Download](assets/Dataplatform/DownloadingDatasets/DatasetDownload.png)
+
+![Download01](assets/Dataplatform/DownloadingDatasets/DatasetDownload01.png)
+
+ 2) Als je op een dataset hebt geklikt om erachter te komen of het de juiste dataset is, kun je naar het downloadtabblad gaan. Daar vind je alle bestanden om te downloaden. 
+
+![Download02](assets/Dataplatform/DownloadingDatasets/DatasetDownload02.png)
 
 ### 5. Contactformulier 
 

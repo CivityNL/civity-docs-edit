@@ -10,9 +10,9 @@ sidebar_label: Metadata
 > Metadata volgt de richtlijnen van de DCAT-Standaard. <a href="/dataplatform/metadata_DCAT" target="_blank">DCAT-Standard</a>.
 
 
-Elke dataset bevat metadata; metadata is informatie die de gebruiker informeert over de verzamelde gegevensbronnen in een dataset. Meestal betekent dit een beschrijving en context over bestaande gegevens. 
+Elke dataset bevat metadata; metadata is informatie die de gebruiker informeert over de verzamelde databronnen in een dataset. Meestal betekent dit een beschrijving en context over bestaande data. 
 
-Uw metagegevens moeten het volgende beschrijven: 
+Metadata moeten het volgende beschrijven: 
 * Wie is de eigenaar van de dataset 
 * Beschrijvende informatie over de inhoud 
 * Toegangsrechten 
@@ -22,7 +22,7 @@ Uw metagegevens moeten het volgende beschrijven:
 Laten we aannemen dat we het volgende object "dingen" hebben genoemd: 
 
 ```javascript
-// Dit is een visuele weergave van gegevens 
+// Dit is een visuele weergave van data 
 dingen = "[14, 16.5, 21, 18, 21]"
 ```
 
@@ -41,7 +41,7 @@ Daarom zijn `graden Celsius` en `Florida, VS` de metadata voor het object 'dinge
 
 
 ```javascript
-// dit is een visuele weergave van gegevens
+// dit is een visuele weergave van data
 dingen = "[14, 16.5, 21, 18, 21]", "graden Celsius", "Florida, VS`"
 ```
 

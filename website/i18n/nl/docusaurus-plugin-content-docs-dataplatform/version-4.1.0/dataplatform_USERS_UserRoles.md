@@ -3,15 +3,15 @@ id: user_UserRoles
 title: Gebruikersrollen
 sidebar_label: Gebruikersrollen
 ---
-> U moet zijn aangemeld zijn om gegevenssets toe te voegen, te bewerken of te verwijderen.
+> Je moet zijn aangemeld zijn om datasets toe te voegen, te bewerken of te verwijderen.
 
-Uw aanmeldingsmachtigingen worden geconfigureerd op organisatieniveau; U heeft de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kunt u meerdere gegevenssets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersmachtigingsniveaus; Rollen. 
+Uw loginrechten worden geconfigureerd op organisatieniveau; U heeft de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kunt u meerdere datasets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersrechtenniveaus; Rollen. 
 
-## Machtigingen per rol
-Rollen voorzien de machtigingsniveaus die de gebruikers van een organisatie bezitten; verschillende rollen geven verschillende privileges. Elke organisatie is momenteel beperkt tot drie rollen. 
+## Rechten per rol
+Rollen bepalen rechtenniveaus die de gebruikers van een organisatie bezitten; verschillende rollen geven verschillende privileges. Elke organisatie is momenteel beperkt tot drie rollen. 
 
-| Rol | Machtigingen  | 
+| Rol | Rechten  | 
 | ----------------------------  | ----------------------------   | 
-| Lid           |<ul><li>De privégegevenssets van de organisatie weergeven</li></ul> | 
-| Editor / redacteur           |<ul><li>De privégegevenssets van de organisatie weergeven</li><li>Nieuwe gegevenssets toevoegen aan de organisatie</li><li>Gegevenssets van de organisatie bewerken of verwijderen </li></ul> | 
-|Admin / beheerder  |<ul><li>De privégegevenssets van de organisatie weergeven</li><li>Nieuwe gegevenssets toevoegen aan de organisatie</li><li>Gegevenssets van de organisatie bewerken of verwijderen</li><li>Voeg gebruikers toe aan de organisatie en kies of u van de nieuwe gebruiker een lid, redacteur of beheerder wilt maken</li><li>De rol van een gebruiker in de organisatie wijzigen, inclusief andere beheerdersgebruikers</li><li>Leden, redacteuren of andere beheerders uit de organisatie verwijderen</li><li>De organisatie zelf bewerken (bijvoorbeeld: de titel, beschrijving of imageStyle van de organisatie wijzigen)</li><li>De organisatie verwijderen</li></ul>|
+| Lid           |<ul><li>De privédatasets van de organisatie inzien</li></ul> | 
+| Editor / redacteur           |<ul><li>De privédatasets van de organisatie inzien</li><li>Nieuwe datasets toevoegen aan de organisatie</li><li>Datasets van de organisatie bewerken of verwijderen </li></ul> | 
+| Admin / beheerder  |<ul><li>De privédatasets van de organisatie inzien</li><li>Nieuwe datasets toevoegen aan de organisatie</li><li>Datasets van de organisatie bewerken of verwijderen</li><li>Voeg gebruikers toe aan de organisatie en kies of je van de nieuwe gebruiker een lid, editor of admin wilt maken</li><li>De rol van een gebruiker in de organisatie wijzigen, inclusief andere admingebruikers</li><li>Leden, editors of andere admins uit de organisatie verwijderen</li><li>De organisatie zelf bewerken (bijvoorbeeld: de titel, beschrijving of imageStyle van de organisatie wijzigen)</li><li>De organisatie verwijderen</li></ul>|

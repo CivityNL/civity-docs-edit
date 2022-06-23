@@ -3,24 +3,24 @@ id: user_PersonalProfile
 title: Persoonlijk profiel
 sidebar_label: Persoonlijk profiel
 ---
-Uw gebruikersprofiel bevat informatie over uw persoonlijke en accountgegevens; u kunt uw gebruikersprofiel alleen zien terwijl u bent ingelogd. 
+Je gebruikersprofiel bevat informatie over je persoonlijke en accountgegevens; je kunt je gebruikersprofiel alleen zien als je bent ingelogd. 
 
  
 
-Op deze pagina ziet u welke datasets u bezit, naast uw activiteitenstream en uw persoonlijke gegevens. Als u op de titel van een gegevensset klikt, wordt u doorgestuurd naar die gegevensset. 
+Op deze pagina zie je welke datasets je bezit, je activiteitenstream en je persoonlijke gegevens. Als je op de titel van een dataset klikt, word je doorgestuurd naar die dataset. 
 
 ## Account informatie 
 
-> Uw API-sleutel is privé en uniek, deel deze met niemand.
+> Je API-key is privé en uniek, deel deze met niemand.
 
-U kunt uw gebruikersprofiel vinden door op uw naam bovenaan de pagina te klikken.
+Je kunt je gebruikersprofiel vinden door op je naam bovenaan de pagina te klikken.
 
 <img class="imageStyle"  alt="image: My Profile" target="_blank " src={require('./assets/Dataplatform/PersonalProfile/dataplatform_USER_datacatalogue_profileButton.png').default} /> 
 
 
 De persoonlijke gegevens die op de pagina Accountinformatie worden weergegeven, bestaan uit het volgende:
 * **Gebruikersinformatie**
-* **E-mail** *dit is privé - organisatiebeheerders kunnen uw e-mail niet zien* 
+* **E-mail** *dit is privé - organisatie-admins kunnen je e-mail niet zien* 
 * **Lid sinds** 
 * **Status** *- actief of in behandeling* 
 * **API key** *- dit is privé*
@@ -29,11 +29,11 @@ De persoonlijke gegevens die op de pagina Accountinformatie worden weergegeven, 
 
 
 ## Persoonlijke instellingen bewerken
-Als u uw gebruikersinstellingen en -details wilt aanpassen, selecteert u het ⚙ pictogram (instellingenwiel) in de rechterbovenhoek van het scherm.  Opmerking: uw gebruikersnaam kan niet worden gewijzigd. 
+Als je jouw gebruikersinstellingen en -details wilt aanpassen, selecteer je het ⚙ pictogram (instellingenwiel) in de rechterbovenhoek van het scherm.  Opmerking: je gebruikersnaam kan niet worden gewijzigd. 
 
 <img class="imageStyle" alt="image: My Profile - Edit" target="_blank" src={require('./assets/Dataplatform/PersonalProfile/dataplatform_user_UserManagement_user_settings.png').default} /> 
 
-Hier kunt u uw wachtwoord wijzigen, uw naam aanpassen (die wordt weergegeven wanneer u bent ingelogd), uw e-mailadres wijzigen en uw API-sleutel opnieuw instellen wanneer deze is gecompromitteerd. Je kunt ook een kleine bio schrijven in het tekstveld *Over*. Het  tekstveld *Over* accepteert <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
+Hier kun je je wachtwoord wijzigen, je naam aanpassen (die wordt weergegeven wanneer je bent ingelogd), je e-mailadres wijzigen en je API-key opnieuw instellen wanneer deze is gecompromitteerd. Je kunt ook een kleine bio schrijven in het tekstveld *Over*. Het tekstveld *Over* accepteert <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown Formatting</a>.
 
 
 <!-- ##  Datacatalogue 

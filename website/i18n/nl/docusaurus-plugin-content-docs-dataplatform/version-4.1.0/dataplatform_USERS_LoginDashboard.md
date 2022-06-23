@@ -4,16 +4,16 @@ title: Inloggen en Dashboard
 sidebar_label: Inloggen en Dashboard
 ---
 
-Om datasets toe te voegen, te bewerken of te verwijderen, moet u ingelogd zijn. Uw aanmeldingsmachtigingen zijn geconfigureerd op organisatieniveau; U heeft de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kunt u meerdere gegevenssets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersmachtigingsniveaus; Rollen. 
+Om datasets toe te voegen, te bewerken of te verwijderen, moet je ingelogd zijn. Je loginrechten zijn ingesteld op organisatieniveau; Je hebt de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kun je meerdere datasets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersrechten-niveaus; Rollen. 
 
-Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over gebruikersmachtigingen.
+Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over gebruikersrechten.
 
 ## Inloggen
-> Uw gebruikersnaam vindt u in uw e-mail. Het volgt het formaat: `[gebruiker]-[number]`
+> Je gebruikersnaam vind je in je e-mail. Het volgt het formaat: `[gebruiker]-[number]`
 
-Inloggegevens worden beheerd op basis van alleen uitnodiging; toegang tot CKAN kan worden verleend door de beheerder van uw organisatie. Zodra toegang is verleend, moet u uw e-mail bevestigen; als u uw e-mailadres bevestigt, wordt een wachtwoord gegenereerd. 
+Toegang tot een organisatie en rechten binnen een organisatie worden verleend door de organisatie-admin door middel van een uitnodiging; Zodra toegang is verleend, moet je je e-mail bevestigen; wanneer je je e-mailadres bevestigt, wordt een wachtwoord gegenereerd. 
 
-De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt u in met uw gebruikersnaam en wachtwoord. 
+De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt je in met uw gebruikersnaam en wachtwoord. 
 
 <!-- ![SCREENCAST: login?](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
 
@@ -21,8 +21,8 @@ De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt u in 
 
 
 ## Dashboard
-Wanneer u bent ingelogd verschijnt uw naam bovenaan de pagina; u wordt naar uw dashboard geleid. Met het dashboard kunt u de nieuwste gegevenssets bekijken waaraan u eerder hebt gewerkt.
+Wanneer je bent ingelogd verschijnt je naam bovenaan de pagina; je wordt naar het dashboard geleid. Met het dashboard kun je de nieuwste datasets bekijken waaraan je eerder hebt gewerkt.
 <img class="imageStyle" target="_blank" alt="image: My Dashboard" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyDashboard.png').default} />
 
-Als u op "Mijn organisatie" klikt, kunt u de gegevenssets bekijken die eigendom zijn van uw organisatie(s). Als u over de juiste referenties beschikt, kunt u vervolgens gegevenssets toevoegen, bewerken of verwijderen.
+Als je op "Mijn organisatie" klikt, kun je de datasets bekijken die eigendom zijn van jouw organisatie(s). Als je over de juiste rechten beschikt, kun je vervolgens datasets toevoegen, bewerken of verwijderen.
 <img class="imageStyle" target="_blank" alt="image: My Dashboard - My Organizations" src={require('./assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_MyOrganization.png').default} />
