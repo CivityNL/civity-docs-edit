@@ -26,10 +26,10 @@ Dataplatform biedt de volgende opties om data te harvesten:
 
 
 ### CKAN harvester
-* De CKAN Harvester is een voorbeeld van een custom harvester. Met deze harvester kunt u data van een externe CKAN-instantie importeren in uw eigen CKAN-instantie.
+* De CKAN Harvester is een voorbeeld van een custom harvester. Met deze harvester kun je data van een externe CKAN-instantie importeren in jouw eigen CKAN-instantie.
 
 ### JSON DCAT-harvester
-* De JSON DCAT Harvester is een plug-in die deel uitmaakt van de DCAT-extensie <a href="https://github.com/ckan/ckanext-dcat" target="_blank">ckanext-dcat</a>. Met deze harvester kunt u JSON-objecten importeren op basis van DCAT-metadatavelden en deze DCAT-metadatavelden mappen op CKAN-velden.
+* De JSON DCAT Harvester is een plug-in die deel uitmaakt van de DCAT-extensie <a href="https://github.com/ckan/ckanext-dcat" target="_blank">ckanext-dcat</a>. Met deze harvester kun je JSON-objecten importeren op basis van DCAT-metadatavelden en deze DCAT-metadatavelden mappen op CKAN-velden.
 
     <a href="https://github.com/ckan/ckanext-dcat#json-dcat-harvester" target="_blank">Ga naar CKAN-documentatie JSON DCAT Harvester</a>
 

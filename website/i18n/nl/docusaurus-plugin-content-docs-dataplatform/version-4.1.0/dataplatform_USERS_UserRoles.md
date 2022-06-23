@@ -5,7 +5,7 @@ sidebar_label: Gebruikersrollen
 ---
 > Je moet zijn aangemeld zijn om datasets toe te voegen, te bewerken of te verwijderen.
 
-Uw loginrechten worden geconfigureerd op organisatieniveau; U heeft de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kunt u meerdere datasets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersrechtenniveaus; Rollen. 
+Jouw loginrechten worden geconfigureerd op organisatieniveau; Je hebt de mogelijkheid om lid te worden van één of meerdere organisaties. Hiermee kun je meerdere datasets in verschillende organisaties beheren. Elke organisatie bevat ook verschillende gebruikersrechtenniveaus; Rollen. 
 
 ## Rechten per rol
 Rollen bepalen rechtenniveaus die de gebruikers van een organisatie bezitten; verschillende rollen geven verschillende privileges. Elke organisatie is momenteel beperkt tot drie rollen. 

@@ -15,7 +15,7 @@ Op het tabblad `Leden` worden alle gebruikers van de organisatie weergegeven. Ee
 
 ## Gebruikersinstellingen bewerken 
 
-Als u op de "⚙" (instellingen) klikt, in de linkerbovenhoek, gaat u naar het scherm met gebruikersgegevens. 
+Als je op de "⚙" (instellingen) klikt, in de linkerbovenhoek, gaa je naar het scherm met gebruikersgegevens. 
 
 In dit scherm kun je je eigen gebruikersgegevens bewerken; je volledige naam verschijnt bovenaan je scherm wanneer je bent ingelogd. Gebruikersnaam kan niet worden gewijzigd.
 

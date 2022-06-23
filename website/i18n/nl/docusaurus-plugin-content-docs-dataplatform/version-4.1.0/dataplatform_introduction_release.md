@@ -35,7 +35,7 @@ sidebar_label: Release notes
     </tbody>
 </table>
 
-### CKAN
+<!-- ### CKAN
 <table class="versions">
     <tbody>
         <tr>
@@ -75,4 +75,4 @@ sidebar_label: Release notes
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->

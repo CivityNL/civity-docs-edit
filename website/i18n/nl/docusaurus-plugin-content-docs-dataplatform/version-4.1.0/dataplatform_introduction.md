@@ -8,7 +8,7 @@ Dataplatform is de basisvoorziening voor het beheren van data. Dataplatform gaat
 Dataplatform bestaat uit twee oplossingen, het **Portaal** en **CKAN**. 
 Het portaal is de website voor dataconsumenten, waar ze datasets (opgenomen in CKAN), thema's, showcases en verhalen kunnen vinden. Het portaal is een gebruiksvriendelijke interface voor het presenteren, zoeken en verstrekken van gegevens die zijn opgeslagen in CKAN. 
 
-CKAN is de tool om de gegevens te beheren. Hiermee kunt u gegevens wijzigen, toevoegen en verwijderen. Om gegevens te manipuleren, moet u echter over geldige inloggegevens beschikken (neem hiervoor contact op met uw systeembeheerder). 
+CKAN is de tool om de gegevens te beheren. Hiermee kun je gegevens wijzigen, toevoegen en verwijderen. Om gegevens te manipuleren, moet je echter over geldige inloggegevens beschikken (neem hiervoor contact op met de systeembeheerder). 
 
 
 

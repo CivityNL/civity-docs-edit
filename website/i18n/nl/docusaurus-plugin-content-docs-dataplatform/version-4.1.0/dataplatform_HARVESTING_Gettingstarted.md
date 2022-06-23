@@ -32,7 +32,7 @@ Om te beginnen met het instellen van een harvester in CKAN, moet je `/harvest` t
 On this `/harvest` page, you will see an overview of harvester sources that are currently set up. On this page you can add additional harvesters.
 
 ### 1. Een harvester toevoegen
-Op deze `/harvest`-pagina ziet u een overzicht van de harvesterbronnen die momenteel zijn ingesteld. Op deze pagina kunt u extra harversters toevoegen..
+Op deze `/harvest`-pagina zie je een overzicht van de harvesterbronnen die momenteel zijn ingesteld. Op deze pagina kun je extra harversters toevoegen..
 
 ![Add Harvest Source button image](assets/Dataplatform/Harvesting/Adding_harvest_source2.PNG)
 
@@ -76,7 +76,7 @@ Na het klikken op de *Add Harvest Source* knop, moet je de volgende velden invul
 * ##### Custom configuratie
     >Custom configuratie kan alleen met JSON-objecten. Een voorbeeld van customer configuratie van de harvester vind je [hier](assets/Dataplatform/Harvesting/Example2.json).
 
-    Met een custom configuratie kunt u aanvullende vereisten of velden opgeven voor de harvester
+    Met een custom configuratie kun je aanvullende vereisten of velden opgeven voor de harvester
     ![Harvester custom configuration](assets/Dataplatform/Harvesting/Config.PNG)
 
 
@@ -108,11 +108,11 @@ Na het klikken op de *Add Harvest Source* knop, moet je de volgende velden invul
 ### 4. Het harvesten
 > Afhankelijk van de bron kan het harvesten één tot meerdere minuten duren om af te ronden.
 
-Op de adminpagina van de harvester ziet u een tabblad met het label *Dashboard*. Op dit tabblad ziet u informatie over het huidige of laatst voltooide iteratie van de harvester.
+Op de adminpagina van de harvester zie je een tabblad met het label *Dashboard*. Op dit tabblad zie je informatie over het huidige of laatst voltooide iteratie van de harvester.
 
 ![Last harvest job dashboard - process running](assets/Dataplatform/Harvesting/Harvester_running.PNG)
 
-In ons voorbeeld ziet u dat er geen meldingen zijn onder **Last Harvest Job**. Als het proces is voltooid, kunt u nogmaals op het tabblad *Dashboard* klikken om de pagina te vernieuwen.
+In ons voorbeeld zie je dat er geen meldingen zijn onder **Last Harvest Job**. Als het proces is voltooid, kun je nogmaals op het tabblad *Dashboard* klikken om de pagina te vernieuwen.
 
 ![Last harvest job dashboard - process finished](assets/Dataplatform/Harvesting/Harvester_done.PNG)
 

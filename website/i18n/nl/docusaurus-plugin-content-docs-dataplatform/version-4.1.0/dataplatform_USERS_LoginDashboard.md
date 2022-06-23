@@ -13,7 +13,7 @@ Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over gebruikersrecht
 
 Toegang tot een organisatie en rechten binnen een organisatie worden verleend door de organisatie-admin door middel van een uitnodiging; Zodra toegang is verleend, moet je je e-mail bevestigen; wanneer je je e-mailadres bevestigt, wordt een wachtwoord gegenereerd. 
 
-De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt je in met uw gebruikersnaam en wachtwoord. 
+De inlogknop bevindt zich bovenaan de pagina aan de rechterkant. Hier logt je in met jouw gebruikersnaam en wachtwoord. 
 
 <!-- ![SCREENCAST: login?](assets/Dataplatform/UserManagement/dataplatform_user_UserManagement_login_screencast.gif) -->
 

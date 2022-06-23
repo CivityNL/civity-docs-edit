@@ -3,7 +3,7 @@ id: ckan_Overview
 title: Overzicht
 sidebar_label: Overzicht
 ---
-Hier vindt u een overzicht van wat CKAN is, naast wat u met CKAN kunt bereiken.
+Hier vind je een overzicht van wat CKAN is, naast wat je met CKAN kunt bereiken.
 ## CKAN 
 
 Dataplatform maakt gebruik van de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data-omgevingen. 

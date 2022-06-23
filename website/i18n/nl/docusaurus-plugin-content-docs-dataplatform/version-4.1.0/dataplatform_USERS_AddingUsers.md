@@ -11,7 +11,7 @@ Momenteel is de functionaliteit om als organisatie-admin nieuwe gebruikers via e
 
 Organisatie-admins kunnen nieuwe gebruikers toevoegen aan hun organisatie en een rol toekennen.
 
-> Zorg ervoor dat u de juiste rol voor de gebruiker instelt. Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over rollen. 
+> Zorg ervoor dat je de juiste rol voor de gebruiker instelt. Zie [Gebruikersrollen](user_UserRoles) voor meer informatie over rollen. 
 
 ## Een nieuwe gebruiker aanmaken 
 

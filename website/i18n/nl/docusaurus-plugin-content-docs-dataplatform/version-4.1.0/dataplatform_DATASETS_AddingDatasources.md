@@ -15,14 +15,14 @@ Een bron kan een soort bestand zijn dat machinaal leesbaar is; dit omvat, maar i
 Zie <a href="#link-to-source">Link naar bron</a> voor meer informatie over databronnen 
 
 ### Aanvullende details
-Met dit veld kunt u elke vorm van aanvullende informatie toevoegen.
+Met dit veld kun je elke vorm van aanvullende informatie toevoegen.
 
 Typische aanvullende informatie omvat: 
 * Naam: *Dit zal de bestandsnaam zijn, zorg ervoor dat deze beschrijvend is*
 * Beschrijving: *Geef uitleg over de inhoud van het bestand*
 * Formaat: *Het formaat waarin de bron wordt geleverd (CSV, XLS, JSON, PDF, enz.).*
 
-Als u extra bronnen wilt toevoegen, kiest u 'Opslaan en nog een toevoegen'. Als je er maar één hebt, kies je 'Einde'. 
+Als je extra bronnen wilt toevoegen, kies je 'Opslaan en nog een toevoegen'. Als je er maar één hebt, kies je 'Einde'. 
 
 > CKAN slaat nu het bestand op en maakt een dataset. Het resulterende item is binnen 30 minuten zichtbaar. Als de zichtbaarheid is ingesteld op ***Openbaar***, wordt de dataset zichtbaar op <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">DataPlatform</a>. ***Private*** datasets zijn niet zichtbaar op DataPlatform. 
 
@@ -32,7 +32,7 @@ Alle bronnen worden opgeslagen in datasets. Alleen wanneer een dataset is ingest
 ### Bron als link
 > Linked data is niet beschikbaar als aanroepbare API
 
-Wanneer data op een andere locatie worden opgeslagen, kunt u deze toevoegen als gekoppelde bron. Elke soort link kan worden gebruikt: *URL*, *URI*, of een *API*.
+Wanneer data op een andere locatie worden opgeslagen, kun je deze toevoegen als gekoppelde bron. Elke soort link kan worden gebruikt: *URL*, *URI*, of een *API*.
 
 ## Real-time data
 > Real-time data kunnen als bron worden toegevoegd, maar de installatie en configuratie moeten door Civity worden afgehandeld.  
@@ -44,31 +44,31 @@ Er moet een verbinding worden geconfigureerd tussen de API en Dataplatform. Fiwa
 De datastore maakt het mogelijk om specifieke data te bekijken en toegankelijk via API-aanroepen, waar mogelijk. data die niet in de datastore zijn geplaatst, zijn nog steeds toegankelijk, maar alleen door download.
 
 ### CKAN DataStore
->Als uw data worden opgeslagen als **CSV**- of **(geo)JSON-bestandstype**, stelt CKAN ze automatisch beschikbaar in de Datastore 
+>Als je data worden opgeslagen als **CSV**- of **(geo)JSON-bestandstype**, stelt CKAN ze automatisch beschikbaar in de Datastore 
 
-CKAN Datastore is beschikbaar voor het bekijken en verwerken van databronnen; U kunt deze informatie weergeven in een tabel- of kaartweergave. 
+CKAN Datastore is beschikbaar voor het bekijken en verwerken van databronnen; Je kunt deze informatie weergeven in een tabel- of kaartweergave. 
 
 ### DataStore beheren
-Als u informatie in Datastore wilt bekijken of beheren, navigeert u naar de gewenste databron en selecteert u het tabblad **Datastore**. 
+Als je informatie in Datastore wilt bekijken of beheren, navigeer je naar de gewenste databron en selecteer je het tabblad **Datastore**. 
 
 <img class="imageStyle"  target="_blank" alt="imageStyle: DataStore" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastore.png').default} />
 
-Om te controleren of een bron kan worden toegevoegd, klikt u op de knop "Uploaden naar DataStore".
+Om te controleren of een bron kan worden toegevoegd, klik je op de knop "Uploaden naar DataStore".
 
 > ***Headers***
 >
 > DataStore bepaalt automatisch of headers mogen worden geconstrueerd; een koptekst(en) is de eerste horizontale vermelding in een kolom. Het datatype (numeriek, tekst, tijdstempel, enz.) wordt bepaald door de eerste 250 vermeldingen.
 
-Tabeldata worden geüpload in brokken van 250 gehelen tegelijk. Dit betekent dat grote bestanden, met veel vermeldingen, enige tijd kunnen duren voordat ze als voorbeeld worden weergegeven. Als u wacht tot de data als voorbeeld worden weergegeven, klikt u niet opnieuw op "Uploaden naar DataStore". Vernieuw in plaats daarvan de pagina of het tabblad. 
+Tabeldata worden geüpload in brokken van 250 gehelen tegelijk. Dit betekent dat grote bestanden, met veel vermeldingen, enige tijd kunnen duren voordat ze als voorbeeld worden weergegeven. Als je wacht tot de data als voorbeeld worden weergegeven, klik dan niet opnieuw op "Uploaden naar DataStore". Vernieuw in plaats daarvan de pagina of het tabblad. 
 
-Wanneer uw upload is voltooid, ziet u ***Voltooid*** naast het veld ***Statistieken***. 
+Wanneer je upload is voltooid, zie je ***Voltooid*** naast het veld ***Statistieken***. 
 
 <img class="imageStyle" target="_blank" alt="imageStyle: DataStore" src={require('./assets/Dataplatform/AddingDatasources/dataplatform_DATASETS_AddingDatasoruces_datastoreComplete.png').default} />
 
 ### DataStore Foutafhandeling
 > DataStore zal een fout veroorzaken wanneer de preview of API-creatie niet correct wordt afgehandeld; de data zelf kunnen nog steeds correct zijn.
 
-Als de groene **API-knop** ontbreekt of als het aantal vermeldingen niet overeenkomt met de oorspronkelijke databron, is er waarschijnlijk een fout opgetreden bij het dupliceren van de dataverwerking. Als u de foutconditie wilt controleren, navigeert u vanuit de databron naar het tabblad DataStore. 
+Als de groene **API-knop** ontbreekt of als het aantal vermeldingen niet overeenkomt met de oorspronkelijke databron, is er waarschijnlijk een fout opgetreden bij het dupliceren van de dataverwerking. Als je de foutconditie wilt controleren, navigeer je vanuit de databron naar het tabblad DataStore. 
 
 #### Veelvoorkomende fouten
 
@@ -95,7 +95,7 @@ Als de groene **API-knop** ontbreekt of als het aantal vermeldingen niet overeen
                 <ul>
                     <li>Voeg een titel toe aan elke kolom en geef aan wat voor soort data de kolom bevat (bijv. Datum, tijd, valuta, enz.)</li>
                     <li>Zoek het verkeerde veld en pas het aan zodat het slechts één type data bevat</li>
-                    <li>Uw numerieke koptekst in Data Dictionary corrigeren naar gewone tekst</li>
+                    <li>Een numerieke koptekst in Data Dictionary corrigeren naar gewone tekst</li>
                 </ul>
             </td>
         </tr>
@@ -112,7 +112,7 @@ Als de groene **API-knop** ontbreekt of als het aantal vermeldingen niet overeen
             <td>
                 <ul>
                     <li>
-                        Omdat deze fout meestal optreedt bij het maken van een databron, is de beste optie om opnieuw te proberen te uploaden naar de datastore. Dit zal het probleem bijna altijd oplossen. Als dit niet het geval is, neemt u contact op met Civity. 
+                        Omdat deze fout meestal optreedt bij het maken van een databron, is de beste optie om opnieuw te proberen te uploaden naar de datastore. Dit zal het probleem bijna altijd oplossen. Als dit niet het geval is, neem contact op met Civity. 
                     </li>
                     <li>
                         Doordat er geen verbinding kan worden gemaakt met de datapusher, wordt er vaak ook geen weergave gemaakt. Dit kan handmatig worden gedaan. 

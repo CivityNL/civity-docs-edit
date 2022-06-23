@@ -17,9 +17,9 @@ Het aanmaken van een dataset begint met het toevoegen van metadata. Velden met e
 
 ### Titel
 
-De titel die u kiest, wordt weergegeven als onderdeel van de URL van de dataset. De URL wordt gegenereerd in het volgende formaat: `ckan-dataplatform-nl.dataplatform.nl/dataset/<dataset_id>`. Wanneer de titel wordt gegenereerd in een URL, worden hoofdletters omgezet in kleine letters en worden spaties vervangen door koppeltekens (`-`). 
+De titel die je kiest, wordt weergegeven als onderdeel van de URL van de dataset. De URL wordt gegenereerd in het volgende formaat: `ckan-dataplatform-nl.dataplatform.nl/dataset/<dataset_id>`. Wanneer de titel wordt gegenereerd in een URL, worden hoofdletters omgezet in kleine letters en worden spaties vervangen door koppeltekens (`-`). 
 
-Een titel is een unieke identificatie - deze moet kort en specifiek zijn. Zo is  “**Sportevenementen 2016 Utrecht**” veel specifieker dan “**Sportevenementen**.” Voor de beste resultaten geeft u de locatie van de dataset in de titel op, omdat gebruikers hierdoor uw dataset beter kunnen vinden op het [open data portaal](portal_Overview)
+Een titel is een unieke identificatie - deze moet kort en specifiek zijn. Zo is  “**Sportevenementen 2016 Utrecht**” veel specifieker dan “**Sportevenementen**.” Voor de beste resultaten geef je de locatie van de dataset in de titel op, omdat gebruikers hierdoor jouw dataset beter kunnen vinden op het [open data portaal](portal_Overview)
 
 Een goede naamgevingsrichtlijn om te volgen bij het maken van een titel: 
 ```sh
@@ -33,15 +33,15 @@ Sport - Sportevenementen - Utrecht 2019 - Versie 1
 <img class="imageStyle shadowing" alt="SCREENCAST: adding a title"   src={require('./assets/Dataplatform/AddingDatasets/dataplatform_user_addingDatasets_AddTitle.gif').default} />
 
 ### Omschrijving 
-Dit veld vertegenwoordigt een overzicht van uw dataset. Uw beschrijving moet de volgende vragen beantwoorden:
+Dit veld vertegenwoordigt een overzicht van jouw dataset. Jouw beschrijving moet de volgende vragen beantwoorden:
 
 * Waar gaan de gegevens over? 
 * Waar komen de gegevens vandaan? 
 * Wat is de kwaliteit van de data? 
 * Over welke periode of periode werden de gegevens geregistreerd? 
 
-U kunt <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown syntax</a> in het beschrijvingsveld. 
-Hiermee kunt u kopteksten, lijsten, **vet** en *cursief* gebruiken. 
+Je kunt <a href="https://www.markdownguide.org/basic-syntax" target="_blank" rel="noreferrer noopener">Markdown syntax</a> in het beschrijvingsveld. 
+Hiermee kun je kopteksten, lijsten, **vet** en *cursief* gebruiken. 
 
 Als voorbeeld, de volgende Markdown syntax..
 
@@ -64,7 +64,7 @@ Als voorbeeld, de volgende Markdown syntax..
 * *Coördinaten systeem:* *WGS84* 
 
 ### Organisatie
-Als u deel uitmaakt van een organisatie, mag u alleen datasets en databronnen toevoegen en beheren die zijn verbonden met die organisatie. dit veld wordt automatisch ingevuld. 
+Als je deel uitmaakt van een organisatie, mag je alleen datasets en databronnen toevoegen en beheren die zijn verbonden met die organisatie. dit veld wordt automatisch ingevuld. 
 
 ### Zichtbaarheid
 
@@ -76,7 +76,7 @@ De zichtbaarheidsstatus van je dataset wordt aangegeven door een label in de rec
 
 ### Licentie 
 
-Licenties bepalen hoe uw dataset mag worden gebruikt. Informatie over open data licenties vindt u op <a href="http://opendefinition.org/licenses/" target="_blank" rel="noreferrer noopener">Open Definition</a>.
+Licenties bepalen hoejouwdataset mag worden gebruikt. Informatie over open data licenties vind je op <a href="http://opendefinition.org/licenses/" target="_blank" rel="noreferrer noopener">Open Definition</a>.
 
 <!-- Open Data Register publiceert alleen datasets met de volgende licenties: 
 
@@ -86,18 +86,18 @@ Licenties bepalen hoe uw dataset mag worden gebruikt. Informatie over open data 
 ><a href="https://opendatacommons.org/licenses/pddl/summary/" target="_blank" rel="noreferrer noopener">Public Domain</a>
 *Als u een andere licentie nodig heeft, neem dan contact op met de beheerder van Dataplatform.*  -->
 
-Licenties worden geselecteerd via een dropdownmenu; u moet een optie selecteren. 
+Licenties worden geselecteerd via een dropdownmenu; je moet een optie selecteren. 
 
-De standaardlicentie voor open data is 'Creative Commons CCZero'. Dit betekent dat de dataset onbeperkt gebruikt mag worden. Met de licentie "Creative Commons Attribution" kunnen gebruikers uw gegevens vrij gebruiken, maar ze moeten verwijzen naar de bron van de gegevens. 
+De standaardlicentie voor open data is 'Creative Commons CCZero'. Dit betekent dat de dataset onbeperkt gebruikt mag worden. Met de licentie "Creative Commons Attribution" kunnen gebruikers jouw gegevens vrij gebruiken, maar ze moeten verwijzen naar de bron van de gegevens. 
 
 
 ### Trefwoorden 
 
-Het is raadzaam om trefwoorden in te voeren die niet voorkomen in de omschrijving of titel van uw dataset. Dataplatform indexeert namelijk al de trefwoorden in de velden Titel en Omschrijving. 
+Het is raadzaam om trefwoorden in te voeren die niet voorkomen in de omschrijving of titel van jouw dataset. Dataplatform indexeert namelijk al de trefwoorden in de velden Titel en Omschrijving. 
 
-Trefwoorden beïnvloeden zoektermen. Het gebruik van trefwoorden maakt uw datasets gemakkelijker te vinden. Door de eerste paar letters van uw beoogde tag in te voeren, zoekt Dataplatform naar de dichtstbijzijnde bestaande overeenkomst - als deze overeenkomt, klikt u op het trefwoord in het dropdownmenu. 
+Trefwoorden beïnvloeden zoektermen. Het gebruik van trefwoorden maakt jouw datasets gemakkelijker te vinden. Door de eerste paar letters van jouw beoogde tag in te voeren, zoekt Dataplatform naar de dichtstbijzijnde bestaande overeenkomst - als deze overeenkomt, klik je op het trefwoord in het dropdownmenu. 
 
-Als uw beoogde trefwoord niet overeenkomt met bestaande vermeldingen, vult u het hele woord in en drukt u  op de  enter-toets. Zodra uw nieuwe trefwoord is ingevoerd, is het nu mogelijk om deze als een bestaand trefwoord te gebruiken. Als u het verkeerde trefwoord selecteert, kunt u deze verwijderen door op het kruisje "X" voor het woord te klikken.
+Als jouw beoogde trefwoord niet overeenkomt met bestaande vermeldingen, vul je het hele woord in en druk je op de  enter-toets. Zodra jouw nieuwe trefwoord is ingevoerd, is het nu mogelijk om deze als een bestaand trefwoord te gebruiken. Als je het verkeerde trefwoord selecteert, kun je deze verwijderen door op het kruisje "X" voor het woord te klikken.
 
 
 ### Taal 
@@ -153,7 +153,7 @@ Incrementing the version number on each subsequent edit will allow users to see 
 
 
 ### E-mail contactpunt 
-Dit is de e-mail van de organisatie, waarmee gebruikers contact met u kunnen opnemen als ze vragen of opmerkingen hebben. Dit is meestal een algemeen e-mailadres. 
+Dit is de e-mail van de organisatie, waarmee gebruikers contact kunnen opnemen als ze vragen of opmerkingen hebben. Dit is meestal een algemeen e-mailadres. 
 
 ### Telefoon contactpunt
 Telefoonnummer van contactpersoon. Optioneel veld.
@@ -213,7 +213,7 @@ Deze optie wordt genegeerd als de optie geonetwerk is ingeschakeld. NGR zal in d
 
 Onderaan het metadataschema staan twee opties voor het opslaan van de gemaakte metadata. De opties zijn 'Opslaan zonder data' of 'Volgende: Data toevoegen'. 
 
-Met de eerste optie, 'Opslaan zonder data', slaat u de dataset met alleen de metadata op. Er wordt geen databron bijgevoegd.
+Met de eerste optie, 'Opslaan zonder data', sla je de dataset met alleen de metadata op. Er wordt geen databron bijgevoegd.
 
 Met de tweede optie, 'Volgende: Data toevoegen', is er de mogelijkheid om de databronnen toe te voegen. Dit kan middels een externe URL of door een bestand toe te voegen. 
 
@@ -239,7 +239,7 @@ Ook bij een databron moet verplichte metadata worden ingevuld:
 2. Omschrijving : leg de inhoud van het bestand uit. 
 3. Formaat – Het formaat waarin de bron wordt geleverd, bijvoorbeeld.CSV (door komma's gescheiden waarden), XLS, JSON, PDF enz. Dit veld kan leeg blijven. CKAN bepaalt het formaat zelf op basis van de extensie. 
 
-Als u meerdere databronnen (uploaden of links) aan de dataset wilt toevoegen, kiest u "opslaan en nog een toevoegen". Als u slechts één bestand aan de dataset toevoegt, kiest u 'voltooien' 
+Als je meerdere databronnen (uploaden of links) aan de dataset wilt toevoegen, kies je "opslaan en nog een toevoegen". Als je slechts één bestand aan de dataset toevoegt, kies je 'voltooien' 
 
 CKAN slaat het bestand op en publiceert de dataset. Het resultaat wordt onmiddellijk weergegeven. Als de dataset openbaar toegankelijk is, wordt het resultaat ook weergegeven op het Open ata Portaal. Datasets die privé zijn, zijn niet zichtbaar op het Open Data Portaal. 
 
