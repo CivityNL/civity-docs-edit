@@ -1,9 +1,10 @@
 ---
 id: harvesting_Harvesting
 title: Uitleg
+hide_title: true
 sidebar_label: Uitleg
 ---
-## Wat is een Data Harvester
+## Wat is een Data Harvester?
 
 > Harvesters importeren datasets van externe bronnen in een CKAN-instantie. Dit wordt gedaan door de metadata van deze externe bron te mappen naar CKAN-metadatavelden. 
 

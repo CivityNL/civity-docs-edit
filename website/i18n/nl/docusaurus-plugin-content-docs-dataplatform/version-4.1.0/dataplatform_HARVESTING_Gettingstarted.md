@@ -6,11 +6,11 @@ sidebar_label: Starten met harvesten
 
 :::note Opmerking
 
-Deze handleiding gaat uit van een gebruiker met adminrechten en een achtergrondkennis van welk type bronnen compatibel zijn met de drie harvester-opties in CKAN.
+Deze handleiding gaat uit van een gebruiker met adminrechten en een achtergrondkennis van welk type bronnen compatibel zijn met de harvester-opties in CKAN.
 
 :::
 
-Deze stapsgewijze handleiding laat je zien hoe je de drie typen harvesters configureert [harvester opties beschikbaar in CKAN](harvesting_Harvesting#types-of-harvesters). 
+Deze stapsgewijze handleiding laat je zien hoe je de verschillende typen harvesters configureert [harvester opties beschikbaar in CKAN](harvesting_Harvesting#types-of-harvesters). 
 
 We demonsteren de configuratie van een JSON DCAT harvester. Na configuratie van deze harvester kun je data naar je eigen CKAN-instantie harvesten op basis van JSON objecten bestaande uit DCAT metadatavelden. 
 
