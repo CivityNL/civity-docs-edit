@@ -35,22 +35,22 @@ sidebar_label: Release notes
     </tbody>
 </table>
 
-<!-- ### CKAN
+### CKAN
 <table class="versions">
     <tbody>
         <tr>
-            <th>2.8.2</th>
+            <th>2.8.7</th>
             <td>
                 <a href="https://docs.ckan.org/en/2.8/" target="_blank">Documentation</a>
             </td>
             <td>
-                <a href="https://docs.ckan.org/en/2.8/changelog.html" target="_blank">Release Notes</a>
+                <a href="https://docs.ckan.org/en/2.8/changelog.html#v-2-8-7-2021-02-10" target="_blank">Release Notes</a>
             </td>
         </tr>
     </tbody>
 </table>
 
-### CKAN-Civity
+<!-- ### CKAN-Civity
 <table class="versions">
     <tbody>
         <tr>

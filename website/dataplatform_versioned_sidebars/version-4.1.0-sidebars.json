@@ -58,7 +58,7 @@
       },
       {
           "type": "category",
-          "label": "Link to Data Registers",
+          "label": "Link to Data Portals",
           "items": [
               "dataoverheid_LinkToDataOverheid",
               "dataregisters_LinkToNGR"

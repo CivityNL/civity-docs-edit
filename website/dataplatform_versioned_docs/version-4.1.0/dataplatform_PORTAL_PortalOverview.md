@@ -9,7 +9,7 @@ The datasets are always shown with the metadata, a download option and a contact
 
 
 ## Homepage
-The homepage of the portal provides an introduction to explain the policies of the customer.
+The omepage of the open data portal contains an introductory description of what can be found on the portal. In addition, this page often contains more information about which organizations publish data on the portal and general terms and conditions may be described. In addition, contact details of the managing organization can be found.
 
 ![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/dataplatform_PORTAL_PortalHome.png)
 
