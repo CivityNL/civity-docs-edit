@@ -1,7 +1,7 @@
 ---
 id: dataoverheid_LinkToDataOverheid
-title: Link To Data Overheid
-sidebar_label: Link To Data Overheid
+title: Link to National Data Portal
+sidebar_label: Link to National Data Portal
 ---
 
 The link to *Data Overheid* is the service that allows datasets in <a href="https://www.dataplatform.nl/" target="_blank">**Dataplatform**</a> to be synched with <a href="https://data.overheid.nl/" target="_blank">**Data Overheid**</a>.

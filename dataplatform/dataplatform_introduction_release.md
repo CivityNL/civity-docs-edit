@@ -40,42 +40,13 @@ sidebar_label: Release notes
 <table class="versions">
     <tbody>
         <tr>
-            <th>2.8.2</th>
+            <th>2.8.7</th>
             <td>
                 <a href="https://docs.ckan.org/en/2.8/" target="_blank">Documentation</a>
             </td>
             <td>
-                <a href="https://docs.ckan.org/en/2.8/changelog.html" target="_blank">Release Notes</a>
+                <a href="https://docs.ckan.org/en/2.8/changelog.html#v-2-8-7-2021-02-10" target="_blank">Release Notes</a>
             </td>
         </tr>
     </tbody>
 </table>
-
-### CKAN-Civity
-<table class="versions">
-    <tbody>
-        <tr>
-            <th>2.0.0</th>
-            <td>
-                <a href="#">Release Notes</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-### Dataplatform API
-<table class="versions">
-    <tbody>
-        <tr>
-            <th>2.4.0</th>
-            <td>
-                <a href="https://dev.dataplatform.nl/swagger/DataplatformAPI_2_4.html#!/default/get_media_media_id" target="_blank">API Calls Library</a>
-            </td>
-            <td>
-                <a href="https://gitlab.onetrail.net/Civity/DataplatformAPI/DataplatformAPI2/tree/master" target="_blank">Release Notes</a> (login required)
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
