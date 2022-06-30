@@ -6,7 +6,6 @@ sidebar_label: Welkom
 
 Slim Beheer documentatie volgt nog
 
-
 #### SlimBeheer
 <table class="versions">
     <tbody>
