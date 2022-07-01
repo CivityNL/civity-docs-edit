@@ -5,13 +5,13 @@ hide_title: true
 sidebar_label: CKAN API
 ---
 ## CKAN API
-Dataplatform maakt gebruik van de uitgebreide CKAN API. Informatie over de mogelijkheden van deze API is te vinden op https://docs.ckan.org/en/latest/api/index.html. 
+DataPlatform maakt gebruik van de uitgebreide CKAN API. Informatie over de mogelijkheden van deze API is te vinden op https://docs.ckan.org/en/latest/api/index.html. 
 
 Daarnaast is er een link naar de API en bovenstaande documentatie te vinden onderaan de pagina 'DATASETS'.
 
-Wanneer databronnen (bijv. een csv-bestand) zijn toegevoegd aan de Datastore, en je een databron aanklikt zul je tevens een groene knop met Data API zien. Hier kun je voor deze specifieke databron meer informatie over de API endpoints vinden en documentatie over de Datastore API die beschikbaar is voor databronnen die zijn toegevoegd aan de Datastore.
+Wanneer databronnen (bijv. een csv-bestand) zijn toegevoegd aan de DataStore, en je een databron aanklikt zul je tevens een groene knop met Data API zien. Hier kun je voor deze specifieke databron meer informatie over de API endpoints vinden en documentatie over de DataStore API die beschikbaar is voor databronnen die zijn toegevoegd aan de DataStore.
 
-## Datastore en OGR
+## DataStore en OGR
 Voor het uploaden van data naar de DataStore maken we gebruik van OGR (https://gdal.org/programs/ogr2ogr.html)
 
 Formaten die via OGR worden doorgezet naar de DataStore zijn:

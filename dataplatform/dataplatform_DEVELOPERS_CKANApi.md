@@ -11,9 +11,9 @@ DataPlatform uses the extensive CKAN API. Information about the capabilities of 
 
 In addition, a link to the API and the above documentation can be found at the bottom of the `DATASETS` page.
 
-When resources (e.g., a csv file) have been added to the Datastore, and you click on a resource you will also see a green button with Data API. Here you can find more information about the API endpoints for this specific resource and documentation about the Datastore API available for resources that have been added to the Datastore.
+When resources (e.g., a csv file) have been added to the DataStore, and you click on a resource you will also see a green button with Data API. Here you can find more information about the API endpoints for this specific resource and documentation about the DataStore API available for resources that have been added to the DataStore.
 
-## Datastore and OGR
+## DataStore and OGR
 For uploading data to the DataStore we use OGR (https://gdal.org/programs/ogr2ogr.html)
 
 Formats that are transferred to the DataStore via OGR are:
