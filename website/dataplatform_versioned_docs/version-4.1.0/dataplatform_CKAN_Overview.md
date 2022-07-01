@@ -24,7 +24,7 @@ The CKAN environment of DataPlatform has been expanded with additional extension
 CKAN supports many European languages. Presently, CKAN DataPlatform is available in Dutch (Nederlands), English, and Swedish. 
  
 ## Datasets  
-> datasets are managed at `https://ckan-{organisation-name}-dataplattform-se.dataplattform.se` and presented at `https://{organisation-name}.dataplattform.se`
+> Datasets are managed at `https://ckan-{organisation-name}-dataplattform-se.dataplattform.se` and presented at `https://{organisation-name}.dataplattform.se`
 
 CKAN uses 'datasets' to organize data (which are called *packages* in CKAN). A dataset is a packet of data, for example 'the crime figures in the city' or 'the humidity readings of a weather station'. When the user searches for data, the results are visible in the individual datasets.
 
