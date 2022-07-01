@@ -6,16 +6,20 @@ sidebar_label: Overzicht
 Hier vind je een overzicht van wat CKAN is, naast wat je met CKAN kunt bereiken.
 ## CKAN 
 
-Dataplatform maakt gebruik van de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data-omgevingen. 
+DataPlatform maakt gebruik van de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data-omgevingen. 
 
 CKAN staat voor "Comprehensive Knowledge Archive Network", een <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> managementsysteem voor de opslag en distributie van <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>.. 
 
-Het Dataplatform maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, databronnen en metadata. De CKAN-instantie is te vinden op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">ckan-dataplatform-nl.dataplatform.nl</a>. De CKAN omgeving binnen Dataplatform is uitgebreid met extra uitbreidingen zoals de DataStore (API), Data Dictionary (Data woordenboek) en GeoServer. 
+Het DataPlatform maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, databronnen en metadata. 
+
+De CKAN-instantie is te vinden op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">ckan-dataplatform-nl.dataplatform.nl</a>. 
+
+De CKAN-omgeving van DataPlatform bevat extra uitbreidingen zoals de DataStore (API), Data Dictionary (Data woordenboek) en GeoServer. 
 
 ## Taalkeuze
 >De taalkeuze bevindt zich in de voettekst.
 
-CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN Dataplatform beschikbaar in het Nederlands en Engels;  
+CKAN ondersteunt vele Europese talen. Momenteel is het Nederlandse CKAN DataPlatform beschikbaar in het Nederlands en Engels;  
 
 <!-- Het Zweedse Dataplatform is beschikbaar in het Zweeds (Svenska) en Engels. -->
  
