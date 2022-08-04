@@ -1,7 +1,7 @@
 ---
-id: dataplatform_Introduction
-title: Dataplatform Introduction
-sidebar_label: Introduction
+id: dataplatform_Introduction_Datasets
+title: Datasets
+sidebar_label: Datasets
 ---
 
 DataPlatform is the basic facility for managing data. Data platform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
@@ -23,36 +23,3 @@ Civity's DataPlatform uses a CKAN instance as our web-based tool for dataset, re
 You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>.
 
 The CKAN environment of DataPlatform has been expanded with additional extensions such as the DataStore (API), Data Dictionary (Data dictionary) and GeoServer.
-
-## DataPlatform base configuration
-
-The DataPlatform environment basically consists of a Welcome page, Datasets, Organizations and Themes.
-
-### Welcome page
-
-> The Welcome page can only be customized by system administrators. Civity is the system administrator for DataPlatform.
-
-DataPlatform has a welcome page with a short introductory text and, among other things, a search bar to search directly for data.
-
-### Datasets
-
-CKAN uses 'datasets' to organize data (which are called _packages_ in CKAN). A dataset is a packet of data, for example 'the crime figures in the city' or 'the humidity readings of a weather station'. When the user searches for data, the results are visible in the individual datasets.
-
-Datasets comprise of two main aspects:
-
-- A collection of one or more datasources (which are called _resources_ in CKAN)
-- Metadata
-
-#### Public and private datasets
-
-#### Organisations
-
-#### Themes
-
-### Other options and settings
-
-#### Language selection
-
-> The language selector is found in the footer.
-
-CKAN supports many European languages. Presently, CKAN DataPlatform is available in Dutch (Nederlands), English, and Swedish.

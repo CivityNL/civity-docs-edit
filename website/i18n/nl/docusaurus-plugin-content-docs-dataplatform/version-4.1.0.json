@@ -4,7 +4,7 @@
     "description": "The label for version 4.1.0"
   },
   "sidebar.dataplatform.category.Introduction": {
-    "message": "Introductie",
+    "message": "Dataplatform Introductie",
     "description": "The label for category Introduction in sidebar dataplatform"
   },
   "sidebar.dataplatform.category.CKAN": {
@@ -47,7 +47,7 @@
     "message": "Open Data Portaal",
     "description": "The label for category Dataplatform Portal in sidebar dataplatform"
   },
-  "sidebar.dataplatform.category.Link to Data Registers": {
+  "sidebar.dataplatform.category.Link to Data Portals": {
     "message": "Koppeling Dataregisters",
     "description": "The label for category Link to Data Registers in sidebar dataplatform"
   }

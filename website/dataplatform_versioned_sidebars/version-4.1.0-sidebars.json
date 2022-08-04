@@ -1,8 +1,6 @@
-
-
- {
+{
   "dataplatform": [
-      {
+    {
       "type": "category",
       "label": "Introduction",
       "collapsed": false,
@@ -10,76 +8,72 @@
         "dataplatform_Introduction",
         "dataplatform_Introduction_Release"
       ]
-      },
-      {
-          "type": "category",
-          "label": "CKAN",
-          "items": [
-              "ckan_Overview",
-              "developers_CKANApi"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Users",
-          "items": [
-              "user_UserRoles",
-              "user_AddingUsers",
-              "user_EditingUsers",
-              "user_DeletingUsers",
-              "user_KeycloakIntegration",
-              "user_LoginDashboard",
-              "user_PersonalProfile"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Metadata",
-          "items": [
-              "metadata_Metadata",
-              "metadata_DCAT",
-              "metadata_Schema's"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Datasets",
-          "items": [
-              "datasets_AddingDatasets",
-              "datasets_AddingDatasources",
-              "datasets_PreviewDatasources",
-              "datasets_DataDictionary",
-              "datasets_EditingDatasets",
-              "datasets_DeletingDatasets",
-              "datasets_SearchDatasets",
-              "datasets_SortFilterDatasets",
-              "datasets_DownloadingDatasets"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Link to Data Portals",
-          "items": [
-              "dataoverheid_LinkToDataOverheid",
-              "dataregisters_LinkToNGR"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Harvesting",
-          "items": [
-              "harvesting_Harvesting",
-              "harvesting_GettingStarted"
-          ]
-      },
-      {
-          "type": "category",
-          "label": "Dataplatform Portal",
-          "items": [
-              "portal_Overview",
-              "portal_ArcGIS",
-              "portal_QGIS"
-          ]
-      }
+    },
+    {
+      "type": "category",
+      "label": "Users",
+      "items": [
+        "user_LoginDashboard",
+        "user_PersonalProfile",
+        "user_UserRoles",
+        "user_AddingUsers",
+        "user_EditingUsers",
+        "user_DeletingUsers"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Datasets",
+      "items": [
+        "datasets_AddingDatasets",
+        "metadata_Metadata",
+        "metadata_DCAT",
+        "metadata_Schema's",
+        "datasets_AddingDatasources",
+        "datasets_PreviewDatasources",
+        "datasets_EditingDatasets",
+        "datasets_DeletingDatasets",
+        "datasets_DownloadingDatasets"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Harvesting",
+      "items": ["harvesting_Harvesting", "harvesting_GettingStarted"]
+    },
+    {
+      "type": "category",
+      "label": "CKAN API",
+      "items": ["developers_CKANApi"]
+    },
+    {
+      "type": "category",
+      "label": "DataStore",
+      "items": [
+        "datastore_Datastore",
+        "datastore_Api",
+        "datasets_DataDictionary"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "GeoServer",
+      "items": ["geoserver_GeoserverIntegration"]
+    },
+    {
+      "type": "category",
+      "label": "Link to Data Portals",
+      "items": ["dataoverheid_LinkToDataOverheid", "dataregisters_LinkToNGR"]
+    },
+    {
+      "type": "category",
+      "label": "Zoeken en filteren",
+      "items": ["datasets_SearchDatasets", "datasets_SortFilterDatasets"]
+    },
+    {
+      "type": "category",
+      "label": "Dataplatform Portal",
+      "items": ["portal_Overview", "portal_ArcGIS", "portal_QGIS"]
+    }
   ]
 }
