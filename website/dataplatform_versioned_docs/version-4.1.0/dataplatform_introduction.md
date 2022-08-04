@@ -36,7 +36,7 @@ DataPlatform has a welcome page with a short introductory text and, among other 
 
 ### Datasets
 
-CKAN uses 'datasets' to organize data (which are called _packages_ in CKAN). A dataset is a packet of data, for example 'the crime figures in the city' or 'the humidity readings of a weather station'. When the user searches for data, the results are visible in the individual datasets.
+DataPlatform uses 'datasets' to organize data (which are called _packages_ in CKAN). A dataset is a packet of data, for example 'the crime figures in the city' or 'the humidity readings of a weather station'. When the user searches for data, the results are visible in the individual datasets.
 
 Datasets comprise of two main aspects:
 
@@ -45,7 +45,11 @@ Datasets comprise of two main aspects:
 
 #### Public and private datasets
 
-#### Organisations
+Datasets can be marked as public or private. Public datasets are visible to everyone. Private datasets can only be seen by logged-in users who are members of the dataset’s organization. Private datasets are not shown in dataset searches unless the logged in user (or the user identified via an API key) has permission to access them
+
+#### Organizations
+
+DataPlatform defines organizations to organize datasets. Metadata records can belong to a single organization, and each organization controls access to its datasets via user roles.
 
 #### Themes
 
