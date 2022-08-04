@@ -1,7 +1,7 @@
 ---
 id: datasets_SearchDatasets
-title: Searching Datasets
-sidebar_label: Searching Datasets
+title: Searching DataPlatform
+sidebar_label: Searching
 ---
 
 Searching allows you to quickly find relevant information for datasets, organizations, theme, and groups. You do not need to be logged in to saerch. Searching for datasets can be conducted via the searchbar on the front page, in addition to the searchbar on the dataset page; popular tags are displayed underneath the search bar.
@@ -17,26 +17,29 @@ A general search field is found on the homepage of Dataplatform.
 <img class="imageStyle" alt="image: Dataplatform Front Page" src={require('./assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_frontPageSearch.png').default} />
 
 You are able to search for the following cases:
-* Dataset titles
-* Dataset descriptions
-* Tags
-* Labels
-* Keywords
 
-
+- Dataset titles
+- Dataset descriptions
+- Tags
+- Labels
+- Keywords
 
 ## Searching for Organizations
+
 A separate searchbar for finding organizations is located on the organization page.
 
 <img class="imageStyle" alt="image: Organization Search" src={require('./assets/Dataplatform/SearchDatasets/dataplatform_user_SearchDatasets_OrganizationSearch.png').default} />
 
 Here you may search for the following cases:
-* Name of an organization
-* Organization description
+
+- Name of an organization
+- Organization description
 
 ## Searching for Themes and Groups
+
 A separate searchbar for themes and groups is located on the group page.
 
 Here you may search for the following cases:
-* Name of a group or theme
-* Group or theme description
+
+- Name of a group or theme
+- Group or theme description

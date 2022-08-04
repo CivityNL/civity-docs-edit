@@ -67,7 +67,7 @@
     },
     {
       "type": "category",
-      "label": "Zoeken en filteren",
+      "label": "Searching and Filtering",
       "items": ["datasets_SearchDatasets", "datasets_SortFilterDatasets"]
     },
     {

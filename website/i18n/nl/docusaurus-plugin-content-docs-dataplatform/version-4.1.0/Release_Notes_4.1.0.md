@@ -2,8 +2,8 @@
 title: V4.1.0 release notes
 ---
 
--	Multi-layer visualization: all dataset resources with geo-capabilities are simultaneously loaded on the map, replacing the ‘per-resource’ map visualization.
--	All resources, together with their legend, are listed under the legend button.
--	Layer visibility switch capabilities.
--	Popup supports displaying multi-resource metadata for overlapping WFS features.
--	WMS and WFS service endpoints of each resource are displayed in SHARE tab in a new format.
+- Multi-layer visualisatie: geo-databronnen worden nu tegelijk geladen op de kaart i.p.v. een per databron weergave.
+- Alle databronnen, samen met een legenda, worden getoond onder de legendaknop.
+- Switchen tussen verschillende lagen is nu mogelijk.
+- Popup ondersteunt het weergeven van metadata van meerdere bronnen voor overlappende WFS-functies.
+- WMS- en WFS-service-endpoints van elke bron worden in een nieuw formaat weergegeven bij het tabblad DELEN.
