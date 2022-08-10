@@ -1,10 +1,10 @@
 ---
 id: dataplatform_Introduction
-title: Dataplatform Introduction
+title: DataPlatform Introduction
 sidebar_label: Introduction
 ---
 
-DataPlatform is the basic facility for managing data. Data platform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
+DataPlatform is the basic facility for managing data. DataPlatform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
 
 DataPlatform is comprised of two solutions, the **Portal** and **CKAN**.
 

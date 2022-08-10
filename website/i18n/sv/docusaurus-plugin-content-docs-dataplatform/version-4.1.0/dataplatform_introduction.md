@@ -1,12 +1,12 @@
 ---
 id: dataplatform_Introduction
-title: Dataplatform Introduction
-sidebar_label: Introduction
+title: DataPlattform Introduktion
+sidebar_label: Introduktion
 ---
 
-DataPlatform är den grundläggande funktionen för att hantera data. Dataplattform handlar främst om att publicera öppen data på ett strukturerat sätt, med rätt metadata, riktat till de externa användarna.
+DataPlattform är den grundläggande funktionen för att hantera data. DataPlattform handlar främst om att publicera öppen data på ett strukturerat sätt, med rätt metadata, riktat till de externa användarna.
 
-DataPlatform består av två lösningar, **Portalen** och **CKAN**.
+DataPlattform består av två lösningar, **Portalen** och **CKAN**.
 
 Portalen är webbplatsen för datakonsumenter, där de kan hitta dataset (finns i CKAN), teman, showcases och berättelser. Portalen är ett användarvänligt gränssnitt för att presentera, söka och tillhandahålla data som lagras i CKAN.endly interface for presenting, searching and providing data that is stored in CKAN.
 
