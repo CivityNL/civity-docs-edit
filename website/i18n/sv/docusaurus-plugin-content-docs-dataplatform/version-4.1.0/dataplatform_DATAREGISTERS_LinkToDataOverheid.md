@@ -1,53 +1,61 @@
 ---
 id: dataoverheid_LinkToDataOverheid
-title: Link to National Data Portal
-sidebar_label: Link To National Portal
+title: Link to National Data Portals
+sidebar_label: Link To National Portals
 ---
 
-The link to *Data Overheid* is the service that allows datasets in <a href="https://www.dataplatform.nl/" target="_blank">**Dataplatform**</a> to be synched with <a href="https://data.overheid.nl/" target="_blank">**Data Overheid**</a>.
-![Dataplatform_To_Data_Overheid](assets/Dataplatform/LinkToDataOverheid/Dataplatform_to_Overheid.svg)
+## Data.overheid.nl
 
-## How it works
+Via DataPlatform it is possible to publish datasets on the Data Register of the Dutch Government, <a href="https://data.overheid.nl/" target="_blank"> data.overheid.nl (DONL)</a >.
 
-This service **runs every night**, and syncronyzes all, **publicly available**, datasets in *Dataplatform*.
+<!-- ![Dataplatform_To_Data_Government](assets/Dataplatform/LinkToDataGovernment/Dataplatform_to_Government.svg) -->
 
-> Only **public datasets** in *Dataplatform* are synched to *Data Overheid*
-  
-Metadata fields **restrictions** vary in  *Data Overheid* and *Dataplatform*. 
-In order to comply with both schemas we defined a set of **default values** that are used
-to replace invalid/absent values.
+### How does it work?
 
-Here is the list of **Default Values** and corresponding metadata fields in *Dataplatform*/*Data Overheid*:
+<!-- This service **runs every night**, and syncronyzes all, **publicly available**, datasets in *Dataplatform*. -->
 
+When `Yes` is selected in the metadata field `Publish DONL (not via NGR)`, the dataset is automatically forwarded to data.overheid.nl (DONL).
 
-| Dataplatform Field  | Data Overheid Field  | Default Value |
-|---|---|---|
-|owner_org (*organization*) | authority | 'http://standaarden.overheid.nl/op/terms/overig'  |
-|maintainer_email | contact_point_email | 'support@civity.nl'  |
-|maintainer | contact_point_name | 'Dataplatform'  |
-|(any) date field | (any) date field | Current Time in following format '%Y-%m-%dT%H:%M:%S'  |
-|description | description | 'No Description'  |
-|format | format | 'http://publications.europa.eu/resource/authority/file-type/TXT'  |
-|language | language | 'http://publications.europa.eu/resource/authority/language/NLD'  |
-|license_id | license_id | 'http://creativecommons.org/publicdomain/zero/1.0/deed.nl'  |
-|metadata_language | metadata_language | 'http://publications.europa.eu/resource/authority/language/NLD'  |
-|name | name | 'Naamloze bron'  |
-|notes | notes | 'Geen beschrijving'  |
-|publisher | publisher | 'http://standaarden.overheid.nl/op/terms/overig'  |
-|theme | theme | 'http://standaarden.overheid.nl/owms/terms/Bestuur'  |
-|title | title | 'Naamloze dataset'  |
+> Only datasets with visibility set to **Public** are synchronized with DONL.
 
-## Data Overheid
-More information about ***Data Overheid*** here: 
-- <a href="https://data.overheid.nl/" target="_blank">***Data Overheid* Portal**</a>
-- <a href="https://data.overheid.nl/data/" target="_blank">***Data Overheid* CKAN**</a>
-- <a href="https://ckanext-dcatdonl.readthedocs.io/en/latest/index.html" target="_blank">**Documentation DataOverheid Extension**</a>
-   - <a href="https://ckanext-dcatdonl.readthedocs.io/en/latest/schema-dataset.html" target="_blank">**Dataset Metadata Schema**</a>
-   - <a href="https://ckanext-dcatdonl.readthedocs.io/en/latest/schema-resource.html" target="_blank">**Resource Metadata Schema**</a>
-- <a href="https://github.com/dataoverheid/ckanext-dataoverheid" target="_blank">**GitHub repository for DataOverheid Extension**</a>
+This synchronization takes place in real time. When changes are made to the dataset, the sync will run again. In this way, the data is also immediately updated on DONL.
 
-## Known Limitations
+When metadata fields are not filled in or a value is entered that does not correspond to what DONL expects, a default value will be given. This means that the metadata on DONL may be different from what can be seen on DataPlatform.
+
+### Known Limitations
 
     - Resources can't have the same name under the same dataset.
     - Names are the unique identifier, can't be duplicated in the whole Data Overheid side.
     - Currently not all the metadata fields are being synchronized.
+
+## Dataportal.se
+
+### Pushing data/listings to dataportal.se
+
+#### Registration of the organization
+
+To publish data on dataportal.se the listings need to be pushed to the portal. For that some manual work needs to be done.
+
+First thing that needs to be checked is if your organization is registered on the portal. A registration is required for your organization's data to be visible on dataportal.se. Most organizations in the public sector are already added. You can check if your organization is registered at: status public sector organization.
+
+If you cannot find your organization, contact DIGG (The Agency for Digital Management) at info@digg.se for support. When you have found the organization you are looking for, click on it to bring up a detailed view. There you can see the organization's "harvesting source", i.e. which address Sandbox scans regularly according to a list expressed in the standard DCAT-AP. If you already have a list expressed in DCAT-AP, you can simply post it at the address provided for your organization, it usually looks like this: http://**organisation**.se/datasets/dcat
+
+#### Pushing on dataportal.se
+
+Generating and validating a catalog RDF schema in Swedish Portal
+
+#### General information:
+
+CKAN endpoints to download an RDF schema:
+
+Lidingo:
+
+https://ckan-storsthlm.dataplattform.se/catalog.rdf?organization=lidingo
+
+or Malmo:
+
+https://ckan-malmo.dataplatform.se/catalog.rdf?organization=malmo
+
+with the structure to be easily generated by the user like:
+
+https://**client_ckan_page**/catalog.rdf?organization={organization name of interest}
