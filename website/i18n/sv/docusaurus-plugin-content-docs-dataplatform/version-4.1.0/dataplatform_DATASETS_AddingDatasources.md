@@ -1,20 +1,20 @@
 ---
 id: datasets_AddingDatasources
-title: Adding Datasources
-sidebar_label: Adding Datasources
+title: Adding Resources
+sidebar_label: Adding Resources
 ---
 
-> All sources are stored within a dataset.
+> All resources are stored within a dataset.
 
 Sources may be added to datasets, only after the dataset has been added and configured.
 
 ## Manual Upload
 
-> **CSV** and **(geo)JSON** filetypes are accessible by Dataplatform’s API. Other datatypes are saved and provided as a download link.
+> **CSV**, **DGN**, **GeoJSON**, **GPKG**, **Shape file/ZIP**, **XLS**, and **XLSX** filetypes are accessible by Dataplatform’s API. Other datatypes are saved and provided as a download link.
 
 A source can be an kind of file that is machine-readable; this includes, but is not limited to: **CSV**, **JSON**, **PDF**, and **JPG** file types. Additionally, sources may also be a link.
 
-For more information regarding datasources, see <a href="#link-to-source">Link To Source</a>
+For more information regarding resources, see <a href="#link-to-source">Link To Resource</a>
 
 ### Additional Details
 
@@ -30,7 +30,7 @@ If you have additional sources to add, choose "Save & Add Another." If you only 
 
 > CKAN will now save the file and create a dataset. The resulting entry is viewable within 30 minutes. If the visibility is set to **_Public_**, the dataset will become viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>. **_Private_** datasets are not visible on Dataplatform.
 
-## Link To Source
+## Link To Resource
 
 All sources are stored in datasets. Only when a dataset is setup, may a source be added.
 
@@ -53,11 +53,3 @@ A connection must be configured between the API and Dataplatform. Fiware compone
 #### Additional Details
 
 See <a href="#additional-details">Additional Details</a>
-
-## Geo-Enabled
-
-> In order to use the Geo-Enabled feature, your datasource must contain a set of coordinates.
-
-> **CSV** filetypes must be presented according to the <a href="https://en.wikipedia.org/wiki/World_Geodetic_System" target="_blank">World Geodetic System (WGS84)</a> coordinate system
-
-Geo-Enabled datasources allow you to view your data as a set of coordinates on a map.

@@ -10,7 +10,7 @@ Bronnen kunnen alleen aan datasets worden toegevoegd nadat de dataset is toegevo
 
 ## Handmatig uploaden
 
-> **CSV**- en **(geo)JSON**-bestandstypen zijn toegankelijk via de DataStore API. Andere datatypen worden opgeslagen en verstrekt als downloadlink.
+> **CSV**, **DGN**, **GeoJSON**, **GPKG**, **Shape file/ZIP**, **XLS**, en **XLSX** bestandstypen zijn toegankelijk via de DataStore API. Andere datatypen worden opgeslagen en verstrekt als downloadlink.
 
 Een bron kan een soort bestand zijn dat machinaal leesbaar is; dit omvat, maar is niet beperkt tot: **CSV**-, **JSON**-, **PDF**- en **JPG**-bestandstypen. Daarnaast kunnen bronnen ook een link zijn.
 

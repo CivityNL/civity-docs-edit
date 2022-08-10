@@ -6,7 +6,7 @@ sidebar_label: DataStore
 
 ## DataStore
 
-The DataStore makes it possible to display specific data in DataPlatform as a preview and/or map and to request data via the DataStore API.
+The <a href="http://docs.ckan.org/en/latest/maintaining/datastore.html" target="_blank">DataStore</a> makes it possible to display specific data in DataPlatform as a preview and/or map and to request data via the DataStore API.
 
 ## DataStore and OGR
 

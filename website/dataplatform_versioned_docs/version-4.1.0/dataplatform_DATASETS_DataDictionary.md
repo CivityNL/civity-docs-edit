@@ -31,7 +31,7 @@ No, only certain file types support Data Dictionary functionality. Currently sup
 - Shapefile/ZIP
 - XLS, XLSX
 
-If the datasource is uploaded to the [DataStore](datasets_AddingDatasources#datastore) correctly, the Data Dictionary table will be added.
+If the datasource is uploaded to the DataStore correctly, the Data Dictionary table will be added.
 
 ## Where can I find the Data Dictionary?
 

@@ -26,9 +26,6 @@
       "label": "Datasets",
       "items": [
         "datasets_AddingDatasets",
-        "metadata_Metadata",
-        "metadata_DCAT",
-        "metadata_Schema's",
         "datasets_AddingDatasources",
         "datasets_PreviewDatasources",
         "datasets_EditingDatasets",
