@@ -6,57 +6,51 @@ sidebar_label: Introduktion
 
 DataPlattform är den grundläggande funktionen för att hantera data. DataPlattform handlar främst om att publicera öppen data på ett strukturerat sätt, med rätt metadata, riktat till de externa användarna.
 
-DataPlattform består av två lösningar, **Portalen** och **CKAN**.
-
-Portalen är webbplatsen för datakonsumenter, där de kan hitta dataset (finns i CKAN), teman, showcases och berättelser. Portalen är ett användarvänligt gränssnitt för att presentera, söka och tillhandahålla data som lagras i CKAN.endly interface for presenting, searching and providing data that is stored in CKAN.
-
 ## CKAN
 
-> CKAN is the tool to manage the data. It allows you to change, add, and delete data. However, in order to manipulate data, you must possess valid login credentials (contact your system administrator for this).
+> CKAN är verktyget för att hantera data. Det låter dig ändra, lägga till och ta bort data. Men för att kunna manipulera data måste du ha giltiga inloggningsuppgifter (kontakta din systemadministratör för detta).
 
-DataPlatform uses the open source software CKAN. This is the most widely used software for open data environments worldwide.
+DataPlattform använder programvaran CKAN med öppen källkod. Detta är den mest använda programvaran för öppna datamiljöer över hela världen.
 
-CKAN stands for "Comprehensive Knowledge Archive Network," which is a <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">web-based</a>, <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source</a> management system for the storage and distribution of <a href="https://en.wikipedia.org/wiki/Open_data" target="_blank">open data</a>.
+CKAN står för "Comprehensive Knowledge Archive Network", som är ett <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank">webbaserat</a>, <a href= "https://en.wikipedia.org/wiki/Open-source_software" target="_blank">öppen källkod</a>hanteringssystem för lagring och distribution av<a href="https://en.wikipedia .org/wiki/Open_data" target="_blank">öppna data</a>.
 
-Civity's DataPlatform uses a CKAN instance as our web-based tool for dataset, resource, and metadata maintenance.
+Civitys DataPlattform använder en CKAN-instans som vårt webbaserade verktyg för datauppsättning, resurs och metadataunderhåll.
 
-You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>.
+CKAN-miljön i DataPlattform har utökats med ytterligare tillägg som DataStore (API), Data Dictionary (Data dictionary) och GeoServer.
 
-The CKAN environment of DataPlatform has been expanded with additional extensions such as the DataStore (API), Data Dictionary (Data dictionary) and GeoServer.
+## Dataplattformens baskonfiguration
 
-## DataPlatform base configuration
+DataPlattform-miljön består i grunden av en välkomstsida, datamängder, Organisationer och teman.
 
-The DataPlatform environment basically consists of a Welcome page, Datasets, Organizations and Themes.
+### Välkomstsida
 
-### Welcome page
+> Välkomstsidan kan endast anpassas av systemadministratörer. Civity är systemadministratör för DataPlattform.
 
-> The Welcome page can only be customized by system administrators. Civity is the system administrator for DataPlatform.
+DataPlattform har en välkomstsida med en kort introduktionstext och bland annat en sökfält för att söka direkt efter data.
 
-DataPlatform has a welcome page with a short introductory text and, among other things, a search bar to search directly for data.
+### Datauppsättningar
 
-### Datasets
+DataPlattform använder 'dataset' för att organisera data (som kallas _paket_ i CKAN). En datauppsättning är ett datapaket, till exempel 'brottssiffrorna i staden' eller 'fuktighetsavläsningarna från en väderstation'. När användaren söker efter data syns resultaten i de enskilda datamängderna.
 
-DataPlatform uses 'datasets' to organize data (which are called _packages_ in CKAN). A dataset is a packet of data, for example 'the crime figures in the city' or 'the humidity readings of a weather station'. When the user searches for data, the results are visible in the individual datasets.
+Datauppsättningar består av två huvudaspekter:
 
-Datasets comprise of two main aspects:
-
-- A collection of one or more datasources (which are called _resources_ in CKAN)
+- En samling av en eller flera datakällor (som kallas _resurser_ i CKAN)
 - Metadata
 
-#### Public and private datasets
+#### Offentliga och privata datauppsättningar
 
-Datasets can be marked as public or private. Public datasets are visible to everyone. Private datasets can only be seen by logged-in users who are members of the dataset’s organization. Private datasets are not shown in dataset searches unless the logged in user (or the user identified via an API key) has permission to access them
+Datauppsättningar kan markeras som offentliga eller privata. Offentliga datauppsättningar är synliga för alla. Privata datauppsättningar kan endast ses av inloggade användare som är medlemmar i datauppsättningens organisation. Privata datauppsättningar visas inte i datauppsättningssökningar om inte den inloggade användaren (eller användaren som identifieras via en API-nyckel) har behörighet att komma åt dem
 
-#### Organizations
+#### Organisationer
 
-DataPlatform defines organizations to organize datasets. Metadata records can belong to a single organization, and each organization controls access to its datasets via user roles.
+DataPlattform definierar organisationer för att organisera datamängder. Metadataposter kan tillhöra en enskild organisation och varje organisation styr åtkomsten till sina datauppsättningar via användarroller.
 
-#### Themes
+#### Teman
 
-### Other options and settings
+### Andra alternativ och inställningar
 
-#### Language selection
+#### Språkval
 
-> The language selector is found in the footer.
+> Språkväljaren finns i sidfoten.
 
-CKAN supports many European languages. Presently, CKAN DataPlatform is available in Dutch (Nederlands), English, and Swedish.
+CKAN stöder många europeiska språk. För närvarande finns CKAN DataPlattform tillgängligt på holländska (Nederlands), engelska och svenska.

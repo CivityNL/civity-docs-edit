@@ -4,11 +4,7 @@ title: Datasets
 sidebar_label: Datasets
 ---
 
-DataPlatform is the basic facility for managing data. Data platform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
-
-DataPlatform is comprised of two solutions, the **Portal** and **CKAN**.
-
-The portal is the website for data-consumers, where they can find datasets (contained in CKAN), themes, showcases and stories. The portal is a user friendly interface for presenting, searching and providing data that is stored in CKAN.
+DataPlatform is the basic facility for managing data. DataPlatform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
 
 ## CKAN
 
