@@ -126,6 +126,76 @@ You can find a preview of geographic data via the 'Map' tab. The available funct
 
 #### Time series data
 
+##### Multilayer Map: Generic functions
+
+1. On multi-layer implementation, when accessing the Map Tab, the user no longer gets a dropdown button to select to display one resource at a time, but instead, all layers are simultaneously loaded and displayed.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image1.png)
+
+2. On the top left part of the map, a new legend button is added under the zoom controls. Clicking this button, user reveals a list of available geo-data layers. By default all layers are visible when accessing the Map tab.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image2.png)
+
+3. When clicking on the map, a popup is displayed, returning information for the selected features. If there are overlapping layers, popup is populated with more than one tabs, each on representing its corresponding layer.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image3.png)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image4.png)
+
+4. At any time, user can choose which layers to display. By clicking on the checkbox next to the layer’s name (inside the legend box), user can enable or disable a layer.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image5.png)
+
+5. This way, user can return information only for the layer of his choice, in case of overlapping layers.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image6.png)
+
+6. User can also make use of the fullscreen functionality, displaying the map and it’s layers in a higher resolution. Clicking the Fullscreen button on the top right of the map will expand the map on a fullscreen mode.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image7.png)
+
+##### Multilayer Map: Date picker function
+
+1. When at least one of the layers has a timestamp field set, a TimeSeries button reveals on the top right of the map, next to the fullscreen button.
+
+2. Timestamp field is set as a resource metadata field in CKAN side, labeled ‘Time series column’ where the user defines the column under which dates are stored and will be used to filter results based on these.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image8.png)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image9.png)
+
+3. When clicking on the legend button on the top-left to reveal the list of available layers, the ones that contain a timestamp field, can be spotted by a similar date-icon next to their name.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image10.png)
+
+The user can enable the Date Picker filter by clicking on the Date Picker button. A date menu will appear with date select options.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image11.png)
+
+This will automatically filter data based on the default date interval (1 day). The default date when enabling Date Picker is set to today’s date.
+
+Non-timestamp layers will always display all their available data, whatever the date range set. If user is confused by the amount of data displayed, he can simply hide the unneeded layers by unselecting them from the legend layer list.
+
+If the user wants to set a different interval, he has two options:
+
+1. Select a different start date and the end date will be automatically adjusted based on the default interval (1 day)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image12.png)
+
+2. Unlock the interval, select both a start date and an end date and then click on the refresh button that got revealed.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image13.png)
+
+The user can still hide a layer while the Date Picker filter is enabled.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image14.png)
+
+Locking the interval back to 1 day, will keep the start date intact and set the end date automatically to match the interval rule.
+
+The user can disable the Date Picker filter by clicking again the corresponding button. The date menu will disappear.
+
+This will disable the filter and refresh the map to display the full data of the timestamp layers. Non-timestamp layers will remain as is.
+
 ### 4. Download
 
 Here you can download the original resources in the available formats. In addition, under the heading API, you can find an explanation of how you can search the data via the DataStore API.

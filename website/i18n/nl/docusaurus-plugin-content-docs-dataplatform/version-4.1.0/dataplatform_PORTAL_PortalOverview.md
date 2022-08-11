@@ -126,6 +126,78 @@ Via het tabblad 'Kaart' kun je een preview vinden van geografische data. Via ond
 ![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/map_8.png)
 ![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/map_9.png)
 
+#### Time series data
+
+##### Kaart met meerdere lagen: algemene functies
+
+1. Bij implementatie met meerdere lagen krijgt de gebruiker bij het openen van het tabblad Kaart niet langer een dropdownmenu om te selecteren om één bron tegelijk weer te geven, maar in plaats daarvan worden alle lagen tegelijkertijd geladen en weergegeven.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image1.png)
+
+2. Linksboven op de kaart is een nieuwe legendaknop toegevoegd onder de zoomknoppen. Door op deze knop te klikken, onthult de gebruiker een lijst met beschikbare geodata-lagen. Standaard zijn alle lagen zichtbaar bij het openen van het tabblad Kaart.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image2.png)
+
+3. Wanneer u op de kaart klikt, wordt een pop-up weergegeven met informatie over de geselecteerde features. Als er overlappende lagen zijn, wordt de pop-up gevuld met meer dan één tabblad, elk met de bijbehorende laag.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image3.png)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image4.png)
+
+4. De gebruiker kan op elk moment kiezen welke lagen worden weergegeven. Door op de checkbox naast de naam van de laag te klikken (in het legendavak), kan de gebruiker een laag in- of uitschakelen.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image5.png)
+
+5. Op deze manier kan de gebruiker alleen informatie opvragen voor de laag van zijn keuze, in het geval van overlappende lagen.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image6.png)
+
+6. De gebruiker kan ook gebruikmaken van de functionaliteit op volledig scherm, waarbij de kaart en zijn lagen in een hogere resolutie worden weergegeven. Als u op de knop Volledig scherm in de rechterbovenhoek van de kaart klikt, wordt de kaart in volledig scherm uitgevouwen.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image7.png)
+
+##### Kaart met meerdere lagen: functie voor datumkiezer
+
+1. Wanneer ten minste één van de lagen een _time series_-kolom heeft, wordt een TimeSeries-knop weergegeven in de rechterbovenhoek van de kaart, naast de knop voor volledig scherm.
+
+2. Het veld 'Time series kolom' wordt ingesteld als een metadataveld van een bijlage in CKAN, waar de gebruiker de kolom definieert waar datums in voor komen en zal worden gebruikt om de resultaten op basis hiervan te filteren.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image8.png)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image9.png)
+
+3. Wanneer u op de legenda-knop in de linkerbovenhoek klikt om de lijst met beschikbare lagen weer te geven, kunnen de lagen die een 'Time series kolom' bevatten, worden herkend aan een vergelijkbaar datumpictogram naast hun naam.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image10.png)
+
+De gebruiker kan het filter Datumkiezer inschakelen door op de knop Datumkiezer te klikken. Er verschijnt een datummenu met opties voor datumselectie.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image11.png)
+
+Hiermee worden gegevens automatisch gefilterd op basis van het standaard datuminterval (1 dag). De standaarddatum bij het inschakelen van Datumkiezer is ingesteld op de datum van vandaag.
+
+Andere bijlagen zonder ingevulde 'Time series kolom' zullen altijd al hun beschikbare gegevens weergeven, ongeacht het ingestelde datumbereik. Als de gebruiker in de war is door de hoeveelheid weergegeven gegevens, kan hij eenvoudig de onnodige lagen verbergen door ze uit de lijst met legendalagen te deselecteren.
+
+Als de gebruiker een ander interval wil instellen, heeft hij twee opties:
+
+1. Selecteer een andere startdatum en de einddatum wordt automatisch aangepast op basis van het standaardinterval (1 dag)
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image12.png)
+
+2. Ontgrendel het interval, selecteer zowel een startdatum als een einddatum en klik vervolgens op de Refresh-knop die wordt onthuld.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image13.png)
+
+De gebruiker kan nog steeds een laag verbergen terwijl het filter Datumkiezer is ingeschakeld.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/image14.png)
+
+Wanneer je het interval opnieuw vergrendelt naar 1 dag, dan blijft de startdatum intact en wordt de einddatum automatisch ingesteld om overeen te komen met de intervalregel van 1 dag.
+
+De gebruiker kan het filter Datumkiezer uitschakelen door nogmaals op de overeenkomstige knop te klikken. Het datummenu verdwijnt.
+
+Hierdoor wordt het filter uitgeschakeld en wordt de kaart vernieuwd om de volledige gegevens van de timestamp-laag weer te geven. Lagen zonder timestamp blijven zoals ze zijn.
+
 ### 4. Downloaden
 
 Hier kun je de originele databronnen downloaden in de beschikbare formaten. Daarnaast is er onder het kopje API een uitleg te vinden hoe je via de DataStore API de data kunt doorzoeken.
