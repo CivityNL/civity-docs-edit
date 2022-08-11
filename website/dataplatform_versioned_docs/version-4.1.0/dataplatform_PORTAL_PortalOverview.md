@@ -124,6 +124,8 @@ You can find a preview of geographic data via the 'Map' tab. The available funct
 ![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/map_8.png)
 ![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/map_9.png)
 
+#### Time series data
+
 ### 4. Download
 
 Here you can download the original resources in the available formats. In addition, under the heading API, you can find an explanation of how you can search the data via the DataStore API.
