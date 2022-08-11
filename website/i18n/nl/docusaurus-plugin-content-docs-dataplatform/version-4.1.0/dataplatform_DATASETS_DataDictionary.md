@@ -38,11 +38,11 @@ Nee, het Data woordenboek is alleen beschikbaar voor bestandsformaten die naar d
 - Shapefile/ZIP
 - XLS, XLSX
 
-Als de databron correct is geüpload naar de DataStore, wordt de tabel datawoordenboek toegevoegd.
+Als de databron correct is geüpload naar de [DataStore](datasets_AddingDatasources#datastore), wordt de tabel datawoordenboek toegevoegd.
 
 ## Waar kan ik het Data woordenboek vinden?
 
-Het data woordenboek kan zowel in **CKAN** als op de **portal** worden bekeken.
+Het data woordenboek kan zowel in **CKAN** als op het **open data portaal** worden bekeken.
 
 #### CKAN:
 
