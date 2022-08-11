@@ -4,52 +4,35 @@ title: Adding Resources
 sidebar_label: Adding Resources
 ---
 
-> All resources are stored within a dataset.
+> All data sources/appendices are part of a dataset.
 
-Sources may be added to datasets, only after the dataset has been added and configured.
+Resources can only be added to datasets after the (mandatory) metadata of a dataset has been entered.
 
-## Manual Upload
+## Upload manually
 
-> **CSV**, **DGN**, **GeoJSON**, **GPKG**, **Shape file/ZIP**, **XLS**, and **XLSX** filetypes are accessible by DataStore's API. Other datatypes are saved and provided as a download link.
+### Adding resources
 
-A source can be an kind of file that is machine-readable; this includes, but is not limited to: **CSV**, **JSON**, **PDF**, and **JPG** file types. Additionally, sources may also be a link.
+After the dataset metadata has been filled in, data can be added. Click the 'Next: Add data' button.
 
-For more information regarding resources, see <a href="#link-to-source">Link To Source</a>
+On this page one or more files ("resources") can be added to the dataset. There are two ways to add a file:
 
-### Additional Details
+- By uploading a file
+- By linking to a file via a URL (location)
 
-This field allows you to add any kind of additional information.
+If a CSV, DGN, GeoJSON, GPKG, Shapefile/ZIP, XLS or XLSX is added (both uploading and linking), the file is stored in the DataStore of the DataPlatform and accessible through the DataStore API. Other file formats are saved as a file and are available for download.
 
-Typical additional information includes:
+Mandatory metadata must also be filled in for a resource:
 
-- Name: _This will be the filename, ensure it is descriptive_
-- Description: _Provide an explanation of the contents of the file_
-- Format: _The format in which the source is provided (CSV, XLS, JSON, PDF, etc)._
+1. Title: Give the file a distinctive name.
+2. Description : explain the contents of the file.
+3. Format – The format in which the resource is provided, for example CSV, XLS, JSON, PDF, etc. This field can be left blank. CKAN determines the format itself based on the extension.
 
-If you have additional sources to add, choose "Save & Add Another." If you only have one, choose "End."
+If you want to add multiple resources (upload or links) to the dataset, choose "save and add another". If you only add one file to the dataset, choose 'finish'
 
-> CKAN will now save the file and create a dataset. The resulting entry is viewable within 30 minutes. If the visibility is set to **_Public_**, the dataset will become viewable on <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">dataplatform</a>. **_Private_** datasets are not visible on Dataplatform.
+CKAN saves the file and publishes the dataset. The result is displayed immediately. If the dataset is publicly accessible, the result can also be displayed on the Open Data Portal. Datasets that are private will not visible on the Open Data Portal.
 
-## Link To Resource
+## Real-time / IoT data
 
-All resources are stored in datasets. Only when a dataset is set up, may a resource be added.
+> Real-time data can be added as a source, but installation and configuration must be handled by Civity.
 
-### Source as a Link
-
-> Linked data is not available as a callable API
-
-When data is stored in a different location, you may added as a linked source. Any kind of link may be utilized: _URL_, _URI_, or an _API_.
-
-#### Additional Details
-
-See <a href="#additional-details">Additional Details</a>
-
-## Real-time Data
-
-> Real-time data may be added as a source, however setup and configuration must be handled by Civity.
-
-A connection must be configured between the API and Dataplatform. Fiware components are used to configure fields provided by the API, which are then translated into useful open data.
-
-#### Additional Details
-
-See <a href="#additional-details">Additional Details</a>
+A connection must be configured between the API and DataPlatform. Fiware components are used to configure fields of the API, which are then translated into useful open data.

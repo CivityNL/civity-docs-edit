@@ -4,7 +4,7 @@ title: DataPlatform Introductie
 sidebar_label: Introductie
 ---
 
-DataPlatform is de basisvoorziening voor het beheren van data. Dataplatform gaat vooral over het op een gestructureerde manier publiceren van open data, met de juiste metadata, gericht op de externe gebruiker.
+DataPlatform is de basisvoorziening voor het beheren van data. DataPlatform gaat vooral over het op een gestructureerde manier publiceren van open data, met de juiste metadata, gericht op de externe gebruiker.
 
 ## CKAN
 

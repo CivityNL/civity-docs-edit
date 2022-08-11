@@ -4,44 +4,37 @@ title: Databronnen toevoegen
 sidebar_label: Databronnen toevoegen
 ---
 
-> Alle bronnen worden opgeslagen in een dataset.
+> Alle databronnen/bijlages zijn onderdeel van een dataset.
 
-Bronnen kunnen alleen aan datasets worden toegevoegd nadat de dataset is toegevoegd en geconfigureerd.
+Databronnen kunnen alleen aan datasets worden toegevoegd nadat de (verplichte) metadata van een dataset is ingevuld.
 
 ## Handmatig uploaden
 
-> **CSV**, **DGN**, **GeoJSON**, **GPKG**, **Shape file/ZIP**, **XLS**, en **XLSX** bestandstypen zijn toegankelijk via de DataStore API. Andere datatypen worden opgeslagen en verstrekt als downloadlink.
+### Databronnen toevoegen
 
-Een bron kan een soort bestand zijn dat machinaal leesbaar is; dit omvat, maar is niet beperkt tot: **CSV**-, **JSON**-, **PDF**- en **JPG**-bestandstypen. Daarnaast kunnen bronnen ook een link zijn.
+Nadat de metadata op datasetniveau is beschreven, kan data worden toegevoegd. Klik op de knop 'Volgende: Data toevoegen'.
 
-Zie <a href="#link-to-source">Link naar bron</a> voor meer informatie over databronnen
+Op deze pagina kunnen één of meerdere bestanden ("resources") aan de dataset worden toegevoegd. Er zijn twee manieren om een bestand toe te voegen:
 
-### Aanvullende details
+- Door een bestand te uploaden
+- Door te linken naar een bestand via een URL (locatie)
 
-Met dit veld kun je elke vorm van aanvullende informatie toevoegen.
+![01](assets/Dataplatform/AddingDatasets/01.JPG)
 
-Typische aanvullende informatie omvat:
+Als er een CSV, DGN, GeoJSON, GPKG, Shapefile/ZIP, XLS of XLSX wordt toegevoegd (zowel uploaden als linken), wordt het bestand opgeslagen in de DataStore van het DataPlatform en toegankelijk via de DataStore API. Andere bestandsformaten worden opgeslagen als een bestand en zijn beschikbaar om te downloaden.
 
-- Naam: _Dit zal de bestandsnaam zijn, zorg ervoor dat deze beschrijvend is_
-- Beschrijving: _Geef uitleg over de inhoud van het bestand_
-- Formaat: _Het formaat waarin de bron wordt geleverd (CSV, XLS, JSON, PDF, enz.)._
+Ook bij een databron moet verplichte metadata worden ingevuld:
 
-Als je extra bronnen wilt toevoegen, kies je 'Opslaan en nog een toevoegen'. Als je er maar één hebt, kies je 'Einde'.
+1. Titel: geef een onderscheidende naam aan het bestand.
+2. Omschrijving : leg de inhoud van het bestand uit.
+3. Formaat – Het formaat waarin de bron wordt geleverd, bijvoorbeeld CSV, XLS, JSON, PDF enz. Dit veld kan leeg blijven. CKAN bepaalt het formaat zelf op basis van de extensie.
 
-> CKAN slaat nu het bestand op en maakt een dataset. Het resulterende item is binnen 30 minuten zichtbaar. Als de zichtbaarheid is ingesteld op **_Openbaar_**, wordt de dataset zichtbaar op <a href="https://www.dataplatform.nl" target="_blank" rel="noreferrer noopener">DataPlatform</a>. **_Private_** datasets zijn niet zichtbaar op DataPlatform.
+Als je meerdere databronnen (uploaden of links) aan de dataset wilt toevoegen, kies je "opslaan en nog een toevoegen". Als je slechts één bestand aan de dataset toevoegt, kies je 'voltooien'
 
-## Link naar bron
+CKAN slaat het bestand op en publiceert de dataset. Het resultaat wordt onmiddellijk weergegeven. Als de dataset openbaar toegankelijk is, kan het resultaat ook worden weergegeven op het Open Data Portaal. Datasets die privé zijn, zijn niet zichtbaar op het Open Data Portaal..
 
-Alle bronnen worden opgeslagen in datasets. Alleen wanneer een dataset is ingesteld, mag een bron worden toegevoegd.
-
-### Bron als link
-
-> Linked data is niet beschikbaar als aanroepbare API
-
-Wanneer data op een andere locatie worden opgeslagen, kun je deze toevoegen als gekoppelde bron. Elke soort link kan worden gebruikt: _URL_, _URI_, of een _API_.
-
-## Real-time data
+## Real-time / IoT data
 
 > Real-time data kunnen als bron worden toegevoegd, maar de installatie en configuratie moeten door Civity worden afgehandeld.
 
-Er moet een verbinding worden geconfigureerd tussen de API en Dataplatform. Fiware-componenten worden gebruikt om velden van de API te configureren, die vervolgens worden vertaald in nuttige open data.
+Er moet een verbinding worden geconfigureerd tussen de API en DataPlatform. Fiware-componenten worden gebruikt om velden van de API te configureren, die vervolgens worden vertaald in nuttige open data.
