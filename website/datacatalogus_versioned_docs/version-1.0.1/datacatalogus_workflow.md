@@ -4,23 +4,19 @@ title: Workflow
 sidebar_label: Workflow
 ---
 
-## Workflow Datacatalogus
+## Workflow DataCatalogus
 
-In de Datacatalogus wordt gebruik gemaakt van een eenvoudige workflow om vermeldingen te publiceren en depubliceren.
+Data binnen de DataCatalogus bestaat uit vermeldingen. Bij het beheren van de vermeldingen zijn verschillende mensen betrokken. Tussen het opvoeren en publiceren van de data zitten ook verschillende stappen en autorisaties. DataCatalogus biedt een uitgebreide rollen- en rechtenstructuur en ondersteuning voor verschillende publicatiestappen. Zo houdt u volledige controle over uw data, de toegang en het beheer.
 
-Er zijn verschillende regels aanwezig binnen deze workflow:
+De vermelding doorloopt een aantal stappen in de DataCatalogus om publiek vermeld te worden. Dit houdt in dat de vermelding gepubliceerd wordt zodat de leden binnen de toegewezen organisatie/afdeling de vermelding kan inzien.
 
-- alleen een gegevensmakelaar kan een vermelding op publiek zetten
-- alle gegevensmakelaars hebben rechten om elke privé vermelding op publiek te zetten
-- admin en muteerders kunnen de vermelding op privé zetten
-- wanneer een non-admin een vermelding wijzigt, wordt de vermelding automatisch op privé gezet
-- als een gegevensmakelaar een vermelding wijzigt die al op publiek staat, dan blijft de vermelding publiek
-- geldt voor veranderingen in de metadata van de vermelding maar ook voor het aanpassen van resources/databronnen
-- activiteitenstroom geeft aan welke gegevensmakelaar een vermelding gepubliceerd heeft.
+Nadat de vermelding is aangemaakt, dit kan door een editor of admin, kan de vermelding met 1 druk op de knop openbaar (publiek) worden gemaakt door een admin van die organisatie/afdeling. Een openbare vermelding is in de DataCatalogus zichtbaar en vindbaar.
 
-## Utrecht
+### Workflow - rollen 
 
-Geen specifieke workflow aanwezig
+Voor de workflow (het aanpassen en goedkeuren van vermeldingen) zijn de volgende rollen toebedeeld: Lid, Editor, Admin.
+
+De verschillen in rechten tussen deze verschillende rollen worden hieronder getoond:
 
 | Rechten                                             | Lid | Editor | Admin |
 | --------------------------------------------------- | :-: | :----: | :---: |
@@ -28,7 +24,7 @@ Geen specifieke workflow aanwezig
 | Nieuwe vermelding aanmaken                          |     |   X    |   X   |
 | Vermelding bewerken                                 |     |   X    |   X   |
 | Vermelding verwijderen                              |     |   X    |   X   |
-| Vermelding op Privé zetten                          |     |   X    |   X   |
+| Vermelding op privé zetten                          |     |   X    |   X   |
 | Vermelding op publiek zetten                        |     |        |   X   |
 | Nieuwe gebruikers toevoegen                         |     |        |   X   |
 | Rol van gebruiker aanpassen                         |     |        |   X   |

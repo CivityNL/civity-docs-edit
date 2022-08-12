@@ -13,7 +13,9 @@ After the listing has been created, this can be done by an editor or admin, the 
 
 ### Workflow - roles
 
-For the workflow (placing and approving listings) the following roles are assigned: Member, Editor, Admin.
+For the workflow (editing and approving listings) the following roles are assigned: Member, Editor, Admin.
+
+The differences in rights for the different roles are listed below:
 
 | Rights                                   | Member | Editor | Admin |
 | ---------------------------------------- | ------ | ------ | ----- |
@@ -21,7 +23,7 @@ For the workflow (placing and approving listings) the following roles are assign
 | Create new listing                       |        | X      | X     |
 | Edit listing                             |        | X      | X     |
 | Delete listing                           |        | X      | X     |
-| Set listing to Private                   |        | X      | X     |
+| Set listing to private                   |        | X      | X     |
 | Put listing on public                    |        |        | X     |
 | Add new users                            |        |        | X     |
 | Customize user role                      |        |        | X     |
