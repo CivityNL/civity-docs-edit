@@ -4,34 +4,27 @@ title: Workflow
 sidebar_label: Workflow
 ---
 
-## Workflow Datacatalogus
+## Workflow DataCatalog
 
-In de Datacatalogus wordt gebruik gemaakt van een eenvoudige workflow om vermeldingen te publiceren en depubliceren.
+Data within the DataCatalog consists of listings. Managing the listings involves several people. Between the entry and publication of the data, there are also various steps and authorizations. DataCatalog provides a comprehensive role and rights structure and support for various publishing steps. This way you keep full control over your data, access and management.
 
-Er zijn verschillende regels aanwezig binnen deze workflow:
+The entry goes through a number of steps in the DataCatalog to be publicly listed. This means that the listing is published so that the members within the assigned organization/department can view the listing.
+After the listing has been created, this can be done by an editor or admin, the entry can be made public (public) by an admin of that organization / department with 1 press of the button. A public entry is visible and findable in the DataCatalog.
 
-- alleen een gegevensmakelaar kan een vermelding op publiek zetten
-- alle gegevensmakelaars hebben rechten om elke privé vermelding op publiek te zetten
-- admin en muteerders kunnen de vermelding op privé zetten
-- wanneer een non-admin een vermelding wijzigt, wordt de vermelding automatisch op privé gezet
-- als een gegevensmakelaar een vermelding wijzigt die al op publiek staat, dan blijft de vermelding publiek
-- geldt voor veranderingen in de metadata van de vermelding maar ook voor het aanpassen van resources/databronnen
-- activiteitenstroom geeft aan welke gegevensmakelaar een vermelding gepubliceerd heeft.
+### Workflow - roles
 
-## Utrecht
+For the workflow (placing and approving listings) the following roles are assigned: Member, Editor, Admin.
 
-Geen specifieke workflow aanwezig
-
-| Rechten                                             | Lid | Editor | Admin |
-| --------------------------------------------------- | :-: | :----: | :---: |
-| Privé vermeldingen inzien                           |  X  |   X    |   X   |
-| Nieuwe vermelding aanmaken                          |     |   X    |   X   |
-| Vermelding bewerken                                 |     |   X    |   X   |
-| Vermelding verwijderen                              |     |   X    |   X   |
-| Vermelding op Privé zetten                          |     |   X    |   X   |
-| Vermelding op publiek zetten                        |     |        |   X   |
-| Nieuwe gebruikers toevoegen                         |     |        |   X   |
-| Rol van gebruiker aanpassen                         |     |        |   X   |
-| Verwijderen van gebruikers (ongeacht rol gebruiker) |     |        |   X   |
-| De organisatie bewerken                             |     |        |   X   |
-| De organisatie verwijderen                          |     |        |   X   |
+| Rights                                   | Member | Editor | Admin |
+| ---------------------------------------- | ------ | ------ | ----- |
+| View private listings                    | X      | X      | X     |
+| Create new listing                       |        | X      | X     |
+| Edit listing                             |        | X      | X     |
+| Delete listing                           |        | X      | X     |
+| Set listing to Private                   |        | X      | X     |
+| Put listing on public                    |        |        | X     |
+| Add new users                            |        |        | X     |
+| Customize user role                      |        |        | X     |
+| Deleting users (regardless of user role) |        |        | X     |
+| Edit the organization                    |        |        | X     |
+| Delete the organization                  |        |        | X     |
