@@ -8,7 +8,7 @@
     "description": "The label for category Introductie in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Vermeldingen": {
-    "message": "Vermeldingen",
+    "message": "Listings",
     "description": "The label for category Vermeldingen in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Workflow": {
@@ -16,7 +16,7 @@
     "description": "The label for category Workflow in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Notificaties": {
-    "message": "Notificaties",
+    "message": "Notifications",
     "description": "The label for category Notificaties in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Metadata": {
@@ -24,15 +24,15 @@
     "description": "The label for category Metadata in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Thema's": {
-    "message": "Thema's",
+    "message": "Themes",
     "description": "The label for category Thema's in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Gebruikers": {
-    "message": "Gebruikers",
+    "message": "Users",
     "description": "The label for category Gebruikers in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Persoonlijk profiel": {
-    "message": "Persoonlijk profiel",
+    "message": "Personal profile",
     "description": "The label for category Persoonlijk profiel in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.CKAN API": {
@@ -40,7 +40,7 @@
     "description": "The label for category CKAN API in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Definities": {
-    "message": "Definities",
+    "message": "Definitions",
     "description": "The label for category Definities in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Data Dictionary": {
@@ -48,15 +48,15 @@
     "description": "The label for category Data Dictionary in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Diensten": {
-    "message": "Diensten",
+    "message": "Organizations",
     "description": "The label for category Diensten in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Zoeken en filteren": {
-    "message": "Zoeken en filteren",
+    "message": "Searching and filtering",
     "description": "The label for category Zoeken en filteren in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Statistieken": {
-    "message": "Statistieken",
+    "message": "Statistics",
     "description": "The label for category Statistieken in sidebar datacatalogus"
   }
 }

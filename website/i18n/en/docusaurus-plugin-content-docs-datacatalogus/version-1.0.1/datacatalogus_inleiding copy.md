@@ -1,10 +1,11 @@
 ---
 id: doel
-title: Introductie
-sidebar_label: Doel
+title: Introduction
+sidebar_label: Purpose
 ---
-## Doel van deze documentatie
 
-Deze documentatie probeert een korte introductie te geven over de functionaliteit en modules die Datacatalogus bevat. Onder meer Vermeldingen, Diensten, de Data Dictionary en de CKAN API mogelijkheden wordt toegelicht. Zoals hieronder zal worden uitgelegd, is veel van de basisfunctionaliteit ook aanwezig in Dataplatform. Uitgebreide informatie over Dataplatform is te vinden op https://www.docs.civity.nl/. 
+## Purpose of this documentation
 
-Binnen deze documentatie wordt met name de extra functionaliteit van Datacatalogus beschreven. Datacatalogus maakt, net als Dataplatform, gebruikt de open source software CKAN. Dit is wereldwijd de meest gebruikte software voor open data omgevingen. De CKAN-omgeving binnen Datacatalogus is uitgebreid met aanvullende extensies en modules zoals DCAT, de Data Dictionary, Definities, en de Data Store (API).
+This documentation attempts to provide a brief introduction to the functionality and modules that DataCatalog contains. Among other things, Listings, Organizations, the Data Dictionary and the CKAN API capabilities are explained. Much of the basic functionality is also present in DataPlatform. Detailed information about Dataplatform can be found under the tab DataPlatform.
+
+This documentation describes in particular the additional functionality of DataCatalog. DataCatalog makes, just like Dataplatform, uses the open source software CKAN. This is the most widely used software for open data environments worldwide. The CKAN environment within Data Catalog has been expanded with additional extensions and modules such as DCAT, the Data Dictionary, Definitions, and the Data Store (API).

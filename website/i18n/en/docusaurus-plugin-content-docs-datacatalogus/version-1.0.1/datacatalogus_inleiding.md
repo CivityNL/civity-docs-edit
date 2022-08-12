@@ -1,11 +1,49 @@
 ---
 id: korte_intro
-title: Introductie
-sidebar_label: Korte introductie
+title: Introduction
+sidebar_label: Introduction
 ---
 
-# Datacatalogus – a short introduction
+## DataCatalog – a short introduction
 
-Het ontwikkelen van data gedreven sturing binnen een organisatie vereist dat de data goed beschreven en vindbaar zijn en bijgehouden worden. Er moet inzichtelijk worden gemaakt waar het eigendom en beheer van de data is belegd en wie de data gebruiken en waarvoor. Nieuwe producten, zoals dashboards, voorspellende analyses, apps en 3D stadsmodellen kunnen niet meer zonder data, maar vragen ook om duidelijke kaders voor het gebruik. Datacatalogus is de oplossing om het gegevensbeheer binnen de eigen organisatie op orde te brengen. Het helpt data-eigenaren en beheerders om gestructureerd de data en informatieproducten te beschrijven, te onderhouden en zichtbaar te maken. Binnen Datacatalogus kunnen losse databronnen beschreven worden, zoals de aanwezige sportvoorzieningen, maar ook gecombineerde informatieproducten, zoals een dashboard sociaal domein.
+DataCatalog is the solution to organize data management within the organization. Insight into metadata motivates data use and application, supporting your organization’s data driven approach and/or policy making.
 
-Datacatalogus omvat alle onderdelen die aanwezig zijn bij Dataplatform en voegt daaraan extra functionaliteit toe die erop gericht is om aanwezige informatie binnen de eigen organisatie te verzamelen, beheren en op een veilige manier te ontsluiten. Ontsluiting als open data op de portal van Dataplatform blijft gewoon mogelijk.
+DataCatalog provides insight into the ownership and management of the data and who uses the data for what purpose. It helps the data owners and managers to describe, maintain and visualize the data and information products in a structured manner. Within DataCatalog, separate data sources can be described, such as the available sports facilities, but also combined information products, such as a dashboard social domain.
+
+DataCatalog includes all components that are present in our Dataplatform solution and adds extra functionality that is aimed at collecting, managing and accessing existing information within your own organization in a secure way. Access as open data on the Dataplatform portal remains possible.
+
+The images below give a global impression of the possibilities of DataCatalog:
+
+![imageStyle: Introduction](assets/Introduction/image1.png)
+
+**1. Workflow options** - Organizations can decide for themselves who is allowed what and how the process is set up.
+
+**2. Activity Stream** - Each action (who does what, when) is recorded.
+
+**3. Definitions** - Overview of definitions used for the product in question.
+
+**4. Linked Datasets** - Other sources associated with the product in question (used in .. and used by ..)
+
+**5. Data and resources** - Attachments Files or links that refer to the location of the data or information
+
+**6. Metadata** - Overview of all metadata associated with the data or information product.\*
+
+\* the display of the page depends on the role and rights of the user.
+
+---
+
+![imageStyle: Introduction](assets/Introduction/image2.png)
+
+**1. Workflow options** - Organizations can decide for themselves who is allowed what and how the process is set up.
+
+**2. Activity Stream** - Each action (who does what, when) is recorded.
+
+**3. Definitions** - Overview of definitions used for the product in question.
+
+**4. Linked Datasets** - Other sources associated with the product in question (used in .. and used by ..)
+
+**5. Data and resources** - Attachments Files or links that refer to the location of the data or information
+
+**6. Metadata** - Overview of all metadata associated with the data or information product.
+
+---
