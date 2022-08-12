@@ -1,16 +1,21 @@
 ---
 id: activiteitenstroom
-title: Activiteitenstroom 
-sidebar_label: Activiteitenstroom
+title: Activity Stream
+sidebar_label: Activity Stream
 ---
-## Activiteitenstroom bekijken
 
-> Activiteiten zijn alleen zichtbaar voor publieke vermeldingen. Wijzigingen van privé vermeldingen worden wel geregistreerd in de database maar zijn niet zichtbaar in de activiteitenstroom.
+## View Activity Stream
 
-Binnen een vermelding is er de optie om op het tabblad **Activiteitenstroom** te klikken. Hier vind je een overzicht met wijzigingen van de desbetreffende vermelding met de naam van de gebruiker die de wijziging heeft gedaan. Daarnaast is zichtbaar wanneer de wijziging heeft plaatsgevonden.
+Within a listing, there is the option to click on the Activity Stream tab. Here you will find an overview with changes to the relevant listing with the name of the user who made the change. In addition, you can see when the change has taken place.
 
-In de huidige CKAN versie wordt niet getoond wat voor wijziging precies heeft plaatsgevonden. Alle activiteiten hebben de volgende vorm:
+In the current CKAN version, it is not shown exactly what kind of change has taken place. All activities take the following form:
 
-`[username] heeft de Vermelding [titel vermelding] bijgewerkt [x minuten/uur/dagen] geleden`
+`[username] updated the Entry [entry title] [x minutes/hour/days] ago`
 
-Door je te abonneren op een vermelding kun je de specifieke activiteitenstroom voor een vermelding terugzien in je dashboard.
+By subscribing to a listing, you can see the specific activity flow for a listing in your dashboard.
+
+:::note Note
+
+Activities are only visible to public listings. Changes to private listings are recorded in the database but are not visible in the Activity Stream tab.
+
+:::

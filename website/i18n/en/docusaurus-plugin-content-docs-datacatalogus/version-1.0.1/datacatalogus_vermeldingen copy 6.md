@@ -1,50 +1,59 @@
 ---
 id: toevoegen_overig
-title: Vermeldingen toevoegen
-sidebar_label: Andere opties
+title: Add Listings
+sidebar_label: Add Listings
 ---
 
-## Opties om vermelding toe te voegen
+## Options to add listing
 
-Datacatalogus ondersteunt de volgende methoden om vermeldingen en databronnen toe te voegen: 
-*	Harvesten 
-*	API upload 
-*	Handmatige upload 
-*	IoT data 
+DataCatalog supports the following methods of adding listings and resources:
 
-### Harvest 
-Het configureren van een harvesten verloopt in een aantal stappen. Al deze stappen worden uitgevoerd door een beheerder.  
-1.	De beheerder logt in  
-2.	De beheerder definieert harvester 
-3.	De beheerder laat harvester handmatig lopen ter controle 
-4.	Als de test van de harvester succesvol is, stelt de beheerder stelt een schedule in 
-5.	Afhankelijk van de instellingen worden de datasets periodiek automatisch bijgewerkt.  
+- Harvesting
+- API upload
+- Manual upload
+- IoT data
+
+### Harvest
+
+Configuring a harvester takes place in a number of steps. All of these steps are performed by an administrator.
+
+1. The administrator logs in
+2. The administrator defines harvester
+3. The administrator allows harvester to run manually for verification
+4. If the harvester's test is successful, the administrator sets a schedule
+5. Depending on the settings, the datasets are periodically updated automatically.
 
 ### API upload
-1.	De beheerder logt in. 
-2.	Zoekt documentatie op (officiële CKAN API documentatie: https://docs.ckan.org/en/latest/api/index.html) 
-3.	Zoekt API key op (eventueel automation user met beperktere rechten met eigen API key aanmaken) 
-4.	Script om periodiek of grote hoeveelheid metadata te uploaden via API. Of bijvoorbeeld met FME.
 
-### Handmatige upload 
-1.	De beheerder logt in. 
-2.	De beheerder maakt een nieuwe vermelding (in CKAN een Package genoemd) aan. 
-3.	De beheerder voegt de gewenste databronnen (in CKAN een Resources genoemd) toe via de upload knop. 
+1. The administrator logs in.
+2. Looks up documentation (official CKAN API documentation: https://docs.ckan.org/en/latest/api/index.html)
+3. Looks up API key (possibly create automation user with more limited rights with your own API key)
+4. Script to upload periodically or large amount of metadata via API. Or, for example, with FME software.
+
+### Manual upload
+
+1. The administrator logs in.
+2. The administrator creates a new entry (called a Package in CKAN).
+3. The administrator adds the desired datasources (called a Resources in CKAN) via the upload button.
 
 ### Real time data
-Datacatalogus biedt ook de mogelijkheid om real time data te publiceren. Neem hiervoor eerst contact op met Civity. 
- 
-## Links naar databron
-Daarnaast kan er binnen een vermelding worden gelinkt naar de originele data.
 
-In de vermelding kan als bijlage een link worden opgenomen waar de gebruiker op kan klikken. Ook kan informatie worden opgenomen die de gebruiker nodig heeft om de data te openen in een andere applicatie (bijvoorbeeld een desktop applicatie) 
+DataCatalog also offers the possibility to publish real-time data. Please contact Civity first.
 
-### ArcGIS Online 
-Link naar de viewer. Via query string parameters kan de viewer gestart worden met bepaalde specifieke opties. Documentatie daarover is hier te vinden: https://doc.arcgis.com/en/arcgis-online/reference/use-url-parameters.htm.  
- 
-Een voorbeeld van link naar een viewer: https://www.arcgis.com/home/webmap/viewer.html?basemapUrl=http%3A%2F%2Fservices.arcgisonline.com%2FArcGIS%2Frest%2Fservices%2FOcean_Basemap%2FMapServer&url=http%3A%2F%2Fservices5.arcgis.com%2F9cBkZtsx7PSOoaCF%2Farcgis%2Frest%2Fservices%2FMaryland_Shoals%2FFeatureServer%2F0 .  
- 
-De uiteindelijke URL ziet er behoorlijk complex uit. Deze link wordt echter automatisch gegenereerd door de harvester en hoef je dus niet zelf samen te stellen.  
+## Link to original data
 
-### GeoServer 
-Conventie: online resource URL, #, naam van de laag. Bijvoorbeeld “https://portal.prvlimburg.nl/geodata/POL/wms? # POL2014_NAT_LANDSCHAP_ZL_V_inspire”. Dit is de informatie die nodig is om deze laag te benaderen in andere applicaties zoals ArcGIS for Desktop, QGIS etcetera. Civity kan een viewer integreren die dezelfde conventie gebruikt. Daarnaast is er de mogelijkheid om een voorbeeld request te genereren. Kanttekening daarbij is dat dit niet altijd een zinnige afbeelding op zal leveren (bijvoorbeeld in het geval van een schaalafhankelijke renderer).  
+Instead of uploading actual data as a resource, there's also the option to create a resource that provides a link to the original data.
+
+The listing may include a link as an attachment that the user can click on. Information can also be included that the user needs to access the data in another application (e.g. a desktop application)
+
+### Example 1: ArcGIS Online viewer
+
+Link to the viewer. Via query string parameters, the viewer can be started with certain specific options. Documentation about this can be found here: https://doc.arcgis.com/en/arcgis-online/reference/use-url-parameters.htm.
+
+An example of linking to a viewer: https://www.arcgis.com/home/webmap/viewer.html?basemapUrl=http%3A%2F%2Fservices.arcgisonline.com%2FArcGIS%2Frest%2Fservices%2FOcean_Basemap%2FMapServer&url=http%3A%2F%2Fservices5.arcgis.com%2F9cBkZtsx7PSOoaCF%2Farcgis%2Frest%2Fservices%2FMaryland_Shoals%2FFeatureServer%2F0.
+
+The final URL looks pretty complex. However, this link is automatically generated by the harvester and you do not have to compose it yourself.
+
+### Example 2: GeoServer
+
+Convention: online resource URL, #, name of the layer. For example, "https://portal.prvlimburg.nl/geodata/POL/wms? # POL2014_NAT_LANDSCHAP_ZL_V_inspire". This is the information needed to access this layer in other applications such as ArcGIS for Desktop, QGIS etcetera. Civity can integrate a viewer that uses the same convention. In addition, there is the possibility to generate a sample request. It should be noted that this will not always result in a meaningful image (for example, in the case of scale-dependent rendering).

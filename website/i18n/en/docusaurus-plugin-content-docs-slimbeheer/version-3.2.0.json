@@ -6,5 +6,9 @@
   "sidebar.slimbeheer.category.Cofiguration": {
     "message": "Cofiguration",
     "description": "The label for category Cofiguration in sidebar slimbeheer"
+  },
+  "sidebar.slimbeheer.category.Configuratie": {
+    "message": "Configuratie",
+    "description": "The label for category Configuratie in sidebar slimbeheer"
   }
 }

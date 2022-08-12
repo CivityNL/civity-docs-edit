@@ -14,19 +14,22 @@ Listings can contain the original dataproduct, but a listing can also only be a 
 
 Depending on the configuration, there are different listing types. These listing types can be distinguished through the metadata. The default configuration is:
 
-- Databron - Een CKAN dataset is een verzameling van data bronnen (zoals bestanden), samen met een beschrijving en andere informatie, op een vaste URL.
-- Dataset - Datasets is datgene dat gebruikers zien wanneer ze zoeken voor data.
-- Dashboard - Dashboards zijn een visuele weergave van bedrijfsdata, vaak in de vorm van grafieken, kaarten en diagrammen.
-- BI Rapportage - BI staat voor Business Intelligence. Een BI rapportage is een visuele rapportage die data uit verschillende bronnen combineert en integreert.
-- Bronbestand - Een bronbestand is het bestand dat de gegevens bevat waar door een gekoppeld bestand naar wordt verwezen.
-- Voorspelmodel - Een voorspelmodel gebruikt data cq. statistieken om mogelijke uitkomsten in de toekomst te voorspellen.
-- Onderzoeksrapport - Een onderzoeksrapport is een document waarin het onderzoeksvraag, de onderzoeksmethode, de onderzoeksgegevens en de onderzoeksconclusies eenduidig in zijn vastgelegd.
-- Geo Dataset - Geo Datasets zijn datasets met een ruimtelijke component (locatie).
+- Resource - A dataset consists of a collection of resources (such as files), along with a description and other information, at a fixed URL.
+- Dataset - Datasets is what users see when they search for data.
+- Dashboard - Dashboards are a visual representation of business data, often in the form of charts, maps and diagrams.
+- BI report - BI stands for Business Intelligence. A BI report is a visual report that combines and integrates data from different sources.
+- Source File - A source file is the file that contains the data referenced by a linked file.
+- Prediction model - A prediction model uses data cq. statistics to predict possible outcomes in the future.
+- Research report - A research report is a document in which the research question, the research method, the research data and the research conclusions are unambiguously recorded.
+- Geo Dataset - Geo Datasets are datasets with a spatial component (location).
+- Map - A reference to an external map viewer
 
-Een nieuwe vermelding toevoegen kan door in het hoofdmenu op VERMELDINGEN te klikken en vervolgens via de blauwe knop Vermelding toevoegen de gewenste vermelding te kiezen.
+![imageStyle: Listings](assets/Listings/image1.jpg)
 
-Vervolgens kom je terecht bij de eerste stap Creëer vermelding. Hier moet de metadata van de vermelding worden ingevuld.
+You can add a new listing by clicking LISTINGS in the main menu.
 
-Stap 2 is het toevoegen van databronnen. De databronnen hoeven niet het dataproduct zelf te zijn maar kunnen ook documenten zijn die de metadata ondersteunen. Een databron kan een bestand zijn, maar dit hoeft niet. Zo kan ook een verwijzing naar een externe link worden gebruikt. Wanneer je een vermelding aanklikt zijn de databronnen te vinden onder het kopje Bijlagen.
+You then arrive at the first step 'Create a listing'. The metadata of the listing must be entered here.
 
-> Bestandsgrootte is gelimiteerd tot maximaal 500 mb per upload.
+Step 2 is adding resources. The resources do not have to be the data product itself, but can also be documents that support the metadata. A resource can be a file, but it doesn't have to be. Similarly, a reference to an external link can be used. When you click on a listing, the resources can be found under the heading Attachments.
+
+> File size is limited to a maximum of 500 MB per upload.

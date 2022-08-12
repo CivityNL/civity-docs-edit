@@ -1,49 +1,47 @@
 ---
 id: toevoegen_harvest
-title: Vermeldingen toevoegen - Harvesten
-sidebar_label: Harvesten van databronnen
+title: Add Listings - Harvesting
+sidebar_label: Harvesting Resources
 ---
 
-> Naast het toevoegen van vermeldingen en databronnen via de normale CKAN user interface, is het ook mogelijk om vermeldingen en data te harvesten van andere bronsystemen.
+> In addition to adding listings and resources through the normal CKAN user interface, it is also possible to harvest listings and data from other source systems. Civity can set up custom harvesters. Contact Civity if this is desired.
 
-In principe kunnen alle web services/API’s die een lijst kunnen produceren met alle resources die ze aanbieden geharvest worden door Datacatalogus. 
+In principle, all web services / APIs that can produce a list of all the resources they offer, can be harvested by DataCatalog.
 
-Het harvesten gebeurt in drie stappen: “gather” (verzamelen), “fetch” (ophalen) en “import” (importeren). Hieronder worden de verschillende stappen uitgelegd.  
+Harvesting is done in three steps: "gather", "fetch" and "import". The different steps are explained below.
 
-* In de “gather” fase wordt bepaald welke resources nieuw zijn, welke bijgewerkt moeten worden en welke verwijderd zijn in de bron. De harvester haalt bij de API een lijst met bronnen op en stelt daaruit de drie lijsten op. In het geval van een CSW bijvoorbeeld wordt hiervoor het GetRecords request gebruikt.  
-* In de “fetch” fase wordt de daadwerkelijke informatie opgehaald. Het gaat hierbij om de detail informatie van de resource. In het voorbeeld van een CSW wordt hiervoor het GetRecordByID request gebruikt; 
-* In de “import” fase wordt de in de “gather” en “fetch” fases opgehaalde informatie daadwerkelijk in de metadata repository bijgewerkt. Nieuwe records worden toegevoegd, bestaande records worden bijgewerkt en uit de bron verwijderde records worden opgeruimd. Daarvoor hoeft de originele bron niet meer benaderd te worden.  
+- In the "gather" phase, it is determined which resources are new, which need to be updated and which have been removed in the source. The harvester retrieves a list of sources from the API and draws up the three lists from it. In the case of a CSW, for example, the GetRecords request is used.
+- In the "fetch" phase, the actual information is retrieved. This concerns the detailed information of the resource. In the example of a CSW, the GetRecordByID request is used for this;
+- In the "import" phase, the information retrieved in the "gather" and "fetch" phases is actually updated in the metadata repository. New records are added, existing records are updated, and records deleted from the source are cleaned up. For this, the original source no longer needs to be approached.
 
-Het configureren van hoe de harvest processen van de verschillende bronnen ingeregeld wordt is afhankelijk van een aantal zaken: 
+Configuring how the harvesting processes of the different sources are set up depends on a number of things:
 
-*	Van de metadata velden die opgenomen worden in het metadata schema. Wij adviseren om elk geval de CKAN en de DCAT metadatavelden op te nemen. Indien een koppeling naar NGR gewenst is, dan dienen ook deze velden opgenomen te worden. Daarnaast zouden nog klantspecifieke velden opgenomen kunnen worden; 
-*	Hoe de links naar de bronnen opgenomen moeten worden, is afhankelijk van welke software bij de klant gebruikt worden. In het geval van een ArcGIS Online Map/Feature/ImageServer is het bijvoorbeeld een link op te nemen om de resource te openen in een online viewer, maar kunnen ook links worden opgenomen om de resource te openen in ArcGIS Desktop. Ons advies is om in elk geval de links naar de online viewer op te nemen;  
-*	Bepaalde bronnen kunnen op meerdere manieren geharvest worden. Welke opties daarin zijn hangt af van hoe de te harvesten bronnen geconfigureerd zijn. 
-Dit vergt afstemming bij de start van een mogelijke gezamenlijk project.  
+- The metadata fields that are included in the metadataschema: We recommend including mandatory CKAN and DCAT metadata fields. If a link to GeoNetwork is desired, these fields must also be included. In addition, customer-specific fields could be included;
+- How the links to the sources should be published in Datacatalog, depends on which software is used by the customer. For example, in the case of an ArcGIS Online Map/Feature/ImageServer, a link can be published to open the resource in an online viewer, but links can also be included to open the resource in ArcGIS Desktop. Our advice is to include at least the links to the online viewer;
+- Certain sources can be harvest in several ways. Which options there are depends on how the sources that need to be harvested are configured. This requires coordination at the start of a possible joint project.
 
-## Voorbeelden van bronnen die geharvest kunnen worden
+## Examples of sources that can be harvested
 
-### ArcGIS Online 
-ArcGIS Online services kunnen geharvest worden aan de hand van de API’s die de inhoud van de Map/Feature/ImageServer beschrijven. Een voorbeeld van zo’n document kan gevonden worden op https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer. Dit is de voor mensen leesbare variant van de inhoud van een MapServer. Feature- en ImageServers bieden een vergelijkbaar document aan. De harvester zou de JSON variant gebruiken waarvan de link in de linker bovenhoek van de leesbare variant staat. Als de WMS/WFS/WCS connectoren geactiveerd zijn kunnen ook de GetCapabilities documenten van deze services gebruikt worden om te harvesten.  
+### ArcGIS Online
 
-### GeoServer 
-GeoServer kan op verschillende manieren geharvest worden: 
-*	Wat altijd kan in het geval van GeoServer is de WMS/WCS/WFS OGC services harvesten aan de hand van hun GetCapabilities document 
-*	Indien de CSW extensie geïnstalleerd is, kan GeoServer ook geharvest worden aan de hand de CSW GetRecords en GetRecordByID requests 
-*	Als de GeoServer REST API benaderbaar is en een username/password beschikbaar is kan ook de GeoServer REST API gebruikt worden om te harvesten. Deze laatste optie geniet wellicht niet de voorkeur vanuit beveligingsoogpunt.  
+ArcGIS Online services can be harvested using the APIs that describe the contents of the Map/Feature/ImageServer. An example of such a document can be found on https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer. This is the human-readable variant of the contents of a MapServer. Feature and ImageServers offer a similar document. The harvester would use the JSON variant whose link is in the upper left corner of the readable variant. If the WMS/WFS/WCS connectors are activated, the GetCapabilities documents of these services can also be used for harvesting.
 
-## Configureren van een harvester 
-Een Datacatalogus beheerder kan een harvester configureren in de Datacatalogus user interface. Deze informatie kan worden ingevoerd via de CKAN API. De volgende informatie moet worden opgegeven: 
-*	URL 
-*	Naam 
-*	Beschrijving 
-*	Type harvester 
-*	Frequentie waarmee de harvester de informatie in Datacatalogus moet verversen. Opties zijn: 
-    *	Handmatig 
-    *	Dagelijks 
-    *	Wekelijks 
-    *	Elke twee weken 
-    *	Maandelijks 
-    *	Voortdurend 
-*	JSON met harvester specifieke configuratie opties 
-*	Organisatie 
+### Geoserver
+
+GeoServer can be harvested in different ways:
+
+- What is always possible in the case of GeoServer is to harvest the WMS/WCS/WFS OGC services based on their GetCapabilities document.
+- If the CSW extension is installed, GeoServer can also be harvested using the CSW GetRecords and GetRecordByID requests
+- If the GeoServer REST API is accessible and a username/password is available, the GeoServer REST API can also be used for harvesting. The latter option may not be preferred from a security point of view.
+
+## Configuring a harvester
+
+A DataCatalog system administration / organization admin / editor can configure a harvester in the DataCatalog user interface. This information can be entered via the CKAN API. The following information must be provided:
+
+- URL
+- Name
+- Description
+- Type of harvester
+- Frequency with which the harvester needs to refresh the information in DataCatalog. Options are: Manual, Daily, Weekly, Every two weeks, Monthly, Continuous
+- JSON with harvester specific configuration options
+- Organization

@@ -42,5 +42,25 @@
   "sidebar.dataplatform.category.Dataplatform Portal": {
     "message": "Dataplatform Portal",
     "description": "The label for category Dataplatform Portal in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.CKAN API": {
+    "message": "CKAN API",
+    "description": "The label for category CKAN API in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.DataStore": {
+    "message": "DataStore",
+    "description": "The label for category DataStore in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.GeoServer": {
+    "message": "GeoServer",
+    "description": "The label for category GeoServer in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Link to Data Portals": {
+    "message": "Link to Data Portals",
+    "description": "The label for category Link to Data Portals in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Searching and Filtering": {
+    "message": "Searching and Filtering",
+    "description": "The label for category Searching and Filtering in sidebar dataplatform"
   }
 }

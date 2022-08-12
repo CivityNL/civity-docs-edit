@@ -1,9 +1,9 @@
 ---
 id: abonneren
-title: Vermeldingen 
-sidebar_label: Abonneren op vermeldingen
+title: Listings
+sidebar_label: Subscribing to Listings
 ---
-## Abonneren op vermeldingen
 
-Wanneer je een vermelding aanklikt, zie je linksboven een groene knop met Volg. Wanneer je op deze knop klikt, abonneer je je met jouw CKAN account op deze specifieke vermelding.
+## Subscribing to Listings
 
+When you click on a listing, you'll see a green 'Follow' button in the top left. When you click on this button, you subscribe to this specific listing with your CKAN account. Because you subscribe, you will receive a message when new data is available or products have been modified.

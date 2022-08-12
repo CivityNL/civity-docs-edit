@@ -1,56 +1,15 @@
 ---
 id: linken
-title: Vermeldingen
-sidebar_label: Gelinkte vermeldingen
+title: Linked Listings
+sidebar_label: Linked Listings
 ---
-## Gelinkte vermeldingen
 
-Onderdeel van de Datacatalogus is de mogelijkheid om vermeldingen aan elkaar te linken. Door binnen de vermelding op Beheer te klikken is het mogelijk om via het kopje Gelinkte Vermeldingen een nieuwe gelinkte vermelding toe te voegen.
+Information products usually use several separate datasets. A dashboard or management report is often composed of multiple data sources. DataCatalog provides insight into the sources used in a particular information product via linked listings. Conversely, for owners and managers it is immediately visible who is using the data. In the event of changes, all parties involved can be informed immediately.
 
-## Linken (Utrecht)
-Niet alle vermeldingstypes kunnen aan elkaar kunnen worden gelinkt. Hieronder volgt voor de verschillende vermeldingstypes een overzicht van de vermeldingen die er aan gelinkt kunnen worden.
+## How to link a listing?
 
-### Dataset en Geo Dataset
+By clicking on Manage within the listing, it is possible to add a new linked listing via the Linked Listings tab.
 
-✓ Databron
+## Where to see linked listings?
 
-✓ Bronbestand
-
-### Onderzoeksrapport
-
-✓ Databron
-
-✓ Bronbestand
-
-✓ Dataset
-
-✓ Voorspelmodel
-
-✓ Geo Dataset
-
-### BI Rapportage en Voorspelmodel
-
-✓ Databron
-
-✓ Bronbestand
-
-✓ Dataset
-
-✓ Geo Dataset
-
-### Dashboards
-
-✓ Databron
-
-✓ Bronbestand
-
-✓ BI Rapportage
-
-✓ Dataset
-
-✓ Geo Dataset
-
-Voor alle overige combinaties geldt dat het linken van vermeldingen niet mogelijk is. Zo is het dus niet mogelijk om via een Databron of Bronbestand vermeldingen te linken.
-
-Wanneer je een vermelding aanklikt, zie je een subkopje met Gelinkte Vermeldingen met tussen haakjes het aantal vermeldingen dat gelinkt is. Wanneer je hierop klikt zie je een overzicht van de databronnen die gebruikt worden binnen dit dataproduct. 
-
+When you click on a listing, you'll see a linked listing tab with the number of listings linked in parentheses. When you click on this you will see an overview of other listings that are used within this listing.
