@@ -4,7 +4,7 @@
     "description": "The label for version 1.0.1"
   },
   "sidebar.datacatalogus.category.Introductie": {
-    "message": "Introductie",
+    "message": "Introduction",
     "description": "The label for category Introductie in sidebar datacatalogus"
   },
   "sidebar.datacatalogus.category.Vermeldingen": {

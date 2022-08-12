@@ -73,7 +73,7 @@ When you click on information, the following categories of information are avail
 
 **Statistics**: Here you will find the last updated date, the number of page visits and the rating of the dataset.
 
-:::caution Attention!
+:::info Attention!
 
 A page visit is counted when a dataset is viewed via the CKAN url. Viewing the data via the portal is therefore not automatically counted as a page visit.
 
@@ -87,7 +87,7 @@ The table functionality is available for resources that are stored in the DataSt
 
 Below the table you will find the option to download the datastore table. With the DataStore table download you can download the DataStore table, as shown in the preview, per resource.
 
-:::caution Attention!
+:::info Attention!
 
 The DataStore table download may differ from the download via the 'Download' tab. The 'Download' tab always contains the original data file. When the data file is transferred to the DataStore, it is possible that extra columns have been added to the data file, for example to improve the table or map display.
 

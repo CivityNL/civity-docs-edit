@@ -4,7 +4,7 @@ title: Introductie
 sidebar_label: Korte introductie
 ---
 
-# Datacatalogus – een korte introductie
+# Datacatalogus – a short introduction
 
 Het ontwikkelen van data gedreven sturing binnen een organisatie vereist dat de data goed beschreven en vindbaar zijn en bijgehouden worden. Er moet inzichtelijk worden gemaakt waar het eigendom en beheer van de data is belegd en wie de data gebruiken en waarvoor. Nieuwe producten, zoals dashboards, voorspellende analyses, apps en 3D stadsmodellen kunnen niet meer zonder data, maar vragen ook om duidelijke kaders voor het gebruik. Datacatalogus is de oplossing om het gegevensbeheer binnen de eigen organisatie op orde te brengen. Het helpt data-eigenaren en beheerders om gestructureerd de data en informatieproducten te beschrijven, te onderhouden en zichtbaar te maken. Binnen Datacatalogus kunnen losse databronnen beschreven worden, zoals de aanwezige sportvoorzieningen, maar ook gecombineerde informatieproducten, zoals een dashboard sociaal domein.
 
