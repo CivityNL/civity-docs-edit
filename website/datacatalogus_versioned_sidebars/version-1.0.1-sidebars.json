@@ -27,7 +27,11 @@
     {
       "type": "category",
       "label": "Metadata",
-      "items": ["verplichte_metadatavelden"]
+      "items": [
+        "verplichte_metadatavelden",
+        "link_dataplatform",
+        "link_geoserver"
+      ]
     },
     {
       "type": "category",

@@ -62,5 +62,9 @@
   "sidebar.dataplatform.category.Searching and Filtering": {
     "message": "Searching and Filtering",
     "description": "The label for category Searching and Filtering in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.DataPlatform Portal": {
+    "message": "DataPlatform Portal",
+    "description": "The label for category DataPlatform Portal in sidebar dataplatform"
   }
 }

@@ -58,5 +58,17 @@
   "sidebar.datacatalogus.category.Statistieken": {
     "message": "Statistics",
     "description": "The label for category Statistieken in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Login": {
+    "message": "Login",
+    "description": "The label for category Login in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.DataStore": {
+    "message": "DataStore",
+    "description": "The label for category DataStore in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Link naar Dataplatform": {
+    "message": "Link to Dataplatform",
+    "description": "The label for category Link naar Dataplatform in sidebar datacatalogus"
   }
 }
