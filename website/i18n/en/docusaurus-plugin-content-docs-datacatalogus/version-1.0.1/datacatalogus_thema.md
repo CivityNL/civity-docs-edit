@@ -1,33 +1,33 @@
 ---
 id: ckan_groepen
-title: Thema's als CKAN Groepen 
-sidebar_label: Thema's als CKAN Groepen
+title: Themes as Groups
+sidebar_label: Themes as Groups
 ---
-In de Datacatalogus wordt gebruik gemaakt van Thema’s om vermeldingen te categoriseren.
 
-De lijst met standaardthema’s is gebaseerd op de DCAT-standaard en bestaat uit de volgende 19 onderwerpen:
+The DataCatalog uses Themes to categorize listings.
 
-*	Bestuur
-*	Bouwen
-*	Cultuur en Recreatie
-*	Economie
-*	Financiën
-*	Huisvesting
-*	Internationaal
-*	Landbouw
-*	Migratie en Integratie
-*	Natuur en Milieu
-*	Onderwijs en Wetenschap
-*	Openbare Orde en Veiligheid
-*	Recht
-*	Ruimte en Infrastructuur
-*	Sociale Zekerheid
-*	Verkeer
-*	Werk
-*	Wonen en Wijken
-*	Zorg en Gezondheid
+The list of default themes is based on the <a href="https://docs.dataportal.se/dcat/en/#5.3" target="_blank" rel="noreferrer noopener">DCAT standard</a> and consists of the following 13 topics.
 
-## Thema’s als CKAN Groepen
+- Agriculture, fisheries, forestry and food
+- Economy and finance
+- Education, culture and sport
+- Energy
+- Environment
+- Government and public sector
+- Health
+- International issues
+- Justice, legal system and public safety
+- Population and society
+- Regions and cities
+- Science and technology
+- Transport
 
-Wanneer je op het hoofdmenu THEMA’S klikt, zie je een overzicht van alle thema’s. De thema’s worden in CKAN gezien als groepen. Wanneer je een bepaald thema/groep aanklikt, krijg je een overzicht van alle vermeldingen die aan een bepaald thema zijn gekoppeld.
+## Themes are CKAN Groups
 
+When you click on the main THEMES menu, you will see an overview of all themes. The themes in CKAN are seen as groups. When you click on a particular theme, you'll get an overview of all the listings associated with a particular theme.
+
+:::note What are CKAN Groups?
+
+CKAN Groups are used to create and manage collections of datasets. This could be to collect listings for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published listings.
+
+:::

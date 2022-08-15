@@ -32,7 +32,7 @@
     {
       "type": "category",
       "label": "Thema's",
-      "items": ["ckan_groepen", "toewijzen", "meerdere_toewijzen", "koppelen"]
+      "items": ["ckan_groepen", "toewijzen"]
     },
     {
       "type": "category",
