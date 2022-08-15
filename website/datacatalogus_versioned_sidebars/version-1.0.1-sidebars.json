@@ -26,11 +26,6 @@
     },
     {
       "type": "category",
-      "label": "Notificaties",
-      "items": ["notificaties"]
-    },
-    {
-      "type": "category",
       "label": "Metadata",
       "items": ["verplichte_metadatavelden"]
     },

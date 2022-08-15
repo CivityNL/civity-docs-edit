@@ -4,9 +4,9 @@ title: Vermeldingen bekijken
 sidebar_label: Vermeldingen bekijken
 ---
 
-Om vermeldingen te bekijken is het niet nodig om ingelogd te zijn. CKAN gebruikers kunnen inloggen met hun gebruikersaccount. Inloggen is nodig voor alle bewerkingen van de vermeldingen. Iedereen die de DataCatalogus benadert binnen de gemeente (vanaf een IPadres wat op de whitelist staat) kan de vermeldingen bekijken.
+Om publieke vermeldingen te bekijken is het niet nodig om ingelogd te zijn. Iedereen die de DataCatalogus benadert binnen de gemeente (vanaf een IPadres wat op de whitelist staat) kan de publieke vermeldingen bekijken. Gebruikers kunnen inloggen met hun gebruikersaccount om privé vermeldingen in te zien. Inloggen is nodig voor alle bewerkingen van de vermeldingen.
 
-In een vermelding staan (afhankelijk van het dataproduct) gegevens vermeld. Deze gegevens zijn metadata.
+In een vermelding staan (afhankelijk van het dataproduct) data vermeld. Deze gegevens zijn metadata en mogelijk (een link naar) de databron zelf.
 
 Metadata zijn vastgelegd in verschillende standaarden:
 
@@ -35,7 +35,7 @@ Door gebruik te maken van de zoekbalk kunt u zoeken op:
 
 - (deel van de) Titel
 - (deel van de) Omschrijving
-- Tags (ook wel :abels of Trefwoorden genoemd)
+- Tags (ook wel Labels of Trefwoorden genoemd)
 
 Zoeken kan alléén op een heel woord en is hoofdletteronafhankelijk. De vermeldingen (die aan de zoekopdracht voldoen) van alle diensten staan in de lijst onder elkaar. Deze lijst kan op verschillende manieren worden gesorteerd.
 

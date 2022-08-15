@@ -4,18 +4,18 @@ title: View Listings
 sidebar_label: View Listings
 ---
 
-To view listings, it is not necessary to be logged in. CKAN users can login with their user account. Login is required for all edits to the entries.
-Anyone accessing the DataCatalogue within the municipality (from an IP address that is on the whitelist) can view the listings.
+To view public listings, it is not necessary to be logged in. Anyone accessing the DataCatalog within the municipality (from an IP address that is on the whitelist) can view public listings. Users can login with their user account in order to see private listings. Login is also required to edit listings.
 
 A listing contains (depending on the dataproduct) data.
-This data is metadata.
+This data is both metadata and can be (a link to) actual data sources.
+
 Metadata are defined in different standards:
 
 - DCAT - for all datasets
 - INSPIRE - for geodata
-- Independent - own metadata set for the DataCatalogue
+- Client specific - own metadata set for the DataCatalog
 
-For each entry, the following metadata are entered as a minimum:
+For each listing, the following metadata are entered as a minimum:
 
 - Title
 - Description
@@ -25,7 +25,7 @@ For each entry, the following metadata are entered as a minimum:
 - Type of data product
 - Owner
 
-Based on the entered data, the source can be traced. The owner can be contacted if the original is not freely available. The actual data source do not have to be added to DataCatalog. In DataCatalog, sources are not the basis, but the interpretation of the source: where can you find it, what can you use it for, who collected the data product.
+Based on the entered data, the source can be traced. The owner can be contacted if the original is not freely available. The actual data source does not have to be added to DataCatalog. In DataCatalog, sources are not the basis, but the interpretation of the source: where can you find it, what can you use it for, who collected the data product.
 
 ## Search
 
