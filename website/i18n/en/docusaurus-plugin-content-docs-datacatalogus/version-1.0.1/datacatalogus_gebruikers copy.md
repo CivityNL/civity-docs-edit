@@ -1,17 +1,37 @@
 ---
 id: standaard_gebruikers
-title: Standaard gebruikers
-sidebar_label: Standaard gebruikers
+title: Standard Users
+sidebar_label: Standard Users
 ---
 
-## Standaard gebruikers
+## Standard Users
 
-Alle overige gebruikers zullen standaard gebruikers zijn. De rechten voor deze gebruikers zijn afhankelijk van hun lidmaatschap.
+All other users will be standard users. The rights for these users depend on their role within an organization.
 
-Gebruikers kunnen door de systeembeheerders worden toegewezen aan een bepaalde Dienst door op een Dienst te klikken en vervolgens naar Beheer te gaan en op Leden te klikken. Hierbij kan onderscheid worden gemaakt tussen twee rollen (Lid/Beheerder).
+Users can be assigned a certain role within an organization by the system administrators / administrators by clicking on an organization and then going to `Manage` and clicking on the `Members` tab. A distinction can be made between three roles (Member/Editor/Administrator).
 
-Het toegewezen zijn aan een bepaalde Dienst bepaalt in grote maten wat een gebruiker wel en niet kan zien/doen binnen de Datacatalogus. Wanneer je Lid bent van een Dienst, kun je alle vermeldingen binnen deze Dienst zien. Ook kun je als Lid een nieuwe vermelding toevoegen aan deze Dienst.
+Being assigned to a particular organization determines in large sizes what a user can and cannot see/do within the DataCatalog:
+For instance, when you are a member of an organization, you can see all listings, both public and private, within that organization/department but you are not able to edit or create any listings.
 
-Als gebruiker is het mogelijk om ook vermeldingen buiten je eigen Dienst te zien. Dit kan alleen als binnen de metadata het veld Zichtbaarheid op Publiek is gezet.
+:::note Note
 
-Alleen gebruikers die de rol Beheerder krijgen toegewezen, zullen toegang hebben tot de Beheerknop binnen een Dienst. Met deze rol is het dus als standaard gebruiker mogelijk om bijvoorbeeld nieuwe gebruikers toe te voegen aan een Dienst. Ook kunnen Beheerders hun Dienst wijzigen/verwijderen. Per Dienst kunnen 1 of meerdere Beheerders worden toegewezen. Het advies is om per Dienst het aantal Beheerders te beperken.
+As a standard user in general, it is possible to see listings outside of your own organization. You will, however, only see listings within other organizations that are listed as public.
+
+:::
+
+Below you will see an overview of rights for the different roles within an organization:
+
+| Rights                                   | Member | Editor | Administrator |
+| ---------------------------------------- | :----: | :----: | :-----------: |
+| View private listings                    |   X    |   X    |       X       |
+| View public listings                     |   X    |   X    |       X       |
+| Create new listing                       |        |   X    |       X       |
+| Edit listing                             |        |   X    |       X       |
+| Delete listing                           |        |   X    |       X       |
+| Set listing to Private                   |        |   X    |       X       |
+| Put listing on public                    |        |        |       X       |
+| Add new users                            |        |        |       X       |
+| Customize user role                      |        |        |       X       |
+| Deleting users (regardless of user role) |        |        |       X       |
+| Edit the organization                    |        |        |       X       |
+| Delete the organization                  |        |        |       X       |

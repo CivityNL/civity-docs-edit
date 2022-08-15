@@ -36,13 +36,13 @@
     },
     {
       "type": "category",
-      "label": "Gebruikers",
-      "items": ["systeembeheerder", "standaard_gebruikers"]
+      "label": "Login",
+      "items": ["login", "wachtwoord_veranderen"]
     },
     {
       "type": "category",
-      "label": "Persoonlijk profiel",
-      "items": ["wachtwoord_veranderen"]
+      "label": "Gebruikers",
+      "items": ["systeembeheerder", "standaard_gebruikers"]
     },
     {
       "type": "category",
