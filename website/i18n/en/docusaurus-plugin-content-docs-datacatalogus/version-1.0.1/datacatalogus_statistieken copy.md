@@ -4,6 +4,6 @@ title: Matomo
 sidebar_label: Matomo
 ---
 
-Meer uitgebreide statistieken kunnen bekeken worden via Matomo (open-source variant op Google Analytics). Matomo kan naar eigen wens worden ingericht:
+More extensive statistics can be viewed via Matomo (open-source variant on Google Analytics). Matomo can be arranged according to your own wishes:
 
-https://matomo.dataplatform.nl/ 
+https://matomo.dataplatform.nl/
