@@ -6,9 +6,7 @@ sidebar_label: Introduction
 
 DataPlatform is the basic facility for managing data. DataPlatform is mainly about publishing open data in a structured way, with the right metadata, aimed at the external users.
 
-DataPlatform is comprised of two solutions, the **Portal** and **CKAN**.
-
-The portal is the website for data-consumers, where they can find datasets (contained in CKAN), themes, showcases and stories. The portal is a user friendly interface for presenting, searching and providing data that is stored in CKAN.
+<!-- The portal is the website for data-consumers, where they can find datasets (contained in CKAN), themes, showcases and stories. The portal is a user friendly interface for presenting, searching and providing data that is stored in CKAN. -->
 
 ## CKAN
 
@@ -45,7 +43,7 @@ Datasets comprise of two main aspects:
 
 #### Public and private datasets
 
-Datasets can be marked as public or private. Public datasets are visible to everyone. Private datasets can only be seen by logged-in users who are members of the dataset’s organization. Private datasets are not shown in dataset searches unless the logged in user (or the user identified via an API key) has permission to access them
+Datasets can be marked as public or private. Public datasets are visible to everyone. Private datasets can only be seen by logged-in users who are members of the dataset’s organization. Private datasets are not shown in dataset searches unless the logged in user (or when the user is identified via an API key) has permission to access them.
 
 #### Organizations
 
@@ -53,10 +51,14 @@ DataPlatform defines organizations to organize datasets. Metadata records can be
 
 #### Themes
 
-### Other options and settings
+Themes are based on required items from the DCAT-standard. Clicking on a theme acts a filter to show the relevant datasets. The number shown at each theme, refers to the number of datasets.
+
+<!-- ### Other options and settings
+
+Differs depending on the customer. -->
 
 #### Language selection
 
 > The language selector is found in the footer.
 
-CKAN supports many European languages. Presently, CKAN DataPlatform is available in Dutch (Nederlands), English, and Swedish.
+CKAN supports many European languages. Presently, CKAN DataPlatform is available in Dutch, English, and Swedish.

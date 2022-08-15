@@ -41,11 +41,19 @@ Datasets bestaan uit twee hoofdaspecten:
 
 #### Publieke en privé datasets
 
+Datasets kunnen worden gemarkeerd als publiek of privé. Publieke datasets zijn voor iedereen zichtbaar. Privé-datasets kunnen alleen worden bekeken door ingelogde gebruikers die lid zijn van de organisatie van de dataset. Privé-datasets worden niet weergegeven in zoekopdrachten naar datasets, tenzij de ingelogde gebruiker (of wanneer de gebruiker geïdentificeerd is via API-key) toestemming heeft om ze te openen.
+
 ### Organisaties
+
+DataPlatform gebruikt organisaties om datasets te organiseren. Metadatarecords kunnen tot één organisatie behoren en elke organisatie beheert de toegang tot haar datasets via gebruikersrollen.
 
 ### Thema's
 
-### Overige opties en instellingen
+Het Thema's tabblad toont een overzicht van datasets binnen een bepaald thema. De thema's zijn afkomstig uit de DCAT standaard waardelijst. Het klikken op een thema fungeert als een filter, om de relevante datasets te tonen. Het aantal dat bij elk thema wordt weergegeven, verwijst naar het aantal datasets.
+
+<!-- ### Overige opties en instellingen
+
+Verschilt per klant. -->
 
 #### Taalkeuze
 
