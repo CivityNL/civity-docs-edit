@@ -1,10 +1,11 @@
 ---
 id: dienst_toevoegen
-title: Een dienst toevoegen 
-sidebar_label: Een dienst toevoegen
+title: Organizations
+sidebar_label: Add Organizations
 ---
-CKAN Diensten worden gebruikt om collecties van vermeldingen te maken, beheren en publiceren. Gebruikers kunnen meerdere rollen hebben binnen een dienst, afhankelijk van een autorisatielevel om toe te voegen, wijzigen en publiceren.
 
-## Een dienst toevoegen
+CKAN Organizations are used to create, manage and publish collections of listings. Different users can have different roles within an organization. Depending on authorization level they can add, modify, and publish listings.
 
-Diensten kunnen alleen worden toegevoegd door gebruikers met de juiste rechten. Wanneer je in het hoofdmenu DIENSTEN aanklikt, zul je met de juiste rechten een blauwe knop met Dienst toevoegen zien staan. 
+## Add a new Organization
+
+Organizations can only be added by users with the appropriate permissions. Assuming you have the right authorization level, you are able to click on the `ORGANIZATIONS` tab in the main menu and you will see a blue button with `Add Organization`.

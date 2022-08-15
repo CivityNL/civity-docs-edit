@@ -1,14 +1,23 @@
 ---
 id: definitie_module
-title: De Definitie module 
-sidebar_label: De Definitie module
+title: Definitions Module
+sidebar_label: Definitions Module
 ---
-## De Definitie module
 
-Vanuit elke pagina kun je naar de Definitie module door bovenaan de pagina op het kopje DEFINITIES te klikken.
+## Definitions Module
 
-Met de Definitie module is het mogelijk om (in- en externe) definities te beheren en deze eenvoudig te koppelen aan vermeldingen. 
+:::note
 
-Wanneer je een Definitie aanklikt in CKAN, kun je zien dat er behalve een titel en omschrijving van de Definitie, ook metadata wordt toegevoegd.
+Only Data Officers can add/edit/delete defintions
 
-Tot slot is het mogelijk om in te zien welke vermeldingen zijn gekoppeld aan een bepaalde Definitie.
+:::
+
+From each page you can go to the Definition module by clicking on the heading DEFINITIONS at the top of the page.
+
+With the Definition module it is possible to manage (internal and external) definitions and easily link them to listings.
+
+When you click on a Definition in Datacatalog, you can see that in addition to a title and description of the Definition, metadata is also added.
+
+Finally, it is possible to see which listings are linked to a particular Definition.
+
+To add a definition you go to the `DEFINITIONS` tab. There you click `Add Definition`. Here you fill in at least: the title and description. Then you click on save, the definition is saved an can be linked to a listing.

@@ -1,8 +1,9 @@
 ---
 id: definities_toevoegen
-title: Definities toevoegen aan vermeldingen 
-sidebar_label: Definities toevoegen aan vermeldingen
+title: Add Definitions to Listings
+sidebar_label: Add Defintions to Listings
 ---
-## Definities toevoegen aan vermeldingen
 
-Wanneer je een vermelding aanklikt kom je op de overzichtspagina van deze vermelding. Je herkent deze pagina aan de onderdelen Bijlagen en Extra informatie. Vanuit deze pagina kun je naar de beheeromgeving van de vermelding gaan door op de Beheer knop te klikken. Op de beheerpagina zie je nu een tabblad met de titel Definties met tussen haakjes het aantal definities dat is toegevoegd aan deze vermelding. Wanneer je op Definties klikt kun je vervolgens via een dropdown-menu nieuwe definities toevoegen aan de vermelding.
+## Add defintions to listings
+
+When you click on a listing, you will be taken to the overview page of this listing. You can recognize this page by the attachments and extra information sections. From this page you can go to the management environment of the listing by clicking on the `Manage` button. On the edit page, you'll now see a tab titled `Definitions` with the number of definitions added to this entry in parentheses. When you click on Definitions, you can then add new definitions to the entry via a drop-down menu.

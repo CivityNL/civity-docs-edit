@@ -1,10 +1,11 @@
 ---
 id: dienst_verwijderen
-title: Een dienst verwijderen 
-sidebar_label: Een dienst verwijderen
+title: Organizations
+sidebar_label: Deleting Organizations
 ---
-## Een dienst verwijderen
 
-Een dienst kan alleen verwijderd worden wanneer er geen vermeldingen in staan. 
-Utrecht heeft in het verleden melding gemaakt van een verwijderde Dienst waar vermeldingen in zaten. Dit is in principe gedrag wat niet voor zou moeten kunnen komen binnen de CKAN-omgeving. Het zou kunnen dat dit een uitzondering/bug is geweest. Maar dit gedrag zou niet reproduceerbaar moeten zijn.
+## Deleting an Organization
 
+> Deleting a certain organization is only possible for sysadmins and users that are admin for the specific organization.
+
+An organization can only be removed if there are no listings in it. Click on an organization. Remove any listings within the organization. Then click on `Manage`. Lastly, click on the `Delete` button, at the bottom left.

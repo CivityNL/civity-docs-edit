@@ -1,8 +1,9 @@
 ---
 id: data_officers
-title: Data officers 
-sidebar_label: Data officers
+title: Data Officers
+sidebar_label: Data Officers
 ---
+
 ## Data Officers
 
-Een Data Officer is een rol die alleen van belang is voor de Definities. Met deze rol kan je definities maken, bijwerken of verwijderen. Alleen systeembeheerders kunnen gebruikers toevoegen aan of verwijderen uit de 'Data Officer-lijst'.
+A Data Officer is a role that is only relevant to the Definitions module. This role allows you to create, update, or delete definitions. Only system administrators can add or remove users from the Data Officer list.

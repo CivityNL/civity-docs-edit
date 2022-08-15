@@ -1,13 +1,16 @@
 ---
 id: data_dictionary
-title: Data Dictionary 
+title: Data Dictionary
 sidebar_label: Data Dictionary
 ---
+
 ## Data Dictionary
 
-De Data Dictionary is een module die voor specifieke databronnen automatisch kolomnamen en datatypen weergeeft. De Data Dictionary is alleen beschikbaar voor CSV (.csv) en Excel (.xls/.xlsx) bestandstypen.
-Wanneer je een vermelding aanklikt en vervolgens een CSV of Excel bestand aanklikt kun je onderaan de Data Dictionary (Data woordenboek) vinden. 
-De Data Dictionary wijzigen
-Wanneer je op de pagina zit waar je het Data woordenboek kunt zien (je bekijkt dus op dat moment het CSV of Excelbestand) en klikt op Beheer dan kom je in de beheeromgeving van de databron terecht. Hier zie je het tabblad Data woordenboek. Wanneer je daar op klikt kun je de Data Dictionary voor deze databron aanpassen.
-Zie voor uitleg met screenshots ook onze Documentatie:
+The Data Dictionary is a module that automatically displays column names and data types for specific reources. The Data Dictionary is only available for file types that are DataStored. When you click on a listing and then on a (Datastored) resource you can find the Data Dictionary at the bottom (after the preview of the data).
+
+### Editing a Data Dictionary
+
+When you are on the page where you can see the Data Dictionary, click on Manage, you will end up in the management environment of the resource. Here you will see the tab `Data dictionary`. When you click on it, you can change the Data Dictionary for this resource.
+
+For a more detailed explanation with screenshots, see also our DataPlatform documentation:
 https://www.docs.civity.nl/dataplatform/datasets_DataDictionary

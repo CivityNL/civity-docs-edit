@@ -56,13 +56,13 @@
     },
     {
       "type": "category",
-      "label": "Data Dictionary",
-      "items": ["data_dictionary"]
+      "label": "DataStore",
+      "items": ["datastore_Datastore", "datastore_Api", "data_dictionary"]
     },
     {
       "type": "category",
       "label": "Diensten",
-      "items": ["dienst_toevoegen", "dienst_verwijderen", "vermeldingen_dienst"]
+      "items": ["dienst_toevoegen", "dienst_verwijderen"]
     },
     {
       "type": "category",
