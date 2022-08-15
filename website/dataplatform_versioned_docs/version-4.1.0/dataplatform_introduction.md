@@ -18,7 +18,7 @@ CKAN stands for "Comprehensive Knowledge Archive Network," which is a <a href="h
 
 Civity's DataPlatform uses a CKAN instance as our web-based tool for dataset, resource, and metadata maintenance.
 
-You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>.
+<!-- You may find our CKAN instance at <a href="https://ckan.dataplatform.nl/" target="_blank">ckan.dataplatform.nl</a>. -->
 
 The CKAN environment of DataPlatform has been expanded with additional extensions such as the DataStore (API), Data Dictionary (Data dictionary) and GeoServer.
 

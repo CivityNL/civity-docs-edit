@@ -16,7 +16,7 @@ CKAN staat voor "Comprehensive Knowledge Archive Network", een <a href="https://
 
 Het DataPlatform maakt gebruik van een CKAN-instantie als onze webgebaseerde tool voor het onderhoud van datasets, databronnen en metadata.
 
-De CKAN-instantie is te vinden op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">ckan-dataplatform-nl.dataplatform.nl</a>.
+<!-- De CKAN-instantie is te vinden op <a href="https://ckan-dataplatform-nl.dataplatform.nl/" target="_blank">ckan-dataplatform-nl.dataplatform.nl</a>. -->
 
 De CKAN-omgeving van DataPlatform bevat extra uitbreidingen zoals de DataStore (API), Data Dictionary (Data woordenboek) en GeoServer.
 
