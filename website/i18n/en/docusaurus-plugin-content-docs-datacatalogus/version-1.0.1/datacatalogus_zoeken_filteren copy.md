@@ -1,29 +1,24 @@
 ---
 id: filteren
-title: Filteren 
-sidebar_label: Filteren
+title: Filtering
+sidebar_label: Filtering
 ---
-## Filteren
 
-Aan de linkerkant op de pagina vermeldingen zijn de volgende filteropties te vinden:
+## Filtering
 
-*	Organisaties (Diensten)
-*	Dataproduct (Type vermelding)
-*	Status
-*	Thema (Groep)
-*	Sub-thema
-*	Tags
-*	Bestandstype
-*	Eigenaar
-*	Dataclassificatie
-*	Privé (Ja of nee)
+On the left side of the listings page are the following filter options:
 
-De tags van de selectielijst worden getoond, met de meest voorkomende bovenaan of op alfabetische volgorde als er gelijke aantallen zijn.
+- Published
+- Creators
+- Organizations
+- Themes
+- Subthemes
+- Tags
 
-Zie voor meer informatie over filteren en zoeken de volgende documentatie op https://www.docs.civity.nl/.
+The tags of the selection list are shown, with the most common at the top or in alphabetical order if there are equal numbers.
 
-Zoeken:
-https://www.docs.civity.nl/dataplatform/datasets_SearchDatasets
+---
 
-Filteren:
-https://www.docs.civity.nl/dataplatform/datasets_SortFilterDatasets
+For additional information about filtering, see the following DataPlatform documentation:
+
+**Filtering**: https://www.docs.civity.nl/dataplatform/datasets_SortFilterDatasets

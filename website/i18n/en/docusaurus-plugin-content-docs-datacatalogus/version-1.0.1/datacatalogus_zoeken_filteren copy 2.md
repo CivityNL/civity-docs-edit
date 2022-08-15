@@ -1,58 +1,66 @@
 ---
 id: zoeken
-title: Zoeken in Datacatalogus 
-sidebar_label: Zoeken
+title: Search within DataCatalog
+sidebar_label: Search
 ---
-> Datacatalogus biedt uitgebreide mogelijkheden om naar data en informatie te zoeken, zoals via trefwoorden, beschrijving, organisatieonderdeel, thema of definities. Door de dwarsverbanden en koppelingen ontstaat er een beter beeld van de samenhang tussen alle bronnen en producten. 
 
-## Vermeldingen zoeken
+> DataCatalog offers extensive possibilities to search for data and information, such as through keywords, description, organization, theme or definitions. Links through Definitions and 'Linked Listings' create a better picture of the connection between all sources and data products.
 
-In Datacatalogus zijn zeer veel verschillende manieren aanwezig om naar vermeldingen te zoeken. 
+## Find Listings
 
-Een eerste stap is om te bepalen via welke zoekingang je een vermelding wilt vinden. 
-Een overzicht van de zoekingangen binnen de Datacatalogus CKAN-omgeving: 
- 
-- Zoekbalk  
-- Filters 
-- Thema’s / Organisaties (via tegels/iconen) 
-- Via Definities 
-- Via Gelinkte vermeldingen 
- 
-### Zoekbalk 
+In DataCatalogue, there are many different ways to search for listings.
 
-Via de zoekbalk kan gezocht worden naar vermeldingen door te zoeken op woorden die voorkomen in de metadata van de specifieke vermelding. 
+A first step is to determine through which search input you want to find a listing. Below you will see an overview of the search entries within the DataCatalog environment:
 
-Zo kan dus gezocht worden op onder meer de titel en beschrijving van de vermelding, maar ook op trefwoorden die in de metadata zijn aangegeven. 
+- Search bar
+- Filters
+- Themes / Organizations (through tiles/icons)
+- Through Definitions
+- Through Linked Listings
 
-Zoeken kan alléén op een heel woord. Of de zoekterm met hoofdletters of met kleine letters wordt geschreven, maakt voor het zoekresultaat niet uit. 
+### Search Bar
 
-De zoekbalk in het portaal biedt wel de mogelijkheid om op een gedeelte van een woord te zoeken. Hier zit de extra functionaliteit dat de zoekbalk suggesties laat zien op basis van een gedeelte van een woord.
+The search bar can be used to search for listings by searching for words that appear in the metadata of the specific listing.
 
-> #### Voorbeelden
-> *	Facturen geeft een aantal meldingen terug. (alleen op heel woord zoeken)
-> *	Fact geeft geen meldingen terug (niet het hele woord)
-Ook cijfers kunnen als zoekterm worden ingevuld.
-> *	303 is een correcte zoekterm
-Door een + toe te voegen tussen twee woorden, wordt op beide woorden gezocht.
-> *	303+facturen -> je krijgt dan alle datsets die 1 van de twee woorden in zich hebben.
+For example, you can search for the title and description of the listing, but also for keywords that are indicated in the metadata.
 
-De vermeldingen (die aan de zoekopdracht voldoen) van alle diensten staan in de lijst onder elkaar.
+Searching is only possible on a whole word. Whether the search term is written in uppercase or lowercase letters does not matter to the search result.
 
-De lijst kan op verschillende manieren worden gesorteerd.
+> #### Examples
+>
+> -Invoices returns a number of notifications. (search by whole word only)
+> -Fact does not return notifications (not the whole word) Numbers can also be entered as a search term.
+> -303 is a correct search term By adding a + between two words, both words are searched for.
+> -303 + invoices -> you get all the datsets that have 1 of the two words in them.
 
-### Filters 
-Binnen de Datacatalogus kunnen filters worden ingesteld om tot een lijst van vermeldingen te komen die voldoen aan 1 of meerdere filters. Deze filters zijn op basis van gewenste metadatavelden en kunnen naar wens worden geconfigureerd. 
+The listings (that match the search query) of all organizations are listed below each other.
 
-### Groepen (Thema’s) / Organisaties via tegels 
-Via de Groepen pagina kan via tegels worden gezocht op vermeldingen binnen een specifieke thema. Wanneer je lid bent van meerdere organisaties kun je via de Organisaties pagina op dezelfde manier vermeldingen binnen een specifieke organisatie bekijken. 
+The list can be sorted in different ways.
 
-### Definities 
-Je kunt vermeldingen zoeken die bij een bepaalde definitie horen. Als je via de Definities pagina op een specifieke definitie klikt, zul je een lijst zien met vermeldingen die aan deze definitie gekoppeld zijn. 
- 
-### Gelinkte vermeldingen 
-Als je op een vermelding klikt, zie je een kopje met Gelinkte vermeldingen. Hier kun je vermeldingen vinden die samenhangen met de vermelding die je op dat moment bekijkt. 
- 
-## Vermelding bekijken 
-Nadat je via een van bovenstaande methodes de juiste vermelding hebt gevonden, kun je op de titel van de vermelding klikken om naar de daadwerkelijke vermelding toe te gaan. 
+### Filters
 
-Op deze pagina zie je nu een overzicht met Bijlages die bij deze specifieke vermelding horen. De bijlage kan een daadwerkelijk geupload dataproduct zijn (bijv. een csv bestand), maar kan ook een verwijzing (URL) bevatten naar de bron (bijv. ArcGISonline, Power BI). Door op de bijlage te klikken kom je terecht bij ofwel het dataproduct of een link naar het dataproduct.  
+Within the DataCatalog, filters can be set to create a table of listings that meet 1 or more filters. These filters are based on desired metadata fields and can be configured as desired.
+
+### Themes (Groups) / Organizations via Tiles
+
+Via the `THEMES` page, which can be selected at the top of the page, you can search for listings within a specific theme by clicking on a tile. If you are a member of multiple organizations, you can view listings within a specific organization in the same way via the `ORGANIZATIONS` page.
+
+### Definitions
+
+You can search for listings that match a particular definition. If you click on a specific definition through the Definitions page, you will see a list of listings associated with this definition.
+
+### Linked Listings
+
+When you click on a listing, you'll see a heading with Linked Listings. Here you can find listings related to the listing you're currently viewing.
+
+## View a Listing
+
+After you've found the right listing using one of the methods above, you can click on the listing title to go to the actual listing.
+
+On this page you will now see an overview of attachments that belong to this specific listing. The attachment can be an actual uploaded data product (e.g. a csv file), but can also contain a reference (URL) to the source (e.g. ArcGISonline, Power BI). By clicking on the attachment you will be taken to either the dataproduct or a link to the dataproduct.
+
+---
+
+For additional information about searching, see the following DataPlatform documentation:
+
+**Searching**: https://www.docs.civity.nl/dataplatform/datasets_SearchDatasets
