@@ -3,59 +3,70 @@ id: geoserver_GeoserverIntegration
 title: Geoserver Integration
 sidebar_label: Geoserver Integration
 ---
->This version of ckanext-geoserver plugin currently supports publishing of a single resource/file inside a dataset. **The option of selecting a specific resource to publish is not yet implemented**. At the moment, the script automatically recognizes the only resource available and provides all the information needed to be published. If there is more than one resource inside the dataset, and the user tries to publish them, even though the pop up window may load with the correct options, the publishing process will fail.
 
+DataPlatform has the option to push data to GeoServer. GeoServer is used to publish OGC web services (Web Map Service or WMS, Web Map Tile Service or WMTS and Web Feature Services or WFS) of data in the CKAN Datastore database. SLD’s to style the maps in GeoServer can be uploaded to DataPlatform as well. Main focus of OGC web services is on spatial data. Data which is uploaded to the CKAN DataStore can automatically be published using GeoServer. Each CKAN instance (for example CKAN FIWARE Lab) has a corresponding GeoServer workspace (workspace_ckan_fiware_lab) with a GeoServer datastore (datastore_datastore_ckan_fiware_lab) which opens up the CKAN datastore database (datastore_ckan_fiware_lab) using a database user with read only access to the data.
 
-## Publishing OGC Data
+- **Visibility should be set to Public** - Metadata field 'Visibility' should be set to 'Yes'.
+- **Link_to_geoserver_enabled field is True** - Metadata field 'Link to Geoserver' should be set to 'Yes'.
+- **Data must have geometry columns** - Resources within a listing should have geometry columns.
+- **Resource must be DataStore Active** - Only resources that are in the DataStore can end up in GeoServer.
+- **Valid layer_srid field** - A valid layer_srid should be provided in the resource metadata.
+- **Valid layer_extent field** - A valid layer_extent should be provided in the resource metadata.
 
-This version of this plugin recognizes successfully only **.csv and .shp (inside a zip) files**. 
+Below you will find an explanation of how to ensure that the above criteria are met and what additional functionality is available:
 
-Shape-files should be added as ZIP-files. For a shapefile to be valid, the .zip file has to include at least these 4 mandatory filetypes:
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide1.png)
 
-*   .dbf
-*   .prj 		
-*   .shp 	
-*   .shx
+---
 
-If the filetype is supported, a green button appears inside the dataset page, named *Publish OGC*. Pressing this button will generate the metadata of our resource/file, recognize the geometry field and the projection system.
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide2.png)
 
-> ***Note***: For the *Publish OGC* button to be available, the meta data field Visibility must be set to *Public*
+---
 
-<img class="imageStyle shadowing" alt="imageStyle: Geoserver PubliceerOGC button" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_publiceerButton.png').default} />
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide3.png)
 
-After pressing this button, a new page will popup including options about the geometry field that was recognized, the input projection system and the output projection system (SRID). These fields may be edited by the user. 
+---
 
-Geometry inside a CSV file can be recognized in 3 forms: 
-* LAT/LNG
-* WKT
-* JSON
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide4.png)
 
-Additionally:
-* The projection system inside a CSV can be recognized between ***RD New (EPSG: 28992)*** or ***WGS 84 (EPSG: 4326)***.
+---
 
-<img class="imageStyle shadowing" alt="imageStyle: OGC Checker pop-up" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_OGCchecker.png').default} />
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide5.png)
 
-The progress of publishing is shown in a toast notification, seen at the top of the page:
+---
 
-<img class="imageStyle" alt="imageStyle: toast notification" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_toast.png' ).default} />
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide6.png)
 
-...and is compelte when the following message is displayed:
+---
 
-<img class="imageStyle" alt="imageStyle: toast notification" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_toastComplete.png').default} />
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide7.png)
 
-Your data is now available as a Geoserver service.
+---
 
-### WMS and WFS Files
-Two new resources/files (**WMS** and **WFS**) are now projected in the dataset. Navigating inside these new resources, the user has access to the newly generated Geoserver service from the URL.
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide8.png)
 
-<img class="imageStyle" alt="imageStyle: WMS Page" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_WMS.png').default} />
+---
 
-WFS resource, apart from the service URL, there are multiple download options provided.
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide9.png)
 
-<img class="imageStyle" alt="imageStyle: WFS Page" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_WFS.png').default} />
+---
 
-## Unpublish OGC Data
-To unpublish the data from Geoserver click the red button *Unpublish OGC* (*Verwijderen OGC*) from the dataset page. The WMS and WFS files will be removed; you may also disable the schema_descriptor.
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide10.png)
 
-<img class="imageStyle" alt="imageStyle: Remove Geoserver Data" src={require('./assets/Dataplatform/GeoServer/dataplatform_GEOSERVER_Unpublish.png').default} />
+---
 
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide11.png)
+
+---
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide12.png)
+
+---
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide13.png)
+
+---
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/GeoServer/Slide14.png)
+
+---

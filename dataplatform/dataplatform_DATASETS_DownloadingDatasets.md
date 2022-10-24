@@ -3,4 +3,5 @@ id: datasets_DownloadingDatasets
 title: Downloading Datasets
 sidebar_label: Downloading Datasets
 ---
-This is where we talk about downloading data/datasets
+
+Go to the Dataset. Click on the blue Explore button next to the resource. There will be a drop-down menu where you choose `Download`.
