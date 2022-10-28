@@ -198,6 +198,68 @@ De gebruiker kan het filter Datumkiezer uitschakelen door nogmaals op de overeen
 
 Hierdoor wordt het filter uitgeschakeld en wordt de kaart vernieuwd om de volledige gegevens van de timestamp-laag weer te geven. Lagen zonder timestamp blijven zoals ze zijn.
 
+#### Tekentool: Downloaden van data binnen een bepaald geografisch gebied
+
+Een tekenknop bevindt zich op het scherm rechtsboven in de kaart, naast de 'full-size'-knop.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture1.png)
+
+---
+
+Door de Draw Control te activeren, wordt een menu met opties getoond, waar de gebruiker kan kiezen tussen 3 verschillende vormen: een rechthoek, een cirkel of een vrije polygoon.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture2.png)
+
+---
+
+Voorbeeld van het tekenen van een rechthoekig selectiekader:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture3.png)
+
+---
+
+Voorbeeld van het tekenen van een cirkelvormig selectiekader:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture4.png)
+
+---
+
+Voorbeeld van het tekenen van een vrije polygoon:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture5.png)
+
+---
+
+Na het tekenen van het selectiekader, heeft de gebruiker de mogelijkheid om de data binnen het selectiekader te downloaden.
+
+In plaats van de normale inhoud van het dropdownmenu, zoals hieronder weergegeven..:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture6.png)
+
+.. wordt er nu een nieuw blauw symbool getoond voor elke downloadoptie. Dit geeft aan dat het type bestand wat gedownload wordt alleen de data bevat binnen het geselecteerde geografisch gebied:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture7.png)
+
+---
+
+Wanneer de gebruiker een bestandstype selecteert om te downloaden, zal het dropdownmenu tijdelijk onbeschikbaar zijn. Dit wordt aangegeven met een 'spinning wheel'. Zodra de download voltooid is zal het 'spinning wheel' weer verdwijnen en zal het menu weer beschikbaar zijn:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture8.png)x
+
+---
+
+Hetzelfde geldt voor het 'Download' tabblad. Het enige verschil tussen de twee tabbladen is dat in het 'Download' tabblad de gebruiker geen data kan downloaden zolang er een geografisch filter actief is:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture9.png)
+
+---
+
+Als de download niet kan worden voltooid, zal er een foutmelding worden getoond. Dit kan worden veroorzaakt door een downtime van de server of een verzoek dat te lang duurt en dus een time-out geeft (grote hoeveelheden data). Als de fout zich blijft voordoen, wordt de gebruiker geadviseerd contact op te nemen met Civity support:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture10.png)
+
+---
+
 ### 4. Downloaden
 
 Hier kun je de originele databronnen downloaden in de beschikbare formaten. Daarnaast is er onder het kopje API een uitleg te vinden hoe je via de DataStore API de data kunt doorzoeken.

@@ -196,6 +196,68 @@ The user can disable the Date Picker filter by clicking again the corresponding 
 
 This will disable the filter and refresh the map to display the full data of the timestamp layers. Non-timestamp layers will remain as is.
 
+#### Drawing tool: Downloading data within a specific area
+
+A draw button is located on the top right screen inside the map, next to the full-size control.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture1.png)
+
+---
+
+By activating the Draw Control, a drawing options menu is revealed, where user can choose between 3 different shape types: a rectangle, a circle or a free polygon.
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture2.png)
+
+---
+
+Sample of drawing a rectangle bounding box:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture3.png)
+
+---
+
+Sample of drawing a circular bounding box:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture4.png)
+
+---
+
+Sample of drawing a free polygon bounding box:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture5.png)
+
+---
+
+By the time a shape is drawn and the draw control is activated, the user has the option to download data defined by geographical area, as defined by the previously drawn shape as it’s bounding box.
+
+Instead of the generic content of the downloads’ dropdown menu, as shown below..:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture6.png)
+
+..a new blue symbol (resembling a bounding box) now appears next to each download option. This indicates that a geographical area filtered will be applied on the data to be downloaded:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture7.png)
+
+---
+
+While in the Map Tab, when the user navigates through the dropdown and selects the format to download, while the download is triggered, the download dropdown menu becomes unavailable and a spinning wheel indicates the progress of the download. By the time the download is successful, the spinning wheel disappears and the download dropdown menu becomes available again:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture8.png)x
+
+---
+
+Same principle applies in the Download Tab. The only difference between the two tabs are that in the download tab, the user is not able to make a download with a geographical filter applied:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture9.png)
+
+---
+
+When a download is not successful, a browser alert is displayed. This could be caused by a server downtime issue or a request that takes enough time to cause a time-out error (big chunks of data). If the error persists, user is advised to contact the portal support for further information on troubleshooting the issue:
+
+![imageStyle: Dataplatform Portal Map](assets/Dataplatform/PortalOverview/Picture10.png)
+
+---
+
 ### 4. Download
 
 Here you can download the original resources in the available formats. In addition, under the heading API, you can find an explanation of how you can search the data via the DataStore API.
