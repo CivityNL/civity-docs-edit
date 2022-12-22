@@ -1,5 +1,5 @@
 ---
-title: V4.2.2 release notes
+title: V4.4.0 release notes
 ---
 
 - New OpenLayers version

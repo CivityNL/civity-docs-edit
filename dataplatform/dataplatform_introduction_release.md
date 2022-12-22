@@ -5,13 +5,15 @@ sidebar_label: Release notes
 ---
 
 ### Portal
+
 #### Current version
+
 <table class="versions">
     <tbody>
         <tr>
-            <th>4.1.0</th>
+            <th>4.4.0</th>
             <td>
-                <a href='Release_Notes_4.1.0'>Release Notes</a>
+                <a href='Release_Notes_4.4.0'>Release Notes</a>
             </td>
         </tr>
     </tbody>
@@ -21,6 +23,36 @@ sidebar_label: Release notes
 
 <table class="versions">
     <tbody>
+                <tr>
+            <th>4.3.0</th>
+            <td>
+                <a href='Release_Notes_4.3.0'>Release Notes</a>
+            </td>
+        </tr>
+            <tr>
+            <th>4.2.2</th>
+            <td>
+                <a href='Release_Notes_4.2.2'>Release Notes</a>
+            </td>
+        </tr>
+            <tr>
+            <th>4.2.1</th>
+            <td>
+                <a href='Release_Notes_4.2.1'>Release Notes</a>
+            </td>
+        </tr>
+            <tr>
+            <th>4.2.0</th>
+            <td>
+                <a href='Release_Notes_4.2.0'>Release Notes</a>
+            </td>
+        </tr>
+            <tr>
+            <th>4.1.0</th>
+            <td>
+                <a href='Release_Notes_4.1.0'>Release Notes</a>
+            </td>
+        </tr>
         <tr>
             <th>4.0.0</th>
             <td>
@@ -37,6 +69,7 @@ sidebar_label: Release notes
 </table>
 
 ### CKAN
+
 <table class="versions">
     <tbody>
         <tr>
