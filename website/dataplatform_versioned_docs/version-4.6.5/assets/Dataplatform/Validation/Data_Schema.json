@@ -1,0 +1,57 @@
+{
+    "primaryKey": "id",
+    "fields": [
+        {
+            "name": "id",
+            "title": "Unique Identifier (Integer)",
+            "type": "integer"
+        },
+        {
+            "name": "Name",
+            "title": "Full Name",
+            "type": "string"
+        },
+        {
+            "name": "Date of Birth",
+            "title": "Date of Birth (Date)",
+            "type": "date",
+            "format": "%d/%m/%Y"
+        },
+        {
+            "name": "Nationality",
+            "title": "Nationality (String:enum)",
+            "type": "string",
+            "constraints": {
+                "enum": [
+                    "Dutch",
+                    "Portuguese",
+                    "Greek"
+                ]
+            }
+        },
+        {
+            "name": "Height",
+            "title": "How's the weather up there? (Number: required)",
+            "type": "number",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "latitude",
+            "title": "latitude",
+            "type": "string",
+            "constraints": {
+                "pattern": "[0-9]{2}\\.[0-9]{6,}"
+            }
+        },
+        {
+            "name": "longitude",
+            "title": "longitude",
+            "type": "string",
+            "constraints": {
+                "pattern": "[0-9]{2}\\.[0-9]{6,}"
+            }
+        }
+    ]
+}
