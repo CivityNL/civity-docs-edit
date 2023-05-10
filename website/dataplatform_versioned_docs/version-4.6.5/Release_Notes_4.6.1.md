@@ -2,7 +2,7 @@
 title: V4.6.1 release notes
 ---
 
-# New Instance
+# New Instances
 
-- Introduce scorewater instance
-- Introduce snuffelfiets instance
+- Introduce SCOREwater instance
+- Introduce Snuffelfiets instance

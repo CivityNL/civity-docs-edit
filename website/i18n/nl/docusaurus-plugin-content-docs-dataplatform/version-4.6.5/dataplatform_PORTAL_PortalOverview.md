@@ -14,6 +14,8 @@ De welkomstpagina van het open data portaal bevat inleidende beschrijving van wa
 
 ![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/home.PNG)
 
+###
+
 ## Zoeken
 
 De zoekbalk biedt automatische aanvulling. Begin met typen om suggesties te krijgen, op basis van de titel, beschrijving of tags.
