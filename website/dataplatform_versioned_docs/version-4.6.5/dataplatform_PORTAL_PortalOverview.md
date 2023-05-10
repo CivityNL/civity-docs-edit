@@ -14,30 +14,32 @@ The homepage of the open data portal contains an introductory description of wha
 
 ![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/dataplatform_PORTAL_PortalHome.png)
 
-### Carousel Banner
+### Homepage Banner Carousel
 
-#### Carousel Banner
+The Carousel is introduced as a way of turning the portal's homepage banner in a more dynamic, eye-catching welcome page.
 
-##### About
+Instead of displaying a static banner image, the carousel provides the ability to rotate between highlighed datasets/items as selected by priviledged users on the CKAN back-end.
 
-Carousel banner is introduced as a way of turning the portal's homepage in a more dynamic, eye-catching welcome page.
-Instead of displaying static images that represent the logo/trademark, carousel banner gives the ability to rotate in between highlighed datasets/items as selected by the priviledged users.
 By default, the banner will autoplay with a pre-defined interval of 4 seconds between every item.
 
-##### Prerequisites
+The image below shows an example of the carousel:
 
-To enable the 'Carousel Banner', the carousel metadata must be populated in the CKAN dataset/package.
+![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/Carrousel-sw.png)
 
-##### CKAN configuration
+#### Prerequisites
 
-A priviledged user can update specific metadata on a dataset of interest to be included in the 'Carousel Banner' items. Metadata in detail are:
+To enable the 'Carousel', the carousel metadata must be populated in the CKAN dataset/package.
 
-- `carousel_enabled:` select whether or not a dataset to be included/displayed in the banner item list.
+#### CKAN configuration
+
+A priviledged user can update specific metadata on a dataset of interest to be included in the Carousel. Metadata in detail are:
+
+- `carousel_enabled:` select whether or not a dataset will be included/displayed in the banner item list.
 - `carousel_order:` select the order in which the dataset will be positioned in the banner. If no number is provided, the dataset will be displayed last. If two or more datasets have the same order number (or the order metadata is empty), the order is decided based on the rest sorting arguments (see `"order of items"` below)
 - `carousel_image:` provide an image URL to be displayed in the banner. By default the image will be streched to match the default banner size (1140x250 pixels on a 1080p display). \*_Image upload is currently not supported._
 - `carousel_text:` provide a text to be used as a banner title for the selected dataset. If not text is provided, the original dataset name will be displayed.
 
-##### Portal configuration
+#### Portal configuration
 
 In the portal configuration, several options can be adjusted:
 

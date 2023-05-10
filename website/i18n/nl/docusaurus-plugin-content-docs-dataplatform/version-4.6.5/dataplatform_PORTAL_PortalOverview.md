@@ -14,7 +14,42 @@ De welkomstpagina van het open data portaal bevat inleidende beschrijving van wa
 
 ![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/home.PNG)
 
-###
+### Banner Carrousel
+
+De Banner Carrousel maakt het mogelijk om de banner op het portaal om te zetten naar een meer dynamisch, opvallende component waarbij datasets als showcases kunnen worden uitgelicht.
+
+In plaats van een statische bannerafbeelding weer te geven, biedt de carrousel de mogelijkheid om te roteren tussen datasets/showcases. Deze datasets kunnen via de CKAN back-end worden geselecteerd door beheerders.
+
+De carrousel wordt automatisch afgespeeld met een vooraf bepaald interval van 4 seconden tussen elk item.
+
+Onderstaande afbeelding toont een voorbeeld van de carrousel:
+
+![imageStyle: Dataplatform Portal](assets/Dataplatform/PortalOverview/Carrousel-sw.png)
+
+#### Vereisten
+
+Om de Carrousel in te schakelen, moeten de package/dataset metadata van de carrousel worden ingevuld.
+
+#### CKAN-configuratie
+
+Een beheerder kan via CKAN de specifieke metadata bijwerken van een dataset die in de carrousel moet worden opgenomen. De volgende metadata is aanwezig bij elke dataset:
+
+- `carousel_enabled:` selecteer of een dataset al dan niet wordt opgenomen/weergegeven in de lijst met banneritems.
+- `carousel_order:` selecteer de volgorde waarin de dataset in de banner wordt geplaatst. Als er geen nummer wordt opgegeven, wordt de dataset als laatste weergegeven. Als twee of meer datasets hetzelfde nummer hebben (of als het metadataveld van de leeg is), wordt de volgorde bepaald op basis van de overige sorteerargumenten (zie `"volgorde van items"` hieronder)
+- `carousel_image:` Vul een afbeeldings-URL in die in de banner moet worden weergegeven. Standaard wordt de afbeelding uitgerekt om overeen te komen met de standaardbannergrootte (1140x250 pixels op een 1080p-scherm). \*_Het uploaden van afbeeldingen wordt momenteel niet ondersteund._
+- `carousel_text:` Vul een tekst in die gebruikt kan worden als bannertitel voor de geselecteerde dataset. Als er geen tekst wordt opgegeven, wordt de naam van de oorspronkelijke dataset weergegeven.
+
+#### Portaalconfiguratie
+
+In de portaalconfiguratie kunnen verschillende opties worden aangepast:
+
+- `bannerhoogte:` standaardwaarde is 250 pixels.
+- `autoplay aan:` autoplay is standaard ingeschakeld.
+- Snelheid automatisch afspelen: standaardwaarde is 4 seconden.
+- `volgorde van items:` sorteerargumenten op basis waarvan de gemarkeerde items in de banner worden weergegeven. Standaardargumenten zijn:
+  - `carrousel_order asc`
+  - `eigenaar_org asc`
+  - `metadata_modified desc`
 
 ## Zoeken
 
