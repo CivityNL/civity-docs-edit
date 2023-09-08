@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "1.0.1",
+    "description": "The label for version 1.0.1"
+  },
+  "sidebar.datacatalogus.category.Introductie": {
+    "message": "Introductie",
+    "description": "The label for category Introductie in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Vermeldingen": {
+    "message": "Vermeldingen",
+    "description": "The label for category Vermeldingen in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Workflow": {
+    "message": "Workflow",
+    "description": "The label for category Workflow in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Notificaties": {
+    "message": "Notificaties",
+    "description": "The label for category Notificaties in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Metadata": {
+    "message": "Metadata",
+    "description": "The label for category Metadata in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Thema's": {
+    "message": "Thema's",
+    "description": "The label for category Thema's in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Gebruikers": {
+    "message": "Gebruikers",
+    "description": "The label for category Gebruikers in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Persoonlijk profiel": {
+    "message": "Persoonlijk profiel",
+    "description": "The label for category Persoonlijk profiel in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.CKAN API": {
+    "message": "CKAN API",
+    "description": "The label for category CKAN API in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Definities": {
+    "message": "Definities",
+    "description": "The label for category Definities in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Data Dictionary": {
+    "message": "Data Dictionary",
+    "description": "The label for category Data Dictionary in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Diensten": {
+    "message": "Diensten",
+    "description": "The label for category Diensten in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Zoeken en filteren": {
+    "message": "Zoeken en filteren",
+    "description": "The label for category Zoeken en filteren in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Statistieken": {
+    "message": "Statistieken",
+    "description": "The label for category Statistieken in sidebar datacatalogus"
+  }
+}

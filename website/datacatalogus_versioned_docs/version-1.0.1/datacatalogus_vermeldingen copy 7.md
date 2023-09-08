@@ -1,0 +1,55 @@
+---
+id: bekijken
+title: Vermeldingen bekijken
+sidebar_label: Vermeldingen bekijken
+---
+
+Om publieke vermeldingen te bekijken is het niet nodig om ingelogd te zijn. Iedereen die de DataCatalogus benadert binnen de gemeente (vanaf een IPadres wat op de whitelist staat) kan de publieke vermeldingen bekijken. Gebruikers kunnen inloggen met hun gebruikersaccount om privé vermeldingen in te zien. Inloggen is nodig voor alle bewerkingen van de vermeldingen.
+
+In een vermelding staan (afhankelijk van het dataproduct) data vermeld. Deze gegevens zijn metadata en mogelijk (een link naar) de databron zelf.
+
+Metadata zijn vastgelegd in verschillende standaarden:
+
+- DCAT – voor alle datasets
+- INSPIRE – voor geodata
+- Klantspecifiek - Eigen metadataschema voor de DataCatalogus
+
+Voor elke vermelding zijn de volgende metadata minimaal ingevuld:
+
+- Titel
+- Beschrijving
+- Organisatie
+- Trefwoorden / tags
+- Thema
+- Type Dataproduct
+- Eigenaar
+
+Op basis van de ingevulde gegevens kan de bron herleid worden. Met de eigenaar kan contact opgenomen worden, indien de originele niet vrij toegankelijk is.
+Brongegevens hoeven niet per definitie in de DataCatalogus te worden toegevoegd. In de DataCatalogus zijn bronnen niet de basis, maar de duiding van de bron: waar kun je het vinden, waarvoor kun je het gebruiken, wie heeft het dataproduct verzameld.
+
+## Zoeken
+
+![imageStyle: Listings](assets/Vermeldingen/image2.png)
+
+Door gebruik te maken van de zoekbalk kunt u zoeken op:
+
+- (deel van de) Titel
+- (deel van de) Omschrijving
+- Tags (ook wel Labels of Trefwoorden genoemd)
+
+Zoeken kan alléén op een heel woord en is hoofdletteronafhankelijk. De vermeldingen (die aan de zoekopdracht voldoen) van alle diensten staan in de lijst onder elkaar. Deze lijst kan op verschillende manieren worden gesorteerd.
+
+![imageStyle: Listings](assets/Vermeldingen/image3.jpg)
+
+## Filteren
+
+Aan de linker kant van de pagina kunt u de datasets filteren op basis van:
+
+![imageStyle: Listings](assets/Vermeldingen/image4.jpg)
+
+- Gepubliceerd
+- Makers
+- Organisaties
+- Thema’s
+- Subthema’s
+- Tags
