@@ -11,9 +11,9 @@ sidebar_label: Release notes
 <table class="versions">
     <tbody>
         <tr>
-            <th>4.5.9</th>
+            <th>4.7.2</th>
             <td>
-                <a href='Release_Notes_4.5.9'>Release Notes</a>
+                <a href='Release_Notes_4.7.2'>Release Notes</a>
             </td>
         </tr>
     </tbody>
@@ -23,6 +23,108 @@ sidebar_label: Release notes
 
 <table class="versions">
     <tbody>
+        <tr>
+            <th>4.7.1</th>
+            <td>
+                <a href='Release_Notes_4.7.1'>Release Notes</a>
+            </td>
+        </tr>        
+        <tr>
+            <th>4.7.0</th>
+            <td>
+                <a href='Release_Notes_4.7.0'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.11</th>
+            <td>
+                <a href='Release_Notes_4.6.11'>Release Notes</a>
+            </td>
+        </tr>        
+        <tr>
+            <th>4.6.10</th>
+            <td>
+                <a href='Release_Notes_4.6.10'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.9</th>
+            <td>
+                <a href='Release_Notes_4.6.9'>Release Notes</a>
+            </td>
+        </tr>        
+        <tr>
+            <th>4.6.8</th>
+            <td>
+                <a href='Release_Notes_4.6.8'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.7</th>
+            <td>
+                <a href='Release_Notes_4.6.7'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.6</th>
+            <td>
+                <a href='Release_Notes_4.6.6'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.5</th>
+            <td>
+                <a href='Release_Notes_4.6.5'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.4</th>
+            <td>
+                <a href='Release_Notes_4.6.4'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.3</th>
+            <td>
+                <a href='Release_Notes_4.6.3'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.2</th>
+            <td>
+                <a href='Release_Notes_4.6.2'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.1</th>
+            <td>
+                <a href='Release_Notes_4.6.1'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.6.0</th>
+            <td>
+                <a href='Release_Notes_4.6.0'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.5.11</th>
+            <td>
+                <a href='Release_Notes_4.5.11'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.5.10</th>
+            <td>
+                <a href='Release_Notes_4.5.10'>Release Notes</a>
+            </td>
+        </tr>
+        <tr>
+            <th>4.5.9</th>
+            <td>
+                <a href='Release_Notes_4.5.9'>Release Notes</a>
+            </td>
+        </tr>
         <tr>
             <th>4.5.8</th>
             <td>
