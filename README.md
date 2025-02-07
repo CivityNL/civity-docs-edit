@@ -85,6 +85,9 @@ You will need to create a new version for that instance, following the exact ver
 
  To create a new version: `npm run docusaurus docs:version VERSION_NUMBER`. If you have any doubt, please consult: https://docusaurus.io/docs/versioning
 
+Example creating a new version 10.0.0 for dataplatform:
+- Make sure you are in the `~/website` folder
+- `npm run docusaurus docs:version:dataplatform 10.0.0`
 
 ### Translations
 
