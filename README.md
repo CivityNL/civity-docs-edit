@@ -89,6 +89,10 @@ Example creating a new version 10.0.0 for dataplatform:
 - Make sure you are in the `~/website` folder
 - `npm run docusaurus docs:version:dataplatform 10.0.0`
 
+**Needs attention**: 
+- this command will only update English version, so all other language changes need to be generated manually in the i18n path
+- this command won’t update properly the *_versioned_sidebars content, so manual work is needed as well (copy-pasting last version content)
+
 ### Translations
 
 Docs Civity currently supports English, Dutch and Swedish. If a new language needs to be added, please follow the [step-by-step](https://docusaurus.io/docs/i18n/tutorial). After every change on the documentation and release notes, please remember to add those to the three languages mentioned.
