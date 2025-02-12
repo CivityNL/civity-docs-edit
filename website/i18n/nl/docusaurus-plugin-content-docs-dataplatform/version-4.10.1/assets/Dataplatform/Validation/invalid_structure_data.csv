@@ -1,0 +1,6 @@
+id,Name,Date of Birth,Nationality,missing_height_header,latitude,longitude, extra_header_1, extra_header_2
+1,Niek,01/02/1990,Dutch,1.85,0,52.1060481,5.2580944
+2,Gil,03/04/1990,Portuguese,2.45,15,52.1060481,5.2580944
+,,,,,,,
+3,Georgios,05/06/1990,Greek,0.5,2.00,52.1060481,5.2580944
+1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,1,2,3,4

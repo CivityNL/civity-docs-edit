@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "4.4.0",
+    "description": "The label for version 4.4.0"
+  },
+  "sidebar.dataplatform.category.Introduction": {
+    "message": "Dataplatform Introductie",
+    "description": "The label for category Introduction in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.CKAN": {
+    "message": "CKAN",
+    "description": "The label for category CKAN in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Users": {
+    "message": "Gebruikers",
+    "description": "The label for category Users in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Metadata": {
+    "message": "Metadata",
+    "description": "The label for category Metadata in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Datasets": {
+    "message": "Datasets",
+    "description": "The label for category Datasets in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Link to Data Overheid": {
+    "message": "Publiceren naar Data Overheid",
+    "description": "The label for category Link to Data Overheid in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Geoserver": {
+    "message": "Geoserver",
+    "description": "The label for category Geoserver in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Harvesting": {
+    "message": "Harvesten",
+    "description": "The label for category Harvesting in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Validation": {
+    "message": "Validatie",
+    "description": "The label for category Validation in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.For Developers": {
+    "message": "Voor Developers",
+    "description": "The label for category For Developers in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Dataplatform Portal": {
+    "message": "Open Data Portaal",
+    "description": "The label for category Dataplatform Portal in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Link to Data Portals": {
+    "message": "Koppeling Dataregisters",
+    "description": "The label for category Link to Data Portals in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.CKAN API": {
+    "message": "CKAN API",
+    "description": "The label for category CKAN API in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.DataStore": {
+    "message": "DataStore",
+    "description": "The label for category DataStore in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.GeoServer": {
+    "message": "GeoServer",
+    "description": "The label for category GeoServer in sidebar dataplatform"
+  },
+  "sidebar.dataplatform.category.Searching and Filtering": {
+    "message": "Zoeken en Filteren",
+    "description": "The label for category Searching and Filtering in sidebar dataplatform"
+  }
+}

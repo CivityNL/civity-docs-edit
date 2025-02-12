@@ -1,0 +1,14 @@
+{
+  "slimbeheer": [
+    "Slimbeheer",
+    {
+      "type": "category",
+      "label": "Configuratie",
+      "items": [
+        "anonymous_email"
+      ]
+    }
+  ]
+}
+
+

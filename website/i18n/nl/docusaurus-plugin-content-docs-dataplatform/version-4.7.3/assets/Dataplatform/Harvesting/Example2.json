@@ -1,0 +1,9 @@
+{
+    "override_extras": true,
+    "default_tags": [{
+        "name": "Harvested"
+    }],
+    "default_extras": {
+        "private":true
+    }
+}

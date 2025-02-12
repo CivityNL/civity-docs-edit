@@ -1,0 +1,74 @@
+{
+  "version.label": {
+    "message": "1.0.1",
+    "description": "The label for version 1.0.1"
+  },
+  "sidebar.datacatalogus.category.Introductie": {
+    "message": "Introduction",
+    "description": "The label for category Introductie in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Vermeldingen": {
+    "message": "Listings",
+    "description": "The label for category Vermeldingen in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Workflow": {
+    "message": "Workflow",
+    "description": "The label for category Workflow in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Notificaties": {
+    "message": "Notifications",
+    "description": "The label for category Notificaties in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Metadata": {
+    "message": "Metadata",
+    "description": "The label for category Metadata in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Thema's": {
+    "message": "Themes",
+    "description": "The label for category Thema's in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Gebruikers": {
+    "message": "Users",
+    "description": "The label for category Gebruikers in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Persoonlijk profiel": {
+    "message": "Personal profile",
+    "description": "The label for category Persoonlijk profiel in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.CKAN API": {
+    "message": "CKAN API",
+    "description": "The label for category CKAN API in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Definities": {
+    "message": "Definitions",
+    "description": "The label for category Definities in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Data Dictionary": {
+    "message": "Data Dictionary",
+    "description": "The label for category Data Dictionary in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Diensten": {
+    "message": "Organizations",
+    "description": "The label for category Diensten in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Zoeken en filteren": {
+    "message": "Searching and filtering",
+    "description": "The label for category Zoeken en filteren in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Statistieken": {
+    "message": "Statistics",
+    "description": "The label for category Statistieken in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Login": {
+    "message": "Login",
+    "description": "The label for category Login in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.DataStore": {
+    "message": "DataStore",
+    "description": "The label for category DataStore in sidebar datacatalogus"
+  },
+  "sidebar.datacatalogus.category.Link naar Dataplatform": {
+    "message": "Link to Dataplatform",
+    "description": "The label for category Link naar Dataplatform in sidebar datacatalogus"
+  }
+}
